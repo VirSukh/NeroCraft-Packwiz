@@ -1,0 +1,2295 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "era_1_fondazione"
+	group: "538E5527864EF186"
+	icon: {
+		count: 1
+		id: "minecolonies:blockhuttownhall"
+	}
+	id: "389A79578A10A723"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			id: "2F89153B28E32312"
+			rewards: [
+				{
+					count: 8
+					id: "158E2C8312148A35"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5706C781ACCFCF64"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "48055213A3799B86"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "57A6080E82AA03C3"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "35E69350A289A2EC"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36361CB23C029EFB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "68A60D25485700D5"
+			rewards: [
+				{
+					count: 32
+					id: "5B40C0916A6E4B2F"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					id: "563B982E12DF9739"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "46DD26BD9F71DFD5"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "27D9BB4D00C3C59F"
+					item: {
+						count: 1
+						id: "minecraft:stone_axe"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68A60D25485700D5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:campfire"
+			}
+			id: "6B826FAF0938FE1E"
+			rewards: [
+				{
+					count: 16
+					id: "54E64A1637718103"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "33B17778D0B25BF5"
+					item: {
+						count: 1
+						id: "minecraft:oak_door"
+					}
+					type: "item"
+				}
+				{
+					id: "3A06698B83BCFA14"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "23B648D4FC1F3FCA"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB26109334F9971"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B826FAF0938FE1E"
+			]
+			icon: {
+				count: 1
+				id: "comforts:sleeping_bag_red"
+			}
+			id: "6F2100FB25CBC4C3"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "11CBA1803E974250"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "214742AE12123336"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "486F9921FE490C33"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_red"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"68A60D25485700D5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:furnace"
+			}
+			id: "5089C109F4649580"
+			rewards: [
+				{
+					count: 16
+					id: "3490D8AE5D6548C9"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1AEDC26383EAA71A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "379569116FFEB949"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6B826FAF0938FE1E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			id: "49A4B20659EB3982"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5C64802DA2D71D34"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "7CF1B1D8B43838B8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "449F4381B60DDFAF"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B826FAF0938FE1E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			id: "46E35D41CA32E436"
+			rewards: [
+				{
+					count: 1
+					id: "2A95AEC4965657F8"
+					item: {
+						count: 1
+						id: "backpacked:backpack"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6B8890E6E78E4DAD"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "12EE2EA8FEF2CC22"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "123942964A105AEA"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+				{
+					id: "5B00BA32B1A7CA23"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46E35D41CA32E436"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "5D7CDE36C76B6015"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "582B96AFBE547BD8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "598EDBCE02278FEE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5F00F98BA6772F8C"
+					item: {
+						count: 1
+						id: "minecraft:iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "6E3A2DD49A5F9946"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D7CDE36C76B6015"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "37C6F85F31D4399B"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5C0DFB6B1A4A8FBF"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "124B1ABE9C50F079"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2933A45A3AE67C4E"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "698D03761D40BDBF"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46E35D41CA32E436"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "618AA7DFBB70AA5B"
+			rewards: [
+				{
+					count: 8
+					id: "16E23F54511D70CE"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "2A7FFD662C518420"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "658B26D25246703C"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"618AA7DFBB70AA5B"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:bucket"
+			}
+			id: "402783E5731E80E7"
+			rewards: [
+				{
+					count: 2
+					id: "14DC5629C98674F9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7BA11391E3AFB1B5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "2C99BEC8DD7271DC"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "1532340EB2C5CF31"
+			rewards: [
+				{
+					count: 32
+					id: "19176AEED608EB27"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "363E5963F9F78C33"
+					type: "xp"
+					xp: 30
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "287A78761C66351F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "colonyautopilot:zone_marker"
+			}
+			id: "4B07135602E23FDC"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "3ED1C6254CE1E504"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					id: "2D2A5F6EACC479AA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2AAA7CDB9E879A7F"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 26.8d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutbuilder"
+			}
+			id: "4329655A64A6D5B2"
+			rewards: [
+				{
+					count: 32
+					id: "2C1D2EEC93870897"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2D9DB5BB10D10360"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6F738236560D6052"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "20E72E1C9BB25969"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"4329655A64A6D5B2"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutfarmer"
+			}
+			id: "53B790CE70A7618D"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "4DC50D4FC7A07974"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "376CC15396562B22"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "6C55D50431D053DA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "711498D613AF1E2E"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 19.3d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutfisherman"
+			}
+			id: "22AF509013AF526E"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "6898A3D7C5AC5013"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "49433C3CDB1D4D2D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2DD498CC39A00EE5"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 22.3d
+		}
+		{
+			dependencies: [
+				"4329655A64A6D5B2"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutlumberjack"
+			}
+			id: "21F3BB7225ED4146"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "11795373F3C61F17"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "741160C6C942347F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "22826E139DD14F89"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 17.8d
+		}
+		{
+			dependencies: [
+				"4329655A64A6D5B2"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutminer"
+			}
+			id: "4C6D68E8728E5B0F"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "483FD4968B0741C8"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B0D16BEB26F74DF"
+					item: {
+						count: 1
+						id: "minecraft:raw_copper"
+					}
+					type: "item"
+				}
+				{
+					id: "1A5565DCF191C940"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2DDD8F765E19FB8D"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 20.8d
+		}
+		{
+			dependencies: [
+				"4329655A64A6D5B2"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutwarehouse"
+			}
+			id: "5AACB9CD4FFF4926"
+			rewards: [
+				{
+					count: 4
+					id: "438BC92B730BDDEE"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "419B63843A850AF9"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1429435BE7A183A3"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"5AACB9CD4FFF4926"
+			]
+			icon: {
+				count: 1
+				id: "colonyautopilot:colony_bucks"
+			}
+			id: "1989D8B551D833A6"
+			rewards: [
+				{
+					count: 4
+					id: "424470AE74EBEB92"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "53C0A7D3E297AD68"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "13703AE109E8FDD9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 13.3d
+		}
+		{
+			dependencies: [
+				"5AACB9CD4FFF4926"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutsmeltery"
+			}
+			id: "4CFDF0B6D308A5EB"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "6FDA8F1126B8C99C"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "76DD39F6B7D4D1BC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3543337411DE884A"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 16.3d
+		}
+		{
+			dependencies: [
+				"5AACB9CD4FFF4926"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:barrel_block"
+			}
+			id: "236C37125D227563"
+			rewards: [
+				{
+					count: 4
+					id: "5F0FDE5B77994DA2"
+					item: {
+						count: 1
+						id: "minecraft:hay_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3805D70FE4153D30"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4DA6734FC6FBE73F"
+					item: {
+						count: 1
+						id: "minecolonies:barrel_block"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"236C37125D227563"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:compost"
+			}
+			id: "12FBE97520A1F1B4"
+			rewards: [
+				{
+					count: 16
+					id: "1916717A2CD02A36"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "5FB828EE27B3E686"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3790187CFEE5F849"
+					item: {
+						count: 1
+						id: "minecolonies:compost"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"12FBE97520A1F1B4"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutcomposter"
+			}
+			id: "44456385C520A284"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "21843AF7585C5EA2"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+				{
+					id: "25085B93B9EF93E0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2AE75AD280CEB1D1"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcomposter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 11.8d
+		}
+		{
+			dependencies: [
+				"12FBE97520A1F1B4"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutblacksmith"
+			}
+			id: "647C762709F29279"
+			rewards: [
+				{
+					count: 32
+					id: "1F744B621A42C50E"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "614C5EB4C107FE7C"
+					item: {
+						count: 1
+						id: "farmersdelight:chicken_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "2B4F212E5FA1373C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "7C2B76AB4ECD41F5"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"647C762709F29279"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:sigillo_gilda_ingegneri"
+			}
+			id: "32FAA9BAEA6ABE52"
+			rewards: [
+				{
+					count: 3
+					id: "4DDA61E353C8BC33"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "1A2C87D83C50FBFD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "21D49E0963F84FC5"
+					item: {
+						count: 1
+						id: "kubejs:sigillo_gilda_ingegneri"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"1D82B6450E6F3BCD"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:forge_hammer"
+			}
+			id: "396802C903E4181C"
+			rewards: [
+				{
+					count: 6
+					id: "608373D987BE2438"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "68A7D6BD36F48296"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "538F1D14346DFAAE"
+					item: {
+						count: 1
+						id: "modern_industrialization:forge_hammer"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"396802C903E4181C"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:iron_dust"
+			}
+			id: "1591B53BA545F75B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6694277358E7E1CE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3097A845A157C213"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7B0D7889A6B38EB9"
+					item: {
+						count: 1
+						id: "modern_industrialization:iron_dust"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.0d
+			y: 43.1d
+		}
+		{
+			dependencies: [
+				"396802C903E4181C"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:iron_plate"
+			}
+			id: "7214C2C7098DF4AF"
+			rewards: [
+				{
+					count: 4
+					id: "2383B69EA5E5084D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "18EB9AA0C9E104CE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1895B792E74C689A"
+					item: {
+						count: 1
+						id: "modern_industrialization:iron_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.0d
+			y: 38.6d
+		}
+		{
+			dependencies: [
+				"7214C2C7098DF4AF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:iron_rod"
+			}
+			id: "23B673B319080395"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7D379DB5FBBBD150"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "589806E5B71662EC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "14F18517CCB50497"
+					item: {
+						count: 1
+						id: "modern_industrialization:iron_rod"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 6.0d
+			y: 38.6d
+		}
+		{
+			dependencies: [
+				"396802C903E4181C"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_plate"
+			}
+			id: "79885B76D1339F39"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "762BA5B7D9F9DD66"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2F0B2240960BB04A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4B7CD34CB7419E96"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.0d
+			y: 41.6d
+		}
+		{
+			dependencies: [
+				"396802C903E4181C"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:raw_tin"
+			}
+			id: "7CB6AD2F329C6C42"
+			rewards: [
+				{
+					count: 16
+					id: "4351D12306836FAF"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "16004B0F5C611B24"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "718F289EF349D3EC"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_dust"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 4.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"7CB6AD2F329C6C42"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:tin_ingot"
+			}
+			id: "11E2F17E77B88261"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "11EF7C5A38F70D6B"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "77019D3EFCB3B038"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6E7F8B10FD25CD01"
+					item: {
+						count: 1
+						id: "modern_industrialization:tin_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 6.0d
+			y: 37.1d
+		}
+		{
+			dependencies: [
+				"7CB6AD2F329C6C42"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_dust"
+			}
+			id: "6CEF7F8F55B78DBB"
+			rewards: [
+				{
+					count: 4
+					id: "2F40941BE7529BF2"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3924067DB4F022B1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1197EA76BDC33C40"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_dust"
+					}
+					type: "item"
+					count: 15L
+				}
+			]
+			x: 6.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"340BF5DAF4DC4748"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_ingot"
+			}
+			id: "30B39D7F44A8DB7E"
+			rewards: [
+				{
+					count: 4
+					id: "4EC7D81190ADD23C"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3B0569147755744A"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "4A737E009EED83D7"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
+					count: 14L
+				}
+			]
+			x: 10.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"30B39D7F44A8DB7E"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_plate"
+			}
+			id: "1D5922277DC8D976"
+			rewards: [
+				{
+					count: 2
+					id: "72D2C91BF612A0C4"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "191CBF96CD4A4322"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "666DB0784BDC4C3E"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_plate"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 12.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"30B39D7F44A8DB7E"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_rod"
+			}
+			id: "2FDC0DEC7BD15282"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1AB8BB225912C140"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6E1B83DB6A672455"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "12BAB6489D0064D4"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_rod"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 12.0d
+			y: 34.1d
+		}
+		{
+			dependencies: [
+				"1D5922277DC8D976"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			id: "76D8005FD005F6FA"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2088B5F4CFAD2B2A"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_plate"
+					}
+					type: "item"
+				}
+				{
+					id: "77AA3E9E306A0BD8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "36DAD5B69590D0A2"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_machine_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 32.6d
+		}
+		{
+			dependencies: [
+				"1D5922277DC8D976"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_boiler"
+			}
+			id: "28710DC22E221CEF"
+			rewards: [
+				{
+					count: 8
+					id: "73751B84CAADDC8B"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11DA4ADD4CC4D6A3"
+					item: {
+						count: 1
+						id: "farmersdelight:mixed_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "2BD5C8D7F027A780"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6F94E2672728E34C"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 30.35d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "2A772F8746F782C0"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "22E0A02CD11787C1"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19B95DE9A5BFB01F"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6707E5170C31D970"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "100C10FB660EBD39"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
+				{
+					id: "1E7C77101BC0A792"
+					type: "xp"
+					xp: 30
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2B187A9E52B075F4"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 51.7d
+		}
+		{
+			dependencies: [
+				"2A772F8746F782C0"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "247577BE8F67F5E0"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "64DF2B4830BC8380"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6D10E0F62BD09DCF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "1E44618750D8CF38"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "60580691C7679DA8"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 53.2d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "waystones:waystone"
+			}
+			id: "5FAFA5F462761169"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "3CC288D70D33B49F"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "17AD945910B6E088"
+					type: "xp"
+					xp: 30
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "1024138E90454CA1"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 45.9d
+		}
+		{
+			dependencies: [
+				"5FAFA5F462761169"
+			]
+			icon: {
+				count: 1
+				id: "naturescompass:naturescompass"
+			}
+			id: "6B0E2F03171E1B33"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "4F2F4B9AAE802A20"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "11215F3C425ADB25"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "21F028812705CD00"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 45.9d
+		}
+		{
+			dependencies: [
+				"5FAFA5F462761169"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:training_treat"
+			}
+			id: "1E545423D5AF5FB8"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5FDE4724B6922A76"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "5DEEEAA7CF9D3C7A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5389B9246BD7413D"
+					item: {
+						count: 1
+						id: "doggytalents:training_treat"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 47.4d
+		}
+		{
+			dependencies: [
+				"5FAFA5F462761169"
+			]
+			icon: {
+				count: 1
+				id: "naturalist:capture_net"
+			}
+			id: "708228784BEBA881"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2ED6FD96F02296D8"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "65E7ADD29A9F6C04"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "668133C472E6F0FA"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 48.9d
+		}
+		{
+			dependencies: [
+				"6CEF7F8F55B78DBB"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_dust"
+			}
+			id: "340BF5DAF4DC4748"
+			rewards: [
+				{
+					count: 16
+					id: "1AC5A1DF8592B858"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "4C9F69BC3B0A4F90"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "74BC9E064763BC42"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_dust"
+					}
+					type: "item"
+					count: 15L
+				}
+			]
+			x: 8.0d
+			y: 29.6d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttavern"
+			}
+			id: "3E9B7186EF66EBD0"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "2712904545240157"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "3B3337574A4966B8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7087A808F27DB297"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 23.8d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:stonecutter"
+			}
+			id: "707EE75EF998E255"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "181345BC998AA288"
+					item: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					type: "item"
+				}
+				{
+					id: "34FC44A796E047AF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "57192DD3EECDE9A6"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"68A60D25485700D5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			id: "7D845773776D9576"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "28F49453BE0926A7"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "4A70C05B70337085"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "56BE83170A87EC21"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5AACB9CD4FFF4926"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutdeliveryman"
+			}
+			id: "6679256DA8819BFA"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "323BE33AD5A10FF3"
+					item: {
+						count: 1
+						id: "minecraft:leather_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "4387AC7F4F2E93FE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "65755B220B0E8666"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 14.8d
+		}
+		{
+			dependencies: [
+				"2A772F8746F782C0"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:chicken_soup"
+			}
+			id: "21C7D4156870616B"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2FB71CC159E60350"
+					item: {
+						count: 1
+						id: "minecraft:bowl"
+					}
+					type: "item"
+				}
+				{
+					id: "3B28011C8E60D5EF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4D3AFA9539212C5D"
+					item: {
+						count: 1
+						id: "farmersdelight:chicken_soup"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 51.7d
+		}
+		{
+			dependencies: [
+				"30B39D7F44A8DB7E"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_ingot"
+			}
+			id: "2ADF10C3A22B33B8"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "47F4833DBA3E9DF0"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3717F88C7F6CAF2B"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					id: "2367EE0E22652834"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "79934E04778B2931"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
+					count: 32L
+					consume_items: true
+				}
+			]
+			x: 12.0d
+			y: 35.6d
+		}
+		{
+			dependencies: [
+				"396802C903E4181C"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_rod"
+			}
+			id: "6F66D200BD2E67A0"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1021D4340BFF0AC4"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "51C395F8C3136698"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "15DB3D04F9BF5092"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_rod"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.0d
+			y: 40.1d
+		}
+		{
+			icon: {
+				count: 1
+				id: "modern_industrialization:raw_tin"
+			}
+			id: "1D82B6450E6F3BCD"
+			rewards: [
+				{
+					id: "7844F0912C1C3D67"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7AEE3F1C63E44FDE"
+					item: {
+						count: 1
+						id: "modern_industrialization:raw_tin"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 29.6d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/era_1.png"
+			order: 0
+			rotation: 0.0d
+			width: 7.062d
+			x: 7.0d
+			y: -2.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_sopravvivenza.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.1d
+			x: 1.05d
+			y: -1.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.433d
+			x: 0.72d
+			y: 9.2d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_industria.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.62d
+			y: 28.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_esplorazione.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.9d
+			x: 0.95d
+			y: 44.8d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_facoltative.png"
+			order: 5
+			rotation: 0.0d
+			width: 2.7d
+			x: 0.85d
+			y: 50.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_cancello.png"
+			order: 6
+			rotation: 0.0d
+			width: 2.167d
+			x: 16.08d
+			y: 30.35d
+		}
+	]
+}

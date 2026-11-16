@@ -1,0 +1,13 @@
+name = "Ad Astra: Planets"
+filename = "adastraplanets-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2f39b31504747ea42e37120ce6d648b04cf32006"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9581943
+project-id = 1765411

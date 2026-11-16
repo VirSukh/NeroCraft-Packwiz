@@ -1,0 +1,12 @@
+{
+  "unlock_challenge": {
+    "formatter": "backpacked:fed_x_of_x",
+    "challenge": {
+      "type": "backpacked:feed_animal",
+      "animal": {
+        "type": "naturalist:capybara"
+      },
+      "count": 5
+    }
+  }
+}

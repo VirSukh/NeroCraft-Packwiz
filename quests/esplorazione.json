@@ -1,0 +1,1158 @@
+{
+ "capitolo": {
+  "id": "esplorazione",
+  "titolo": "Esplorazione",
+  "sottotitolo": "Biomi, strutture, Nether, profondità ed End",
+  "icona": "explorerscompass:explorerscompass",
+  "ordine": 17,
+  "gruppo": "approfondimenti",
+  "immagini": [
+   {
+    "texture": "nerocraft:textures/gui/quests/cap_esplorazione.png",
+    "x": 1.25,
+    "y": -5.6,
+    "altezza": 1.0,
+    "trasparenza": 255
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_esplorazione_mondo.png",
+    "x": -6,
+    "y": -4.2,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_esplorazione_terre.png",
+    "x": -6,
+    "y": 4.3,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_nether.png",
+    "x": 0.75,
+    "y": -4.2,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_esplorazione_profondo.png",
+    "x": 2.25,
+    "y": 1.4,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_esplorazione_end.png",
+    "x": 8.5,
+    "y": -4.2,
+    "altezza": 0.6,
+    "trasparenza": 230
+   }
+  ]
+ },
+ "quest": [
+  {
+   "id": "nuovi_biomi",
+   "titolo": "Terre mai viste",
+   "sottotitolo": "La bussola della natura",
+   "descrizione": [
+    "Al primo accesso avete ricevuto la &6Bussola della Natura&r: scegli un bioma e ti indica la strada.",
+    "Il mondo è pieno di biomi nuovi (&aOh The Biomes We've Gone&r): andate a vederne uno."
+   ],
+   "x": -7.5,
+   "y": -3,
+   "icona": "naturescompass:naturescompass",
+   "dipendenze": [
+    "era_1_fondazione/benvenuto"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "naturescompass:naturescompass",
+     "quantita": 1,
+     "consuma": false
+    },
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "biomeswevegone:biomeswevegone/adventure/root"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:bread",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 40
+    }
+   ]
+  },
+  {
+   "id": "mappa_del_mondo",
+   "titolo": "La mappa di squadra",
+   "sottotitolo": "Carta e bussola",
+   "descrizione": [
+    "Una mappa riempita e un tavolo da cartografia per copiarla.",
+    "Fate una copia per ognuno e segnate la colonia: chi si perde torna a casa."
+   ],
+   "x": -6,
+   "y": -3,
+   "icona": "minecraft:filled_map",
+   "dipendenze": [
+    "nuovi_biomi"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "minecraft:filled_map",
+     "quantita": 1,
+     "consuma": false
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:cartography_table",
+     "quantita": 1,
+     "consuma": false
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:paper",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:compass",
+     "quantita": 1
+    },
+    {
+     "tipo": "xp",
+     "quantita": 40
+    }
+   ]
+  },
+  {
+   "id": "villaggi_e_mercanti",
+   "titolo": "Villaggi e mercanti",
+   "sottotitolo": "Smeraldi in cambio di tutto",
+   "descrizione": [
+    "Trovate un villaggio e fate il primo scambio.",
+    "Il &6Cartografo&r vende mappe del tesoro e delle strutture: utili per le prossime quest."
+   ],
+   "x": -7.5,
+   "y": -1.5,
+   "icona": "minecraft:bell",
+   "dipendenze": [
+    "era_1_fondazione/benvenuto"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:adventure/trade"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:emerald",
+     "quantita": 6
+    },
+    {
+     "tipo": "xp",
+     "quantita": 40
+    }
+   ]
+  },
+  {
+   "id": "bottino_per_tutti",
+   "titolo": "Bottino per tutti",
+   "sottotitolo": "Ognuno il suo forziere",
+   "descrizione": [
+    "Con &aLootr&r ogni forziere delle strutture ha un bottino &adiverso per ogni giocatore&r.",
+    "Non litigate: aprite tutti, ognuno prende il suo."
+   ],
+   "x": -7.5,
+   "y": 0,
+   "icona": "lootr:lootr_chest",
+   "dipendenze": [
+    "era_1_fondazione/benvenuto"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "lootr:1chest"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 30
+    }
+   ]
+  },
+  {
+   "id": "stanze_dei_mostri",
+   "titolo": "Stanze dei mostri",
+   "sottotitolo": "Dungeon sotterranei",
+   "descrizione": [
+    "Sottoterra ci sono dungeon più grandi del solito, con generatori di mostri.",
+    "Entrate in una stanza dei mostri: torce sui generatori, poi il bottino."
+   ],
+   "x": -6,
+   "y": 0,
+   "icona": "minecraft:mossy_cobblestone",
+   "dipendenze": [
+    "bottino_per_tutti"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "betterdungeons:small_dungeon"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 32
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "miniere_abbandonate",
+   "titolo": "Miniere abbandonate",
+   "sottotitolo": "Binari nel buio",
+   "descrizione": [
+    "Le miniere abbandonate sono enormi e piene di carrelli con forziere.",
+    "Aprite un carrello con forziere: anche quelli sono personali."
+   ],
+   "x": -4.5,
+   "y": 0,
+   "icona": "minecraft:rail",
+   "dipendenze": [
+    "stanze_dei_mostri"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "lootr:1cart"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:rail",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "archeologia",
+   "titolo": "Archeologia",
+   "sottotitolo": "Spazzola e pazienza",
+   "descrizione": [
+    "Sabbia e ghiaia sospette nascondono cocci e reperti.",
+    "Crafta una &6spazzola&r e scava con calma: se premi troppo il blocco si rompe."
+   ],
+   "x": -7.5,
+   "y": 1.5,
+   "icona": "minecraft:brush",
+   "dipendenze": [
+    "era_1_fondazione/benvenuto"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "minecraft:brush",
+     "quantita": 1,
+     "consuma": false
+    },
+    {
+     "tipo": "spunta",
+     "titolo": "Ho spazzolato un blocco sospetto"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:emerald",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 40
+    }
+   ]
+  },
+  {
+   "id": "tempio_del_deserto",
+   "titolo": "Il tempio del deserto",
+   "sottotitolo": "Trappole e sabbia",
+   "descrizione": [
+    "I templi del deserto sono più grandi e pieni di trappole.",
+    "Entrate in squadra e guardate dove mettete i piedi."
+   ],
+   "x": -6,
+   "y": 1.5,
+   "icona": "minecraft:chiseled_sandstone",
+   "dipendenze": [
+    "archeologia"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "betterdeserttemples:temple_entry"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_carrot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "il_faraone",
+   "titolo": "Il Faraone",
+   "sottotitolo": "Il guardiano del tempio",
+   "descrizione": [
+    "In fondo al tempio riposa un &cFaraone&r non morto.",
+    "Sconfiggetelo per ripulire il tempio."
+   ],
+   "x": -4.5,
+   "y": 1.5,
+   "icona": "minecraft:husk_spawn_egg",
+   "dipendenze": [
+    "tempio_del_deserto"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "betterdeserttemples:temple_clear"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:emerald",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "camere_della_prova",
+   "titolo": "Le camere della prova",
+   "sottotitolo": "Chiavi e casseforti",
+   "descrizione": [
+    "Sotto il mondo ci sono le &6Camere della Prova&r: generatori a ondate e Breeze.",
+    "Vincete le ondate, prendete una &6chiave della prova&r e aprite una cassaforte.",
+    "&cI mostri si rafforzano con le ere&r: andateci almeno in tre."
+   ],
+   "x": -7.5,
+   "y": 3,
+   "icona": "minecraft:trial_key",
+   "dipendenze": [
+    "era_2_vapore/vapore_in_pressione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:adventure/minecraft_trials_edition"
+    },
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:adventure/under_lock_and_key"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:arrow",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "monumento_oceanico",
+   "titolo": "Il monumento oceanico",
+   "sottotitolo": "Il guardiano anziano",
+   "descrizione": [
+    "I monumenti oceanici sono stati rifatti e nascondono più stanze.",
+    "Sconfiggete un &cguardiano anziano&r: servono pozioni di respirazione e un buon piano."
+   ],
+   "x": -6,
+   "y": 3,
+   "icona": "minecraft:prismarine_shard",
+   "dipendenze": [
+    "camere_della_prova"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "uccidi",
+     "entita": "minecraft:elder_guardian",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 1
+    },
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "villaggi_lontani",
+   "titolo": "Villaggi lontani",
+   "sottotitolo": "Cinque villaggi da scoprire",
+   "descrizione": [
+    "Con la &6Bussola dell'Esploratore&r cercate i villaggi abitati dei nuovi biomi.",
+    "Dividetevi le direzioni: ognuno ne trova uno."
+   ],
+   "x": -7.5,
+   "y": 5.3,
+   "icona": "minecraft:bell",
+   "dipendenze": [
+    "era_2_vapore/bussola_dell_esploratore",
+    "villaggi_e_mercanti"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "biomeswevegone:biomeswevegone/adventure/true_traveler"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:emerald",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "palude_pallida",
+   "titolo": "La palude pallida",
+   "sottotitolo": "Un posto che non piace a nessuno",
+   "descrizione": [
+    "Trovate una &7Palude Pallida&r: nebbia, fango e zucche spente."
+   ],
+   "x": -6,
+   "y": 5.3,
+   "icona": "biomeswevegone:pale_jack_o_lantern",
+   "dipendenze": [
+    "era_2_vapore/bussola_dell_esploratore"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:pumpkin_pie",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "strada_delle_streghe",
+   "titolo": "La strada delle streghe",
+   "sottotitolo": "La prova della palude",
+   "descrizione": [
+    "Nella palude pallida c'è una &cprova&r nascosta.",
+    "Trovatela con la bussola e affrontatela insieme."
+   ],
+   "x": -4.5,
+   "y": 5.3,
+   "icona": "biomeswevegone:witch_hazel_blossom",
+   "dipendenze": [
+    "palude_pallida"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "biomeswevegone:biomeswevegone/adventure/witches_road"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "biomi_infuocati",
+   "titolo": "Biomi infuocati",
+   "sottotitolo": "Il Nether è cambiato",
+   "descrizione": [
+    "Il Nether ha nuovi biomi (&aIncendium&r): dune, foreste avvizzite, distese di quarzo.",
+    "Entratene in uno."
+   ],
+   "x": 0,
+   "y": -3,
+   "icona": "minecraft:gilded_blackstone",
+   "dipendenze": [
+    "era_2_vapore/rotta_per_il_nether"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "incendium:misc/root"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "castello_proibito",
+   "titolo": "Il castello proibito",
+   "sottotitolo": "La roccaforte dei piglin",
+   "descrizione": [
+    "Nelle distese di cenere si alza un &cCastello Proibito&r, pieno di piglin armati e sentinelle.",
+    "Entrate solo in squadra, con armature dell'era 3."
+   ],
+   "x": 1.5,
+   "y": -3,
+   "icona": "minecraft:crossbow",
+   "dipendenze": [
+    "biomi_infuocati",
+    "era_3_elettricita/prima_scintilla"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "incendium:ash_barrens/enter_castle"
+    },
+    {
+     "tipo": "spunta",
+     "titolo": "Abbiamo ripulito il castello"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 3
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "fortezza_del_nether",
+   "titolo": "La fortezza del Nether",
+   "sottotitolo": "Mattoni neri e blaze",
+   "descrizione": [
+    "Le fortezze sono più grandi e intricate.",
+    "Trovatene una: blaze e scheletri wither vi aspettano."
+   ],
+   "x": 0,
+   "y": -1.5,
+   "icona": "minecraft:blaze_rod",
+   "dipendenze": [
+    "era_2_vapore/rotta_per_il_nether"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:nether/find_fortress"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 8
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:arrow",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "cittadella_del_fuoco",
+   "titolo": "La cittadella del fuoco",
+   "sottotitolo": "Lo Spirito di Fuoco",
+   "descrizione": [
+    "In alcune zone del Nether c'è una cittadella guardata dallo &cSpirito di Fuoco&r (Wildfire).",
+    "Trovatela e abbattetelo: scudi alzati, i suoi colpi bruciano."
+   ],
+   "x": 1.5,
+   "y": -1.5,
+   "icona": "friendsandfoes:wildfire_crown",
+   "dipendenze": [
+    "fortezza_del_nether"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "friendsandfoes:nether/find_citadel"
+    },
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "friendsandfoes:nether/kill_wildfire"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "bastione",
+   "titolo": "Il bastione",
+   "sottotitolo": "Oro e piglin bruti",
+   "descrizione": [
+    "Trovate un bastione dei piglin.",
+    "Indossate almeno un pezzo d'oro e attenti ai &cbruti&r: non si lasciano corrompere."
+   ],
+   "x": 0,
+   "y": 0,
+   "icona": "minecraft:piglin_head",
+   "dipendenze": [
+    "era_2_vapore/rotta_per_il_nether"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:nether/find_bastion"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:gold_ingot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 80
+    }
+   ]
+  },
+  {
+   "id": "citta_antica",
+   "titolo": "La città antica",
+   "sottotitolo": "Silenzio assoluto",
+   "descrizione": [
+    "In fondo al mondo, tra lo sculk, dorme una &6Città Antica&r.",
+    "Camminate accovacciati, niente rumori: gli strilli dello sculk chiamano il &cWarden&r."
+   ],
+   "x": 0,
+   "y": 2.5,
+   "icona": "minecraft:sculk_catalyst",
+   "dipendenze": [
+    "era_3_elettricita/prima_scintilla"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "deeperdarker:main/find_ancient_city"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:white_wool",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_carrot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "il_warden",
+   "titolo": "Il Warden",
+   "sottotitolo": "Il cuore delle profondità",
+   "descrizione": [
+    "Il Warden è cieco, ma sente tutto. Con le ere diventa ancora peggio.",
+    "Abbattetelo in squadra e prendete il suo &6Cuore delle Profondità&r: serve per aprire il passaggio.",
+    "&cNon è un nemico per la prima volta: serve l'equipaggiamento dell'era 4.&r"
+   ],
+   "x": 1.5,
+   "y": 2.5,
+   "icona": "deeperdarker:heart_of_the_deep",
+   "dipendenze": [
+    "citta_antica",
+    "era_4_rete_digitale/rete_accesa"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "uccidi",
+     "entita": "minecraft:warden",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "deeperdarker:heart_of_the_deep",
+     "quantita": 1,
+     "consuma": false
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 3
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "l_altro_lato",
+   "titolo": "L'Altro Lato",
+   "sottotitolo": "Sotto la roccia madre",
+   "descrizione": [
+    "Il grande portale della città antica si accende con il &6Cuore delle Profondità&r.",
+    "Dall'altra parte c'è l'&5Otherside&r: buio, sculk e creature che vi sentono arrivare."
+   ],
+   "x": 3,
+   "y": 2.5,
+   "icona": "deeperdarker:sculk_stone",
+   "dipendenze": [
+    "il_warden"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "dimensione",
+     "dimensione": "deeperdarker:otherside"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 64
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "tempio_antico",
+   "titolo": "Il tempio antico",
+   "sottotitolo": "Ancora più giù",
+   "descrizione": [
+    "Nell'Otherside ci sono templi antichi pieni di vasi e forzieri.",
+    "Trovatene uno ed esploratelo insieme."
+   ],
+   "x": 4.5,
+   "y": 2.5,
+   "icona": "deeperdarker:gloomslate",
+   "dipendenze": [
+    "l_altro_lato"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "deeperdarker:main/find_ancient_temple"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "armatura_del_warden",
+   "titolo": "Armatura del Warden",
+   "sottotitolo": "Vestiti di sculk",
+   "descrizione": [
+    "Con i frammenti d'eco rinforzati e i modelli di potenziamento si forgia l'armatura del Warden.",
+    "Completate un set intero."
+   ],
+   "x": 3,
+   "y": 4,
+   "icona": "deeperdarker:warden_chestplate",
+   "dipendenze": [
+    "l_altro_lato"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "deeperdarker:main/warden_armor"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "occhio_dell_ender",
+   "titolo": "Segui l'occhio",
+   "sottotitolo": "La roccaforte",
+   "descrizione": [
+    "Lanciate un &6occhio di Ender&r e seguitelo fino alla roccaforte.",
+    "Le roccaforti sono labirinti enormi: segnate la strada."
+   ],
+   "x": 7,
+   "y": -3,
+   "icona": "minecraft:ender_eye",
+   "dipendenze": [
+    "era_3_elettricita/prima_scintilla"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:story/follow_ender_eye"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:ender_pearl",
+     "quantita": 4
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 80
+    }
+   ]
+  },
+  {
+   "id": "nell_end",
+   "titolo": "Nell'End",
+   "sottotitolo": "Il vuoto dall'altra parte",
+   "descrizione": [
+    "Completate il portale ed entrate tutti insieme.",
+    "Cadere nel vuoto vuol dire perdere tutto: blocchi e pazienza."
+   ],
+   "x": 8.5,
+   "y": -3,
+   "icona": "minecraft:end_stone",
+   "dipendenze": [
+    "occhio_dell_ender",
+    "era_4_rete_digitale/rete_accesa"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "dimensione",
+     "dimensione": "minecraft:the_end"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "il_drago",
+   "titolo": "Il Drago dell'Ender",
+   "sottotitolo": "La regina del vuoto",
+   "descrizione": [
+    "Distruggete i cristalli sulle torri, poi concentratevi sul drago.",
+    "Arcieri sui cristalli, gli altri sotto: ognuno il suo ruolo."
+   ],
+   "x": 10,
+   "y": -3,
+   "icona": "minecraft:dragon_head",
+   "dipendenze": [
+    "nell_end"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "uccidi",
+     "entita": "minecraft:ender_dragon",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 3
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "oltre_il_portale",
+   "titolo": "Oltre il portale",
+   "sottotitolo": "Le isole esterne",
+   "descrizione": [
+    "Il drago ha aperto un &5portale dell'End&r: lanciateci una perla per attraversarlo.",
+    "Le isole esterne hanno biomi nuovi (&aNullscape&r): visitatene uno."
+   ],
+   "x": 10,
+   "y": -1.5,
+   "icona": "minecraft:chorus_flower",
+   "dipendenze": [
+    "il_drago"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:end/enter_end_gateway"
+    },
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "nullscape:root"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:ender_pearl",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "citta_dell_end",
+   "titolo": "La città dell'End",
+   "sottotitolo": "Torri viola",
+   "descrizione": [
+    "Trovate una città dell'End.",
+    "Attenti agli &cshulker&r: la levitazione sopra il vuoto è una trappola."
+   ],
+   "x": 8.5,
+   "y": -1.5,
+   "icona": "minecraft:purpur_block",
+   "dipendenze": [
+    "oltre_il_portale"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "minecraft:end/find_end_city"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_carrot",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "ali_di_elitra",
+   "titolo": "Ali",
+   "sottotitolo": "Volare senza motore",
+   "descrizione": [
+    "Sulle navi delle città dell'End ci sono le &6elitre&r.",
+    "Una a testa: le navi sono più d'una."
+   ],
+   "x": 7,
+   "y": -1.5,
+   "icona": "minecraft:elytra",
+   "dipendenze": [
+    "citta_dell_end"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "minecraft:elytra",
+     "quantita": 1,
+     "consuma": false
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:firework_rocket",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  }
+ ]
+}

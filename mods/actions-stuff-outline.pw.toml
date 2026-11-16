@@ -1,0 +1,13 @@
+name = "Outline N' Stuff - Enchantments"
+filename = "astoutline-3.6.0+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ac8be827a58b06942dc1b04b2a80905faa26213"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9090042
+project-id = 1553649

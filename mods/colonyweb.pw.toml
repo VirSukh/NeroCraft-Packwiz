@@ -1,0 +1,13 @@
+name = "Minecolonies: ColonyWeb"
+filename = "colonyweb-1.21.1-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e10cd2a85d867ccefa418d1870e0b23b52e7f900"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8570652
+project-id = 1626182

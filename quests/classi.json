@@ -1,0 +1,483 @@
+{
+  "capitolo": {
+    "id": "classi",
+    "titolo": "Classi",
+    "sottotitolo": "Un ruolo per ognuno, una squadra completa",
+    "icona": "spell_engine:spell_binding",
+    "ordine": 10,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/classi.png",
+        "x": 0,
+        "y": -4.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_equipaggiamento.png",
+        "x": 0,
+        "y": 3.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "apri_albero",
+      "titolo": "Apri l'albero",
+      "sottotitolo": "Punti abilità e ruoli",
+      "descrizione": [
+        "Ogni uccisione dà esperienza e punti abilità. &aL'esperienza si divide con i compagni entro 200 blocchi: cacciate insieme.&r",
+        "Apri l'albero con K (tasto di base). Ci sono 8 classi, ma &cognuno ne ha UNA sola&r: la prima radice che sblocchi chiude le altre 7.",
+        "&aMettetevi d'accordo prima di spendere il primo punto&r: chi cura, chi tiene la prima linea, chi colpisce da lontano.",
+        "Farmare un solo punto non rende: oltre 15 uccisioni per chunk in 5 minuti non danno più punti."
+      ],
+      "x": 0,
+      "y": 0,
+      "icona": "minecraft:experience_bottle",
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "dipendenze": [
+        "era_1_fondazione/la_tua_classe"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho scelto la mia classe con la squadra"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_arcano",
+      "titolo": "Mago arcano",
+      "sottotitolo": "Danno a distanza e mobilità",
+      "descrizione": [
+        "Missili e esplosioni arcane, più il teletrasporto breve.",
+        "Gli incantesimi si lanciano con la bacchetta in mano e consumano &6Rune Arcane&r."
+      ],
+      "x": -3.5,
+      "y": 0,
+      "icona": "wizards:wand_arcane",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "wizards:wand_arcane",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:amethyst_shard",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_fuoco",
+      "titolo": "Mago del fuoco",
+      "sottotitolo": "Danno ad area",
+      "descrizione": [
+        "Soffio di fuoco, meteore e tempeste di fiamme sui gruppi di nemici.",
+        "La bacchetta da novizio dà potere del fuoco. Gli incantesimi consumano &6Rune di Fuoco&r."
+      ],
+      "x": -3.15,
+      "y": -1.52,
+      "icona": "wizards:wand_novice",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "wizards:wand_novice",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gunpowder",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_gelo",
+      "titolo": "Mago del gelo",
+      "sottotitolo": "Controllo e rallentamento",
+      "descrizione": [
+        "Rallenta e congela i nemici: &aprotegge la squadra mentre gli altri colpiscono&r.",
+        "Gli incantesimi consumano &6Rune di Gelo&r."
+      ],
+      "x": -2.18,
+      "y": -2.74,
+      "icona": "wizards:wand_frost",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "wizards:wand_frost",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:snowball",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_sacerdote",
+      "titolo": "Sacerdote",
+      "sottotitolo": "Il guaritore della squadra",
+      "descrizione": [
+        "Cura i compagni e li protegge con barriere. &aContro i boss è il ruolo più prezioso.&r",
+        "Gli incantesimi consumano &6Rune di Guarigione&r."
+      ],
+      "x": -0.78,
+      "y": -3.41,
+      "icona": "paladins:acolyte_wand",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "paladins:acolyte_wand",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_nugget",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_paladino",
+      "titolo": "Paladino",
+      "sottotitolo": "Difensore che cura",
+      "descrizione": [
+        "Regge i colpi in prima linea e &acura chi gli sta vicino&r.",
+        "Anche i suoi incantesimi consumano &6Rune di Guarigione&r."
+      ],
+      "x": 0.78,
+      "y": -3.41,
+      "icona": "paladins:stone_claymore",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "paladins:stone_claymore",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_nugget",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_guerriero",
+      "titolo": "Guerriero",
+      "sottotitolo": "La prima linea",
+      "descrizione": [
+        "Carica, urla di battaglia e colpi pesanti: &aattira i nemici e li tiene lontani dai maghi&r.",
+        "Si gioca con &6asce doppie&r e &6glaive&r."
+      ],
+      "x": 2.18,
+      "y": -2.74,
+      "icona": "rogues:stone_double_axe",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "rogues:stone_double_axe",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_ladro",
+      "titolo": "Ladro",
+      "sottotitolo": "Colpi rapidi alle spalle",
+      "descrizione": [
+        "Tanto danno su un bersaglio solo, invisibilità e passi nell'ombra.",
+        "Si gioca con &6pugnali&r e &6falcetti&r."
+      ],
+      "x": 3.15,
+      "y": -1.52,
+      "icona": "rogues:flint_dagger",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "rogues:flint_dagger",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_chicken",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "classe_arciere",
+      "titolo": "Arciere",
+      "sottotitolo": "Danno costante da lontano",
+      "descrizione": [
+        "Raffiche di frecce e colpi potenti da distanza sicura.",
+        "Le abilità scagliano &6frecce&r dall'arco: portatene sempre una scorta."
+      ],
+      "x": 3.5,
+      "y": 0,
+      "icona": "archers:composite_longbow",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "archers:composite_longbow",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:arrow",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "tavolo_incantesimi",
+      "titolo": "Il Tavolo degli Incantesimi",
+      "sottotitolo": "Libri e pergamene",
+      "descrizione": [
+        "Il &6Tavolo degli Incantesimi&r crea e riempie i Libri degli Incantesimi, anche con le pergamene trovate in giro.",
+        "Il libro si indossa nel suo slot (Curios), non in mano: in mano tieni l'arma della classe. &cSe muori, il libro cade con il resto.&r"
+      ],
+      "x": -1,
+      "y": 2.5,
+      "icona": "spell_engine:spell_book",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "spell_engine:spell_binding",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "spell_engine:spell_book",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:lapis_lazuli",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ]
+    },
+    {
+      "id": "rune",
+      "titolo": "Rune",
+      "sottotitolo": "Le munizioni dei maghi",
+      "descrizione": [
+        "Maghi, sacerdoti e paladini consumano rune a ogni incantesimo: pietra più un reagente (ametista, polvere da sparo, palla di neve, pepita d'oro).",
+        "A mano se ne ottengono poche: l'&6Altare delle Rune&r ne dà quattro volte tante. Una &6Borsa delle Rune&r equipaggiata le fornisce da sola."
+      ],
+      "x": -3,
+      "y": 2.5,
+      "icona": "runes:arcane_stone",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "runes:crafting_altar",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:amethyst_shard",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:gunpowder",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:snowball",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_nugget",
+          "quantita": 8
+        }
+      ]
+    },
+    {
+      "id": "abilita_armi",
+      "titolo": "Abilità delle armi",
+      "sottotitolo": "Il secondo albero",
+      "descrizione": [
+        "Nell'albero c'è una seconda scheda, &6Weapon Skills&r: abilità legate al tipo d'arma (spada, ascia, arco, pugnale, bastone...).",
+        "Ha 9 punti a parte, separati dalla classe e liberi per tutti. Ogni arma ha 3 nodi: bastano per completare 3 armi, quindi scegli quelle che usi davvero."
+      ],
+      "x": 1,
+      "y": 2.5,
+      "icona": "minecraft:iron_sword",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho speso un punto in Weapon Skills"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_porkchop",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "sfera_oblio",
+      "titolo": "Sfera dell'Oblio",
+      "sottotitolo": "Ricominciare da capo",
+      "descrizione": [
+        "&cLa classe scelta è definitiva&r, tranne in un caso: la &6Orb of Oblivion&r azzera i punti delle classi e te li restituisce, così puoi scegliere un'altra classe. Le Weapon Skills restano come sono.",
+        "Costa un diamante e quattro bottiglie d'esperienza: &atenetela per quando la squadra deve davvero riorganizzare i ruoli&r."
+      ],
+      "x": 3,
+      "y": 2.5,
+      "icona": "skill_tree_rpgs:orb_of_oblivion",
+      "dipendenze": [
+        "apri_albero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "So come cambiare classe"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ]
+    }
+  ]
+}

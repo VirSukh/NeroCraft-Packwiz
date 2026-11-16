@@ -1,0 +1,2011 @@
+{
+  "capitolo": {
+    "id": "era_4_rete_digitale",
+    "titolo": "Era 4 - Rete Digitale",
+    "sottotitolo": "Dal Controller ME al Razzo Tier 1",
+    "icona": "ae2:controller",
+    "ordine": 4,
+    "gruppo": "ere",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/era_4.png",
+        "x": 9.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_rete_me.png",
+        "x": 0.72,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_spazio.png",
+        "x": 1.22,
+        "y": 25.7,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_officina.png",
+        "x": 0.52,
+        "y": 30.0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_fabbrica.png",
+        "x": 1.18,
+        "y": 38.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_colonia.png",
+        "x": 0.72,
+        "y": 41.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_equipaggiamento.png",
+        "x": 1.22,
+        "y": 44.4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cancello.png",
+        "x": 4.08,
+        "y": 0.75,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "rete_accesa",
+      "titolo": "La rete si accende",
+      "sottotitolo": "Quattro fronti per una squadra",
+      "descrizione": [
+        "&7&oIl Controller ronza: NeroCraft ha un cervello.&r",
+        "Meta dell'Era 4: il &6Razzo Tier 1&r. Si monta nell'&6Assemblatore&r di MI con telaio del motore, 4 piastre d'acciaio, 4 alette e un &cLingotto di Witherite&r dell'Araldo.",
+        "&aDividetevi: rete ME, industria, colonia e spedizione alla Fabbrica Antica.&r"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "icona": "ae2:controller",
+      "dipendenze": [
+        "era_3_elettricita/controller_me"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Abbiamo deciso chi fa cosa"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "energia_della_rete",
+      "titolo": "Energia alla rete",
+      "sottotitolo": "Cavi e accettore",
+      "descrizione": [
+        "&7&oIl Controller è acceso ma ha fame.&r",
+        "&6Accettore d'energia&r: ferro, vetro di quarzo e rame. Collegalo ai cavi di MI: l'energia passa da sola.",
+        "&6Cavi di vetro di fluix&r per unire Controller e macchine."
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "icona": "ae2:energy_acceptor",
+      "dipendenze": [
+        "rete_accesa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:energy_acceptor",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:fluix_glass_cable",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:quartz",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "torchio_e_presse",
+      "titolo": "Incisore e presse",
+      "sottotitolo": "Quattro stampi nei meteoriti",
+      "descrizione": [
+        "&7&oDentro ogni meteorite c'è uno scrigno di metallo.&r",
+        "&6Incisore&r: ferro, rame e un pistone.",
+        "Le &6presse&r non si craftano: cercatele nei meteoriti con la bussola dei meteoriti. Ne servono quattro diverse."
+      ],
+      "x": 4.0,
+      "y": 3.0,
+      "icona": "ae2:inscriber",
+      "dipendenze": [
+        "energia_della_rete"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:inscriber",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:logic_processor_press",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:calculation_processor_press",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:engineering_processor_press",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:silicon_press",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "processori",
+      "titolo": "Processori",
+      "sottotitolo": "Logica, calcolo, ingegneria",
+      "descrizione": [
+        "&7&oOro, quarzo e diamante, stampati e incollati.&r",
+        "Nell'Incisore: circuito stampato (oro, quarzo certus o diamante) + silicio stampato + redstone.",
+        "&aScorciatoia:&r anche l'Impacchettatrice e l'Assemblatore di MI li producono, con il silicio dell'Altoforno."
+      ],
+      "x": 12.0,
+      "y": 15.0,
+      "icona": "ae2:engineering_processor",
+      "dipendenze": [
+        "printed_silicon"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:logic_processor",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:calculation_processor",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:engineering_processor",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "prima_memoria",
+      "titolo": "Il magazzino digitale",
+      "sottotitolo": "Drive, celle, terminale",
+      "descrizione": [
+        "&7&oMille casse in un blocco solo.&r",
+        "&6Unità ME&r e &6celle da 1k&r per conservare; un &6Terminale&r per vedere tutto da un posto.",
+        "Un magazzino comune per tutta la squadra: &aniente più casse sparse&r."
+      ],
+      "x": 10.0,
+      "y": 3.0,
+      "icona": "ae2:drive",
+      "dipendenze": [
+        "formation_core"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:drive",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:item_storage_cell_1k",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:terminal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "autocrafting",
+      "titolo": "La rete che crafta",
+      "sottotitolo": "Schemi, fornitori, CPU",
+      "descrizione": [
+        "&7&oChiedi cento piastre e la rete le fa da sola.&r",
+        "&6Fornitore di schemi&r collegato all'&6Assemblatore molecolare&r o alle macchine di MI.",
+        "Una CPU di crafting: almeno un'&6unità di crafting&r e un'archiviazione da 1k. Gli schemi si scrivono al terminale di codifica."
+      ],
+      "x": 12.0,
+      "y": 4.5,
+      "icona": "ae2:molecular_assembler",
+      "dipendenze": [
+        "prima_memoria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:pattern_provider",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:molecular_assembler",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:crafting_unit",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:1k_crafting_storage",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "rete_senza_fili",
+      "titolo": "Rete senza fili",
+      "sottotitolo": "Il magazzino in tasca",
+      "descrizione": [
+        "&7&oDal campo di battaglia al magazzino, senza tornare a casa.&r",
+        "&6Punto d'accesso senza fili&r sulla rete e un &6Terminale senza fili&r a testa. Caricalo nel Caricatore."
+      ],
+      "x": 12.0,
+      "y": 7.5,
+      "icona": "ae2:wireless_terminal",
+      "dipendenze": [
+        "prima_memoria"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:wireless_access_point",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:wireless_terminal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_pearl",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "tagliapietre_esperto",
+      "titolo": "Tagliapietre esperto",
+      "sottotitolo": "La colonia lavora al caldo",
+      "descrizione": [
+        "&7&oIl Tagliapietre chiede un forno più grande.&r",
+        "Portate il &6Tagliapietre&r al livello 3: solo lui sa fare il Pannello Termoisolante."
+      ],
+      "x": 0.0,
+      "y": 42.7,
+      "icona": "minecolonies:blockhutstonemason",
+      "dipendenze": [
+        "rete_accesa"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Tagliapietre è al livello 3"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_bricks",
+          "quantita": 64
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_colonia",
+      "nascondi_linee": true
+    },
+    {
+      "id": "pannello_termoisolante",
+      "titolo": "Pannello Termoisolante",
+      "sottotitolo": "Lavoro della colonia",
+      "descrizione": [
+        "&7&oCaldo da un lato, freddo dall'altro.&r",
+        "Non si fa al banco. Il Tagliapietre usa 6 polveri di quarzo, 2 mattoni d'argilla refrattaria e un blocco di magma.",
+        "Chiedilo dal Magazzino e metti i materiali negli scaffali."
+      ],
+      "x": 2.0,
+      "y": 42.7,
+      "icona": "kubejs:pannello_termoisolante_composito",
+      "dipendenze": [
+        "tagliapietre_esperto"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "kubejs:pannello_termoisolante_composito",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:magma_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "terminale_colonia",
+      "titolo": "Terminale della Colonia",
+      "sottotitolo": "La rete parla con i coloni",
+      "descrizione": [
+        "&7&oI fattorini non devono più cercare: chiedono alla rete.&r",
+        "Un Terminale ME, 2 scaffali della colonia, ferro e fluix.",
+        "Collega la &6rete ME&r alla colonia: le richieste dei coloni si servono dal magazzino digitale."
+      ],
+      "x": 12.0,
+      "y": 9.0,
+      "icona": "ae2colonies:colony_terminal",
+      "dipendenze": [
+        "prima_memoria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2colonies:colony_terminal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "taglierina_me",
+      "titolo": "Taglierina dell'Architetto ME",
+      "sottotitolo": "Blocchi decorativi dalla rete",
+      "descrizione": [
+        "4 &6Pannelli Termoisolanti&r, una Taglierina dell'Architetto, un processore d'ingegneria, 2 cristalli di fluix e un Circuito Elettronico.",
+        "Taglia i blocchi di Domum Ornamentum prendendo i materiali dalla rete."
+      ],
+      "x": 14.0,
+      "y": 18.0,
+      "icona": "ae2colonies:me_architects_cutter",
+      "dipendenze": [
+        "processori"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2colonies:me_architects_cutter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_log",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_rete_me"
+    },
+    {
+      "id": "zaino_di_diamante",
+      "titolo": "Zaino da spedizione",
+      "sottotitolo": "Gettoni dall'Harbinger",
+      "descrizione": [
+        "Lo Zaino non si potenzia al banco: slot e alloggiamenti si sbloccano con i &egettoni&r, e i gettoni li lasciano solo i boss.",
+        "Sconfiggete &6The Harbinger&r: ognuno di voi entro 64 blocchi riceve &e3 gettoni&r la prima volta, &e1&r le successive.",
+        "&7Costi: &e1 gettone&7 per slot (36 da sbloccare oltre ai 9 iniziali, fino a 9x5); alloggiamenti per potenziamenti &e2/3/4/5&7 gettoni.&r",
+        "&7I gettoni sono legati a chi li riceve: non si scambiano.&r"
+      ],
+      "x": 0.0,
+      "y": 45.5,
+      "icona": "backpacked:unlock_token",
+      "dipendenze": [
+        "processori",
+        "era_3_elettricita/zaino_d_oro"
+      ],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_harbinger",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "bracci_e_nastri",
+      "titolo": "Bracci robotici e nastri",
+      "sottotitolo": "Mani d'acciaio",
+      "descrizione": [
+        "&7&oL'officina impara a montare da sola.&r",
+        "&6Braccio robotico&r: motori, asta d'acciaio, pistone di MI, cavi di stagno e un Circuito Analogico.",
+        "&6Nastro trasportatore&r: motori, fogli di gomma e cavo di stagno."
+      ],
+      "x": 0.0,
+      "y": 26.8,
+      "icona": "modern_industrialization:robot_arm",
+      "dipendenze": [
+        "rete_accesa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:robot_arm",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:conveyor",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_tin",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_spazio",
+      "nascondi_linee": true
+    },
+    {
+      "id": "assemblatore",
+      "titolo": "Assemblatore",
+      "sottotitolo": "Dove nascerà il razzo",
+      "descrizione": [
+        "&7&oUna macchina che costruisce macchine.&r",
+        "Scafo di macchina base al centro, 4 bracci robotici negli angoli, 2 nastri e 2 Circuiti Analogici.",
+        "Va a corrente LV: tenetelo collegato. &aIl razzo si monta solo qui.&r"
+      ],
+      "x": 2.0,
+      "y": 26.8,
+      "icona": "modern_industrialization:assembler",
+      "dipendenze": [
+        "bracci_e_nastri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:assembler",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal_block",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_spazio"
+    },
+    {
+      "id": "telaio_motore",
+      "titolo": "Telaio del motore",
+      "sottotitolo": "Lo scheletro della spinta",
+      "descrizione": [
+        "&7&oAste d'acciaio saldate a croce.&r",
+        "Aste d'acciaio di Ad Astra: 2 piastre d'acciaio in colonna danno 4 aste.",
+        "Telaio: 8 aste attorno a una piastra d'acciaio."
+      ],
+      "x": 4.0,
+      "y": 26.8,
+      "icona": "ad_astra:engine_frame",
+      "dipendenze": [
+        "assemblatore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:engine_frame",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_spazio"
+    },
+    {
+      "id": "alette_del_razzo",
+      "titolo": "Alette e piastre",
+      "sottotitolo": "Il resto della carcassa",
+      "descrizione": [
+        "&7&oSul piazzale le alette aspettano in fila.&r",
+        "Alette: 6 piastre d'acciaio a forma di freccia danno 4 alette.",
+        "Tenete da parte anche &64 piastre d'acciaio di MI&r per l'Assemblatore."
+      ],
+      "x": 6.0,
+      "y": 26.8,
+      "icona": "ad_astra:rocket_fin",
+      "dipendenze": [
+        "telaio_motore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:rocket_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_spazio"
+    },
+    {
+      "id": "occhio_meccanico",
+      "titolo": "Occhio Meccanico",
+      "sottotitolo": "Una bussola per la fabbrica",
+      "descrizione": [
+        "&7&oSotto terra qualcosa di antico è ancora acceso.&r",
+        "4 blocchi di redstone, 4 lingotti di ferro e un occhio di ender.",
+        "Lanciato come un occhio di ender, indica la &6Fabbrica Antica&r dell'Araldo."
+      ],
+      "x": 0.0,
+      "y": 39.9,
+      "icona": "cataclysm:mech_eye",
+      "dipendenze": [
+        "rete_accesa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:mech_eye",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_fabbrica",
+      "nascondi_linee": true
+    },
+    {
+      "id": "fabbrica_antica",
+      "titolo": "La Fabbrica Antica",
+      "sottotitolo": "Una macchina che dorme",
+      "descrizione": [
+        "&7&oCorridoi di metallo, torrette, e in fondo un gigante spento.&r",
+        "Seguite l'Occhio fino alla Fabbrica e &asegnate la posizione&r: una waystone qui serve a tutti."
+      ],
+      "x": 2.0,
+      "y": 39.9,
+      "icona": "minecraft:redstone_block",
+      "dipendenze": [
+        "occhio_meccanico"
+      ],
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_ancient_factory"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_fabbrica"
+    },
+    {
+      "id": "stella_del_nether",
+      "titolo": "La Stella del Nether",
+      "sottotitolo": "La chiave per svegliarlo",
+      "descrizione": [
+        "&7&oL'Araldo non si sveglia da solo.&r",
+        "Va attivato con una &6Stella del Nether&r: serve il &cWither&r. Tre teschi di wither scheletro dalle fortezze del Nether.",
+        "Evocatelo lontano dalla colonia. &cAnche il Wither cresce con le ere.&r",
+        "&7Come ogni boss, il Wither lascia &egettoni dello zaino&7 a chi è entro 64 blocchi: 3 la prima volta, 1 le successive.&r"
+      ],
+      "x": 4.0,
+      "y": 39.9,
+      "icona": "minecraft:nether_star",
+      "dipendenze": [
+        "fabbrica_antica"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:wither",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:nether_star",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_fabbrica"
+    },
+    {
+      "id": "squadra_contro_l_araldo",
+      "titolo": "Squadra contro l'Araldo",
+      "sottotitolo": "Laser, missili, cariche",
+      "descrizione": [
+        "&7&oUn colosso di metallo con l'anima di un Wither.&r",
+        "L'&cAraldo&r spara laser e missili avvizziti: &adecidete chi lo tiene impegnato, chi cura e chi colpisce da lontano&r.",
+        "&cÈ più forte del Mostro di Netherite e cresce con le ere e a ogni uccisione.&r Latte contro l'avvizzimento, cibo, armature migliori."
+      ],
+      "x": 6.0,
+      "y": 39.9,
+      "icona": "minecraft:shield",
+      "dipendenze": [
+        "stella_del_nether"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi, equipaggiamento pronto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:milk_bucket",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_fabbrica"
+    },
+    {
+      "id": "araldo",
+      "titolo": "L'Araldo",
+      "sottotitolo": "Il Witherite che apre il cielo",
+      "descrizione": [
+        "&7&oIl giorno in cui la Fabbrica Antica tacque per sempre.&r",
+        "Usate la Stella del Nether sull'&cAraldo&r (The Harbinger) e &acombattete insieme&r.",
+        "Lascia un &6Blocco di Witherite&r: al banco dà 9 lingotti. Uno serve al razzo, il resto nelle casse comuni.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 8.0,
+      "y": 39.9,
+      "icona": "cataclysm:witherite_ingot",
+      "dipendenze": [
+        "squadra_contro_l_araldo"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_harbinger",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:witherite_ingot",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ],
+      "sezione": "sez_fabbrica"
+    },
+    {
+      "id": "tuta_spaziale",
+      "titolo": "Tuta spaziale",
+      "sottotitolo": "Una a testa",
+      "descrizione": [
+        "&7&oLassù non c'è aria. Né caldo.&r",
+        "Casco, tuta, pantaloni e stivali spaziali: piastre d'acciaio, lana, vetro. La tuta vuole anche bombole e un ingranaggio dell'ossigeno.",
+        "&aServe un set per ogni giocatore che parte.&r"
+      ],
+      "x": 2.0,
+      "y": 28.3,
+      "icona": "ad_astra:space_helmet",
+      "dipendenze": [
+        "bracci_e_nastri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:space_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:space_suit",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:space_pants",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:space_boots",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_wool",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_spazio"
+    },
+    {
+      "id": "pronti_al_lancio",
+      "titolo": "Pronti al lancio",
+      "sottotitolo": "Carburante, ossigeno, rampa",
+      "descrizione": [
+        "&7&oSul piazzale si prova il conto alla rovescia.&r",
+        "&6Raffineria&r: petrolio dai pozzi negli oceani diventa carburante. Va a corrente: i cavi di MI la alimentano.",
+        "&6Caricatore d'ossigeno&r: dall'acqua riempie le tute. &6Rampa di lancio&r: piastre e aste d'acciaio."
+      ],
+      "x": 4.0,
+      "y": 28.3,
+      "icona": "ad_astra:fuel_bucket",
+      "dipendenze": [
+        "tuta_spaziale"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:fuel_refinery",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:fuel_bucket",
+          "quantita": 3
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:oxygen_loader",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:launch_pad",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bucket",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_spazio"
+    },
+    {
+      "id": "razzo_tier_1",
+      "titolo": "&6&lRazzo Tier 1&r",
+      "sottotitolo": "Il razzo apre l'Era 5",
+      "descrizione": [
+        "&7&oAcciaio della colonia, ingegno dell'officina, il cuore di un colosso.&r",
+        "Nell'&6Assemblatore&r: telaio del motore, 4 piastre d'acciaio di MI, 4 alette e un &cLingotto di Witherite&r.",
+        "Appena qualcuno lo ottiene, &atutta la squadra entra nell'Era 5&r."
+      ],
+      "x": 2.0,
+      "y": 0.75,
+      "icona": "ad_astra:tier_1_rocket",
+      "dipendenze": [
+        "rete_accesa"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:tier_1_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ],
+      "sezione": "sez_cancello"
+    },
+    {
+      "id": "redstone_torch",
+      "titolo": "Torcia di redstone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piccola sorgente di segnale di redstone, qui serve soprattutto come ingrediente dell'emettitore di pietrarossa ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Polvere di redstone, 1x Bastone",
+        "&7Serve per:&r Emettitore di pietrarossa ME"
+      ],
+      "x": 0.0,
+      "y": 31.1,
+      "icona": "minecraft:redstone_torch",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone_torch",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "piston",
+      "titolo": "Pistone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente meccanico che serve in diversi bus della rete AE2, da preparare in anticipo in quantita.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Assi di acacia, 4x Pietranera, 1x Lingotto di ferro, 1x Polvere di redstone",
+        "&7Serve per:&r Incisore, Bus importatore ME, Bus esportatore ME, Bus di immagazzinaggio ME e altro"
+      ],
+      "x": 2.0,
+      "y": 31.1,
+      "icona": "minecraft:piston",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:piston",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "redstone_torch"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "certus_quartz_dust",
+      "titolo": "Polvere di quarzo certus",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere ricavata dal cristallo di quarzo certus, base per diversi materiali della rete.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Cristallo di quarzo certus",
+        "&7Serve per:&r Silicone, Vetro di quarzo, Fibra quarzo"
+      ],
+      "x": 6.0,
+      "y": 15.0,
+      "icona": "ae2:certus_quartz_dust",
+      "dipendenze": [
+        "torchio_e_presse"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:certus_quartz_dust",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "printed_logic_processor",
+      "titolo": "Circuito di logica stampato",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Circuito stampato usato per fabbricare i processori logici di AE2.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Stampo di logica per incisore, 1x Lingotto d'oro",
+        "&7Serve per:&r Processore logico"
+      ],
+      "x": 6.0,
+      "y": 24.0,
+      "icona": "ae2:printed_logic_processor",
+      "dipendenze": [
+        "torchio_e_presse"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:printed_logic_processor",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "printed_calculation_processor",
+      "titolo": "Circuito di calcolo stampato",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Circuito stampato usato per fabbricare i processori di calcolo di AE2.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Stampo di calcolo per incisore, 1x Cristallo di quarzo certus",
+        "&7Serve per:&r Processore di calcolo"
+      ],
+      "x": 6.0,
+      "y": 21.0,
+      "icona": "ae2:printed_calculation_processor",
+      "dipendenze": [
+        "torchio_e_presse"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:printed_calculation_processor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "printed_engineering_processor",
+      "titolo": "Circuito di ingegneria stampato",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Circuito stampato usato per fabbricare i processori di ingegneria di AE2.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Stampo di ingegneria per incisore, 1x Diamante",
+        "&7Serve per:&r Processore di ingegneria"
+      ],
+      "x": 6.0,
+      "y": 22.5,
+      "icona": "ae2:printed_engineering_processor",
+      "dipendenze": [
+        "torchio_e_presse"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:printed_engineering_processor",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "compressor",
+      "titolo": "Compressore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina di Ad Astra necessaria per la preparazione del primo razzo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Lingotto di ferro, 2x Pistone"
+      ],
+      "x": 4.0,
+      "y": 31.1,
+      "icona": "ad_astra:compressor",
+      "dipendenze": [
+        "piston"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:compressor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "quartz_fiber",
+      "titolo": "Fibra quarzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Fibra di vetro di quarzo per il cavo di vetro della rete ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Vetro, 3x Polvere di quarzo certus",
+        "&7Serve per:&r Fluix Cavo di vetro ME"
+      ],
+      "x": 2.0,
+      "y": 37.1,
+      "icona": "ae2:quartz_fiber",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:quartz_fiber",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "redstone_torch"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "quartz_glass",
+      "titolo": "Vetro di quarzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Vetro di quarzo, materiale base per pannelli e celle di immagazzinaggio della rete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Polvere di quarzo certus, 4x Vetro",
+        "&7Serve per:&r Pannello illuminato, Cella di immagazzinaggio da 4k ME, Componente per immagazzinaggio da 4k ME"
+      ],
+      "x": 8.0,
+      "y": 19.5,
+      "icona": "ae2:quartz_glass",
+      "dipendenze": [
+        "certus_quartz_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:quartz_glass",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "silicon",
+      "titolo": "Silicone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Silicone ottenuto dalla fornace, da stampare poi nel circuito stampato.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di quarzo certus",
+        "&7Serve per:&r Silicone stampato"
+      ],
+      "x": 8.0,
+      "y": 15.0,
+      "icona": "ae2:silicon",
+      "dipendenze": [
+        "certus_quartz_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:silicon",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "gas_tank",
+      "titolo": "Serbatoio del gas",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente di Ad Astra per il caricatore di ossigeno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Barra di ferro, 4x Piastra di ferro",
+        "&7Serve per:&r Caricatore di ossigeno"
+      ],
+      "x": 2.0,
+      "y": 34.1,
+      "icona": "ad_astra:gas_tank",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:gas_tank",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "redstone_torch"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "fluix_dust",
+      "titolo": "Polvere di Fluix",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere ricavata dal cristallo di Fluix, serve per i nuclei avanzati della rete.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Cristallo di Fluix",
+        "&7Serve per:&r Nucleo di annientamento, Nucleo di formazione"
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "icona": "ae2:fluix_dust",
+      "dipendenze": [
+        "torchio_e_presse"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:fluix_dust",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "semi_dark_monitor",
+      "titolo": "Pannello illuminato",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Pannello luminoso che fa da schermo per il terminale ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Polvere di luminite, 3x Vetro di quarzo, 1x Lingotto di ferro, 1x Polvere di redstone",
+        "&7Serve per:&r Terminale ME"
+      ],
+      "x": 10.0,
+      "y": 19.5,
+      "icona": "ae2:semi_dark_monitor",
+      "dipendenze": [
+        "quartz_glass"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:semi_dark_monitor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "printed_silicon",
+      "titolo": "Silicone stampato",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Silicone stampato, serve in tutti e tre i tipi di processore di AE2.",
+        "&7Si fa con:&r Incisore",
+        "&7Ingredienti:&r 1x Stampo di silicone per incisore, 1x Silicone",
+        "&7Serve per:&r Processore logico, Processore di calcolo, Processore di ingegneria"
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "icona": "ae2:printed_silicon",
+      "dipendenze": [
+        "silicon"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:printed_silicon",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 45
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "cell_component_1k",
+      "titolo": "Componente per immagazzinaggio da 1k ME",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente base per costruire le celle di immagazzinaggio ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Polvere di redstone, 4x Cristallo di quarzo certus, 1x Processore logico",
+        "&7Serve per:&r Componente per immagazzinaggio da 4k ME"
+      ],
+      "x": 14.0,
+      "y": 15.0,
+      "icona": "ae2:cell_component_1k",
+      "dipendenze": [
+        "processori"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:cell_component_1k",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 85
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "level_emitter",
+      "titolo": "Emettitore di pietrarossa ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che emette un segnale di redstone in base al livello di un oggetto o di un fluido nella rete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Torcia di redstone, 1x Processore di calcolo"
+      ],
+      "x": 2.0,
+      "y": 35.6,
+      "icona": "ae2:level_emitter",
+      "dipendenze": [
+        "redstone_torch"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:level_emitter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 90
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "cell_workbench",
+      "titolo": "Banco da lavoro per celle",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Banco per riempire e configurare le celle di immagazzinaggio ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Lana nera, 1x Processore di calcolo, 5x Lingotto di ferro, 1x Baule"
+      ],
+      "x": 14.0,
+      "y": 16.5,
+      "icona": "ae2:cell_workbench",
+      "dipendenze": [
+        "processori"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:cell_workbench",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 90
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "annihilation_core",
+      "titolo": "Nucleo di annientamento",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Nucleo avanzato di AE2, serve in diverse macchine della rete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Quarzo del Nether, 1x Polvere di Fluix, 1x Processore logico",
+        "&7Serve per:&r Interfaccia ME, Bus importatore ME, Terminale ME"
+      ],
+      "x": 8.0,
+      "y": 13.5,
+      "icona": "ae2:annihilation_core",
+      "dipendenze": [
+        "fluix_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:annihilation_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "formation_core",
+      "titolo": "Nucleo di formazione",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Nucleo avanzato di AE2, serve in diverse macchine della rete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Cristallo di quarzo certus, 1x Polvere di Fluix, 1x Processore logico",
+        "&7Serve per:&r Interfaccia ME, Bus esportatore ME, Terminale ME"
+      ],
+      "x": 8.0,
+      "y": 3.0,
+      "icona": "ae2:formation_core",
+      "dipendenze": [
+        "fluix_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:formation_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "export_bus",
+      "titolo": "Bus esportatore ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Bus che estrae oggetti dalla rete ME e li manda verso una macchina o un inventario collegato.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Lingotto di ferro, 1x Nucleo di formazione, 1x Pistone"
+      ],
+      "x": 10.0,
+      "y": 12.0,
+      "icona": "ae2:export_bus",
+      "dipendenze": [
+        "formation_core"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:export_bus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "import_bus",
+      "titolo": "Bus importatore ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Bus che invia oggetti da un inventario collegato dentro la rete ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Nucleo di annientamento, 2x Lingotto di ferro, 1x Pistone"
+      ],
+      "x": 10.0,
+      "y": 13.5,
+      "icona": "ae2:import_bus",
+      "dipendenze": [
+        "annihilation_core"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:import_bus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "cell_component_4k",
+      "titolo": "Componente per immagazzinaggio da 4k ME",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per costruire la cella di immagazzinaggio da 4k ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Polvere di redstone, 1x Processore di calcolo, 3x Componente per immagazzinaggio da 1k ME, 1x Vetro di quarzo",
+        "&7Serve per:&r Cella di immagazzinaggio da 4k ME"
+      ],
+      "x": 16.0,
+      "y": 15.0,
+      "icona": "ae2:cell_component_4k",
+      "dipendenze": [
+        "cell_component_1k"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:cell_component_4k",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "item_storage_cell_4k",
+      "titolo": "Cella di immagazzinaggio da 4k ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Cella di immagazzinaggio da 4k ME, da inserire in un drive per aumentare lo spazio della rete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Vetro di quarzo, 3x Polvere di redstone, 1x Componente per immagazzinaggio da 4k ME, 2x Lingotto di ferro, 1x Lingotto di rame"
+      ],
+      "x": 18.0,
+      "y": 15.0,
+      "icona": "ae2:item_storage_cell_4k",
+      "dipendenze": [
+        "cell_component_4k"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:item_storage_cell_4k",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "interface",
+      "titolo": "Interfaccia ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Collega la rete ME a un inventario o a una macchina esterna, scambiando oggetti in entrambe le direzioni.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lingotto di ferro, 2x Vetro, 1x Nucleo di annientamento, 1x Nucleo di formazione",
+        "&7Serve per:&r Bus di immagazzinaggio ME"
+      ],
+      "x": 10.0,
+      "y": 10.5,
+      "icona": "ae2:interface",
+      "dipendenze": [
+        "formation_core"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:interface",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "storage_bus",
+      "titolo": "Bus di immagazzinaggio ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Bus che collega un inventario alla rete ME per usarlo come spazio di immagazzinaggio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Pistone, 1x Interfaccia ME"
+      ],
+      "x": 12.0,
+      "y": 10.5,
+      "icona": "ae2:storage_bus",
+      "dipendenze": [
+        "interface"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:storage_bus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "io_port",
+      "titolo": "Porta IO ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Porta che trasferisce oggetti tra la rete ME e le celle di immagazzinaggio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Vetro, 2x Drive ME, 1x Fluix Cavo di vetro ME, 2x Lingotto di ferro, 1x Processore logico"
+      ],
+      "x": 12.0,
+      "y": 6.0,
+      "icona": "ae2:io_port",
+      "dipendenze": [
+        "prima_memoria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:io_port",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "fan",
+      "titolo": "Ventola",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente di Ad Astra per il caricatore di ossigeno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Piastra di acciaio, 1x Barra di acciaio",
+        "&7Serve per:&r Caricatore di ossigeno"
+      ],
+      "x": 2.0,
+      "y": 32.6,
+      "icona": "ad_astra:fan",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:fan",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "redstone_torch"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "crafting_terminal",
+      "titolo": "Terminale con banco da lavoro ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Terminale ME con griglia di crafting integrata, per craftare dalla rete senza spostarsi.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Terminale ME, 1x Banco da fabbricazione, 1x Processore di calcolo",
+        "&7Serve per:&r Terminale per modelli ME"
+      ],
+      "x": 12.0,
+      "y": 3.0,
+      "icona": "ae2:crafting_terminal",
+      "dipendenze": [
+        "prima_memoria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:crafting_terminal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "pattern_encoding_terminal",
+      "titolo": "Terminale per modelli ME",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Terminale per creare e salvare i modelli di crafting della rete ME.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Processore di ingegneria, 1x Terminale con banco da lavoro ME"
+      ],
+      "x": 14.0,
+      "y": 3.0,
+      "icona": "ae2:pattern_encoding_terminal",
+      "dipendenze": [
+        "crafting_terminal"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:pattern_encoding_terminal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    }
+  ]
+}

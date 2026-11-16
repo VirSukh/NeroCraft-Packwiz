@@ -1,0 +1,3453 @@
+{
+  "capitolo": {
+    "id": "era_3_elettricita",
+    "titolo": "Era 3 - Elettricità",
+    "sottotitolo": "Dall'Altoforno Elettrico al Controller ME",
+    "icona": "modern_industrialization:electric_blast_furnace",
+    "ordine": 3,
+    "gruppo": "ere",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/era_3.png",
+        "x": 16.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_industria.png",
+        "x": 0.62,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_rete.png",
+        "x": 1.28,
+        "y": 45.2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_officina.png",
+        "x": 0.52,
+        "y": 48.0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_colonia.png",
+        "x": 0.72,
+        "y": 56.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_mostruosita.png",
+        "x": 1.78,
+        "y": 59.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_equipaggiamento.png",
+        "x": 1.22,
+        "y": 62.4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cancello.png",
+        "x": 34.08,
+        "y": 0.75,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "prima_scintilla",
+      "titolo": "La prima scintilla",
+      "sottotitolo": "Tre fronti per una squadra",
+      "descrizione": [
+        "&7&oL'Altoforno Elettrico è in cortile, ancora spento.&r",
+        "Meta dell'Era 3: il &6Controller ME&r. Chiede 2 Circuiti Elettronici, un &6Nucleo Meccanico&r della colonia, pietra celeste, cristalli di fluix e le &cCorna Mostruose&r del Mostro di Netherite.",
+        "&aDividetevi: industria, colonia e spedizione nel Nether.&r"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "icona": "minecraft:redstone",
+      "dipendenze": [
+        "era_2_vapore/altoforno_elettrico"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Abbiamo deciso chi fa cosa"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "gomma_sintetica",
+      "titolo": "Gomma sintetica",
+      "sottotitolo": "Senza isolante niente cavi",
+      "descrizione": [
+        "&7&oUn odore di catrame invade l'officina.&r",
+        "Nel &6Miscelatore di Bronzo&r: polvere di coke e acqua danno olio sintetico grezzo.",
+        "Raffinalo nell'Altoforno a Vapore, poi di nuovo nel Miscelatore con carta: &6fogli di gomma&r."
+      ],
+      "x": 2.0,
+      "y": 37.5,
+      "icona": "modern_industrialization:rubber_sheet",
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:rubber_sheet",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:paper",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "fili_e_cavi",
+      "titolo": "Fili e cavi",
+      "sottotitolo": "Le vene dell'elettricità",
+      "descrizione": [
+        "&7&oMatasse di filo pendono dalle travi del laboratorio.&r",
+        "La &6Trafila d'Acciaio&r trasforma piastre di rame e stagno in fili.",
+        "Cavo di stagno: 3 fili tra 6 fogli di gomma. È il cavo dell'energia a bassa tensione (LV)."
+      ],
+      "x": 6.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:tin_cable",
+      "dipendenze": [
+        "tin_wire"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_cable",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_wire",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_tin",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "circuito_analogico",
+      "titolo": "Circuito Analogico",
+      "sottotitolo": "Il cervello di ogni macchina LV",
+      "descrizione": [
+        "&7&oIl primo circuito si accende al primo colpo. Quasi.&r",
+        "Scheda: piastra di rame tra due fogli di gomma.",
+        "Sopra: 2 resistori (fili sottili di rame, polvere di carbone, carta), 2 condensatori (piastre d'oro, fili, gomma), un induttore (fili attorno a un'asta d'acciaio) e 3 fili di rame."
+      ],
+      "x": 12.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:analog_circuit",
+      "dipendenze": [
+        "resistor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:analog_circuit",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "scafo_di_macchina",
+      "titolo": "Scafo di macchina base",
+      "sottotitolo": "Batteria, circuito, cavi",
+      "descrizione": [
+        "&7&oUn guscio d'acciaio pronto a ricevere corrente.&r",
+        "&6Batteria di redstone&r: lega per batterie (piombo e antimonio) e redstone, con un cavo di stagno.",
+        "Scafo: Involucro d'Acciaio, 2 batterie, un Circuito Analogico e 3 cavi di stagno. &aOgni macchina elettrica ne chiede uno.&r"
+      ],
+      "x": 16.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:basic_machine_hull",
+      "dipendenze": [
+        "redstone_battery"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:basic_machine_hull",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_lead",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "turbina_a_vapore",
+      "titolo": "Turbina a Vapore",
+      "sottotitolo": "Il vapore diventa corrente",
+      "descrizione": [
+        "&7&oLa colonia vede la prima lampadina accesa.&r",
+        "Motore: asta d'acciaio magnetica (asta e 8 redstone al banco), aste d'acciaio, fili di rame, cavi di stagno.",
+        "Turbina LV: scafo, circuito, 2 motori, rotori di stagno e tubi. Portale il vapore delle caldaie e collega i cavi."
+      ],
+      "x": 18.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:lv_steam_turbine",
+      "dipendenze": [
+        "scafo_di_macchina"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:lv_steam_turbine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal_block",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "macchine_elettriche",
+      "titolo": "Macchine elettriche",
+      "sottotitolo": "Più veloci del vapore",
+      "descrizione": [
+        "&7&oLe macine a vapore vanno in pensione.&r",
+        "Ogni macchina elettrica parte da uno scafo: la ricetta è nel libro guida e in JEI.",
+        "&6Miscelatore&r per invar (ferro e nichel) e cupronichel (rame e nichel), &6Macinatore&r per raddoppiare i minerali."
+      ],
+      "x": 20.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:electric_mixer",
+      "dipendenze": [
+        "turbina_a_vapore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_mixer",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_macerator",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_nickel",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "bobine_e_involucri",
+      "titolo": "Accendere l'Altoforno",
+      "sottotitolo": "Bobine, involucri, corrente",
+      "descrizione": [
+        "&7&oIl cuore di Ignis comincia a scaldarsi.&r",
+        "Involucro resistente al calore: 8 piastre d'invar e un ingranaggio d'invar. Bobina: 8 cavi di cupronichel.",
+        "Serve anche un &6portello d'ingresso energia LV&r. Con la Chiave inglese in mano l'ologramma mostra dove va tutto."
+      ],
+      "x": 22.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:cupronickel_coil",
+      "dipendenze": [
+        "macchine_elettriche"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_coil",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:heatproof_machine_casing",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:lv_energy_input_hatch",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "L'Altoforno Elettrico è formato e acceso"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "silicio",
+      "titolo": "Silicio",
+      "sottotitolo": "Sabbia di quarzo e coke",
+      "descrizione": [
+        "&7&oDal forno esce una polvere grigia e lucente.&r",
+        "Nell'Altoforno Elettrico: polvere di quarzo e polvere di coke danno polvere di silicio.",
+        "Cuocila in fornace e pressala in &6piastre di silicio&r."
+      ],
+      "x": 24.0,
+      "y": 4.5,
+      "icona": "modern_industrialization:silicon_plate",
+      "dipendenze": [
+        "bobine_e_involucri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silicon_plate",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:quartz",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "alluminio",
+      "titolo": "Alluminio",
+      "sottotitolo": "Il metallo leggero",
+      "descrizione": [
+        "&7&oI minatori tornano con sacchi di terra rossa.&r",
+        "La &6bauxite&r si trova in profondità. Macinala, compatta la polvere in blocchi e cuocili nell'Altoforno Elettrico.",
+        "Il forno è lento: &atenetelo sempre acceso&r."
+      ],
+      "x": 24.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:aluminum_ingot",
+      "dipendenze": [
+        "bobine_e_involucri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:aluminum_ingot",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal_block",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "scheda_elettronica",
+      "titolo": "Scheda Elettronica",
+      "sottotitolo": "Alluminio ed elettro",
+      "descrizione": [
+        "&7&oLa scheda nuova pesa la metà e conduce il doppio.&r",
+        "3 piastre d'alluminio, 4 cavi d'elettro (oro e argento nel Miscelatore), una scheda analogica e una batteria di redstone."
+      ],
+      "x": 28.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:electronic_circuit_board",
+      "dipendenze": [
+        "aluminum_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electronic_circuit_board",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "transistor_e_diodi",
+      "titolo": "Transistor e diodi",
+      "sottotitolo": "Silicio, acciaio ed elettro",
+      "descrizione": [
+        "&7&oPezzi minuscoli, mani ferme.&r",
+        "Transistor: filo sottile d'elettro, 3 piastre d'acciaio e 3 di silicio.",
+        "Diodo: fili sottili d'elettro, piastre d'acciaio, una di silicio e vetro."
+      ],
+      "x": 26.0,
+      "y": 4.5,
+      "icona": "modern_industrialization:transistor",
+      "dipendenze": [
+        "silicio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:transistor",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:diode",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:glass",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "circuito_elettronico",
+      "titolo": "Circuito Elettronico",
+      "sottotitolo": "Due per il Controller",
+      "descrizione": [
+        "&7&oIl circuito più complesso mai visto a NeroCraft.&r",
+        "Scheda elettronica, 4 Circuiti Analogici, 2 transistor e 2 diodi.",
+        "Al Controller ME ne servono &62&r."
+      ],
+      "x": 30.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:electronic_circuit",
+      "dipendenze": [
+        "scheda_elettronica"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electronic_circuit",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "officina_del_meccanico",
+      "titolo": "Officina del Meccanico",
+      "sottotitolo": "La colonia entra nell'era elettrica",
+      "descrizione": [
+        "&7&oUn colono chiede una chiave inglese e un grembiule.&r",
+        "Il &6Meccanico&r di livello 3 è l'unico che sa montare il Nucleo Meccanico, pezzo del Controller ME.",
+        "Costruitelo e migliorateci sopra: tenete pieno il Magazzino."
+      ],
+      "x": 0.0,
+      "y": 57.9,
+      "icona": "minecolonies:blockhutmechanic",
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Meccanico è al livello 3"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_colonia",
+      "nascondi_linee": true
+    },
+    {
+      "id": "nucleo_meccanico",
+      "titolo": "Nucleo Meccanico",
+      "sottotitolo": "Lavoro della colonia",
+      "descrizione": [
+        "&7&oIl Meccanico lo gira tra le mani: funziona.&r",
+        "Non si fa al banco. Il Meccanico usa 2 motori, 2 ingranaggi d'acciaio, 2 Circuiti Analogici e 4 redstone.",
+        "Nel Magazzino, scheda Scorta minima, chiedi il Nucleo e metti i materiali negli scaffali."
+      ],
+      "x": 2.0,
+      "y": 57.9,
+      "icona": "kubejs:nucleo_meccanico_colonia",
+      "dipendenze": [
+        "officina_del_meccanico"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "kubejs:nucleo_meccanico_colonia",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "involucro_avanzato",
+      "titolo": "Involucro Avanzato",
+      "sottotitolo": "Il Telaio della colonia serve qui",
+      "descrizione": [
+        "Piastre d'acciaio, 2 Circuiti Analogici, 2 cavi di stagno e un &6Telaio Strutturale Rinforzato&r del Falegname.",
+        "Base delle macchine a media tensione (MV)."
+      ],
+      "x": 14.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:advanced_machine_casing",
+      "dipendenze": [
+        "circuito_analogico",
+        "era_2_vapore/primo_telaio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:advanced_machine_casing",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_log",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "pietra_celeste",
+      "titolo": "Pietra celeste",
+      "sottotitolo": "Un meteorite nella foresta",
+      "descrizione": [
+        "&7&oUn cratere fumante a nord della colonia.&r",
+        "Metti una bussola nel &6Caricatore&r di AE2 (girando la manovella): diventa una bussola dei meteoriti.",
+        "Nel meteorite: &6pietra celeste&r e quarzo certus. Cuoci la pietra: il Controller chiede 4 blocchi lisci."
+      ],
+      "x": 0.0,
+      "y": 46.3,
+      "icona": "ae2:sky_stone_block",
+      "dipendenze": [
+        "sky_stone_block"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:smooth_sky_stone_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_rete",
+      "nascondi_linee": true
+    },
+    {
+      "id": "cristalli_di_fluix",
+      "titolo": "Cristalli di fluix",
+      "sottotitolo": "Quarzo, redstone e acqua",
+      "descrizione": [
+        "&7&oL'acqua della fontana brilla di viola.&r",
+        "Carica il quarzo certus nel Caricatore. Gettalo in acqua con redstone e quarzo del Nether: &6cristalli di fluix&r.",
+        "Ne basta uno per il Controller, ma la rete ME ne mangerà molti."
+      ],
+      "x": 2.0,
+      "y": 46.3,
+      "icona": "ae2:fluix_crystal",
+      "dipendenze": [
+        "pietra_celeste"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:fluix_crystal",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:quartz",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_rete"
+    },
+    {
+      "id": "occhio_del_mostruoso",
+      "titolo": "Occhio del Mostruoso",
+      "sottotitolo": "Una bussola per la fucina",
+      "descrizione": [
+        "&7&oDi nuovo nel Nether, stavolta per qualcosa di peggio.&r",
+        "4 secchi di lava, 2 frammenti di netherite, 2 pietre nere e un occhio di ender.",
+        "Lanciato come un occhio di ender, indica il &6Fabbro dell'anima&r, la fucina del Mostro di Netherite."
+      ],
+      "x": 0.0,
+      "y": 60.7,
+      "icona": "cataclysm:monstrous_eye",
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:monstrous_eye",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_mostruosita",
+      "nascondi_linee": true
+    },
+    {
+      "id": "fabbro_dell_anima",
+      "titolo": "Il Fabbro dell'anima",
+      "sottotitolo": "Dove il mostro viene forgiato",
+      "descrizione": [
+        "&7&oUna fucina enorme, ancora calda, in fondo a una valle di anime.&r",
+        "Seguite l'Occhio fino alla struttura e &asegnate la posizione&r: una waystone qui risparmia lunghe camminate."
+      ],
+      "x": 2.0,
+      "y": 60.7,
+      "icona": "minecraft:soul_sand",
+      "dipendenze": [
+        "occhio_del_mostruoso"
+      ],
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_soul_black_smith"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_mostruosita"
+    },
+    {
+      "id": "squadra_contro_il_mostro",
+      "titolo": "Squadra contro il Mostro",
+      "sottotitolo": "Netherite contro netherite",
+      "descrizione": [
+        "&7&oPiù grosso di Ignis, più duro, più arrabbiato.&r",
+        "Il &cMostro di Netherite&r è pensato per tutta la squadra: &adecidete chi incassa, chi cura e chi colpisce da lontano&r.",
+        "&cÈ più forte di Ignis e cresce con le ere e a ogni uccisione.&r Armature rinforzate, cibo, pozioni di resistenza al fuoco."
+      ],
+      "x": 4.0,
+      "y": 60.7,
+      "icona": "minecraft:shield",
+      "dipendenze": [
+        "fabbro_dell_anima"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi, equipaggiamento pronto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_mostruosita"
+    },
+    {
+      "id": "mostruosita",
+      "titolo": "Il Mostro di Netherite",
+      "sottotitolo": "Le corna che aprono la rete",
+      "descrizione": [
+        "&7&oIl giorno in cui NeroCraft spense la fucina.&r",
+        "Il Mostro fa la guardia al Fabbro dell'anima: &acombattete insieme&r.",
+        "Lascia le &6Corna Mostruose&r: una serve al Controller ME, il resto nelle casse comuni.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 6.0,
+      "y": 60.7,
+      "icona": "cataclysm:monstrous_horn",
+      "dipendenze": [
+        "squadra_contro_il_mostro"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:netherite_monstrosity",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:monstrous_horn",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ],
+      "sezione": "sez_mostruosita"
+    },
+    {
+      "id": "controller_me",
+      "titolo": "&6&lController ME&r",
+      "sottotitolo": "Il cuore della rete apre l'Era 4",
+      "descrizione": [
+        "&7&oCorna di un mostro, un nucleo della colonia, circuiti dell'officina.&r",
+        "Al banco: &6Corna Mostruose&r al centro, 2 Circuiti Elettronici ai lati, Nucleo Meccanico sotto, cristallo di fluix sopra, 4 blocchi lisci di pietra celeste negli angoli.",
+        "Appena qualcuno lo ottiene, &atutta la squadra entra nell'Era 4&r."
+      ],
+      "x": 32.0,
+      "y": 0.75,
+      "icona": "ae2:controller",
+      "dipendenze": [
+        "circuito_elettronico"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:controller",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ],
+      "sezione": "sez_cancello"
+    },
+    {
+      "id": "zaino_d_oro",
+      "titolo": "Zaino più capiente",
+      "sottotitolo": "Gettoni dal Nether",
+      "descrizione": [
+        "Lo Zaino non si potenzia al banco: slot e alloggiamenti si sbloccano con i &egettoni&r, e i gettoni li lasciano solo i boss.",
+        "Sconfiggete &6la Netherite Monstrosity&r: ognuno di voi entro 64 blocchi riceve &e3 gettoni&r la prima volta, &e1&r le successive.",
+        "&7Costi: &e1 gettone&7 per slot (36 da sbloccare oltre ai 9 iniziali, fino a 9x5); alloggiamenti per potenziamenti &e2/3/4/5&7 gettoni.&r",
+        "&7I gettoni sono legati a chi li riceve: non si scambiano.&r"
+      ],
+      "x": 0.0,
+      "y": 63.5,
+      "icona": "backpacked:unlock_token",
+      "dipendenze": [
+        "circuito_elettronico",
+        "era_2_vapore/zaino_di_ferro"
+      ],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:netherite_monstrosity",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "sky_stone_block",
+      "titolo": "Roccia del cielo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Blocco da costruzione che trovate nel mondo.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Blocco di roccia del cielo"
+      ],
+      "x": 2.0,
+      "y": 43.5,
+      "icona": "ae2:sky_stone_block",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:sky_stone_block",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_lead",
+      "titolo": "Piombo grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale da raccogliere e poi macinare in polvere.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Polvere di piombo"
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:raw_lead",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_lead",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_antimony",
+      "titolo": "Antimonio grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale da raccogliere e poi macinare in polvere.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Polvere di antimonio"
+      ],
+      "x": 2.0,
+      "y": 39.0,
+      "icona": "modern_industrialization:raw_antimony",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_antimony",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bauxite_ore",
+      "titolo": "Minerale di bauxite",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale dell'alluminio: va macinato prima di essere lavorato.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Polvere di bauxite frantumata"
+      ],
+      "x": 2.0,
+      "y": 33.0,
+      "icona": "modern_industrialization:bauxite_ore",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bauxite_ore",
+          "quantita": 40
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 15
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "charger",
+      "titolo": "Caricatore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che carica il cristallo di quarzo certus per la strada verso AE2.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Lingotto di ferro, 2x Lingotto di rame",
+        "&7Serve per:&r Cristallo di quarzo certus carico"
+      ],
+      "x": 2.0,
+      "y": 36.0,
+      "icona": "ae2:charger",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:charger",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "charged_certus_quartz_crystal",
+      "titolo": "Cristallo di quarzo certus carico",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Cristallo caricato nel Caricatore: serve per il cristallo di Fluix di AE2.",
+        "&7Si fa con:&r Caricatore",
+        "&7Ingredienti:&r 1x Cristallo di quarzo certus",
+        "&7Serve per:&r Cristallo di Fluix"
+      ],
+      "x": 4.0,
+      "y": 36.0,
+      "icona": "ae2:charged_certus_quartz_crystal",
+      "dipendenze": [
+        "charger"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ae2:charged_certus_quartz_crystal",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "gold_dust",
+      "titolo": "Polvere d'oro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere ottenuta battendo l'oro grezzo.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Oro grezzo",
+        "&7Serve per:&r Polvere di elettro"
+      ],
+      "x": 2.0,
+      "y": 40.5,
+      "icona": "modern_industrialization:gold_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:gold_dust",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "gold_plate",
+      "titolo": "Piastra d'oro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lamina d'oro ricavata dal lingotto, usata nei condensatori.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto d'oro",
+        "&7Serve per:&r Condensatore"
+      ],
+      "x": 2.0,
+      "y": 42.0,
+      "icona": "modern_industrialization:gold_plate",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:gold_plate",
+          "quantita": 64
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "tin_ring",
+      "titolo": "Anello di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per rotori e ingranaggi di stagno.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto di stagno",
+        "&7Serve per:&r Rotore di stagno, Ingranaggio di stagno"
+      ],
+      "x": 0.0,
+      "y": 49.1,
+      "icona": "modern_industrialization:tin_ring",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_ring",
+          "quantita": 6
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "tin_rod",
+      "titolo": "Asta di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per lame di stagno e pannelli solari LV.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto di stagno",
+        "&7Serve per:&r Lama di stagno, Pannello solare LV"
+      ],
+      "x": 2.0,
+      "y": 50.6,
+      "icona": "modern_industrialization:tin_rod",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_rod",
+          "quantita": 6
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "tin_ring"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "tin_curved_plate",
+      "titolo": "Piastra curva di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per le lame di stagno.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto di stagno",
+        "&7Serve per:&r Lama di stagno"
+      ],
+      "x": 2.0,
+      "y": 53.6,
+      "icona": "modern_industrialization:tin_curved_plate",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_curved_plate",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "tin_ring"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "tin_plate",
+      "titolo": "Piastra di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra base per filo e ingranaggi di stagno.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto di stagno",
+        "&7Serve per:&r Filo di stagno, Ingranaggio di stagno"
+      ],
+      "x": 2.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:tin_plate",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_plate",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "tin_bolt",
+      "titolo": "Bullone di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per rotori, pompe e ingranaggi di stagno.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto di stagno",
+        "&7Serve per:&r Rotore di stagno, Pompa, Ingranaggio di stagno"
+      ],
+      "x": 2.0,
+      "y": 52.1,
+      "icona": "modern_industrialization:tin_bolt",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_bolt",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "tin_ring"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "tin_blade",
+      "titolo": "Lama di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il rotore di stagno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Piastra curva di stagno, 1x Asta di stagno",
+        "&7Serve per:&r Rotore di stagno"
+      ],
+      "x": 4.0,
+      "y": 50.6,
+      "icona": "modern_industrialization:tin_blade",
+      "dipendenze": [
+        "tin_rod"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_blade",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "tin_gear",
+      "titolo": "Ingranaggio di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il generatore diesel LV.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Piastra di stagno, 4x Bullone di stagno, 1x Anello di stagno",
+        "&7Serve per:&r Generatore diesel LV"
+      ],
+      "x": 2.0,
+      "y": 55.1,
+      "icona": "modern_industrialization:tin_gear",
+      "dipendenze": [
+        "tin_ring"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_gear",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "tin_rotor",
+      "titolo": "Rotore di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo usato in molte macchine LV: conviene prepararne qualcuno in anticipo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Bullone di stagno, 4x Lama di stagno, 1x Anello di stagno",
+        "&7Serve per:&r Turbina a vapore LV, Miscelatore elettrico, Pompa, Fonderia di leghe elettrica e altro"
+      ],
+      "x": 6.0,
+      "y": 50.6,
+      "icona": "modern_industrialization:tin_rotor",
+      "dipendenze": [
+        "tin_blade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_rotor",
+          "quantita": 6
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 75
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_rod",
+      "titolo": "Asta d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente base per induttori, motori e pistoni.",
+        "&7Si fa con:&r Martello da fucina",
+        "&7Ingredienti:&r 1x Lingotto d'acciaio",
+        "&7Serve per:&r Induttore, Motore, Asta magnetica d'acciaio, Pistone e altro"
+      ],
+      "x": 2.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:steel_rod",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_rod",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "steel_rod_magnetic",
+      "titolo": "Asta magnetica d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il motore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Polvere di redstone, 1x Asta d'acciaio",
+        "&7Serve per:&r Motore"
+      ],
+      "x": 4.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:steel_rod_magnetic",
+      "dipendenze": [
+        "steel_rod"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_rod_magnetic",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "antimony_dust",
+      "titolo": "Polvere di antimonio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingrediente della lega per batterie.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Antimonio grezzo",
+        "&7Serve per:&r Polvere di lega per batterie"
+      ],
+      "x": 4.0,
+      "y": 39.0,
+      "icona": "modern_industrialization:antimony_dust",
+      "dipendenze": [
+        "raw_antimony"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:antimony_dust",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "lead_dust",
+      "titolo": "Polvere di piombo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingrediente della lega per batterie.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Piombo grezzo",
+        "&7Serve per:&r Polvere di lega per batterie"
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:lead_dust",
+      "dipendenze": [
+        "raw_lead"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:lead_dust",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "quartz_dust",
+      "titolo": "Polvere di quarzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere da cui si ricava la polvere di silicio.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Quarzo del Nether",
+        "&7Serve per:&r Polvere di silicio"
+      ],
+      "x": 2.0,
+      "y": 34.5,
+      "icona": "modern_industrialization:quartz_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:quartz_dust",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "silver_dust",
+      "titolo": "Polvere d'argento",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingrediente dell'elettro.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Argento grezzo",
+        "&7Serve per:&r Polvere di elettro"
+      ],
+      "x": 2.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:silver_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silver_dust",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "prima_scintilla"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bauxite_crushed_dust",
+      "titolo": "Polvere di bauxite frantumata",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Primo stadio della bauxite: va macinata ancora una volta.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Minerale di bauxite",
+        "&7Serve per:&r Polvere di bauxite"
+      ],
+      "x": 4.0,
+      "y": 33.0,
+      "icona": "modern_industrialization:bauxite_crushed_dust",
+      "dipendenze": [
+        "bauxite_ore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bauxite_crushed_dust",
+          "quantita": 64
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "bauxite_dust",
+      "titolo": "Polvere di bauxite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere di bauxite pronta per il blocco e per l'alluminio.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Polvere di bauxite frantumata",
+        "&7Serve per:&r Blocco di bauxite"
+      ],
+      "x": 6.0,
+      "y": 33.0,
+      "icona": "modern_industrialization:bauxite_dust",
+      "dipendenze": [
+        "bauxite_crushed_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bauxite_dust",
+          "quantita": 64
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "electrum_dust",
+      "titolo": "Polvere di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere che diventa lingotto di elettro nella fornace.",
+        "&7Si fa con:&r Miscelatore di bronzo",
+        "&7Ingredienti:&r 1x Polvere d'oro, 1x Polvere d'argento",
+        "&7Serve per:&r Lingotto di elettro"
+      ],
+      "x": 4.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:electrum_dust",
+      "dipendenze": [
+        "silver_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_dust",
+          "quantita": 9
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cupronickel_dust",
+      "titolo": "Polvere di cupronichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il cupronichel.",
+        "&7Si fa con:&r Miscelatore di bronzo",
+        "&7Ingredienti:&r 1x Polvere di rame, 1x Polvere di nichel",
+        "&7Serve per:&r Lingotto di cupronichel"
+      ],
+      "x": 2.0,
+      "y": 49.1,
+      "icona": "modern_industrialization:cupronickel_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_dust",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "tin_ring"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "electrum_ingot",
+      "titolo": "Lingotto di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto da cui si ricava la piastra di elettro.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di elettro",
+        "&7Serve per:&r Piastra di elettro"
+      ],
+      "x": 6.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:electrum_ingot",
+      "dipendenze": [
+        "electrum_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_ingot",
+          "quantita": 9
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cupronickel_ingot",
+      "titolo": "Lingotto di cupronichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il cupronichel.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di cupronichel",
+        "&7Serve per:&r Piastra di cupronichel"
+      ],
+      "x": 4.0,
+      "y": 49.1,
+      "icona": "modern_industrialization:cupronickel_ingot",
+      "dipendenze": [
+        "cupronickel_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_ingot",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "analog_circuit_board",
+      "titolo": "Scheda del circuito analogico",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Base dei circuiti analogici: ne servono molti per le macchine LV.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Foglio di gomma, 1x Piastra di rame",
+        "&7Serve per:&r Circuito analogico, Scheda circuito elettronica, Potenziamento base"
+      ],
+      "x": 4.0,
+      "y": 37.5,
+      "icona": "modern_industrialization:analog_circuit_board",
+      "dipendenze": [
+        "gomma_sintetica"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:analog_circuit_board",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "silicon_dust",
+      "titolo": "Polvere di silicio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Richiede un forno a esplosione elettrico: conviene automatizzarlo.",
+        "&7Si fa con:&r Forno a esplosione elettrico",
+        "&7Ingredienti:&r 1x Polvere di quarzo, 1x Polvere di coke",
+        "&7Serve per:&r Lingotto di silicio, Batteria di silicio"
+      ],
+      "x": 4.0,
+      "y": 34.5,
+      "icona": "modern_industrialization:silicon_dust",
+      "dipendenze": [
+        "quartz_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silicon_dust",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "silicon_ingot",
+      "titolo": "Lingotto di silicio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto di silicio, base per la piastra di silicio.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di silicio",
+        "&7Serve per:&r Piastra di silicio"
+      ],
+      "x": 6.0,
+      "y": 34.5,
+      "icona": "modern_industrialization:silicon_ingot",
+      "dipendenze": [
+        "silicon_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silicon_ingot",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "tin_wire",
+      "titolo": "Filo di stagno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo base per cavi e polarizzatori.",
+        "&7Si fa con:&r Trafilatrice d'acciaio",
+        "&7Ingredienti:&r 1x Piastra di stagno",
+        "&7Serve per:&r Cavo di stagno, Polarizzatore"
+      ],
+      "x": 4.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:tin_wire",
+      "dipendenze": [
+        "tin_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_wire",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "battery_alloy_dust",
+      "titolo": "Polvere di lega per batterie",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Miscela per la lega delle batterie.",
+        "&7Si fa con:&r Miscelatore di bronzo",
+        "&7Ingredienti:&r 1x Polvere di piombo, 1x Polvere di antimonio",
+        "&7Serve per:&r Lingotto di lega per batterie"
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:battery_alloy_dust",
+      "dipendenze": [
+        "lead_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:battery_alloy_dust",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "battery_alloy_ingot",
+      "titolo": "Lingotto di lega per batterie",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto della lega per batterie, da compattare in piastra.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di lega per batterie",
+        "&7Serve per:&r Piastra di lega per batterie"
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:battery_alloy_ingot",
+      "dipendenze": [
+        "battery_alloy_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:battery_alloy_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cupronickel_plate",
+      "titolo": "Piastra di cupronichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il filo di cupronichel.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di cupronichel",
+        "&7Serve per:&r Filo di cupronichel"
+      ],
+      "x": 6.0,
+      "y": 49.1,
+      "icona": "modern_industrialization:cupronickel_plate",
+      "dipendenze": [
+        "cupronickel_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_plate",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electrum_plate",
+      "titolo": "Piastra di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra da cui si ricava il filo di elettro.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di elettro",
+        "&7Serve per:&r Filo di elettro"
+      ],
+      "x": 8.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:electrum_plate",
+      "dipendenze": [
+        "electrum_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_plate",
+          "quantita": 9
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "inductor",
+      "titolo": "Induttore",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per circuiti analogici e polarizzatori.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 8x Filo di rame, 1x Asta d'acciaio",
+        "&7Serve per:&r Circuito analogico, Polarizzatore"
+      ],
+      "x": 8.0,
+      "y": 28.5,
+      "icona": "modern_industrialization:inductor",
+      "dipendenze": [
+        "fili_e_cavi"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:inductor",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "bauxite_block",
+      "titolo": "Blocco di bauxite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Blocco di polvere di bauxite, da cui si ottiene l'alluminio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 9x Polvere di bauxite",
+        "&7Serve per:&r Lingotto di alluminio"
+      ],
+      "x": 8.0,
+      "y": 33.0,
+      "icona": "modern_industrialization:bauxite_block",
+      "dipendenze": [
+        "bauxite_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bauxite_block",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "battery_alloy_plate",
+      "titolo": "Piastra di lega per batterie",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra base per le batterie di redstone e di silicio.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di lega per batterie",
+        "&7Serve per:&r Batteria di redstone, Piastra curva di lega per batterie, Batteria di silicio"
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:battery_alloy_plate",
+      "dipendenze": [
+        "battery_alloy_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:battery_alloy_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "battery_alloy_curved_plate",
+      "titolo": "Piastra curva di lega per batterie",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per le batterie di redstone e di silicio.",
+        "&7Si fa con:&r Macchina piegatrice di bronzo",
+        "&7Ingredienti:&r 1x Piastra di lega per batterie",
+        "&7Serve per:&r Batteria di redstone, Batteria di silicio"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:battery_alloy_curved_plate",
+      "dipendenze": [
+        "battery_alloy_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:battery_alloy_curved_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "copper_cable",
+      "titolo": "Cavo di rame",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Cavo facoltativo per collegare le macchine elettriche.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Foglio di gomma, 3x Filo di rame"
+      ],
+      "x": 8.0,
+      "y": 27.0,
+      "icona": "modern_industrialization:copper_cable",
+      "dipendenze": [
+        "fili_e_cavi"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_cable",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "capacitor",
+      "titolo": "Condensatore",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per il circuito analogico.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Piastra d'oro, 2x Filo di rame, 1x Foglio di gomma",
+        "&7Serve per:&r Circuito analogico"
+      ],
+      "x": 8.0,
+      "y": 25.5,
+      "icona": "modern_industrialization:capacitor",
+      "dipendenze": [
+        "fili_e_cavi"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:capacitor",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "copper_fine_wire",
+      "titolo": "Filo sottile di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo sottile necessario per i resistori.",
+        "&7Si fa con:&r Trafilatrice d'acciaio",
+        "&7Ingredienti:&r 1x Filo di rame",
+        "&7Serve per:&r Resistore"
+      ],
+      "x": 8.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:copper_fine_wire",
+      "dipendenze": [
+        "fili_e_cavi"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_fine_wire",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "resistor",
+      "titolo": "Resistore",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per il circuito analogico.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Carta, 2x Filo sottile di rame, 1x Polvere di carbone",
+        "&7Serve per:&r Circuito analogico"
+      ],
+      "x": 10.0,
+      "y": 24.0,
+      "icona": "modern_industrialization:resistor",
+      "dipendenze": [
+        "copper_fine_wire"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:resistor",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "electrum_wire",
+      "titolo": "Filo di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo base per il cavo di elettro e il filo sottile di elettro.",
+        "&7Si fa con:&r Trafilatrice d'acciaio",
+        "&7Ingredienti:&r 1x Piastra di elettro",
+        "&7Serve per:&r Filo sottile di elettro, Cavo di elettro"
+      ],
+      "x": 10.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:electrum_wire",
+      "dipendenze": [
+        "electrum_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_wire",
+          "quantita": 20
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cupronickel_wire",
+      "titolo": "Filo di cupronichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo facoltativo per il filo magnetico di cupronichel.",
+        "&7Si fa con:&r Trafilatrice d'acciaio",
+        "&7Ingredienti:&r 1x Piastra di cupronichel",
+        "&7Serve per:&r Filo magnetico di cupronichel"
+      ],
+      "x": 8.0,
+      "y": 49.1,
+      "icona": "modern_industrialization:cupronickel_wire",
+      "dipendenze": [
+        "cupronickel_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_wire",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "aluminum_plate",
+      "titolo": "Piastra di alluminio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra per la scheda del circuito elettronico.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di alluminio",
+        "&7Serve per:&r Scheda circuito elettronica"
+      ],
+      "x": 26.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:aluminum_plate",
+      "dipendenze": [
+        "alluminio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:aluminum_plate",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "aluminum_rod",
+      "titolo": "Asta di alluminio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il motore grande.",
+        "&7Si fa con:&r Macchina da taglio di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di alluminio, 1 mB di Lubrificante",
+        "&7Serve per:&r Motore grande"
+      ],
+      "x": 26.0,
+      "y": 3.0,
+      "icona": "modern_industrialization:aluminum_rod",
+      "dipendenze": [
+        "alluminio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:aluminum_rod",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electrum_cable",
+      "titolo": "Cavo di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Cavo per circuiti, scocche avanzate e batterie di silicio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Foglio di gomma, 3x Filo di elettro",
+        "&7Serve per:&r Scheda circuito elettronica, Scocca di macchina avanzata, Batteria di silicio"
+      ],
+      "x": 12.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:electrum_cable",
+      "dipendenze": [
+        "electrum_wire"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_cable",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "electrum_fine_wire",
+      "titolo": "Filo sottile di elettro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo sottile per diodi e transistor.",
+        "&7Si fa con:&r Trafilatrice d'acciaio",
+        "&7Ingredienti:&r 1x Filo di elettro",
+        "&7Serve per:&r Diodo, Transistor"
+      ],
+      "x": 12.0,
+      "y": 31.5,
+      "icona": "modern_industrialization:electrum_fine_wire",
+      "dipendenze": [
+        "electrum_wire"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electrum_fine_wire",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "motor",
+      "titolo": "Motore",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per molte macchine elettriche.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Cavo di stagno, 4x Filo di rame, 2x Asta d'acciaio, 1x Asta magnetica d'acciaio",
+        "&7Serve per:&r Turbina a vapore LV, Macinatore elettrico, Pistone, Macchina da taglio elettrica e altro"
+      ],
+      "x": 6.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:motor",
+      "dipendenze": [
+        "steel_rod_magnetic"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:motor",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "pump",
+      "titolo": "Pompa",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per il generatore diesel LV e la macchina per inscatolamento.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Tubo per fluidi, 3x Rotore di stagno, 1x Motore, 2x Bullone di stagno",
+        "&7Serve per:&r Generatore diesel LV, Macchina per inscatolamento elettrica"
+      ],
+      "x": 8.0,
+      "y": 18.0,
+      "icona": "modern_industrialization:pump",
+      "dipendenze": [
+        "motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:pump",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "redstone_battery",
+      "titolo": "Batteria di redstone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Batteria base per la scocca di macchina base.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Cavo di stagno, 1x Piastra di lega per batterie, 4x Piastra curva di lega per batterie, 2x Polvere di redstone",
+        "&7Serve per:&r Scheda circuito elettronica, Scocca di macchina base"
+      ],
+      "x": 14.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:redstone_battery",
+      "dipendenze": [
+        "battery_alloy_curved_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:redstone_battery",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "conveyor",
+      "titolo": "Nastro trasportatore",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Nastro per spostare oggetti tra le macchine: utile per le linee di produzione.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Foglio di gomma, 2x Motore, 1x Cavo di stagno",
+        "&7Serve per:&r Macchina da taglio elettrica, Imballatore elettrico, Disimballatore elettrico, Potenziamento base e altro"
+      ],
+      "x": 8.0,
+      "y": 15.0,
+      "icona": "modern_industrialization:conveyor",
+      "dipendenze": [
+        "motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:conveyor",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "piston",
+      "titolo": "Pistone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per macinatori, compressori e bracci robotici.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Piastra d'acciaio, 2x Cavo di stagno, 2x Asta d'acciaio, 1x Motore, 1x Ingranaggio d'acciaio",
+        "&7Serve per:&r Macinatore elettrico, Compressore elettrico, Braccio robotico, Macchina piegatrice elettrica"
+      ],
+      "x": 8.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:piston",
+      "dipendenze": [
+        "motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:piston",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "silicon_battery",
+      "titolo": "Batteria di silicio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Batteria avanzata per la scocca di macchina avanzata.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Cavo di elettro, 1x Piastra di lega per batterie, 4x Piastra curva di lega per batterie, 2x Polvere di silicio",
+        "&7Serve per:&r Scocca di macchina avanzata"
+      ],
+      "x": 14.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:silicon_battery",
+      "dipendenze": [
+        "electrum_cable"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silicon_battery",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "cupronickel_wire_magnetic",
+      "titolo": "Filo magnetico di cupronichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Filo facoltativo per il forno elettrico e la fonderia di leghe.",
+        "&7Si fa con:&r Polarizzatore",
+        "&7Ingredienti:&r 1x Filo di cupronichel",
+        "&7Serve per:&r Forno elettrico, Fonderia di leghe elettrica"
+      ],
+      "x": 20.0,
+      "y": 6.0,
+      "icona": "modern_industrialization:cupronickel_wire_magnetic",
+      "dipendenze": [
+        "polarizer"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:cupronickel_wire_magnetic",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "polarizer",
+      "titolo": "Polarizzatore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina facoltativa per creare il filo magnetico di cupronichel.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Filo di stagno, 2x Induttore, 2x Cavo di stagno, 1x Scocca di macchina base",
+        "&7Serve per:&r Filo magnetico di cupronichel"
+      ],
+      "x": 18.0,
+      "y": 6.0,
+      "icona": "modern_industrialization:polarizer",
+      "dipendenze": [
+        "scafo_di_macchina"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:polarizer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "robot_arm",
+      "titolo": "Braccio robotico",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per imballatori, cave e assemblatori.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Cavo di stagno, 2x Motore, 2x Asta d'acciaio, 1x Pistone, 1x Circuito analogico",
+        "&7Serve per:&r Imballatore elettrico, Cava elettrica, Potenziamento base, Assemblatore"
+      ],
+      "x": 10.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:robot_arm",
+      "dipendenze": [
+        "piston"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:robot_arm",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_wiremill",
+      "titolo": "Trafilatrice elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che produce fili: versione elettrica della trafilatrice d'acciaio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Motore, 2x Cavo di stagno, 2x Circuito analogico, 1x Scocca di macchina base"
+      ],
+      "x": 8.0,
+      "y": 21.0,
+      "icona": "modern_industrialization:electric_wiremill",
+      "dipendenze": [
+        "motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_wiremill",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "lv_solar_panel",
+      "titolo": "Pannello solare LV",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Pannello che produce energia: utile come prima fonte elettrica pulita.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Asta di stagno, 1x Circuito analogico, 2x Tubo per fluidi, 1x Scocca di macchina base, 2x Cavo di stagno, 1x Motore"
+      ],
+      "x": 8.0,
+      "y": 22.5,
+      "icona": "extended_industrialization:lv_solar_panel",
+      "dipendenze": [
+        "motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:lv_solar_panel",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "lv_diesel_generator",
+      "titolo": "Generatore diesel LV",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Generatore che produce energia a partire dal combustibile: va rifornito con regolarità.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Pompa, 1x Circuito analogico, 2x Ingranaggio di stagno, 1x Scocca di macchina base, 3x Cavo di stagno"
+      ],
+      "x": 10.0,
+      "y": 19.5,
+      "icona": "modern_industrialization:lv_diesel_generator",
+      "dipendenze": [
+        "pump"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:lv_diesel_generator",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_compressor",
+      "titolo": "Compressore elettrico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che compatta i materiali in lingotti e piastre.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Pistone, 2x Circuito analogico, 2x Cavo di stagno, 1x Scocca di macchina base"
+      ],
+      "x": 10.0,
+      "y": 13.5,
+      "icona": "modern_industrialization:electric_compressor",
+      "dipendenze": [
+        "piston"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_compressor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_canning_machine",
+      "titolo": "Macchina per inscatolamento elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che inscatola i fluidi: utile su una linea di produzione.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Tubo per fluidi, 1x Rotore di stagno, 2x Pompa, 1x Scocca di macchina base, 2x Circuito analogico, 1x Nastro trasportatore"
+      ],
+      "x": 10.0,
+      "y": 18.0,
+      "icona": "extended_industrialization:electric_canning_machine",
+      "dipendenze": [
+        "pump"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:electric_canning_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "large_motor",
+      "titolo": "Motore grande",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente facoltativo per la cava elettrica.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Motore, 1x Circuito elettronico, 2x Asta di alluminio",
+        "&7Serve per:&r Cava elettrica"
+      ],
+      "x": 28.0,
+      "y": 3.0,
+      "icona": "modern_industrialization:large_motor",
+      "dipendenze": [
+        "aluminum_rod"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:large_motor",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_unpacker",
+      "titolo": "Disimballatore elettrico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che apre i pacchi: si collega ai nastri trasportatori.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Motore, 2x Circuito analogico, 2x Nastro trasportatore, 1x Scocca di macchina base, 2x Cavo di stagno"
+      ],
+      "x": 10.0,
+      "y": 16.5,
+      "icona": "modern_industrialization:electric_unpacker",
+      "dipendenze": [
+        "conveyor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_unpacker",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_bending_machine",
+      "titolo": "Macchina piegatrice elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che piega le piastre: versione elettrica della piegatrice di bronzo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Circuito analogico, 2x Pistone, 2x Motore, 1x Scocca di macchina base, 2x Cavo di stagno"
+      ],
+      "x": 10.0,
+      "y": 12.0,
+      "icona": "extended_industrialization:electric_bending_machine",
+      "dipendenze": [
+        "piston"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:electric_bending_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_furnace",
+      "titolo": "Forno elettrico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Forno che fonde i materiali: più veloce della fornace semplice.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Filo magnetico di cupronichel, 2x Circuito analogico, 1x Scocca di macchina base, 2x Cavo di stagno"
+      ],
+      "x": 22.0,
+      "y": 7.5,
+      "icona": "modern_industrialization:electric_furnace",
+      "dipendenze": [
+        "cupronickel_wire_magnetic"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_alloy_smelter",
+      "titolo": "Fonderia di leghe elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che produce leghe: conviene automatizzarla con le polveri pronte.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Filo magnetico di cupronichel, 1x Rotore di stagno, 2x Circuito analogico, 1x Scocca di macchina base, 2x Cavo di stagno"
+      ],
+      "x": 22.0,
+      "y": 6.0,
+      "icona": "extended_industrialization:electric_alloy_smelter",
+      "dipendenze": [
+        "cupronickel_wire_magnetic"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:electric_alloy_smelter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_cutting_machine",
+      "titolo": "Macchina da taglio elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che taglia i materiali: richiede una lama di invar e un nastro trasportatore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Vetro, 1x Lama rotante in invar, 2x Motore, 1x Scocca di macchina base, 2x Circuito analogico, 1x Nastro trasportatore"
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "icona": "modern_industrialization:electric_cutting_machine",
+      "dipendenze": [
+        "conveyor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_cutting_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "advanced_machine_hull",
+      "titolo": "Scocca di macchina avanzata",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Scocca per le macchine avanzate: serve per la cava elettrica.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Circuito elettronico, 2x Batteria di silicio, 1x Involucro di macchina avanzato, 3x Cavo di elettro",
+        "&7Serve per:&r Cava elettrica"
+      ],
+      "x": 16.0,
+      "y": 30.0,
+      "icona": "modern_industrialization:advanced_machine_hull",
+      "dipendenze": [
+        "silicon_battery"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:advanced_machine_hull",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "assembler",
+      "titolo": "Assemblatore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che assembla i componenti: serve per il potenziamento base.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Braccio robotico, 2x Circuito analogico, 2x Nastro trasportatore, 1x Scocca di macchina base",
+        "&7Serve per:&r Potenziamento base"
+      ],
+      "x": 12.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:assembler",
+      "dipendenze": [
+        "robot_arm"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:assembler",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_packer",
+      "titolo": "Imballatore elettrico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che impacchetta gli oggetti sui nastri trasportatori.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Braccio robotico, 2x Circuito analogico, 2x Nastro trasportatore, 1x Scocca di macchina base, 2x Cavo di stagno"
+      ],
+      "x": 12.0,
+      "y": 10.5,
+      "icona": "modern_industrialization:electric_packer",
+      "dipendenze": [
+        "robot_arm"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_packer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "basic_upgrade",
+      "titolo": "Potenziamento base",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Potenziamento di base costruito con l'assemblatore.",
+        "&7Si fa con:&r Assemblatore",
+        "&7Ingredienti:&r 2x Nastro trasportatore, 4x Motore, 2x Braccio robotico, 1x Scheda del circuito analogico"
+      ],
+      "x": 14.0,
+      "y": 9.0,
+      "icona": "modern_industrialization:basic_upgrade",
+      "dipendenze": [
+        "assembler"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:basic_upgrade",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "electric_quarry",
+      "titolo": "Cava elettrica",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che scava automaticamente: il traguardo finale di questa era.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Motore grande, 1x Braccio robotico, 2x Circuito elettronico, 1x Scocca di macchina avanzata, 1x Cava a vapore"
+      ],
+      "x": 30.0,
+      "y": 3.0,
+      "icona": "modern_industrialization:electric_quarry",
+      "dipendenze": [
+        "large_motor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_quarry",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+ "capitolo": {
+  "id": "twilight_forest",
+  "titolo": "Twilight Forest",
+  "sottotitolo": "Il bosco eterno del crepuscolo e i suoi otto guardiani",
+  "icona": "twilightforest:twilight_portal_miniature_structure",
+  "ordine": 16,
+  "gruppo": "approfondimenti",
+  "immagini": [
+   {
+    "texture": "nerocraft:textures/gui/quests/cap_twilight_forest.png",
+    "x": 8.25,
+    "y": -4.6,
+    "altezza": 1.0,
+    "trasparenza": 255
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_twilight_crepuscolo.png",
+    "x": -3.2,
+    "y": 0,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_twilight_oscura.png",
+    "x": 3.0,
+    "y": -2.5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_twilight_ghiacci.png",
+    "x": 5.0,
+    "y": 2.5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_twilight_altopiani.png",
+    "x": 14.5,
+    "y": 1.3,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_equipaggiamento.png",
+    "x": -3.2,
+    "y": 5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   }
+  ]
+ },
+ "quest": [
+  {
+   "id": "portale_crepuscolo",
+   "titolo": "Il portale del Crepuscolo",
+   "sottotitolo": "Un diamante nell'acqua",
+   "descrizione": [
+    "&7&oUna pozza tra i fiori, un diamante gettato dentro: il bosco si apre.&r",
+    "Scavate una pozza d'acqua &e2x2&r circondata da erba, piantate fiori o erba alta tutt'intorno e lanciateci dentro un &6diamante&r.",
+    "&cOgni zona della Twilight Forest si sblocca battendo il boss precedente&r: seguite l'ordine di questo capitolo."
+   ],
+   "x": 0,
+   "y": 0,
+   "icona": "twilightforest:twilight_portal_miniature_structure",
+   "dipendenze": [
+    "era_1_fondazione/caldaia_di_bronzo"
+   ],
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:root"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 32
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:bread",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "mappa_magica",
+   "titolo": "La mappa magica",
+   "sottotitolo": "Dove dormono i boss",
+   "descrizione": [
+    "Piuma di corvo, Bacche luminescenti e polvere di luminite danno la &6Messa a fuoco della mappa magica&r.",
+    "Circondatela di carta: la mappa mostra i biomi e le strutture dei boss attorno a voi."
+   ],
+   "x": 0,
+   "y": -2.5,
+   "icona": "twilightforest:filled_magic_map",
+   "dipendenze": [
+    "portale_crepuscolo"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:filled_magic_map",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:glowstone_dust",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "naga",
+   "titolo": "La Naga",
+   "sottotitolo": "Il serpente del cortile",
+   "descrizione": [
+    "&7&oNel cortile di pietra serpeggia il primo guardiano.&r",
+    "Cercate il cortile di nagapietra e affrontate la &6Naga&r in gruppo: carica in linea retta, schivatela di lato.",
+    "&eOgnuno colpisca il boss almeno una volta&r: le zone successive si aprono solo a chi ha combattuto."
+   ],
+   "x": 2,
+   "y": 0,
+   "icona": "twilightforest:naga_trophy",
+   "dipendenze": [
+    "portale_crepuscolo"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_naga"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "lich",
+   "titolo": "Il Lich",
+   "sottotitolo": "La torre degli inganni",
+   "descrizione": [
+    "&7&oIn cima alla torre, uno stregone e le sue copie.&r",
+    "Il &6Lich&r si sdoppia in ombre: colpite quella vera, respingete le sfere e abbattete i suoi scudi.",
+    "Lascia gli &6scettri&r. Battuto il Lich si aprono la &eForesta Oscura&r e la &eForesta Innevata&r."
+   ],
+   "x": 4,
+   "y": 0,
+   "icona": "twilightforest:lich_trophy",
+   "dipendenze": [
+    "naga"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_lich"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 1
+    },
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "labirinto_minofungo",
+   "titolo": "Il Labirinto",
+   "sottotitolo": "Minotauri e il Fungotauro",
+   "descrizione": [
+    "&7&oSotto la palude, corridoi di pietra e passi pesanti.&r",
+    "Nel Labirinto vivono i &6Minotauri&r; in fondo aspetta il &6Fungotauro&r.",
+    "Lascia la &6Mistecca Stroganoff&r: &eognuno ne mangi una&r per aprire la Palude di Fuoco."
+   ],
+   "x": 6,
+   "y": 0,
+   "icona": "twilightforest:minoshroom_trophy",
+   "dipendenze": [
+    "lich",
+    "era_2_vapore/acciaio"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "uccidi",
+     "entita": "twilightforest:minoshroom",
+     "quantita": 1
+    },
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_labyrinth"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_carrot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "squadra_contro_l_idra",
+   "titolo": "Squadra contro l'Idra",
+   "sottotitolo": "Tre teste, tre ruoli",
+   "descrizione": [
+    "&7&oLa palude brucia. Si contano pozioni e frecce.&r",
+    "L'&6Idra&r ha tre teste: &adividetevi&r tra chi attira il fuoco, chi cura e chi colpisce le teste aperte.",
+    "Pozioni di resistenza al fuoco per tutti: la Palude di Fuoco brucia anche fuori dalla tana."
+   ],
+   "x": 8,
+   "y": 0,
+   "icona": "minecraft:shield",
+   "dipendenze": [
+    "labirinto_minofungo",
+    "era_2_vapore/altoforno_elettrico"
+   ],
+   "compiti": [
+    {
+     "tipo": "spunta",
+     "titolo": "Ruoli decisi, resistenza al fuoco pronta"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:arrow",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "idra",
+   "titolo": "L'Idra",
+   "sottotitolo": "La tana nella Palude di Fuoco",
+   "descrizione": [
+    "&7&oLe teste ricrescono finché il corpo non cade.&r",
+    "Colpite le teste quando aprono la bocca, poi il corpo.",
+    "Lascia il &6Sangue ardente&r: ferro e sangue danno i &6Lingotti ardenti&r."
+   ],
+   "x": 10,
+   "y": 0,
+   "icona": "twilightforest:hydra_trophy",
+   "dipendenze": [
+    "squadra_contro_l_idra"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_hydra"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "farmersdelight:beef_stew",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 500
+    }
+   ]
+  },
+  {
+   "id": "piedistallo_dei_trofei",
+   "titolo": "Il Piedistallo dei Trofei",
+   "sottotitolo": "Le porte della Roccaforte",
+   "descrizione": [
+    "&7&oUn trofeo sul piedistallo, e la pietra si apre.&r",
+    "Nella &eForesta Oscura&r trovate la Roccaforte dei Cavalieri e posate un &6trofeo di boss&r sul Piedistallo dei Trofei.",
+    "&cDentro i cavalieri sono duri&r: armature buone e cibo per tutti."
+   ],
+   "x": 6,
+   "y": -2.5,
+   "icona": "twilightforest:trophy_pedestal",
+   "dipendenze": [
+    "lich",
+    "era_3_elettricita/prima_scintilla"
+   ],
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_trophy_pedestal"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_porkchop",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "cavalieri_fantasma",
+   "titolo": "I Cavalieri Fantasma",
+   "sottotitolo": "Sei spettri in armatura",
+   "descrizione": [
+    "&7&oNella sala più profonda, sei armature si alzano insieme.&r",
+    "Abbattete &6tutti i Cavalieri Fantasma&r: girano attorno al gruppo, tenetevi spalla a spalla.",
+    "Battuti i cavalieri si apre il cuore della Foresta Oscura e la sua Torre."
+   ],
+   "x": 8,
+   "y": -2.5,
+   "icona": "twilightforest:knight_phantom_trophy",
+   "dipendenze": [
+    "piedistallo_dei_trofei"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_knights"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 500
+    }
+   ]
+  },
+  {
+   "id": "ur_ghast",
+   "titolo": "L'Ur-Ghast",
+   "sottotitolo": "In cima alla Torre Oscura",
+   "descrizione": [
+    "&7&oIl pianto del Ghast primordiale fa tremare la torre.&r",
+    "Salite la &eTorre Oscura&r tra ascensori e golem di carminite. In cima, l'&6Ur-Ghast&r.",
+    "Colpitelo quando scende sulle trappole per ghast. Lascia le &6Lacrime ardenti&r."
+   ],
+   "x": 10,
+   "y": -2.5,
+   "icona": "twilightforest:ur_ghast_trophy",
+   "dipendenze": [
+    "cavalieri_fantasma",
+    "era_3_elettricita/controller_me"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_ur_ghast"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "farmersdelight:beef_stew",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 600
+    }
+   ]
+  },
+  {
+   "id": "yeti_alfa",
+   "titolo": "Lo Yeti Alfa",
+   "sottotitolo": "La grotta nella Foresta Innevata",
+   "descrizione": [
+    "&7&oDal soffitto della grotta cadono stalattiti di ghiaccio.&r",
+    "Lo &6Yeti Alfa&r salta e fa crollare il ghiaccio: muovetevi sparpagliati.",
+    "Lascia la &6Pelliccia di Alpha Yeti&r e apre il &eGhiacciaio&r."
+   ],
+   "x": 8,
+   "y": 2.5,
+   "icona": "twilightforest:alpha_yeti_trophy",
+   "dipendenze": [
+    "lich",
+    "era_2_vapore/altoforno_elettrico"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_yeti"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "farmersdelight:hot_cocoa",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "regina_delle_nevi",
+   "titolo": "La Regina delle Nevi",
+   "sottotitolo": "Il Palazzo dell'Aurora",
+   "descrizione": [
+    "&7&oIn cima al palazzo di ghiaccio, la Regina e i suoi cristalli.&r",
+    "Distruggete i cristalli che la proteggono, poi colpite la &6Regina delle Nevi&r.",
+    "&cIl Ghiacciaio congela chi non è pronto&r: vestiti caldi e cibo."
+   ],
+   "x": 10,
+   "y": 2.5,
+   "icona": "twilightforest:snow_queen_trophy",
+   "dipendenze": [
+    "yeti_alfa",
+    "era_3_elettricita/controller_me"
+   ],
+   "forma": "diamond",
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_glacier"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 600
+    }
+   ]
+  },
+  {
+   "id": "altopiani",
+   "titolo": "Gli Altopiani",
+   "sottotitolo": "Tre guardiani, una strada",
+   "descrizione": [
+    "&7&oIdra, Ur-Ghast e Regina sono caduti: la pioggia acida si ritira.&r",
+    "Si aprono gli &eAltopiani&r. Nelle grotte dei troll si nasconde la strada per la fine."
+   ],
+   "x": 12.5,
+   "y": 0,
+   "icona": "twilightforest:uberous_soil",
+   "dipendenze": [
+    "idra",
+    "ur_ghast",
+    "regina_delle_nevi",
+    "era_4_rete_digitale/razzo_tier_1"
+   ],
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_merge"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "lampada_delle_ceneri",
+   "titolo": "La Lampada delle Ceneri",
+   "sottotitolo": "Fuoco contro le spine",
+   "descrizione": [
+    "Nelle grotte dei troll, sotto gli Altopiani, c'è la &6Lampada delle ceneri&r.",
+    "Brucia i rovi che sbarrano la strada verso l'altopiano finale."
+   ],
+   "x": 14.5,
+   "y": 0,
+   "icona": "twilightforest:lamp_of_cinders",
+   "dipendenze": [
+    "altopiani"
+   ],
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progress_troll"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_carrot",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "giganti",
+   "titolo": "Tra i giganti",
+   "sottotitolo": "Fagioli magici",
+   "descrizione": [
+    "I troll lasciano i &6Fagioli magici&r: piantateli e salite fino alle nuvole.",
+    "Lassù vivono i giganti. Battete un &6Minatore gigante&r."
+   ],
+   "x": 14.5,
+   "y": -2.5,
+   "icona": "twilightforest:magic_beans",
+   "dipendenze": [
+    "altopiani"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:giants"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:cooked_beef",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "fine_dei_giochi",
+   "titolo": "&6&lFine dei Giochi&r",
+   "sottotitolo": "L'altopiano finale",
+   "descrizione": [
+    "&7&oIn cima al mondo del crepuscolo, un castello senza re.&r",
+    "Raggiungete l'&eAltopiano finale&r e il suo castello: qui finisce la storia della Twilight Forest."
+   ],
+   "x": 16.5,
+   "y": 0,
+   "icona": "twilightforest:twilight_portal_miniature_structure",
+   "dipendenze": [
+    "lampada_delle_ceneri"
+   ],
+   "forma": "diamond",
+   "dimensione": 1.5,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:progression_end"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:golden_apple",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 1000
+    }
+   ]
+  },
+  {
+   "id": "ferro_ligneo",
+   "titolo": "Ferro ligneo",
+   "sottotitolo": "Radici e ferro",
+   "descrizione": [
+    "&6Radice viva&r, ferro grezzo e una pepita d'oro danno il Ferro ligneo grezzo: fondetelo in lingotti.",
+    "Attrezzi e armature di ferro ligneo si riparano da soli col tempo."
+   ],
+   "x": 0,
+   "y": 5,
+   "icona": "twilightforest:ironwood_ingot",
+   "dipendenze": [
+    "portale_crepuscolo"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:ironwood_ingot",
+     "quantita": 4
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:gold_nugget",
+     "quantita": 9
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "fogliacciaio",
+   "titolo": "Fogliacciaio",
+   "sottotitolo": "Foglie dure come l'acciaio",
+   "descrizione": [
+    "Il &6Fogliacciaio&r si trova nei forzieri delle colline cave e delle strutture del Crepuscolo.",
+    "Attrezzi leggeri con incantesimi già pronti."
+   ],
+   "x": 1.5,
+   "y": 5,
+   "icona": "twilightforest:steeleaf_ingot",
+   "dipendenze": [
+    "portale_crepuscolo"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:steeleaf_ingot",
+     "quantita": 4
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:torch",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "armatura_di_naga",
+   "titolo": "Armatura di Naga",
+   "sottotitolo": "Scaglie che resistono",
+   "descrizione": [
+    "Con le &6Scaglie di Naga&r si craftano corazza e gambali.",
+    "Leggeri e resistenti: buoni per chi sta in prima fila."
+   ],
+   "x": 3,
+   "y": 5,
+   "icona": "twilightforest:naga_chestplate",
+   "dipendenze": [
+    "naga"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:naga_chestplate",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 80
+    }
+   ]
+  },
+  {
+   "id": "pelliccia_artica",
+   "titolo": "Pelliccia artica",
+   "sottotitolo": "Vestiti per la neve",
+   "descrizione": [
+    "Gli Yeti della Foresta Innevata lasciano la &6Pelliccia artica&r.",
+    "Con la pelliccia si cuce l'armatura artica, comoda nel freddo."
+   ],
+   "x": 4.5,
+   "y": 5,
+   "icona": "twilightforest:arctic_fur",
+   "dipendenze": [
+    "lich"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:arctic_fur",
+     "quantita": 8
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "farmersdelight:hot_cocoa",
+     "quantita": 2
+    },
+    {
+     "tipo": "xp",
+     "quantita": 50
+    }
+   ]
+  },
+  {
+   "id": "rompi_labirinto",
+   "titolo": "Rompi-labirinto",
+   "sottotitolo": "Il piccone dei corridoi",
+   "descrizione": [
+    "Nel tesoro del Labirinto si trova il &6Rompi-labirinto&r: spacca la pietra del labirinto in un attimo."
+   ],
+   "x": 6,
+   "y": 5,
+   "icona": "twilightforest:mazebreaker_pickaxe",
+   "dipendenze": [
+    "labirinto_minofungo"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:mazebreaker_pickaxe",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "metallo_del_cavaliere",
+   "titolo": "Metallo del cavaliere",
+   "sottotitolo": "Frammenti d'armatura",
+   "descrizione": [
+    "I mostri della Roccaforte lasciano &6Frammenti d'armatura&r: nove fanno un Ammasso.",
+    "Fondete l'Ammasso: esce un &6Lingotto di metallo del cavaliere&r."
+   ],
+   "x": 7.5,
+   "y": 5,
+   "icona": "twilightforest:knightmetal_ingot",
+   "dipendenze": [
+    "piedistallo_dei_trofei"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:knightmetal_ingot",
+     "quantita": 4
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:iron_ingot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "armatura_yeti",
+   "titolo": "Armatura Yeti",
+   "sottotitolo": "Il pelo dello Yeti Alfa",
+   "descrizione": [
+    "La &6Pelliccia di Alpha Yeti&r diventa un'armatura che rallenta chi vi colpisce.",
+    "Dividete le pellicce: lo Yeti Alfa ne lascia di più se il gruppo è numeroso."
+   ],
+   "x": 9,
+   "y": 5,
+   "icona": "twilightforest:yeti_chestplate",
+   "dipendenze": [
+    "yeti_alfa"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:yeti_chestplate",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "lingotto_ardente",
+   "titolo": "Lingotti ardenti",
+   "sottotitolo": "Sangue e lacrime di fuoco",
+   "descrizione": [
+    "&6Sangue ardente&r dell'Idra (o &6Lacrime ardenti&r dell'Ur-Ghast) e un lingotto di ferro: un &6Lingotto ardente&r."
+   ],
+   "x": 10.5,
+   "y": 5,
+   "icona": "twilightforest:fiery_ingot",
+   "dipendenze": [
+    "idra"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "twilightforest:fiery_ingot",
+     "quantita": 4
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:iron_ingot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "set_ardente",
+   "titolo": "Equipaggiamento ardente",
+   "sottotitolo": "Forgiato nel fuoco",
+   "descrizione": [
+    "Un'arma o un piccone ardente e un pezzo di armatura ardente.",
+    "Gli attrezzi ardenti fondono ciò che scavano; l'armatura protegge dal fuoco."
+   ],
+   "x": 12,
+   "y": 5,
+   "icona": "twilightforest:fiery_sword",
+   "dipendenze": [
+    "lingotto_ardente"
+   ],
+   "opzionale": true,
+   "nascondi_linee": true,
+   "compiti": [
+    {
+     "tipo": "avanzamento",
+     "avanzamento": "twilightforest:fiery_set"
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:experience_bottle",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  }
+ ]
+}

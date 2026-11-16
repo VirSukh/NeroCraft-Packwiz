@@ -1,0 +1,13 @@
+name = "Health Bars"
+filename = "healthbars-v21.1.1-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ad12049e460231681899ece662a3d3cc0c2b8e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9607673
+project-id = 1367734

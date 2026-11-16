@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "twilightforest:twilight_portal_miniature_structure"
+	}
+	id: "5493492EEC039526"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"28710DC22E221CEF"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			id: "66589EC2CBA3DCC0"
+			rewards: [
+				{
+					count: 32
+					id: "53AA9D68B6C2B542"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "103821C276E736A4"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "4FCD7BB35A9BCFC2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:root"
+					criterion: ""
+					id: "6CF8CAB9118D3069"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"66589EC2CBA3DCC0"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:filled_magic_map"
+			}
+			id: "24E243C3364B4621"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5EA56760E02EEDCD"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "75D286B9F96329FC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "59673E8FBB495E5C"
+					item: {
+						count: 1
+						id: "twilightforest:filled_magic_map"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"66589EC2CBA3DCC0"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:naga_trophy"
+			}
+			id: "6FFD36082FDFC14B"
+			rewards: [
+				{
+					count: 8
+					id: "5D84CFCFB3A12935"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6047A4FA40DBE6CB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "371B4C216AA79C75"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6FFD36082FDFC14B"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:lich_trophy"
+			}
+			id: "7E4FDE0E813775EA"
+			rewards: [
+				{
+					count: 1
+					id: "4C35E945CFC4EF78"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "50CE97170BD258D8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "49276BDE8216B7EE"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E4FDE0E813775EA"
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "60BCEED98FE388BB"
+			rewards: [
+				{
+					count: 8
+					id: "4FB709D8FEDFC82F"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "4BBB7AC430825094"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "4F26EF6FA0D56F6E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "5AB41835DB940A4C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60BCEED98FE388BB"
+				"1DB8E3B238387055"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "13A996519D256597"
+			rewards: [
+				{
+					count: 32
+					id: "2DC2FA62E2FF28CA"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3A5740D53BC029FB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5B761CF2EC830A8E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13A996519D256597"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "19733F133E3766CC"
+			rewards: [
+				{
+					count: 4
+					id: "753A6235C48D2F23"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "3C23DB035D80367A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_hydra"
+					criterion: ""
+					id: "23AAC6A9EC633878"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E4FDE0E813775EA"
+				"66FAC9B9A5554DA8"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:trophy_pedestal"
+			}
+			id: "2F27426A38C92198"
+			rewards: [
+				{
+					count: 8
+					id: "17B5F3E331D70252"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "2DBD2AF2562B9494"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_trophy_pedestal"
+					criterion: ""
+					id: "31E758C3E4CDEF83"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2F27426A38C92198"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "557BDAA84AE6EAD1"
+			rewards: [
+				{
+					count: 2
+					id: "6B5A39A6D56664AF"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1AE2F6EC17895FFA"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "1261F41189FE7160"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"557BDAA84AE6EAD1"
+				"749332DA6AB9A38D"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "57F3A6739914A0B6"
+			rewards: [
+				{
+					count: 4
+					id: "24F99FA91C6ECB94"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "18EDE91671603851"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+					id: "1ABFA6CCD9B5616D"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7E4FDE0E813775EA"
+				"1DB8E3B238387055"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "364D46D5A4463169"
+			rewards: [
+				{
+					count: 4
+					id: "437AC6AFD3A34419"
+					item: {
+						count: 1
+						id: "farmersdelight:hot_cocoa"
+					}
+					type: "item"
+				}
+				{
+					id: "5037BD5439EE3C09"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "234FBABA115E7B25"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"364D46D5A4463169"
+				"749332DA6AB9A38D"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "71E1FE9D19F16052"
+			rewards: [
+				{
+					count: 2
+					id: "76074CB09FA5FE70"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "71857A8A90CC21CC"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+					id: "403C254793192CF9"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"19733F133E3766CC"
+				"57F3A6739914A0B6"
+				"71E1FE9D19F16052"
+				"56A9BCF5A0F629EB"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:uberous_soil"
+			}
+			id: "7A033F97AA773E7B"
+			rewards: [
+				{
+					count: 8
+					id: "7A4C40B501FA645B"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "175D7B8A71B77FDB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_merge"
+					criterion: ""
+					id: "1B778E18D73F68D4"
+					type: "advancement"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A033F97AA773E7B"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:lamp_of_cinders"
+			}
+			id: "3CBAC7A42AAAE9F5"
+			rewards: [
+				{
+					count: 16
+					id: "14992B3594EB5C75"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6B998C15F9E1148E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_troll"
+					criterion: ""
+					id: "7322A341802419C1"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A033F97AA773E7B"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:magic_beans"
+			}
+			id: "2BE5F3526A120E83"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "4AAB91D3042B175E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "1AF62AFDB7AED9F2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:giants"
+					criterion: ""
+					id: "20465D3C541FF1BD"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3CBAC7A42AAAE9F5"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			id: "1271580A23B689F2"
+			rewards: [
+				{
+					count: 4
+					id: "5112436ABBD8ABB4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3DD74528FF8C6ED5"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progression_end"
+					criterion: ""
+					id: "7FE9DCF2A34CBDBD"
+					type: "advancement"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"66589EC2CBA3DCC0"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "5FF9AE4AE7F30828"
+			optional: true
+			rewards: [
+				{
+					count: 9
+					id: "1BD02BCEC74FA747"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "6FF76B6ECC56CD27"
+					type: "xp"
+					xp: 50
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "395D686F892F2390"
+					item: {
+						count: 1
+						id: "twilightforest:ironwood_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"66589EC2CBA3DCC0"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:steeleaf_ingot"
+			}
+			id: "449AD9C35B6F0820"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5BF7A2C4B093D51D"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "5DE2FC1138F0F8AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "73F732A6DF8FEA19"
+					item: {
+						count: 1
+						id: "twilightforest:steeleaf_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6FFD36082FDFC14B"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:naga_chestplate"
+			}
+			id: "3B769D6F7070FE58"
+			optional: true
+			rewards: [
+				{
+					id: "2921EA2656615E9A"
+					type: "xp"
+					xp: 80
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "763E26A83103C367"
+					item: {
+						count: 1
+						id: "twilightforest:naga_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7E4FDE0E813775EA"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:arctic_fur"
+			}
+			id: "6256B2D89475ED20"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7DB258896CECEB3D"
+					item: {
+						count: 1
+						id: "farmersdelight:hot_cocoa"
+					}
+					type: "item"
+				}
+				{
+					id: "62A321F791BA4B29"
+					type: "xp"
+					xp: 50
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2FF910F4A45B56D8"
+					item: {
+						count: 1
+						id: "twilightforest:arctic_fur"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"60BCEED98FE388BB"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:mazebreaker_pickaxe"
+			}
+			id: "6D4B56D8F4C18F39"
+			optional: true
+			rewards: [
+				{
+					id: "15A31EC0DD2A3017"
+					type: "xp"
+					xp: 100
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "4C27A2351B66B4A3"
+					item: {
+						count: 1
+						id: "twilightforest:mazebreaker_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2F27426A38C92198"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:knightmetal_ingot"
+			}
+			id: "65ECC1971F2BAF2E"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "290B1ADDAFC79B5A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7310CFFA13A387D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "143C12D925271AC3"
+					item: {
+						count: 1
+						id: "twilightforest:knightmetal_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"364D46D5A4463169"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:yeti_chestplate"
+			}
+			id: "13D39D089C19B9E5"
+			optional: true
+			rewards: [
+				{
+					id: "6D4FA295B492D71C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "11E896B168B40B29"
+					item: {
+						count: 1
+						id: "twilightforest:yeti_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"19733F133E3766CC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:fiery_ingot"
+			}
+			id: "6A4127FE3F22DF51"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "2FA89C619C0F1A0D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4FA7B4CBB5197426"
+					type: "xp"
+					xp: 100
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "7B7E74CC125015EC"
+					item: {
+						count: 1
+						id: "twilightforest:fiery_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6A4127FE3F22DF51"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:fiery_sword"
+			}
+			id: "7723D9642610DB22"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "38BFF80881256F3A"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "755DA1059313D5B8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					advancement: "twilightforest:fiery_set"
+					criterion: ""
+					id: "19C45B7DB18009AA"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_twilight_forest.png"
+			order: 0
+			rotation: 0.0d
+			width: 6.188d
+			x: 8.25d
+			y: -4.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_twilight_crepuscolo.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.033d
+			x: -3.2d
+			y: 0.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_twilight_oscura.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.3d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_twilight_ghiacci.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.633d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_twilight_altopiani.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.9d
+			x: 14.5d
+			y: 1.3d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_equipaggiamento.png"
+			order: 5
+			rotation: 0.0d
+			width: 3.433d
+			x: -3.2d
+			y: 5.0d
+		}
+	]
+}

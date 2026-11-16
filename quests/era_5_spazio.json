@@ -1,0 +1,5108 @@
+{
+  "capitolo": {
+    "id": "era_5_spazio",
+    "titolo": "Era 5 - Spazio",
+    "sottotitolo": "Dalla Luna ai confini del sistema solare",
+    "icona": "ad_astra:tier_2_rocket",
+    "ordine": 5,
+    "gruppo": "ere",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/era_5.png",
+        "x": 5.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_sistema_interno.png",
+        "x": 1.18,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_giganti.png",
+        "x": 1.15,
+        "y": 3.2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_confini.png",
+        "x": 1.15,
+        "y": 15.0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_leviatano.png",
+        "x": 1.58,
+        "y": 19.3,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_resto_antico.png",
+        "x": 1.85,
+        "y": 31.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_maledictus.png",
+        "x": 1.68,
+        "y": 36.9,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_lich.png",
+        "x": 1.08,
+        "y": 42.7,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_guanto.png",
+        "x": 1.32,
+        "y": 51.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_guardiano.png",
+        "x": 1.58,
+        "y": 64.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_fiore.png",
+        "x": 1.18,
+        "y": 69.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_obsidilith.png",
+        "x": 1.62,
+        "y": 82.4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_scilla.png",
+        "x": 1.28,
+        "y": 89.7,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_officina.png",
+        "x": 0.52,
+        "y": 100.0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_facoltative.png",
+        "x": 0.85,
+        "y": 111.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "verso_la_luna",
+      "titolo": "Sulla Luna",
+      "sottotitolo": "Il primo passo fuori dal mondo",
+      "descrizione": [
+        "&7&oIl razzo è sul piazzale. Sopra c'è tutto il resto.&r",
+        "Meta dell'Era 5: il &6Razzo Tier 10&r e l'atterraggio su &6Eris&r. Ogni razzo vuole i metalli del pianeta precedente e il trofeo di un boss.",
+        "Prima di partire: tuta spaziale e &6Fodera I&r (lana e piastre d'acciaio) negli slot della fodera. Senza fodera lassù si soffre."
+      ],
+      "x": 0.0,
+      "y": 0.75,
+      "icona": "ad_astra:tier_1_rocket",
+      "dipendenze": [
+        "era_4_rete_digitale/razzo_tier_1"
+      ],
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_hood_1",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_vest_1",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_leggings_1",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_boots_1",
+          "quantita": 1
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:moon",
+          "titolo": "Atterrate sulla Luna"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_sistema_interno"
+    },
+    {
+      "id": "desh_e_banco_nasa",
+      "titolo": "Desh e Banco NASA",
+      "sottotitolo": "I pezzi del Tier 2",
+      "descrizione": [
+        "&7&oIl metallo grigio della Luna regge il calore dei motori.&r",
+        "Desh grezzo nel &6Maceratore&r (due polveri), poi nell'&6Altoforno Elettrico&r: lingotti.",
+        "Il &6Banco NASA&r monta i razzi dal Tier 2 al 4. Preparate motore, serbatoi, ogiva, alette e 5 blocchi di desh."
+      ],
+      "x": 6.0,
+      "y": 20.4,
+      "icona": "ad_astra:nasa_workbench",
+      "dipendenze": [
+        "desh_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:nasa_workbench",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:desh_engine",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:desh_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:rocket_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:rocket_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:desh_block",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ],
+      "sezione": "sez_leviatano"
+    },
+    {
+      "id": "citta_sommersa",
+      "titolo": "La Città Sommersa",
+      "sottotitolo": "Qualcosa dorme sul fondo",
+      "descrizione": [
+        "&7&oUn occhio che guarda verso il basso, nell'oceano.&r",
+        "L'&6Occhio dell'Abisso&r (ossidiana, ossidiana piangente, occhio di ender) indica la &6Città Sommersa&r.",
+        "Il &6Sacrificio Abissale&r si crafta con conchiglia di nautilus, cuore del mare, blocchi preziosi, l'&6Athame&r e il corallo della città.",
+        "&aDecidete i ruoli e portate pozioni di respirazione: si combatte sott'acqua.&r"
+      ],
+      "x": 2.0,
+      "y": 24.9,
+      "icona": "cataclysm:abyss_eye",
+      "dipendenze": [
+        "raw_desh"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:abyss_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_sunken_city"
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:abyssal_sacrifice",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi, respirazione pronta"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:turtle_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_leviatano"
+    },
+    {
+      "id": "leviatano",
+      "titolo": "Il Leviatano",
+      "sottotitolo": "Il predatore dell'abisso",
+      "descrizione": [
+        "&7&oL'acqua si fa nera. Poi si apre una bocca.&r",
+        "Il Sacrificio sull'&6Altare dell'Abisso&r evoca il &cLeviatano&r. &cFuori dall'acqua è invulnerabile.&r",
+        "&cCresce con le ere e a ogni uccisione.&r Lascia gli &6Artigli Tidali&r: servono al Tier 2.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 24.9,
+      "icona": "cataclysm:tidal_claws",
+      "dipendenze": [
+        "citta_sommersa"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_leviathan",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:tidal_claws",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ],
+      "sezione": "sez_leviatano"
+    },
+    {
+      "id": "razzo_tier_2",
+      "titolo": "&6&lRazzo Tier 2&r",
+      "sottotitolo": "Rotta per Marte",
+      "descrizione": [
+        "Nel &6Banco NASA&r: ogiva, &cArtigli Tidali&r, 5 blocchi di desh, 4 alette, 2 serbatoi e il motore di desh."
+      ],
+      "x": 8.0,
+      "y": 21.15,
+      "icona": "ad_astra:tier_2_rocket",
+      "dipendenze": [
+        "desh_e_banco_nasa"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:tier_2_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1000
+        }
+      ],
+      "sezione": "sez_leviatano"
+    },
+    {
+      "id": "base_lunare",
+      "titolo": "Base lunare",
+      "sottotitolo": "Aria in una stanza",
+      "descrizione": [
+        "&7&oUna stanza sigillata dove togliersi il casco.&r",
+        "&6Distributore d'ossigeno&r: piastre di desh, ventole, bombola grande, caricatore e ingranaggio dell'ossigeno. Va alimentato e rifornito."
+      ],
+      "x": 0.0,
+      "y": 112.9,
+      "icona": "ad_astra:oxygen_distributor",
+      "dipendenze": [
+        "desh_plate"
+      ],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:oxygen_distributor",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Una stanza sigillata con aria sulla Luna"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:glass",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_facoltative"
+    },
+    {
+      "id": "zaino_di_netherite",
+      "titolo": "Zaino da abisso",
+      "sottotitolo": "Gettoni dal Leviatano",
+      "descrizione": [
+        "Lo Zaino non si potenzia al banco: slot e alloggiamenti si sbloccano con i &egettoni&r, e i gettoni li lasciano solo i boss.",
+        "Sconfiggete &6il Leviatano&r: ognuno di voi entro 64 blocchi riceve &e3 gettoni&r la prima volta, &e1&r le successive.",
+        "&7Costi: &e1 gettone&7 per slot (36 da sbloccare oltre ai 9 iniziali, fino a 9x5); alloggiamenti per potenziamenti &e2/3/4/5&7 gettoni.&r",
+        "&7I gettoni sono legati a chi li riceve: non si scambiano.&r"
+      ],
+      "x": 0.0,
+      "y": 65.9,
+      "icona": "backpacked:unlock_token",
+      "dipendenze": [
+        "desh_e_banco_nasa",
+        "era_4_rete_digitale/zaino_di_diamante"
+      ],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_leviathan",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_guardiano"
+    },
+    {
+      "id": "colonia_e_stelle",
+      "titolo": "La colonia guarda le stelle",
+      "sottotitolo": "Chi resta a terra",
+      "descrizione": [
+        "&7&oMentre voi volate, qualcuno cucina, forgia e ripara.&r",
+        "Portate il &6Municipio&r al livello 5: la colonia regge i viaggi lunghi."
+      ],
+      "x": 2.0,
+      "y": 63.1,
+      "icona": "minecolonies:blockhuttownhall",
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Municipio è al livello 5"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:shepherds_pie_block",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_guanto"
+    },
+    {
+      "id": "marte_e_ostrum",
+      "titolo": "Marte e l'ostrum",
+      "sottotitolo": "Polvere rossa, metallo viola",
+      "descrizione": [
+        "&7&oMarte è freddo e sottile, ma generoso.&r",
+        "L'&6ostrum&r si lavora come il desh: Maceratore, poi Altoforno.",
+        "Preparate motore, 2 serbatoi e 5 blocchi di ostrum."
+      ],
+      "x": 6.0,
+      "y": 35.2,
+      "icona": "ad_astra:ostrum_ingot",
+      "dipendenze": [
+        "ostrum_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:mars",
+          "titolo": "Atterrate su Marte"
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:ostrum_engine",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:ostrum_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:ostrum_block",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_resto_antico"
+    },
+    {
+      "id": "piramide_maledetta",
+      "titolo": "La Piramide Maledetta",
+      "sottotitolo": "Sabbia che nasconde",
+      "descrizione": [
+        "&7&oUn colosso di ossa dorme sotto il deserto.&r",
+        "L'&6Occhio del Deserto&r indica la &6Piramide Maledetta&r. Spazzolate la sabbia sospetta: dentro c'è la &6Collana del Deserto&r.",
+        "&aRuoli prima di svegliarlo: carica, scosse e tempeste di sabbia.&r"
+      ],
+      "x": 2.0,
+      "y": 32.2,
+      "icona": "cataclysm:desert_eye",
+      "dipendenze": [
+        "raw_ostrum"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:desert_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_cursed_pyramid"
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:necklace_of_the_desert",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ],
+      "sezione": "sez_resto_antico"
+    },
+    {
+      "id": "resto_antico",
+      "titolo": "Il Resto Antico",
+      "sottotitolo": "Morte che trova una strada",
+      "descrizione": [
+        "&7&oLa collana si scalda. Il colosso apre gli occhi.&r",
+        "Usate la Collana sul &cResto Antico&r per svegliarlo e abbattetelo insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Lascia il &6Teschio del Resto&r: serve al Tier 3.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 32.2,
+      "icona": "cataclysm:remnant_skull",
+      "dipendenze": [
+        "piramide_maledetta"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ancient_remnant",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:remnant_skull",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 900
+        }
+      ],
+      "sezione": "sez_resto_antico"
+    },
+    {
+      "id": "pronti_per_il_caldo",
+      "titolo": "Pronti per il caldo",
+      "sottotitolo": "Tuta di netherite e Fodera II",
+      "descrizione": [
+        "&7&oSu Venere il piombo si scioglie.&r",
+        "La &6tuta spaziale di netherite&r regge il calore: piastre di ostrum, bombole, ingranaggio dell'ossigeno e armatura di netherite.",
+        "&6Fodera II&r: la Fodera I circondata da piastre di ostrum. &aUn set per ogni giocatore che parte.&r"
+      ],
+      "x": 8.0,
+      "y": 35.2,
+      "icona": "ad_astra:netherite_space_helmet",
+      "dipendenze": [
+        "marte_e_ostrum"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:netherite_space_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:netherite_space_suit",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:netherite_space_pants",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:netherite_space_boots",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_hood_2",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_vest_2",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_leggings_2",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_boots_2",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:magma_cream",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_resto_antico"
+    },
+    {
+      "id": "razzo_tier_3",
+      "titolo": "&6&lRazzo Tier 3&r",
+      "sottotitolo": "Rotta per Venere",
+      "descrizione": [
+        "Nel &6Banco NASA&r: ogiva, &cTeschio del Resto&r, 5 blocchi di ostrum, 4 alette, 2 serbatoi e il motore di ostrum."
+      ],
+      "x": 6.0,
+      "y": 32.95,
+      "icona": "ad_astra:tier_3_rocket",
+      "dipendenze": [
+        "resto_antico"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:tier_3_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1100
+        }
+      ],
+      "sezione": "sez_resto_antico"
+    },
+    {
+      "id": "venere_e_calorite",
+      "titolo": "Venere e la calorite",
+      "sottotitolo": "Nuvole acide, metallo rovente",
+      "descrizione": [
+        "&7&oSolo la netherite e la Fodera II vi tengono vivi qui.&r",
+        "La &6calorite&r si lavora come desh e ostrum: Maceratore, poi Altoforno.",
+        "Preparate motore, 2 serbatoi e 5 blocchi di calorite."
+      ],
+      "x": 6.0,
+      "y": 41.0,
+      "icona": "ad_astra:calorite_ingot",
+      "dipendenze": [
+        "calorite_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:venus",
+          "titolo": "Atterrate su Venere"
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:calorite_engine",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:calorite_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:calorite_block",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_block",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 350
+        }
+      ],
+      "sezione": "sez_maledictus"
+    },
+    {
+      "id": "prigione_gelata",
+      "titolo": "La Prigione Gelata",
+      "sottotitolo": "Una lapide che respira",
+      "descrizione": [
+        "&7&oNel gelo qualcuno è stato rinchiuso. Non per sempre.&r",
+        "L'&6Occhio della Maledizione&r indica la &6Prigione Gelata&r, nei biomi innevati.",
+        "Dentro c'è la &6Lapide Maledetta&r: attivatela per evocare Maledictus. &aDecidete i ruoli: alabarde, arco e salti.&r"
+      ],
+      "x": 2.0,
+      "y": 38.0,
+      "icona": "cataclysm:cursed_eye",
+      "dipendenze": [
+        "raw_calorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursed_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_frosted_prison"
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_maledictus"
+    },
+    {
+      "id": "maledictus",
+      "titolo": "Maledictus",
+      "sottotitolo": "Crociata contro la maledizione",
+      "descrizione": [
+        "&7&oUn cavaliere fantasma con tre armi e nessuna pietà.&r",
+        "Abbattete &cMaledictus&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Lascia il &6Lingotto di Cursium&r: serve al Tier 4.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 38.0,
+      "icona": "cataclysm:cursium_ingot",
+      "dipendenze": [
+        "prigione_gelata"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:maledictus",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursium_ingot",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1000
+        }
+      ],
+      "sezione": "sez_maledictus"
+    },
+    {
+      "id": "razzo_tier_4",
+      "titolo": "&6&lRazzo Tier 4&r",
+      "sottotitolo": "Rotta per Mercurio e Glacio",
+      "descrizione": [
+        "Nel &6Banco NASA&r: ogiva, &cLingotto di Cursium&r, 5 blocchi di calorite, 4 alette, 2 serbatoi e il motore di calorite.",
+        "&7È l'ultimo razzo di Ad Astra: dopo servono banchi nuovi.&r"
+      ],
+      "x": 6.0,
+      "y": 38.75,
+      "icona": "ad_astra:tier_4_rocket",
+      "dipendenze": [
+        "maledictus"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:tier_4_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1200
+        }
+      ],
+      "sezione": "sez_maledictus"
+    },
+    {
+      "id": "torre_del_lich",
+      "titolo": "La Torre del Lich",
+      "sottotitolo": "Stelle d'anima",
+      "descrizione": [
+        "&7&oOgni cinquanta non morti, un'anima cade come una stella.&r",
+        "Uccidete non morti: ogni 50 cade una &6Stella d'Anima&r. Lanciata, indica la &6Torre del Lich&r nei biomi freddi.",
+        "Servono 4 stelle per i 4 altari della torre. &aRuoli decisi: il Lich teletrasporta, gela e chiama comete.&r"
+      ],
+      "x": 2.0,
+      "y": 43.8,
+      "icona": "bosses_of_mass_destruction:soul_star",
+      "dipendenze": [
+        "raw_pallorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:soul_star",
+          "quantita": 4
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Torre trovata, ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "lich_della_notte",
+      "titolo": "Il Lich della Notte",
+      "sottotitolo": "La notte che non finisce",
+      "descrizione": [
+        "&7&oQuando l'ultima stella tocca l'altare, il cielo si spegne.&r",
+        "Abbattete il &cLich della Notte&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Lascia l'&6Anima Antica&r: serve al Tier 5.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 43.8,
+      "icona": "bosses_of_mass_destruction:ancient_anima",
+      "dipendenze": [
+        "torre_del_lich"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:lich",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:ancient_anima",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1100
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "mercurio_helionite",
+      "titolo": "Mercurio e l'helionite",
+      "sottotitolo": "Il metallo del sole",
+      "descrizione": [
+        "&7&oVicino al sole, nei delta di Mercurio, sotto la roccia.&r",
+        "L'&6helionite&r si trova in profondità. Il grezzo si fonde, le piastre escono dal &6Compressore&r.",
+        "Blocchi per il razzo, piastre per il nuovo banco e per la Fodera III."
+      ],
+      "x": 6.0,
+      "y": 46.8,
+      "icona": "adastraplanets:helionite_ingot",
+      "dipendenze": [
+        "helionite_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:mercury",
+          "titolo": "Atterrate su Mercurio"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:helionite_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:helionite_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "fodera_3",
+      "titolo": "Fodera III",
+      "sottotitolo": "Per Giove e Saturno",
+      "descrizione": [
+        "Ogni pezzo della Fodera II circondato da piastre di helionite.",
+        "&cSenza Fodera III i sistemi di Giove e Saturno non perdonano.&r Un set a testa."
+      ],
+      "x": 2.0,
+      "y": 96.8,
+      "icona": "adastraplanets:liner_vest_3",
+      "dipendenze": [
+        "raw_cordium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_hood_3",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_vest_3",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_leggings_3",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_boots_3",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_wool",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "lune_di_marte",
+      "titolo": "Le lune di Marte",
+      "sottotitolo": "Deimos, Phobos e un avamposto",
+      "descrizione": [
+        "&7&oDue sassi attorno a Marte. Qualcuno ci è già stato.&r",
+        "&6Pallorite&r su Deimos, &6umbrite&r su Phobos.",
+        "Su Phobos c'è l'&6Avamposto della Spedizione&r: in fondo custodisce il &6Nucleo di Luce Brace&r."
+      ],
+      "x": 8.0,
+      "y": 46.8,
+      "icona": "adastraplanets:ember_light_core",
+      "dipendenze": [
+        "mercurio_helionite"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:deimos",
+          "titolo": "Atterrate su Deimos"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:phobos",
+          "titolo": "Atterrate su Phobos"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ember_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 350
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "banco_nasa_avanzato",
+      "titolo": "Banco NASA Avanzato",
+      "sottotitolo": "Per i razzi dal 5 al 7",
+      "descrizione": [
+        "Il Banco NASA al centro, piastre di calorite e di helionite attorno, il &6Nucleo di Luce Brace&r sotto.",
+        "&aIl nucleo torna indietro dopo il craft.&r"
+      ],
+      "x": 10.0,
+      "y": 46.8,
+      "icona": "adastraplanets:advanced_nasa_workbench",
+      "dipendenze": [
+        "lune_di_marte"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:advanced_nasa_workbench",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "parti_tier_5",
+      "titolo": "I pezzi del Tier 5",
+      "sottotitolo": "Pallorite, umbrite, helionite",
+      "descrizione": [
+        "Ogni pezzo nuovo nasce da quello vecchio:",
+        "&6ogiva di pallorite&r dall'ogiva, &6alette e serbatoi di umbrite&r da alette e serbatoi di calorite, &6motore di helionite&r dal motore di calorite e una ventola."
+      ],
+      "x": 2.0,
+      "y": 98.3,
+      "icona": "adastraplanets:helionite_engine",
+      "dipendenze": [
+        "raw_cordium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:pallorite_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:umbrite_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:umbrite_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:helionite_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "razzo_tier_5",
+      "titolo": "&6&lRazzo Tier 5&r",
+      "sottotitolo": "Rotta per Giove",
+      "descrizione": [
+        "Nel &6Banco NASA Avanzato&r: ogiva di pallorite, &cAnima Antica&r, 5 blocchi di helionite, 4 alette e 2 serbatoi di umbrite, motore di helionite."
+      ],
+      "x": 6.0,
+      "y": 44.55,
+      "icona": "adastraplanets:tier_5_rocket",
+      "dipendenze": [
+        "lich_della_notte"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_5_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 24
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1400
+        }
+      ],
+      "sezione": "sez_lich"
+    },
+    {
+      "id": "sistema_gioviano",
+      "titolo": "Il sistema di Giove",
+      "sottotitolo": "Un pianeta e quattro lune",
+      "descrizione": [
+        "&7&oCinque mondi, cinque metalli. Dividetevi.&r",
+        "&6Stormium&r su Giove, &6eonyx&r su Callisto, &6aurorium&r su Ganimede, &6igneum&r su Io, &6abyssium&r negli sfiati idrotermali di Europa.",
+        "&cServe la Fodera III.&r Ogni pezzo si crafta dal pezzo del Tier 5."
+      ],
+      "x": 8.0,
+      "y": 55.6,
+      "icona": "adastraplanets:stormium_engine",
+      "dipendenze": [
+        "stormium_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:jupiter",
+          "titolo": "Atterrate su Giove"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:eonyx_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:aurorium_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:igneum_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:abyssium_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:stormium_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ],
+      "sezione": "sez_guanto"
+    },
+    {
+      "id": "arena_del_guanto",
+      "titolo": "L'arena del Guanto",
+      "sottotitolo": "Un pugno nel Nether",
+      "descrizione": [
+        "&7&oPietra nera scolpita e un guanto grande come una casa.&r",
+        "Nel &6Nether&r, un'arena di pietranera antica custodisce il &cGuanto del Nether&r, immobile finché non lo toccate.",
+        "&aRuoli: chi lo tiene, chi schiva i laser, chi colpisce l'occhio.&r"
+      ],
+      "x": 2.0,
+      "y": 52.6,
+      "icona": "minecraft:blackstone",
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Arena trovata, ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 350
+        }
+      ],
+      "sezione": "sez_guanto"
+    },
+    {
+      "id": "guanto_del_nether",
+      "titolo": "Il Guanto del Nether",
+      "sottotitolo": "Attraverso il Guanto",
+      "descrizione": [
+        "&7&oPugni esplosivi, laser, scudi di fuoco.&r",
+        "Abbattete il &cGuanto&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Alla sua morte appare uno scrigno con l'&6Occhio Ardente&r: serve al Tier 6.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 52.6,
+      "icona": "bosses_of_mass_destruction:blazing_eye",
+      "dipendenze": [
+        "arena_del_guanto"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:gauntlet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:blazing_eye",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1200
+        }
+      ],
+      "sezione": "sez_guanto"
+    },
+    {
+      "id": "razzo_tier_6",
+      "titolo": "&6&lRazzo Tier 6&r",
+      "sottotitolo": "Rotta per Saturno",
+      "descrizione": [
+        "Nel &6Banco NASA Avanzato&r: ogiva di eonyx, &cOcchio Ardente&r, 5 blocchi di aurorium, 4 alette di igneum, 2 serbatoi di abyssium, motore di stormium.",
+        "&cIl Tier 6 non parte dalla vecchia piazzola:&r serve la &6Piazzola Grande&r (5x5), con piastre d'acciaio e di helionite. Vale anche per il Tier 7."
+      ],
+      "x": 6.0,
+      "y": 53.35,
+      "icona": "adastraplanets:tier_6_rocket",
+      "dipendenze": [
+        "guanto_del_nether"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_6_rocket",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:large_launch_pad",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:roast_chicken_block",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1500
+        }
+      ],
+      "sezione": "sez_guanto"
+    },
+    {
+      "id": "sistema_saturniano",
+      "titolo": "Il sistema di Saturno",
+      "sottotitolo": "Anelli e lune ghiacciate",
+      "descrizione": [
+        "&7&oGli anelli si vedono da ogni luna.&r",
+        "&6Cassinium&r su Saturno, &6ferrolith&r su Rea, &6vesperine&r su Giapeto, &6nivalum&r su Encelado, &6tholinar&r su Titano.",
+        "Ogni pezzo si crafta dal pezzo del Tier 6."
+      ],
+      "x": 2.0,
+      "y": 67.4,
+      "icona": "adastraplanets:tholinar_engine",
+      "dipendenze": [
+        "zaino_di_netherite"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:saturn",
+          "titolo": "Atterrate su Saturno"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ferrolith_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cassinium_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:vesperine_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nivalum_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tholinar_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 550
+        }
+      ],
+      "sezione": "sez_guardiano"
+    },
+    {
+      "id": "biblioteca_degli_anelli",
+      "titolo": "La Biblioteca degli Anelli",
+      "sottotitolo": "Un nucleo su Titano",
+      "descrizione": [
+        "&7&oScaffali di pietra antica sotto un cielo arancione.&r",
+        "Su &6Titano&r c'è la &6Biblioteca degli Anelli&r: in fondo custodisce il &6Nucleo di Luce Aureola&r, chiave del Banco Stellare."
+      ],
+      "x": 2.0,
+      "y": 79.2,
+      "icona": "adastraplanets:halo_light_core",
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:titan",
+          "titolo": "Atterrate su Titano"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:halo_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:experience_bottle",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_fiore"
+    },
+    {
+      "id": "fodera_4",
+      "titolo": "Fodera IV",
+      "sottotitolo": "Per Urano e Nettuno",
+      "descrizione": [
+        "Ogni pezzo della Fodera III circondato da piastre di cassinium.",
+        "&cSenza Fodera IV Urano e Nettuno vi schiacciano.&r Un set a testa."
+      ],
+      "x": 2.0,
+      "y": 80.7,
+      "icona": "adastraplanets:liner_vest_4",
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_hood_4",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_vest_4",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_leggings_4",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_boots_4",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_wool",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_fiore"
+    },
+    {
+      "id": "cittadella_in_rovina",
+      "titolo": "La Cittadella in Rovina",
+      "sottotitolo": "Un'altra fortezza nell'End",
+      "descrizione": [
+        "&7&oTra le isole dell'End, una fortezza di porpora spezzata.&r",
+        "L'&6Occhio del Vuoto&r (porpora, gusci di shulker, occhio di ender) indica la &6Cittadella in Rovina&r.",
+        "Avvicinarsi all'&6Altare del Vuoto&r risveglia il Guardiano. &aRuoli decisi prima di salire.&r"
+      ],
+      "x": 2.0,
+      "y": 65.9,
+      "icona": "cataclysm:void_eye",
+      "dipendenze": [
+        "zaino_di_netherite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:void_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_ruined_citadel"
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_pearl",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_guardiano"
+    },
+    {
+      "id": "guardiano_dell_end",
+      "titolo": "Il Guardiano dell'End",
+      "sottotitolo": "Difensore del regno esterno",
+      "descrizione": [
+        "&7&oUn golem di porpora con un guanto che afferra.&r",
+        "Abbattete il &cGuardiano dell'End&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Lascia il &6Guanto della Guardia&r: serve al Tier 7.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 65.9,
+      "icona": "cataclysm:gauntlet_of_guard",
+      "dipendenze": [
+        "cittadella_in_rovina"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ender_guardian",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:gauntlet_of_guard",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1300
+        }
+      ],
+      "sezione": "sez_guardiano"
+    },
+    {
+      "id": "razzo_tier_7",
+      "titolo": "&6&lRazzo Tier 7&r",
+      "sottotitolo": "Rotta per Urano",
+      "descrizione": [
+        "Nel &6Banco NASA Avanzato&r: ogiva di ferrolith, &cGuanto della Guardia&r, 5 blocchi di cassinium, 4 alette di vesperine, 2 serbatoi di nivalum, motore di tholinar."
+      ],
+      "x": 2.0,
+      "y": 5.05,
+      "icona": "adastraplanets:tier_7_rocket",
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_7_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1600
+        }
+      ],
+      "sezione": "sez_giganti"
+    },
+    {
+      "id": "giglio_del_vuoto",
+      "titolo": "Il Giglio del Vuoto",
+      "sottotitolo": "Dove porta il polline?",
+      "descrizione": [
+        "&7&oUn fiore viola che respira verso il basso.&r",
+        "Il &6Giglio del Vuoto&r (mughetto e frammento d'ametista) libera polline che indica il &cFiore del Vuoto&r, sepolto sotto la superficie.",
+        "&aRuoli: spine dal suolo, spore velenose, lame di petali.&r"
+      ],
+      "x": 2.0,
+      "y": 70.2,
+      "icona": "bosses_of_mass_destruction:void_lily",
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:void_lily",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Fiore trovato, ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_fiore"
+    },
+    {
+      "id": "fiore_del_vuoto",
+      "titolo": "Il Fiore del Vuoto",
+      "sottotitolo": "Diserbo estremo",
+      "descrizione": [
+        "&7&oLe radici arrivano dove non dovrebbero.&r",
+        "Abbattete il &cFiore del Vuoto&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Lascia le &6Spine del Vuoto&r: servono al Tier 8.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 70.2,
+      "icona": "bosses_of_mass_destruction:void_thorn",
+      "dipendenze": [
+        "giglio_del_vuoto"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:void_blossom",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:void_thorn",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1400
+        }
+      ],
+      "sezione": "sez_fiore"
+    },
+    {
+      "id": "sistema_di_urano",
+      "titolo": "Urano",
+      "sottotitolo": "Diamanti sotto pressione",
+      "descrizione": [
+        "&7&oUn gigante azzurro che schiaccia tutto.&r",
+        "&cServe la Fodera IV.&r Su Urano crescono i &6Cristalli di Pressione&r: rompendoli si ottengono &6Diamanti di Pressione&r.",
+        "Lì c'è anche l'&6azurane&r; &6obscurex&r su Oberon, &6mosaicon&r su Miranda, &6chasmal&r su Titania."
+      ],
+      "x": 0.0,
+      "y": 16.1,
+      "icona": "adastraplanets:pressure_diamond",
+      "dipendenze": [
+        "razzo_tier_7"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:uranus",
+          "titolo": "Atterrate su Urano"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:pressure_diamond",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ],
+      "sezione": "sez_confini",
+      "nascondi_linee": true
+    },
+    {
+      "id": "banco_nasa_stellare",
+      "titolo": "Banco NASA Stellare",
+      "sottotitolo": "Per i razzi dall'8 al 10",
+      "descrizione": [
+        "Il Banco Avanzato al centro, piastre di azurane e obscurex attorno, un &6Diamante di Pressione&r sopra e il &6Nucleo di Luce Aureola&r sotto.",
+        "&aIl nucleo torna indietro dopo il craft.&r"
+      ],
+      "x": 2.0,
+      "y": 16.1,
+      "icona": "adastraplanets:stellar_nasa_workbench",
+      "dipendenze": [
+        "sistema_di_urano"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:halo_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:stellar_nasa_workbench",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:emerald",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ],
+      "sezione": "sez_confini"
+    },
+    {
+      "id": "parti_tier_8",
+      "titolo": "I pezzi del Tier 8",
+      "sottotitolo": "Le lune di Urano",
+      "descrizione": [
+        "Ogni pezzo si crafta dal pezzo del Tier 7.",
+        "Il &6motore di azurane&r vuole anche un Diamante di Pressione."
+      ],
+      "x": 2.0,
+      "y": 17.6,
+      "icona": "adastraplanets:azurane_engine",
+      "dipendenze": [
+        "sistema_di_urano"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mosaicon_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:azurane_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:obscurex_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:chasmal_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:azurane_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ],
+      "sezione": "sez_confini"
+    },
+    {
+      "id": "razzo_tier_8",
+      "titolo": "&6&lRazzo Tier 8&r",
+      "sottotitolo": "Rotta per Nettuno",
+      "descrizione": [
+        "Nel &6Banco NASA Stellare&r: ogiva di mosaicon, &cSpine del Vuoto&r, 5 blocchi di azurane, 4 alette di obscurex, 2 serbatoi di chasmal, motore di azurane.",
+        "&cDal Tier 8 serve la &6Piazzola Enorme&r (7x7), dalla Piazzola Grande con piastre d'acciaio e di cassinium."
+      ],
+      "x": 6.0,
+      "y": 70.95,
+      "icona": "adastraplanets:tier_8_rocket",
+      "dipendenze": [
+        "fiore_del_vuoto"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_8_rocket",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:huge_launch_pad",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:shepherds_pie_block",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1800
+        }
+      ],
+      "sezione": "sez_fiore"
+    },
+    {
+      "id": "arena_di_ossidiana",
+      "titolo": "L'arena di ossidiana",
+      "sottotitolo": "Un altare nell'End",
+      "descrizione": [
+        "&7&oUn monolite nero tra le isole lontane dell'End.&r",
+        "Nell'arena dell'&cObsidilith&r c'è un &6Altare di Ossidiana&r: un occhio di ender lo sveglia.",
+        "&aRuoli: scudi, onde di fuoco, pilastri che esplodono.&r"
+      ],
+      "x": 2.0,
+      "y": 83.5,
+      "icona": "minecraft:obsidian",
+      "dipendenze": [
+        "raw_nitralis"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Arena trovata, ruoli decisi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 450
+        }
+      ],
+      "sezione": "sez_obsidilith"
+    },
+    {
+      "id": "obsidilith",
+      "titolo": "L'Obsidilith",
+      "sottotitolo": "Distruttore di ossidiana",
+      "descrizione": [
+        "&7&oPietra viva che si teletrasporta e si scuda.&r",
+        "Abbattete l'&cObsidilith&r insieme. &cCresce con le ere e a ogni uccisione.&r",
+        "Alla sua morte sale un pilastro con uno scrigno: dentro il &6Cuore di Ossidiana&r, per il Tier 9.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 83.5,
+      "icona": "bosses_of_mass_destruction:obsidian_heart",
+      "dipendenze": [
+        "arena_di_ossidiana"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:obsidilith",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:obsidian_heart",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1500
+        }
+      ],
+      "sezione": "sez_obsidilith"
+    },
+    {
+      "id": "sistema_di_nettuno",
+      "titolo": "Nettuno e Tritone",
+      "sottotitolo": "Tempeste blu",
+      "descrizione": [
+        "&7&oVenti che strappano il casco dalla testa.&r",
+        "&6Tempestine&r su Nettuno, &6nitralis&r su Tritone. Ogni pezzo si crafta dal pezzo del Tier 8.",
+        "Tenete da parte piastre di tempestine per la Fodera V."
+      ],
+      "x": 8.0,
+      "y": 86.5,
+      "icona": "adastraplanets:tempestine_engine",
+      "dipendenze": [
+        "tempestine_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:neptune",
+          "titolo": "Atterrate su Nettuno"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nitralis_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tempestine_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nitralis_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tempestine_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tempestine_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 650
+        }
+      ],
+      "sezione": "sez_obsidilith"
+    },
+    {
+      "id": "fodera_5",
+      "titolo": "Fodera V",
+      "sottotitolo": "Per Plutone ed Eris",
+      "descrizione": [
+        "Ogni pezzo della Fodera IV circondato da piastre di tempestine.",
+        "&cAi confini del sistema fa freddo come in nessun altro posto.&r Un set a testa."
+      ],
+      "x": 10.0,
+      "y": 86.5,
+      "icona": "adastraplanets:liner_vest_5",
+      "dipendenze": [
+        "sistema_di_nettuno"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_hood_5",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_vest_5",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_leggings_5",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:liner_boots_5",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_wool",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 350
+        }
+      ],
+      "sezione": "sez_obsidilith"
+    },
+    {
+      "id": "razzo_tier_9",
+      "titolo": "&6&lRazzo Tier 9&r",
+      "sottotitolo": "Rotta per Plutone",
+      "descrizione": [
+        "Nel &6Banco NASA Stellare&r: ogiva di nitralis, &cCuore di Ossidiana&r, 5 blocchi di tempestine, 4 alette di nitralis, 2 serbatoi e motore di tempestine."
+      ],
+      "x": 6.0,
+      "y": 84.25,
+      "icona": "adastraplanets:tier_9_rocket",
+      "dipendenze": [
+        "obsidilith"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_9_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 2000
+        }
+      ],
+      "sezione": "sez_obsidilith"
+    },
+    {
+      "id": "acropoli",
+      "titolo": "L'Acropoli",
+      "sottotitolo": "Perché nel cielo?",
+      "descrizione": [
+        "&7&oColonne bianche sospese sopra il mare. E fulmini.&r",
+        "L'&6Occhio della Tempesta&r (prismarino, diamanti, parafulmine, acqua) indica l'&6Acropoli&r.",
+        "In cima dorme &cScilla&r, l'Imperatrice della Tempesta. &aUltimo boss: preparatevi come non mai.&r"
+      ],
+      "x": 2.0,
+      "y": 90.8,
+      "icona": "cataclysm:storm_eye",
+      "dipendenze": [
+        "raw_cordium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:storm_eye",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_acropolis"
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi, equipaggiamento al massimo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "scilla",
+      "titolo": "Scilla",
+      "sottotitolo": "La quiete dopo la tempesta",
+      "descrizione": [
+        "&7&oLancia, catene e il cielo intero contro di voi.&r",
+        "Svegliate &cScilla&r e abbattetela insieme. &cÈ il boss più forte di Cataclysm e cresce con le ere e a ogni uccisione.&r",
+        "Lascia l'&6Essenza della Tempesta&r: serve al Tier 10.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 4.0,
+      "y": 90.8,
+      "icona": "cataclysm:essence_of_the_storm",
+      "dipendenze": [
+        "acropoli"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:scylla",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:essence_of_the_storm",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1800
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "sistema_di_plutone",
+      "titolo": "Plutone e Caronte",
+      "sottotitolo": "Il cuore ghiacciato",
+      "descrizione": [
+        "&7&oUn cuore bianco inciso nel ghiaccio.&r",
+        "&cServe la Fodera V.&r &6Cordium&r su Plutone, &6mordrine&r su Caronte. Ogni pezzo si crafta dal pezzo del Tier 9."
+      ],
+      "x": 8.0,
+      "y": 93.8,
+      "icona": "adastraplanets:cordium_engine",
+      "dipendenze": [
+        "mordrine_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:pluto",
+          "titolo": "Atterrate su Plutone"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mordrine_nose_cone",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cordium_block",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mordrine_fin",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cordium_tank",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cordium_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 700
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "razzo_tier_10",
+      "titolo": "&6&lRazzo Tier 10&r",
+      "sottotitolo": "L'ultimo razzo",
+      "descrizione": [
+        "Nel &6Banco NASA Stellare&r: ogiva di mordrine, &cEssenza della Tempesta&r, 5 blocchi di cordium, 4 alette di mordrine, 2 serbatoi e motore di cordium.",
+        "&aNon esiste un razzo più lontano.&r"
+      ],
+      "x": 6.0,
+      "y": 91.55,
+      "icona": "adastraplanets:tier_10_rocket",
+      "dipendenze": [
+        "scilla"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tier_10_rocket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:roast_chicken_block",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 2500
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "oltre_il_confine",
+      "titolo": "&6&lOltre il confine&r",
+      "sottotitolo": "Eris, la fine del viaggio",
+      "descrizione": [
+        "&7&oDa una taverna e quattro coloni fino all'ultimo sasso del sistema solare.&r",
+        "Atterrate su &6Eris&r. Ce l'avete fatta &linsieme&r: la colonia che vi ha sfamato, l'officina che vi ha armato, la rete che vi ha seguito, e ogni boss abbattuto in squadra.",
+        "&aNeroCraft è vostro. Il cielo, adesso, anche.&r",
+        "{@pagebreak}",
+        "&7Su Eris c'è ancora una porta chiusa che chiede sette nuclei di luce. Ma questa è un'altra storia.&r"
+      ],
+      "x": 8.0,
+      "y": 91.55,
+      "icona": "backpacked:backpack",
+      "dipendenze": [
+        "razzo_tier_10"
+      ],
+      "forma": "hexagon",
+      "dimensione": 2,
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:eris",
+          "titolo": "Atterrate su Eris"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 64
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:cake",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 5000
+        }
+      ],
+      "sezione": "sez_scilla"
+    },
+    {
+      "id": "raw_aurorium",
+      "titolo": "Aurorium grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di aurorium"
+      ],
+      "x": 0.0,
+      "y": 52.6,
+      "icona": "adastraplanets:raw_aurorium",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_aurorium",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_abyssium",
+      "titolo": "Abyssium grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di abyssium"
+      ],
+      "x": 2.0,
+      "y": 57.1,
+      "icona": "adastraplanets:raw_abyssium",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_abyssium",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_nitralis",
+      "titolo": "Nitralis grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di nitralis"
+      ],
+      "x": 0.0,
+      "y": 83.5,
+      "icona": "adastraplanets:raw_nitralis",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_nitralis",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_cordium",
+      "titolo": "Cordium grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di cordium"
+      ],
+      "x": 0.0,
+      "y": 90.8,
+      "icona": "adastraplanets:raw_cordium",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_cordium",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_cassinium",
+      "titolo": "Cassinium grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di cassinium"
+      ],
+      "x": 0.0,
+      "y": 4.3,
+      "icona": "adastraplanets:raw_cassinium",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_cassinium",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_obscurex",
+      "titolo": "Obscurex grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di obscurex"
+      ],
+      "x": 0.0,
+      "y": 70.2,
+      "icona": "adastraplanets:raw_obscurex",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_obscurex",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_mosaicon",
+      "titolo": "Mosaicon grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di mosaicon"
+      ],
+      "x": 2.0,
+      "y": 76.2,
+      "icona": "adastraplanets:raw_mosaicon",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_mosaicon",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_nivalum",
+      "titolo": "Nivalum grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di nivalum"
+      ],
+      "x": 2.0,
+      "y": 8.8,
+      "icona": "adastraplanets:raw_nivalum",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_nivalum",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_tempestine",
+      "titolo": "Tempestine grezza",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di tempestine"
+      ],
+      "x": 2.0,
+      "y": 86.5,
+      "icona": "adastraplanets:raw_tempestine",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_tempestine",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "dipendenze": [
+        "raw_nitralis"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_azurane",
+      "titolo": "Azurane grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di azurane"
+      ],
+      "x": 2.0,
+      "y": 73.2,
+      "icona": "adastraplanets:raw_azurane",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_azurane",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_ostrum",
+      "titolo": "Ostrum grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di ostrum"
+      ],
+      "x": 0.0,
+      "y": 32.2,
+      "icona": "ad_astra:raw_ostrum",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:raw_ostrum",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_resto_antico",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_ferrolith",
+      "titolo": "Ferrolith grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di ferrolith"
+      ],
+      "x": 2.0,
+      "y": 7.3,
+      "icona": "adastraplanets:raw_ferrolith",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_ferrolith",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_chasmal",
+      "titolo": "Chasmal grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di chasmal"
+      ],
+      "x": 2.0,
+      "y": 74.7,
+      "icona": "adastraplanets:raw_chasmal",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_chasmal",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_desh",
+      "titolo": "Desh grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di desh"
+      ],
+      "x": 0.0,
+      "y": 20.4,
+      "icona": "ad_astra:raw_desh",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:raw_desh",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_pallorite",
+      "titolo": "Pallorite grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di pallorite"
+      ],
+      "x": 0.0,
+      "y": 43.8,
+      "icona": "adastraplanets:raw_pallorite",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_pallorite",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_tholinar",
+      "titolo": "Tholinar grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di tholinar"
+      ],
+      "x": 2.0,
+      "y": 10.3,
+      "icona": "adastraplanets:raw_tholinar",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_tholinar",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_vesperine",
+      "titolo": "Vesperine grezza",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di vesperine"
+      ],
+      "x": 2.0,
+      "y": 11.8,
+      "icona": "adastraplanets:raw_vesperine",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_vesperine",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_calorite",
+      "titolo": "Calorite grezza",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di calorite"
+      ],
+      "x": 0.0,
+      "y": 38.0,
+      "icona": "ad_astra:raw_calorite",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:raw_calorite",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_maledictus",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_helionite",
+      "titolo": "Helionite grezza",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di helionite"
+      ],
+      "x": 2.0,
+      "y": 46.8,
+      "icona": "adastraplanets:raw_helionite",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_helionite",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "dipendenze": [
+        "raw_pallorite"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_eonyx",
+      "titolo": "Eonyx grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di eonyx"
+      ],
+      "x": 2.0,
+      "y": 58.6,
+      "icona": "adastraplanets:raw_eonyx",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_eonyx",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_umbrite",
+      "titolo": "Umbrite grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di umbrite"
+      ],
+      "x": 2.0,
+      "y": 48.3,
+      "icona": "adastraplanets:raw_umbrite",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_umbrite",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "dipendenze": [
+        "raw_pallorite"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_mordrine",
+      "titolo": "Mordrine grezza",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di mordrine"
+      ],
+      "x": 2.0,
+      "y": 93.8,
+      "icona": "adastraplanets:raw_mordrine",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_mordrine",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "dipendenze": [
+        "raw_cordium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_stormium",
+      "titolo": "Stormium grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di stormium"
+      ],
+      "x": 2.0,
+      "y": 55.6,
+      "icona": "adastraplanets:raw_stormium",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_stormium",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "raw_igneum",
+      "titolo": "Igneum grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Minerale grezzo che si trova su un altro pianeta: va fuso in fornace.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto di igneum"
+      ],
+      "x": 2.0,
+      "y": 60.1,
+      "icona": "adastraplanets:raw_igneum",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:raw_igneum",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "helionite_ingot",
+      "titolo": "Lingotto di helionite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'helionite grezza in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Helionite grezza",
+        "&7Serve per:&r Blocco di helionite, Piastra di helionite"
+      ],
+      "x": 4.0,
+      "y": 46.8,
+      "icona": "adastraplanets:helionite_ingot",
+      "dipendenze": [
+        "raw_helionite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:helionite_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "obscurex_ingot",
+      "titolo": "Lingotto di obscurex",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'obscurex grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Obscurex grezzo",
+        "&7Serve per:&r Piastra di obscurex"
+      ],
+      "x": 2.0,
+      "y": 77.7,
+      "icona": "adastraplanets:obscurex_ingot",
+      "dipendenze": [
+        "raw_obscurex"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:obscurex_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "desh_ingot",
+      "titolo": "Lingotto di desh",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto di desh, materiale chiave per i razzi e l'equipaggiamento spaziale.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Desh grezzo",
+        "&7Serve per:&r Blocco di desh, Piastra di desh"
+      ],
+      "x": 2.0,
+      "y": 20.4,
+      "icona": "ad_astra:desh_ingot",
+      "dipendenze": [
+        "raw_desh"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:desh_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "calorite_ingot",
+      "titolo": "Lingotto di calorite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo la calorite grezza in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Calorite grezza",
+        "&7Serve per:&r Blocco di calorite, Piastra di calorite"
+      ],
+      "x": 2.0,
+      "y": 41.0,
+      "icona": "ad_astra:calorite_ingot",
+      "dipendenze": [
+        "raw_calorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:calorite_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_maledictus",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "mosaicon_ingot",
+      "titolo": "Lingotto di mosaicon",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il mosaicon grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Mosaicon grezzo",
+        "&7Serve per:&r Piastra di mosaicon"
+      ],
+      "x": 4.0,
+      "y": 76.2,
+      "icona": "adastraplanets:mosaicon_ingot",
+      "dipendenze": [
+        "raw_mosaicon"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mosaicon_ingot",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "vesperine_ingot",
+      "titolo": "Lingotto di vesperine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo la vesperine grezza in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Vesperine grezza",
+        "&7Serve per:&r Piastra di vesperine"
+      ],
+      "x": 4.0,
+      "y": 11.8,
+      "icona": "adastraplanets:vesperine_ingot",
+      "dipendenze": [
+        "raw_vesperine"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:vesperine_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "azurane_ingot",
+      "titolo": "Lingotto di azurane",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'azurane grezzo in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Azurane grezzo",
+        "&7Serve per:&r Blocco di azurane, Piastra di azurane"
+      ],
+      "x": 4.0,
+      "y": 73.2,
+      "icona": "adastraplanets:azurane_ingot",
+      "dipendenze": [
+        "raw_azurane"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:azurane_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "chasmal_ingot",
+      "titolo": "Lingotto di chasmal",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il chasmal grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Chasmal grezzo",
+        "&7Serve per:&r Piastra di chasmal"
+      ],
+      "x": 4.0,
+      "y": 74.7,
+      "icona": "adastraplanets:chasmal_ingot",
+      "dipendenze": [
+        "raw_chasmal"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:chasmal_ingot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "tholinar_ingot",
+      "titolo": "Lingotto di tholinar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il tholinar grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Tholinar grezzo",
+        "&7Serve per:&r Piastra di tholinar"
+      ],
+      "x": 4.0,
+      "y": 10.3,
+      "icona": "adastraplanets:tholinar_ingot",
+      "dipendenze": [
+        "raw_tholinar"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tholinar_ingot",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "umbrite_ingot",
+      "titolo": "Lingotto di umbrite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'umbrite grezza in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Umbrite grezzo",
+        "&7Serve per:&r Piastra di umbrite"
+      ],
+      "x": 4.0,
+      "y": 48.3,
+      "icona": "adastraplanets:umbrite_ingot",
+      "dipendenze": [
+        "raw_umbrite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:umbrite_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "stormium_ingot",
+      "titolo": "Lingotto di stormium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo lo stormium grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Stormium grezzo",
+        "&7Serve per:&r Piastra di stormium"
+      ],
+      "x": 4.0,
+      "y": 55.6,
+      "icona": "adastraplanets:stormium_ingot",
+      "dipendenze": [
+        "raw_stormium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:stormium_ingot",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cassinium_ingot",
+      "titolo": "Lingotto di cassinium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il cassinium grezzo in fornace: base per i blocchi.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Cassinium grezzo",
+        "&7Serve per:&r Blocco di cassinium"
+      ],
+      "x": 2.0,
+      "y": 13.3,
+      "icona": "adastraplanets:cassinium_ingot",
+      "dipendenze": [
+        "raw_cassinium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cassinium_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "nivalum_ingot",
+      "titolo": "Lingotto di nivalum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il nivalum grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Nivalum grezzo",
+        "&7Serve per:&r Piastra di nivalum"
+      ],
+      "x": 4.0,
+      "y": 8.8,
+      "icona": "adastraplanets:nivalum_ingot",
+      "dipendenze": [
+        "raw_nivalum"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nivalum_ingot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "eonyx_ingot",
+      "titolo": "Lingotto di eonyx",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'eonyx grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Eonyx grezzo",
+        "&7Serve per:&r Piastra di eonyx"
+      ],
+      "x": 4.0,
+      "y": 58.6,
+      "icona": "adastraplanets:eonyx_ingot",
+      "dipendenze": [
+        "raw_eonyx"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:eonyx_ingot",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "pallorite_ingot",
+      "titolo": "Lingotto di pallorite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo la pallorite grezza in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Pallorite grezzo",
+        "&7Serve per:&r Piastra di pallorite"
+      ],
+      "x": 2.0,
+      "y": 49.8,
+      "icona": "adastraplanets:pallorite_ingot",
+      "dipendenze": [
+        "raw_pallorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:pallorite_ingot",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "ostrum_ingot",
+      "titolo": "Lingotto di ostrum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'ostrum grezzo in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Ostrum grezzo",
+        "&7Serve per:&r Blocco di ostrum, Piastra di ostrum"
+      ],
+      "x": 2.0,
+      "y": 35.2,
+      "icona": "ad_astra:ostrum_ingot",
+      "dipendenze": [
+        "raw_ostrum"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:ostrum_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_resto_antico",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "nitralis_ingot",
+      "titolo": "Lingotto di nitralis",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il nitralis grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Nitralis grezzo",
+        "&7Serve per:&r Piastra di nitralis"
+      ],
+      "x": 2.0,
+      "y": 88.0,
+      "icona": "adastraplanets:nitralis_ingot",
+      "dipendenze": [
+        "raw_nitralis"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nitralis_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "abyssium_ingot",
+      "titolo": "Lingotto di abyssium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'abyssium grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Abyssium grezzo",
+        "&7Serve per:&r Piastra di abyssium"
+      ],
+      "x": 4.0,
+      "y": 57.1,
+      "icona": "adastraplanets:abyssium_ingot",
+      "dipendenze": [
+        "raw_abyssium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:abyssium_ingot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "ferrolith_ingot",
+      "titolo": "Lingotto di ferrolith",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il ferrolith grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Ferrolith grezzo",
+        "&7Serve per:&r Piastra di ferrolith"
+      ],
+      "x": 4.0,
+      "y": 7.3,
+      "icona": "adastraplanets:ferrolith_ingot",
+      "dipendenze": [
+        "raw_ferrolith"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ferrolith_ingot",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "igneum_ingot",
+      "titolo": "Lingotto di igneum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'igneum grezzo in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Igneum grezzo",
+        "&7Serve per:&r Piastra di igneum"
+      ],
+      "x": 4.0,
+      "y": 60.1,
+      "icona": "adastraplanets:igneum_ingot",
+      "dipendenze": [
+        "raw_igneum"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:igneum_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "mordrine_ingot",
+      "titolo": "Lingotto di mordrine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo la mordrine grezza in fornace: base per le piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Mordrine grezza",
+        "&7Serve per:&r Piastra di mordrine"
+      ],
+      "x": 4.0,
+      "y": 93.8,
+      "icona": "adastraplanets:mordrine_ingot",
+      "dipendenze": [
+        "raw_mordrine"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mordrine_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "tempestine_ingot",
+      "titolo": "Lingotto di tempestine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo la tempestine grezza in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Tempestine grezza",
+        "&7Serve per:&r Blocco di tempestine, Piastra di tempestine"
+      ],
+      "x": 4.0,
+      "y": 86.5,
+      "icona": "adastraplanets:tempestine_ingot",
+      "dipendenze": [
+        "raw_tempestine"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tempestine_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "cordium_ingot",
+      "titolo": "Lingotto di cordium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo il cordium grezzo in fornace: base per blocchi e piastre.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Cordium grezzo",
+        "&7Serve per:&r Blocco di cordium, Piastra di cordium"
+      ],
+      "x": 2.0,
+      "y": 95.3,
+      "icona": "adastraplanets:cordium_ingot",
+      "dipendenze": [
+        "raw_cordium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cordium_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "aurorium_ingot",
+      "titolo": "Lingotto di aurorium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto ottenuto fondendo l'aurorium grezzo in fornace: base per i blocchi.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Aurorium grezzo",
+        "&7Serve per:&r Blocco di aurorium"
+      ],
+      "x": 2.0,
+      "y": 61.6,
+      "icona": "adastraplanets:aurorium_ingot",
+      "dipendenze": [
+        "raw_aurorium"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:aurorium_ingot",
+          "quantita": 48
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "hopper",
+      "titolo": "Tramoggia",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Contenitore che raccoglie e sposta gli oggetti: serve per la pompa d'acqua.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Lingotto di ferro, 1x Baule",
+        "&7Serve per:&r Pompa d'acqua"
+      ],
+      "x": 0.0,
+      "y": 101.1,
+      "icona": "minecraft:hopper",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:hopper",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "cordium_plate",
+      "titolo": "Piastra di cordium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di cordium",
+        "&7Serve per:&r Serbatoio di cordium, Motore di cordium"
+      ],
+      "x": 4.0,
+      "y": 95.3,
+      "icona": "adastraplanets:cordium_plate",
+      "dipendenze": [
+        "cordium_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cordium_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "nivalum_plate",
+      "titolo": "Piastra di nivalum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di nivalum",
+        "&7Serve per:&r Serbatoio di nivalum"
+      ],
+      "x": 6.0,
+      "y": 8.8,
+      "icona": "adastraplanets:nivalum_plate",
+      "dipendenze": [
+        "nivalum_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nivalum_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "calorite_plate",
+      "titolo": "Piastra di calorite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo e della stazione.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di calorite",
+        "&7Serve per:&r Serbatoio di calorite, Motore di calorite, Banco NASA avanzato"
+      ],
+      "x": 4.0,
+      "y": 41.0,
+      "icona": "ad_astra:calorite_plate",
+      "dipendenze": [
+        "calorite_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:calorite_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_maledictus",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "eonyx_plate",
+      "titolo": "Piastra di eonyx",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di eonyx",
+        "&7Serve per:&r Ogiva di eonyx"
+      ],
+      "x": 6.0,
+      "y": 58.6,
+      "icona": "adastraplanets:eonyx_plate",
+      "dipendenze": [
+        "eonyx_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:eonyx_plate",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "ostrum_plate",
+      "titolo": "Piastra di ostrum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo e di alcune macchine.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di ostrum",
+        "&7Serve per:&r Serbatoio di ostrum, Motore di ostrum, Congelatore criogenico, Energizzatore"
+      ],
+      "x": 4.0,
+      "y": 35.2,
+      "icona": "ad_astra:ostrum_plate",
+      "dipendenze": [
+        "ostrum_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:ostrum_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_resto_antico",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "mosaicon_plate",
+      "titolo": "Piastra di mosaicon",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di mosaicon",
+        "&7Serve per:&r Ogiva di mosaicon"
+      ],
+      "x": 6.0,
+      "y": 76.2,
+      "icona": "adastraplanets:mosaicon_plate",
+      "dipendenze": [
+        "mosaicon_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mosaicon_plate",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "chasmal_plate",
+      "titolo": "Piastra di chasmal",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di chasmal",
+        "&7Serve per:&r Serbatoio di chasmal"
+      ],
+      "x": 6.0,
+      "y": 74.7,
+      "icona": "adastraplanets:chasmal_plate",
+      "dipendenze": [
+        "chasmal_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:chasmal_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "tholinar_plate",
+      "titolo": "Piastra di tholinar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di tholinar",
+        "&7Serve per:&r Motore di tholinar"
+      ],
+      "x": 6.0,
+      "y": 10.3,
+      "icona": "adastraplanets:tholinar_plate",
+      "dipendenze": [
+        "tholinar_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tholinar_plate",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "umbrite_plate",
+      "titolo": "Piastra di umbrite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di umbrite",
+        "&7Serve per:&r Pinna del razzo di umbrite, Serbatoio di umbrite"
+      ],
+      "x": 6.0,
+      "y": 48.3,
+      "icona": "adastraplanets:umbrite_plate",
+      "dipendenze": [
+        "umbrite_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:umbrite_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "azurane_plate",
+      "titolo": "Piastra di azurane",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo e della stazione.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di azurane",
+        "&7Serve per:&r Motore di azurane, Banco NASA stellare"
+      ],
+      "x": 6.0,
+      "y": 73.2,
+      "icona": "adastraplanets:azurane_plate",
+      "dipendenze": [
+        "azurane_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:azurane_plate",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "igneum_plate",
+      "titolo": "Piastra di igneum",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di igneum",
+        "&7Serve per:&r Pinna del razzo di igneum"
+      ],
+      "x": 6.0,
+      "y": 60.1,
+      "icona": "adastraplanets:igneum_plate",
+      "dipendenze": [
+        "igneum_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:igneum_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "stormium_plate",
+      "titolo": "Piastra di stormium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di stormium",
+        "&7Serve per:&r Motore di stormium"
+      ],
+      "x": 6.0,
+      "y": 55.6,
+      "icona": "adastraplanets:stormium_plate",
+      "dipendenze": [
+        "stormium_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:stormium_plate",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "vesperine_plate",
+      "titolo": "Piastra di vesperine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di vesperine",
+        "&7Serve per:&r Pinna del razzo di vesperine"
+      ],
+      "x": 6.0,
+      "y": 11.8,
+      "icona": "adastraplanets:vesperine_plate",
+      "dipendenze": [
+        "vesperine_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:vesperine_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "obscurex_plate",
+      "titolo": "Piastra di obscurex",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo e della stazione.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di obscurex",
+        "&7Serve per:&r Pinna del razzo di obscurex, Banco NASA stellare"
+      ],
+      "x": 4.0,
+      "y": 77.7,
+      "icona": "adastraplanets:obscurex_plate",
+      "dipendenze": [
+        "obscurex_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:obscurex_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_fiore",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "tempestine_plate",
+      "titolo": "Piastra di tempestine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di tempestine",
+        "&7Serve per:&r Serbatoio di tempestine, Motore di tempestine"
+      ],
+      "x": 6.0,
+      "y": 86.5,
+      "icona": "adastraplanets:tempestine_plate",
+      "dipendenze": [
+        "tempestine_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tempestine_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "ferrolith_plate",
+      "titolo": "Piastra di ferrolith",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di ferrolith",
+        "&7Serve per:&r Ogiva di ferrolith"
+      ],
+      "x": 6.0,
+      "y": 7.3,
+      "icona": "adastraplanets:ferrolith_plate",
+      "dipendenze": [
+        "ferrolith_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ferrolith_plate",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_giganti",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "mordrine_plate",
+      "titolo": "Piastra di mordrine",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di mordrine",
+        "&7Serve per:&r Ogiva di mordrine, Pinna del razzo di mordrine"
+      ],
+      "x": 6.0,
+      "y": 93.8,
+      "icona": "adastraplanets:mordrine_plate",
+      "dipendenze": [
+        "mordrine_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:mordrine_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_scilla",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "abyssium_plate",
+      "titolo": "Piastra di abyssium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di abyssium",
+        "&7Serve per:&r Serbatoio di abyssium"
+      ],
+      "x": 6.0,
+      "y": 57.1,
+      "icona": "adastraplanets:abyssium_plate",
+      "dipendenze": [
+        "abyssium_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:abyssium_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_guanto",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "desh_plate",
+      "titolo": "Piastra di desh",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra di desh, usata per serbatoi, motori e l'equipaggiamento spaziale.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di desh",
+        "&7Serve per:&r Serbatoio di desh, Motore di desh, Distributore di ossigeno, Normalizzatore di gravità e altro"
+      ],
+      "x": 4.0,
+      "y": 20.4,
+      "icona": "ad_astra:desh_plate",
+      "dipendenze": [
+        "desh_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:desh_plate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "nitralis_plate",
+      "titolo": "Piastra di nitralis",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di nitralis",
+        "&7Serve per:&r Ogiva di nitralis, Pinna del razzo di nitralis"
+      ],
+      "x": 4.0,
+      "y": 88.0,
+      "icona": "adastraplanets:nitralis_plate",
+      "dipendenze": [
+        "nitralis_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:nitralis_plate",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_obsidilith",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "pallorite_plate",
+      "titolo": "Piastra di pallorite",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piastra ricavata dal lingotto nel compressore: parte del razzo.",
+        "&7Si fa con:&r Compressore",
+        "&7Ingredienti:&r 1x Lingotto di pallorite",
+        "&7Serve per:&r Ogiva di pallorite"
+      ],
+      "x": 4.0,
+      "y": 49.8,
+      "icona": "adastraplanets:pallorite_plate",
+      "dipendenze": [
+        "pallorite_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:pallorite_plate",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_lich",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "blue_ice",
+      "titolo": "Ghiaccio azzurro",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ghiaccio azzurro: serve per il congelatore criogenico.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 9x Ghiaccio compatto",
+        "&7Serve per:&r Congelatore criogenico"
+      ],
+      "x": 2.0,
+      "y": 105.6,
+      "icona": "minecraft:blue_ice",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blue_ice",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 35
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "hopper"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "photovoltaic_etrium_cell",
+      "titolo": "Cella fotovoltaica di etrium",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per il pannello solare.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Vetro blu, 2x Piastra di desh, 1x Diamante",
+        "&7Serve per:&r Pannello solare"
+      ],
+      "x": 6.0,
+      "y": 23.4,
+      "icona": "ad_astra:photovoltaic_etrium_cell",
+      "dipendenze": [
+        "desh_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:photovoltaic_etrium_cell",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "etrionic_blast_furnace",
+      "titolo": "Altoforno etrionico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina di Ad Astra per la fusione dei metalli.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Piastra di ferro, 2x Polvere di redstone, 1x Forno fusorio"
+      ],
+      "x": 2.0,
+      "y": 107.1,
+      "icona": "ad_astra:etrionic_blast_furnace",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:etrionic_blast_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "hopper"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "steel_block",
+      "titolo": "Blocco di acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Blocco compatto d'acciaio, da costruzione e per la stazione.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 9x Lingotto d'acciaio",
+        "&7Serve per:&r Banco NASA"
+      ],
+      "x": 2.0,
+      "y": 26.4,
+      "icona": "modern_industrialization:steel_block",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_block",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "dipendenze": [
+        "raw_desh"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "etrionic_capacitor",
+      "titolo": "Condensatore etrionico",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente elettrico per il normalizzatore di gravità e l'energizzatore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Polvere di redstone, 4x Piastra d'acciaio, 3x Diamante",
+        "&7Serve per:&r Normalizzatore di gravità, Energizzatore"
+      ],
+      "x": 2.0,
+      "y": 101.1,
+      "icona": "ad_astra:etrionic_capacitor",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:etrionic_capacitor",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "hopper"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "gravity_normalizer",
+      "titolo": "Normalizzatore di gravità",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina per l'equipaggiamento spaziale di Ad Astra.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Condensatore etrionico, 1x Blocco di diamante, 3x Piastra di desh"
+      ],
+      "x": 4.0,
+      "y": 102.6,
+      "icona": "ad_astra:gravity_normalizer",
+      "dipendenze": [
+        "etrionic_capacitor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:gravity_normalizer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "energizer",
+      "titolo": "Energizzatore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina per l'equipaggiamento spaziale di Ad Astra.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Piastra di ostrum, 2x Condensatore etrionico, 2x Blocco di ostrum, 1x Blocco di diamante"
+      ],
+      "x": 4.0,
+      "y": 101.1,
+      "icona": "ad_astra:energizer",
+      "dipendenze": [
+        "etrionic_capacitor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:energizer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "solar_panel",
+      "titolo": "Pannello solare",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina di Ad Astra che ricava energia dal sole.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Cella fotovoltaica di etrium, 2x Piastra d'acciaio, 4x Piastra di desh"
+      ],
+      "x": 8.0,
+      "y": 23.4,
+      "icona": "ad_astra:solar_panel",
+      "dipendenze": [
+        "photovoltaic_etrium_cell"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:solar_panel",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "water_pump",
+      "titolo": "Pompa d'acqua",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina di Ad Astra che fornisce acqua.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Piastra d'acciaio, 3x Piastra di desh, 1x Serbatoio di gas, 1x Tramoggia"
+      ],
+      "x": 2.0,
+      "y": 110.1,
+      "icona": "ad_astra:water_pump",
+      "dipendenze": [
+        "hopper"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:water_pump",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "oxygen_gear",
+      "titolo": "Ingranaggio dell'ossigeno",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Componente per il distributore di ossigeno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Asta d'acciaio, 4x Piastra d'acciaio",
+        "&7Serve per:&r Distributore di ossigeno"
+      ],
+      "x": 2.0,
+      "y": 108.6,
+      "icona": "ad_astra:oxygen_gear",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:oxygen_gear",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "hopper"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "steel_tank",
+      "titolo": "Serbatoio d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Serbatoio d'acciaio, primo passo verso il serbatoio di desh.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Piastra d'acciaio, 1x Serbatoio di gas, 1x Asta d'acciaio",
+        "&7Serve per:&r Serbatoio di desh"
+      ],
+      "x": 2.0,
+      "y": 29.4,
+      "icona": "ad_astra:steel_tank",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:steel_tank",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "dipendenze": [
+        "raw_desh"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "large_gas_tank",
+      "titolo": "Grande serbatoio di gas",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Serbatoio di gas di grande dimensione, per il distributore di ossigeno e il congelatore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Asta d'acciaio, 4x Piastra d'acciaio, 2x Serbatoio di gas",
+        "&7Serve per:&r Distributore di ossigeno, Congelatore criogenico"
+      ],
+      "x": 2.0,
+      "y": 104.1,
+      "icona": "ad_astra:large_gas_tank",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:large_gas_tank",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "hopper"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "cryo_freezer",
+      "titolo": "Congelatore criogenico",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina di Ad Astra per il raffreddamento.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Piastra di ostrum, 2x Ghiaccio azzurro, 1x Grande serbatoio di gas"
+      ],
+      "x": 4.0,
+      "y": 104.1,
+      "icona": "ad_astra:cryo_freezer",
+      "dipendenze": [
+        "large_gas_tank"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:cryo_freezer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_engine",
+      "titolo": "Motore d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Motore d'acciaio, primo passo verso il motore di desh.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Piastra d'acciaio, 1x Telaio del motore, 1x Ventola",
+        "&7Serve per:&r Motore di desh"
+      ],
+      "x": 2.0,
+      "y": 27.9,
+      "icona": "ad_astra:steel_engine",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:steel_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_leviatano",
+      "bozza": true,
+      "dipendenze": [
+        "raw_desh"
+      ],
+      "rifinita": true
+    }
+  ]
+}

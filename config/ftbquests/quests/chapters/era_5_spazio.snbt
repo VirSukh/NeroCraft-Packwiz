@@ -1,0 +1,5317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "era_5_spazio"
+	group: "538E5527864EF186"
+	icon: {
+		count: 1
+		id: "ad_astra:tier_2_rocket"
+	}
+	id: "4AB351F91571D9E3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"56A9BCF5A0F629EB"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:tier_1_rocket"
+			}
+			id: "1C425960F443F26B"
+			rewards: [
+				{
+					count: 16
+					id: "243EF73F4991DD9F"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "2A5AB9F356590827"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3B00560533E80BD5"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_hood_1"
+					}
+					type: "item"
+				}
+				{
+					id: "4438B2B8F9959280"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_vest_1"
+					}
+					type: "item"
+				}
+				{
+					id: "2EEFA870732A59AC"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_leggings_1"
+					}
+					type: "item"
+				}
+				{
+					id: "5CDA6E0BADF3FE8A"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_boots_1"
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:moon"
+					id: "2B619F5BA007F370"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"2347D5D897909541"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:nasa_workbench"
+			}
+			id: "3B0236118D1746CF"
+			rewards: [
+				{
+					count: 4
+					id: "4BB74745BFC3E101"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2234A648ABC2945B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "34F5C5C2EDC0F1B7"
+					item: {
+						count: 1
+						id: "ad_astra:nasa_workbench"
+					}
+					type: "item"
+				}
+				{
+					id: "1FB95438BD8421B1"
+					item: {
+						count: 1
+						id: "ad_astra:desh_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "34D49E23111AC23F"
+					item: {
+						count: 1
+						id: "ad_astra:desh_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "109A27C902E716D1"
+					item: {
+						count: 1
+						id: "ad_astra:rocket_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "362626C255ADDB36"
+					item: {
+						count: 1
+						id: "ad_astra:rocket_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "6824A5893205D073"
+					item: {
+						count: 1
+						id: "ad_astra:desh_block"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 20.4d
+		}
+		{
+			dependencies: [
+				"58FFCBF85B767DB3"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:abyss_eye"
+			}
+			id: "23A2B7FF0AF2F06F"
+			rewards: [
+				{
+					count: 1
+					id: "58AEEA215150C221"
+					item: {
+						count: 1
+						id: "minecraft:turtle_helmet"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F795EFCE2C6502F"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "54BCF566D4A1A2DD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "6B178C71CC7712C7"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+					id: "5951B33542CFFB5B"
+					type: "advancement"
+				}
+				{
+					id: "73B37415789EF572"
+					item: {
+						count: 1
+						id: "cataclysm:abyssal_sacrifice"
+					}
+					type: "item"
+				}
+				{
+					id: "17139C64CB25F31D"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 24.9d
+		}
+		{
+			dependencies: [
+				"23A2B7FF0AF2F06F"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:tidal_claws"
+			}
+			id: "2D6E99E6437BE9BB"
+			rewards: [
+				{
+					count: 4
+					id: "181B254F1C572598"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "1F4E25EE2F710A57"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "5BE1B2FAE8EA2799"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "244906C218ACBF00"
+					item: {
+						count: 1
+						id: "cataclysm:tidal_claws"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 24.9d
+		}
+		{
+			dependencies: [
+				"3B0236118D1746CF"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:tier_2_rocket"
+			}
+			id: "73B8116F86382597"
+			rewards: [
+				{
+					count: 16
+					id: "1648F0488300C2A7"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "320D353086FC5355"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "206637D9CB97D9C0"
+					item: {
+						count: 1
+						id: "ad_astra:tier_2_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 21.15d
+		}
+		{
+			dependencies: [
+				"2347D5D897909541"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:oxygen_distributor"
+			}
+			id: "244E561B011A1D48"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "1A0D4660D6508C6F"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "324BD7169D49890B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "7DEB18E94E382EE4"
+					item: {
+						count: 1
+						id: "ad_astra:oxygen_distributor"
+					}
+					type: "item"
+				}
+				{
+					id: "565CFC0299AB9CA8"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 112.9d
+		}
+		{
+			dependencies: [
+				"3B0236118D1746CF"
+				"4BAE9AAA60E29178"
+			]
+			icon: {
+				count: 1
+				id: "backpacked:unlock_token"
+			}
+			id: "4E2831E98E73A0FF"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "18A3CC22C3D9DA89"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2EB23364F994E43E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "6A6BF0DD876D6EF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 65.9d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "154CCF7E6D7C0D00"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "65780CA5E345B2DA"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6EAC073554FDE6A3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "3A313218184940C9"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 63.1d
+		}
+		{
+			dependencies: [
+				"1FB62E6FC37FA072"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:ostrum_ingot"
+			}
+			id: "1FA824E37095EA23"
+			rewards: [
+				{
+					count: 4
+					id: "4F6D5FFB46B0A0DD"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "34DDD5D2D1E8A06C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "11CB7409CB133223"
+					type: "dimension"
+				}
+				{
+					id: "5925A56339314096"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "5048C0EB733981C4"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "58DD2BE36815FB82"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_block"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 35.2d
+		}
+		{
+			dependencies: [
+				"60F8B15A9C7DD6EB"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:desert_eye"
+			}
+			id: "4727DB1EAE699437"
+			rewards: [
+				{
+					count: 2
+					id: "71023DC12D3BC023"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3191C001B7A31AB1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "228745E9B3D70163"
+					item: {
+						count: 1
+						id: "cataclysm:desert_eye"
+					}
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_cursed_pyramid"
+					criterion: ""
+					id: "769D33B44B8EEBE9"
+					type: "advancement"
+				}
+				{
+					id: "2A06C1647EDD5F4C"
+					item: {
+						count: 1
+						id: "cataclysm:necklace_of_the_desert"
+					}
+					type: "item"
+				}
+				{
+					id: "1E57FD356A7BC31F"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 32.2d
+		}
+		{
+			dependencies: [
+				"4727DB1EAE699437"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:remnant_skull"
+			}
+			id: "4FD696D5B997F967"
+			rewards: [
+				{
+					count: 2
+					id: "61FA376998AC5468"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3EDBCCB2ECC8BCAF"
+					type: "xp"
+					xp: 900
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "3DA87406CEA2AA74"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1BDE7293B6D4ADF5"
+					item: {
+						count: 1
+						id: "cataclysm:remnant_skull"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 32.2d
+		}
+		{
+			dependencies: [
+				"1FA824E37095EA23"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:netherite_space_helmet"
+			}
+			id: "2407B9347CB2E5ED"
+			rewards: [
+				{
+					count: 8
+					id: "35BE84EDF9FA41EE"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "2601DDFCE5E7407C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "1A81A6D2E9199F35"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "3D9BB33E67B6E4FD"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_suit"
+					}
+					type: "item"
+				}
+				{
+					id: "1D059950A0362882"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE1B5D8558E4EA9"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "4AF1F111CE189C8D"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_hood_2"
+					}
+					type: "item"
+				}
+				{
+					id: "35DBEE382A0B798C"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_vest_2"
+					}
+					type: "item"
+				}
+				{
+					id: "1BFEFF2435CC1B74"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_leggings_2"
+					}
+					type: "item"
+				}
+				{
+					id: "45EFEC1E9A1ED83F"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_boots_2"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 35.2d
+		}
+		{
+			dependencies: [
+				"4FD696D5B997F967"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:tier_3_rocket"
+			}
+			id: "3142D77A357FD196"
+			rewards: [
+				{
+					count: 16
+					id: "149B0A3E8757BB4A"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "41D4AE6293B59A8E"
+					type: "xp"
+					xp: 1100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "595A1E148A9A9AC1"
+					item: {
+						count: 1
+						id: "ad_astra:tier_3_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 32.95d
+		}
+		{
+			dependencies: [
+				"3D54AD3786260748"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:calorite_ingot"
+			}
+			id: "2C2CF7A58747E837"
+			rewards: [
+				{
+					count: 2
+					id: "1D15465F1BDD8C53"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					id: "312078305B7C4571"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "1B0F5A24BE528289"
+					type: "dimension"
+				}
+				{
+					id: "1B94784725CD2F3A"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "16A8E9BD7053FC34"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "26CD67708CCF8151"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_block"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"1111387523AB37A1"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursed_eye"
+			}
+			id: "31E7363A7C3315A9"
+			rewards: [
+				{
+					count: 2
+					id: "2E017B0805781F45"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6DF906D57A7FEA5D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "4CD5CDBB0A8AF5CA"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_eye"
+					}
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "4201882AD457210F"
+					type: "advancement"
+				}
+				{
+					id: "666D6C59329B5569"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"31E7363A7C3315A9"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "17770561107A3175"
+			rewards: [
+				{
+					count: 4
+					id: "711737B3FD2514C8"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "7976656AF92F94F0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "7DE63F21B494BFFC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "118ABC87E68999EE"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"17770561107A3175"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:tier_4_rocket"
+			}
+			id: "5CEDDBBB5C0D12A3"
+			rewards: [
+				{
+					count: 2
+					id: "5BCB1EE2AE230541"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "130160D2E0359520"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6692C1079B5B3BF3"
+					item: {
+						count: 1
+						id: "ad_astra:tier_4_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 38.75d
+		}
+		{
+			dependencies: [
+				"5ED0492E79B8F49A"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:soul_star"
+			}
+			id: "6A048073055AA1BE"
+			rewards: [
+				{
+					count: 3
+					id: "7ED6699EE1A22791"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6CA5DC1423172920"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "63EBFE988D607314"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "431815F92909D99F"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 43.8d
+		}
+		{
+			dependencies: [
+				"6A048073055AA1BE"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:ancient_anima"
+			}
+			id: "4EF56AF96DEA2464"
+			rewards: [
+				{
+					count: 4
+					id: "3AD073C18643AEE5"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "37A1EA156658506F"
+					type: "xp"
+					xp: 1100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "7585116653EDF125"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "38E4BBCEBBC72028"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:ancient_anima"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 43.8d
+		}
+		{
+			dependencies: [
+				"26F6C93936CD1709"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:helionite_ingot"
+			}
+			id: "1F8B1A2876CABFFD"
+			rewards: [
+				{
+					count: 2
+					id: "563BA4C8B2203465"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "50E46EAFE5E3AA67"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:mercury"
+					id: "7D3D220D007EFB6B"
+					type: "dimension"
+				}
+				{
+					id: "10879F2686ECE60E"
+					item: {
+						count: 1
+						id: "adastraplanets:helionite_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "4506355FC22E0D28"
+					item: {
+						count: 1
+						id: "adastraplanets:helionite_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 6.0d
+			y: 46.8d
+		}
+		{
+			dependencies: [
+				"7EF17E2629E3936B"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:liner_vest_3"
+			}
+			id: "1B3A3AA477ED3EC7"
+			rewards: [
+				{
+					count: 16
+					id: "7A7F3C614CF2593D"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "1DE40A91E9FD692E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "4C32F1F79DE9902F"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_hood_3"
+					}
+					type: "item"
+				}
+				{
+					id: "676DF239E6D55345"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_vest_3"
+					}
+					type: "item"
+				}
+				{
+					id: "3CB00E95D9B21F5F"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_leggings_3"
+					}
+					type: "item"
+				}
+				{
+					id: "332283DF2524EC35"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_boots_3"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 96.8d
+		}
+		{
+			dependencies: [
+				"1F8B1A2876CABFFD"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:ember_light_core"
+			}
+			id: "20B4FFB54C67747E"
+			rewards: [
+				{
+					count: 16
+					id: "5D38F91BAA40100A"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "4FF8F97EC3B3110E"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:deimos"
+					id: "1D805B0192E8B932"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:phobos"
+					id: "10FF0C0C277A7EFD"
+					type: "dimension"
+				}
+				{
+					id: "67A9762A94DAA539"
+					item: {
+						count: 1
+						id: "adastraplanets:ember_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 46.8d
+		}
+		{
+			dependencies: [
+				"20B4FFB54C67747E"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:advanced_nasa_workbench"
+			}
+			id: "1380655679C565F7"
+			rewards: [
+				{
+					count: 8
+					id: "2FE8976989AF9B85"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6F62BCCBE3AE2172"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					id: "253D8981B9B14AC4"
+					item: {
+						count: 1
+						id: "adastraplanets:advanced_nasa_workbench"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 46.8d
+		}
+		{
+			dependencies: [
+				"7EF17E2629E3936B"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:helionite_engine"
+			}
+			id: "2CC4E54880CCD822"
+			rewards: [
+				{
+					count: 8
+					id: "36B051DBE4C9DFD6"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "29120A150FFBFE54"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					id: "48B9B0E1A39CC830"
+					item: {
+						count: 1
+						id: "adastraplanets:pallorite_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "3A5ACFE91D803421"
+					item: {
+						count: 1
+						id: "adastraplanets:umbrite_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "24D58747BD77ECEE"
+					item: {
+						count: 1
+						id: "adastraplanets:umbrite_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "2D25FC9565DE9905"
+					item: {
+						count: 1
+						id: "adastraplanets:helionite_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 98.3d
+		}
+		{
+			dependencies: [
+				"4EF56AF96DEA2464"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_5_rocket"
+			}
+			id: "7B99E268A1361617"
+			rewards: [
+				{
+					count: 24
+					id: "782E34D53F4A107E"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6E061E4C7262C567"
+					type: "xp"
+					xp: 1400
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3A42F9EF98877BAD"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_5_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 44.55d
+		}
+		{
+			dependencies: [
+				"6E3D8152105C9676"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:stormium_engine"
+			}
+			id: "566A5102F4B50103"
+			rewards: [
+				{
+					count: 4
+					id: "6C3F5717F53F314D"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1A19344FA3EB5FB3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:jupiter"
+					id: "3C6BB28020EA59FB"
+					type: "dimension"
+				}
+				{
+					id: "169DB5E167648787"
+					item: {
+						count: 1
+						id: "adastraplanets:eonyx_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "7C0BCA89083E2590"
+					item: {
+						count: 1
+						id: "adastraplanets:aurorium_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "1387633BE475181B"
+					item: {
+						count: 1
+						id: "adastraplanets:igneum_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "25206252DC518B3C"
+					item: {
+						count: 1
+						id: "adastraplanets:abyssium_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "5B83F5E8DBBBADAC"
+					item: {
+						count: 1
+						id: "adastraplanets:stormium_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 55.6d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:blackstone"
+			}
+			id: "61C49222933A346A"
+			rewards: [
+				{
+					count: 3
+					id: "6CC4A03C6B0F130D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6C26A27D8B3D11B1"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+					id: "66ABF4B2EC8E2C0D"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 52.6d
+		}
+		{
+			dependencies: [
+				"61C49222933A346A"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "1677E60048A30D3E"
+			rewards: [
+				{
+					count: 2
+					id: "2E60D9FCB6E823AA"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "122BDD95A4053B23"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "78F3924BD042B7C8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "16FF066FC3EC0852"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:blazing_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 52.6d
+		}
+		{
+			dependencies: [
+				"1677E60048A30D3E"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_6_rocket"
+			}
+			id: "31A3846018CCC469"
+			rewards: [
+				{
+					count: 1
+					id: "60E97E5C64667602"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					type: "item"
+				}
+				{
+					id: "433CB354371E7759"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "464418D54B4F672E"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_6_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3D6BDBC378F05CBF"
+					item: {
+						count: 1
+						id: "adastraplanets:large_launch_pad"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 53.35d
+		}
+		{
+			dependencies: [
+				"4E2831E98E73A0FF"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tholinar_engine"
+			}
+			id: "164EB1F1F94BCB3C"
+			rewards: [
+				{
+					count: 4
+					id: "172013501235DD93"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "465B6AC0C68CCCDC"
+					type: "xp"
+					xp: 550
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:saturn"
+					id: "4474601FCED1D097"
+					type: "dimension"
+				}
+				{
+					id: "16C816FE0EADE114"
+					item: {
+						count: 1
+						id: "adastraplanets:ferrolith_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "2526BDFBCD0046F6"
+					item: {
+						count: 1
+						id: "adastraplanets:cassinium_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "52EC0466C70FA3CA"
+					item: {
+						count: 1
+						id: "adastraplanets:vesperine_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "2B6D0F47171792AB"
+					item: {
+						count: 1
+						id: "adastraplanets:nivalum_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "15D446E4C70D21F3"
+					item: {
+						count: 1
+						id: "adastraplanets:tholinar_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 67.4d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:halo_light_core"
+			}
+			id: "598E8D698791EC19"
+			rewards: [
+				{
+					count: 16
+					id: "1857CDCDE5EF2A6B"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "13E453337A245E87"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:titan"
+					id: "125BA47963C0BFBC"
+					type: "dimension"
+				}
+				{
+					id: "43A8AC3C56B019D8"
+					item: {
+						count: 1
+						id: "adastraplanets:halo_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 79.2d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:liner_vest_4"
+			}
+			id: "16813E02258777B6"
+			rewards: [
+				{
+					count: 16
+					id: "6CF89C2B51E575DE"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "3B4839E379F5F454"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "78E8A4854D74ACCC"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_hood_4"
+					}
+					type: "item"
+				}
+				{
+					id: "590D97394F49B8C3"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_vest_4"
+					}
+					type: "item"
+				}
+				{
+					id: "2876078DA3C1AC92"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_leggings_4"
+					}
+					type: "item"
+				}
+				{
+					id: "5E433E9DDBA5500A"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_boots_4"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 80.7d
+		}
+		{
+			dependencies: [
+				"4E2831E98E73A0FF"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:void_eye"
+			}
+			id: "7A8BE0D97CEE1E55"
+			rewards: [
+				{
+					count: 16
+					id: "339B5CB426C2AD32"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "1EDC81970508CC90"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					id: "192E0300846CEF19"
+					item: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "1083FBD5AAFAC2DE"
+					type: "advancement"
+				}
+				{
+					id: "1F2ED672900770E9"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 65.9d
+		}
+		{
+			dependencies: [
+				"7A8BE0D97CEE1E55"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			id: "6270056D2C3E1F66"
+			rewards: [
+				{
+					count: 6
+					id: "4F12A1B893E2EEF3"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "5768FAE76BDADC1F"
+					type: "xp"
+					xp: 1300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "5DBACEE7EA790F19"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1EB7A521F9A4BE7D"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 65.9d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_7_rocket"
+			}
+			id: "5A6DD719602B772D"
+			rewards: [
+				{
+					count: 32
+					id: "1F970262C6370EF8"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5B1B9AE323422C0B"
+					type: "xp"
+					xp: 1600
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2FCF20EF06967061"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_7_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.05d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:void_lily"
+			}
+			id: "5A133880404792D6"
+			rewards: [
+				{
+					count: 3
+					id: "5A345951C82C7101"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "429A5D7647769B37"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					id: "147E2124E4B6F5B9"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:void_lily"
+					}
+					type: "item"
+				}
+				{
+					id: "17430452805314FB"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 70.2d
+		}
+		{
+			dependencies: [
+				"5A133880404792D6"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:void_thorn"
+			}
+			id: "3D2F19A7A415DCCB"
+			rewards: [
+				{
+					count: 3
+					id: "227F9362DB33A003"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3ED4F2827D5D5905"
+					type: "xp"
+					xp: 1400
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "31AE36F0E7107B04"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3D708E7DF7C55D80"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:void_thorn"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 70.2d
+		}
+		{
+			dependencies: [
+				"5A6DD719602B772D"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:pressure_diamond"
+			}
+			id: "15FA28732BE5CB29"
+			rewards: [
+				{
+					count: 4
+					id: "2F4A4722AA1E1765"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2190F05D630E8885"
+					type: "xp"
+					xp: 600
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					dimension: "adastraplanets:uranus"
+					id: "230DEA24D173CC2D"
+					type: "dimension"
+				}
+				{
+					id: "6DD50699E9B0C190"
+					item: {
+						count: 1
+						id: "adastraplanets:pressure_diamond"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 0.0d
+			y: 16.1d
+		}
+		{
+			dependencies: [
+				"15FA28732BE5CB29"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:stellar_nasa_workbench"
+			}
+			id: "3A14BC72CDCF51E1"
+			rewards: [
+				{
+					count: 16
+					id: "5372D8E814B70480"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "5A60F8780914E1DE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "1BF98A62460BD08F"
+					item: {
+						count: 1
+						id: "adastraplanets:halo_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "3D673A8D9F5EBE03"
+					item: {
+						count: 1
+						id: "adastraplanets:stellar_nasa_workbench"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.1d
+		}
+		{
+			dependencies: [
+				"15FA28732BE5CB29"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:azurane_engine"
+			}
+			id: "48B28434F5664179"
+			rewards: [
+				{
+					count: 8
+					id: "268307480DC75CB0"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6BD295EFB2A2AD39"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "35E02B634916D4DE"
+					item: {
+						count: 1
+						id: "adastraplanets:mosaicon_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "394970587D8C93D7"
+					item: {
+						count: 1
+						id: "adastraplanets:azurane_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "2B38CB9520C4358A"
+					item: {
+						count: 1
+						id: "adastraplanets:obscurex_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "74F08FF383FA4271"
+					item: {
+						count: 1
+						id: "adastraplanets:chasmal_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "7DDC28EE166D4F65"
+					item: {
+						count: 1
+						id: "adastraplanets:azurane_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 17.6d
+		}
+		{
+			dependencies: [
+				"3D2F19A7A415DCCB"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_8_rocket"
+			}
+			id: "42149042E5CD1C05"
+			rewards: [
+				{
+					count: 1
+					id: "47CDB539B96D8834"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4D04C0F09E082394"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2AC025AB85CB6A5B"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_8_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "732B1E921A689EAB"
+					item: {
+						count: 1
+						id: "adastraplanets:huge_launch_pad"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 70.95d
+		}
+		{
+			dependencies: [
+				"3D45DAE95EB85EB8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			id: "5A9B0A6210CA784B"
+			rewards: [
+				{
+					count: 4
+					id: "4FEB798FC3AB6835"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "503646958E458E02"
+					type: "xp"
+					xp: 450
+				}
+			]
+			tasks: [
+				{
+					id: "7D41EF27B63E5770"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "51995F68A7E17771"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 83.5d
+		}
+		{
+			dependencies: [
+				"5A9B0A6210CA784B"
+			]
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:obsidian_heart"
+			}
+			id: "3ECEF57C8A362874"
+			rewards: [
+				{
+					count: 8
+					id: "22A3CE4E87A44294"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "1BEB328E499CC30B"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "3380A3A48673F67F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "57388BBFC0A9AD2C"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:obsidian_heart"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 83.5d
+		}
+		{
+			dependencies: [
+				"1E55137BF343593F"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tempestine_engine"
+			}
+			id: "18AFCDAFD13576FA"
+			rewards: [
+				{
+					count: 6
+					id: "4E9D4F648855F3D1"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "55953FBCAF7B629C"
+					type: "xp"
+					xp: 650
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:neptune"
+					id: "25CBDED25B750F74"
+					type: "dimension"
+				}
+				{
+					id: "6FB8A33FD0668C0F"
+					item: {
+						count: 1
+						id: "adastraplanets:nitralis_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "4A5E0DB1B6E2FF22"
+					item: {
+						count: 1
+						id: "adastraplanets:tempestine_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "7B124AB61C90D5E3"
+					item: {
+						count: 1
+						id: "adastraplanets:nitralis_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "69A332AA6BAAF616"
+					item: {
+						count: 1
+						id: "adastraplanets:tempestine_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "667568BF5AC5514A"
+					item: {
+						count: 1
+						id: "adastraplanets:tempestine_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 86.5d
+		}
+		{
+			dependencies: [
+				"18AFCDAFD13576FA"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:liner_vest_5"
+			}
+			id: "23FD8E10BE4F5071"
+			rewards: [
+				{
+					count: 16
+					id: "2A2C7BE3C057C980"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "5FBCC09A36C573FC"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+					id: "78D3108B25DD75B1"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_hood_5"
+					}
+					type: "item"
+				}
+				{
+					id: "1F300BF0571A1CD2"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_vest_5"
+					}
+					type: "item"
+				}
+				{
+					id: "71D73DAC88683827"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_leggings_5"
+					}
+					type: "item"
+				}
+				{
+					id: "15B1DB35BE291DE4"
+					item: {
+						count: 1
+						id: "adastraplanets:liner_boots_5"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 86.5d
+		}
+		{
+			dependencies: [
+				"3ECEF57C8A362874"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_9_rocket"
+			}
+			id: "2DDC6BB673DEF279"
+			rewards: [
+				{
+					count: 32
+					id: "44F3FCE6AAADC565"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "1ED3A759F5775DC8"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4636877907DB782C"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_9_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 84.25d
+		}
+		{
+			dependencies: [
+				"7EF17E2629E3936B"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:storm_eye"
+			}
+			id: "693B073FA1C2A7A2"
+			rewards: [
+				{
+					count: 4
+					id: "7C3BDE1E96CC0C77"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5D2B35FF9D059133"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "44210D46CE45B423"
+					item: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_acropolis"
+					criterion: ""
+					id: "25A766FBFCD11D89"
+					type: "advancement"
+				}
+				{
+					id: "1276A920C399E345"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 90.8d
+		}
+		{
+			dependencies: [
+				"693B073FA1C2A7A2"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:essence_of_the_storm"
+			}
+			id: "1E31B85160AC6E7C"
+			rewards: [
+				{
+					count: 4
+					id: "2B8AAC4DD44B6F15"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "7A22CD9DA2497801"
+					type: "xp"
+					xp: 1800
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "298A9EAE18BF15D9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6CAA500BDBBEAE47"
+					item: {
+						count: 1
+						id: "cataclysm:essence_of_the_storm"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 90.8d
+		}
+		{
+			dependencies: [
+				"446F23CBAD038C07"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:cordium_engine"
+			}
+			id: "7E149F0D6473DE86"
+			rewards: [
+				{
+					count: 8
+					id: "11DB99FB5AF8E841"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "14DB5CCA050B8E89"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:pluto"
+					id: "2ECE7459CFF22D77"
+					type: "dimension"
+				}
+				{
+					id: "72DDEDFC5B7E4ACB"
+					item: {
+						count: 1
+						id: "adastraplanets:mordrine_nose_cone"
+					}
+					type: "item"
+				}
+				{
+					id: "74C3AA1C0125AB89"
+					item: {
+						count: 1
+						id: "adastraplanets:cordium_block"
+					}
+					type: "item"
+					count: 5L
+				}
+				{
+					id: "1B15F6E85F635FBE"
+					item: {
+						count: 1
+						id: "adastraplanets:mordrine_fin"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "38D55DEE3FC4D6B2"
+					item: {
+						count: 1
+						id: "adastraplanets:cordium_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "4E65CBA5DE1A750B"
+					item: {
+						count: 1
+						id: "adastraplanets:cordium_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 93.8d
+		}
+		{
+			dependencies: [
+				"1E31B85160AC6E7C"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tier_10_rocket"
+			}
+			id: "270D965EB69E4B43"
+			rewards: [
+				{
+					count: 2
+					id: "23ACACBBB3F3F253"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4B25D333BFA27307"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "62E10B6B4BC0FB22"
+					item: {
+						count: 1
+						id: "adastraplanets:tier_10_rocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 91.55d
+		}
+		{
+			dependencies: [
+				"270D965EB69E4B43"
+			]
+			icon: {
+				count: 1
+				id: "backpacked:backpack"
+			}
+			id: "15E456DED733CE2F"
+			rewards: [
+				{
+					count: 64
+					id: "6E33899A5A209C17"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "33637CC2B9386F52"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "3DCFA1F4FC2C0D2C"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "adastraplanets:eris"
+					id: "31D0A65079874806"
+					type: "dimension"
+				}
+			]
+			x: 8.0d
+			y: 91.55d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_aurorium"
+			}
+			id: "57D66CD13095F097"
+			rewards: [
+				{
+					id: "212B8F5467A11E02"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4469C3361E2DD40C"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_aurorium"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 52.6d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_abyssium"
+			}
+			id: "31BF1FF88DA1AFC0"
+			rewards: [
+				{
+					id: "2F6937743358FABD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "34221B82AA1A1E18"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_abyssium"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 2.0d
+			y: 57.1d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_nitralis"
+			}
+			id: "3D45DAE95EB85EB8"
+			rewards: [
+				{
+					id: "19CE0B7C3D012629"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5446B92202591C46"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_nitralis"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 0.0d
+			y: 83.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_cordium"
+			}
+			id: "7EF17E2629E3936B"
+			rewards: [
+				{
+					id: "32A67E1AB765A9C5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "28BE769601EE031C"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_cordium"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 90.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_cassinium"
+			}
+			id: "54F4A581D5E87C45"
+			rewards: [
+				{
+					id: "7B1BA35938F7F043"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6F53E3F1B48BB2B0"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_cassinium"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 4.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_obscurex"
+			}
+			id: "4A4D3E1D2D963E67"
+			rewards: [
+				{
+					id: "5870D7714EE7A207"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3694CFBE856E7B05"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_obscurex"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 0.0d
+			y: 70.2d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_mosaicon"
+			}
+			id: "63AB1B51EBE86A34"
+			rewards: [
+				{
+					id: "5C105BC48C7188DA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3DB3C18DB76AD8AE"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_mosaicon"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 2.0d
+			y: 76.2d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_nivalum"
+			}
+			id: "6F21AD814EAC4E8D"
+			rewards: [
+				{
+					id: "19E752AE20CBA0C5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "62E4D4616987A851"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_nivalum"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 2.0d
+			y: 8.8d
+		}
+		{
+			dependencies: [
+				"3D45DAE95EB85EB8"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_tempestine"
+			}
+			id: "6160B8806CE54230"
+			rewards: [
+				{
+					id: "55527470549FBBD5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "37BF27F792F70632"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_tempestine"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 86.5d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_azurane"
+			}
+			id: "49B9EF8C4AB3071F"
+			rewards: [
+				{
+					id: "222FBFEB98650E55"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "38D2A3DD7EC3CB4F"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_azurane"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 73.2d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:raw_ostrum"
+			}
+			id: "60F8B15A9C7DD6EB"
+			rewards: [
+				{
+					id: "4BFF779C933E6C2C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4BEA7F05FAC2E561"
+					item: {
+						count: 1
+						id: "ad_astra:raw_ostrum"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 32.2d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_ferrolith"
+			}
+			id: "1D315EF9742D9A46"
+			rewards: [
+				{
+					id: "2F4981402C15F832"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6CCE59110DDBE7B0"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_ferrolith"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 2.0d
+			y: 7.3d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_chasmal"
+			}
+			id: "390CA98E7508E180"
+			rewards: [
+				{
+					id: "141AF136209CF878"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "16E84732D3ADEB0C"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_chasmal"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 2.0d
+			y: 74.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:raw_desh"
+			}
+			id: "58FFCBF85B767DB3"
+			rewards: [
+				{
+					id: "28254820A7238289"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "109BE64B8D2490CE"
+					item: {
+						count: 1
+						id: "ad_astra:raw_desh"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 20.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_pallorite"
+			}
+			id: "5ED0492E79B8F49A"
+			rewards: [
+				{
+					id: "162D924B2C2D85DE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1A0447611DA6816C"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_pallorite"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 0.0d
+			y: 43.8d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_tholinar"
+			}
+			id: "46DC99DA55EA8650"
+			rewards: [
+				{
+					id: "411DF15A85C777EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "763CED5C15B65D03"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_tholinar"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 2.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_vesperine"
+			}
+			id: "5DD5075066094A65"
+			rewards: [
+				{
+					id: "34966E20E05AC556"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "228D9756B8EC0CAC"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_vesperine"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 11.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:raw_calorite"
+			}
+			id: "1111387523AB37A1"
+			rewards: [
+				{
+					id: "1CBD7242D03033AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5ED5A4FE9150CF14"
+					item: {
+						count: 1
+						id: "ad_astra:raw_calorite"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 0.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"5ED0492E79B8F49A"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_helionite"
+			}
+			id: "66C229F4DEE7B666"
+			rewards: [
+				{
+					id: "4359C9781F212747"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "42F8CB67EFD16648"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_helionite"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 46.8d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_eonyx"
+			}
+			id: "4AA2B3B078B559D3"
+			rewards: [
+				{
+					id: "503DE53EAB33121E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "157214610D643DBD"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_eonyx"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 2.0d
+			y: 58.6d
+		}
+		{
+			dependencies: [
+				"5ED0492E79B8F49A"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_umbrite"
+			}
+			id: "6547E10B4F585FFA"
+			rewards: [
+				{
+					id: "403B3A5B0C82883F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6BB5FDED3565CD75"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_umbrite"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 48.3d
+		}
+		{
+			dependencies: [
+				"7EF17E2629E3936B"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_mordrine"
+			}
+			id: "26B165BE7776CEE3"
+			rewards: [
+				{
+					id: "6E4CD255A51E8154"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "67DF2360701777C6"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_mordrine"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 93.8d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_stormium"
+			}
+			id: "47E6C3DAAEDF234E"
+			rewards: [
+				{
+					id: "185D354D22EBF3DE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1A66F84F88ABC75B"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_stormium"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 2.0d
+			y: 55.6d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:raw_igneum"
+			}
+			id: "4BEF086EAC053D32"
+			rewards: [
+				{
+					id: "2D22E1253E6A210E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1CED636E8BD2D644"
+					item: {
+						count: 1
+						id: "adastraplanets:raw_igneum"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 60.1d
+		}
+		{
+			dependencies: [
+				"66C229F4DEE7B666"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:helionite_ingot"
+			}
+			id: "26F6C93936CD1709"
+			rewards: [
+				{
+					id: "3E58DBB3EBE0D210"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "31BEF57104D0C632"
+					item: {
+						count: 1
+						id: "adastraplanets:helionite_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 4.0d
+			y: 46.8d
+		}
+		{
+			dependencies: [
+				"4A4D3E1D2D963E67"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:obscurex_ingot"
+			}
+			id: "228FA1AAE7887D94"
+			rewards: [
+				{
+					id: "157DB866B6C3FB16"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2D5DA8C66E9B9C45"
+					item: {
+						count: 1
+						id: "adastraplanets:obscurex_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 77.7d
+		}
+		{
+			dependencies: [
+				"58FFCBF85B767DB3"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:desh_ingot"
+			}
+			id: "1CB1F9E59CA9B219"
+			rewards: [
+				{
+					id: "2713ED719445A7E5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7C35D51819E1964E"
+					item: {
+						count: 1
+						id: "ad_astra:desh_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 20.4d
+		}
+		{
+			dependencies: [
+				"1111387523AB37A1"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:calorite_ingot"
+			}
+			id: "3D125E002A57966D"
+			rewards: [
+				{
+					id: "4378E34CCE132D64"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3F445B2DC9A71AA4"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"63AB1B51EBE86A34"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:mosaicon_ingot"
+			}
+			id: "584D607D34E3D75E"
+			rewards: [
+				{
+					id: "79B13F818FB91CB9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "11F55ECD2320C299"
+					item: {
+						count: 1
+						id: "adastraplanets:mosaicon_ingot"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 4.0d
+			y: 76.2d
+		}
+		{
+			dependencies: [
+				"5DD5075066094A65"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:vesperine_ingot"
+			}
+			id: "2D85ED90C88A52D2"
+			rewards: [
+				{
+					id: "66CAD944BFD6AC5A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1DEFB929DED634CD"
+					item: {
+						count: 1
+						id: "adastraplanets:vesperine_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 11.8d
+		}
+		{
+			dependencies: [
+				"49B9EF8C4AB3071F"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:azurane_ingot"
+			}
+			id: "68FD44F177DA5101"
+			rewards: [
+				{
+					id: "7539A6AC784864AE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7E93771428233AB5"
+					item: {
+						count: 1
+						id: "adastraplanets:azurane_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 4.0d
+			y: 73.2d
+		}
+		{
+			dependencies: [
+				"390CA98E7508E180"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:chasmal_ingot"
+			}
+			id: "33B826E2471FFE85"
+			rewards: [
+				{
+					id: "48BABEBB33D2C4E6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5452AF1B54AD8500"
+					item: {
+						count: 1
+						id: "adastraplanets:chasmal_ingot"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 74.7d
+		}
+		{
+			dependencies: [
+				"46DC99DA55EA8650"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tholinar_ingot"
+			}
+			id: "1BBB1A5E6B003485"
+			rewards: [
+				{
+					id: "2C5350C650885845"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "15974B6303F457C9"
+					item: {
+						count: 1
+						id: "adastraplanets:tholinar_ingot"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 4.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"6547E10B4F585FFA"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:umbrite_ingot"
+			}
+			id: "3B5C8CDA7338DCD0"
+			rewards: [
+				{
+					id: "29AF0ABF6552B882"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "558816377860E0E8"
+					item: {
+						count: 1
+						id: "adastraplanets:umbrite_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 48.3d
+		}
+		{
+			dependencies: [
+				"47E6C3DAAEDF234E"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:stormium_ingot"
+			}
+			id: "2AC5CFCF0F260CBE"
+			rewards: [
+				{
+					id: "346238480A43289A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1B615E6C0CEF04F2"
+					item: {
+						count: 1
+						id: "adastraplanets:stormium_ingot"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 4.0d
+			y: 55.6d
+		}
+		{
+			dependencies: [
+				"54F4A581D5E87C45"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:cassinium_ingot"
+			}
+			id: "1A913B9D93A60669"
+			rewards: [
+				{
+					id: "2D7EA2F155AFF746"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2369F3F0F420614D"
+					item: {
+						count: 1
+						id: "adastraplanets:cassinium_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 13.3d
+		}
+		{
+			dependencies: [
+				"6F21AD814EAC4E8D"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:nivalum_ingot"
+			}
+			id: "6824C02B5C537914"
+			rewards: [
+				{
+					id: "1C63F8A1A28400C2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3CE4DF777A386A74"
+					item: {
+						count: 1
+						id: "adastraplanets:nivalum_ingot"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 8.8d
+		}
+		{
+			dependencies: [
+				"4AA2B3B078B559D3"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:eonyx_ingot"
+			}
+			id: "488CBF962BB50B36"
+			rewards: [
+				{
+					id: "1E53EE26F86F0FFB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2328E4C8A2504DCA"
+					item: {
+						count: 1
+						id: "adastraplanets:eonyx_ingot"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 4.0d
+			y: 58.6d
+		}
+		{
+			dependencies: [
+				"5ED0492E79B8F49A"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:pallorite_ingot"
+			}
+			id: "3ED701D7533F7B09"
+			rewards: [
+				{
+					id: "69D7DDE97758FBE6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4758B52F8DE1F428"
+					item: {
+						count: 1
+						id: "adastraplanets:pallorite_ingot"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 2.0d
+			y: 49.8d
+		}
+		{
+			dependencies: [
+				"60F8B15A9C7DD6EB"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:ostrum_ingot"
+			}
+			id: "1A5CF9E0490DF95A"
+			rewards: [
+				{
+					id: "6BE15FF9DA3C3C16"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "69E179766DAACB18"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 35.2d
+		}
+		{
+			dependencies: [
+				"3D45DAE95EB85EB8"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:nitralis_ingot"
+			}
+			id: "7DA25604DB49BEAD"
+			rewards: [
+				{
+					id: "52E894C47BB617CD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "25784B2105007215"
+					item: {
+						count: 1
+						id: "adastraplanets:nitralis_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 88.0d
+		}
+		{
+			dependencies: [
+				"31BF1FF88DA1AFC0"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:abyssium_ingot"
+			}
+			id: "33482CE2C99E9B0A"
+			rewards: [
+				{
+					id: "623CA8AD11898B6E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "24EC5D1568E3AA4A"
+					item: {
+						count: 1
+						id: "adastraplanets:abyssium_ingot"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 57.1d
+		}
+		{
+			dependencies: [
+				"1D315EF9742D9A46"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:ferrolith_ingot"
+			}
+			id: "280F030707DDFBDB"
+			rewards: [
+				{
+					id: "6C68B9AB6C3126CE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7A9DC34C330C72EE"
+					item: {
+						count: 1
+						id: "adastraplanets:ferrolith_ingot"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 4.0d
+			y: 7.3d
+		}
+		{
+			dependencies: [
+				"4BEF086EAC053D32"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:igneum_ingot"
+			}
+			id: "1D2B7581E670C422"
+			rewards: [
+				{
+					id: "1D62C7A82C0355EE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2897BF9842E83EC5"
+					item: {
+						count: 1
+						id: "adastraplanets:igneum_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 60.1d
+		}
+		{
+			dependencies: [
+				"26B165BE7776CEE3"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:mordrine_ingot"
+			}
+			id: "1A5624FF8BBEBE0A"
+			rewards: [
+				{
+					id: "37A8D51CFC65DDB7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6434323A21B3580A"
+					item: {
+						count: 1
+						id: "adastraplanets:mordrine_ingot"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 93.8d
+		}
+		{
+			dependencies: [
+				"6160B8806CE54230"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tempestine_ingot"
+			}
+			id: "4CAB84D8BD093800"
+			rewards: [
+				{
+					id: "20E73634DABE8C7F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1DB1116B3D3B1205"
+					item: {
+						count: 1
+						id: "adastraplanets:tempestine_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 4.0d
+			y: 86.5d
+		}
+		{
+			dependencies: [
+				"7EF17E2629E3936B"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:cordium_ingot"
+			}
+			id: "7F148005B8651E4F"
+			rewards: [
+				{
+					id: "1A1FA82EE5C30634"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "790E9A124435A03C"
+					item: {
+						count: 1
+						id: "adastraplanets:cordium_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 95.3d
+		}
+		{
+			dependencies: [
+				"57D66CD13095F097"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:aurorium_ingot"
+			}
+			id: "239D7C2748A9C21D"
+			rewards: [
+				{
+					id: "786B3B20DCE8AF82"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5B2B59CDDC2C8269"
+					item: {
+						count: 1
+						id: "adastraplanets:aurorium_ingot"
+					}
+					type: "item"
+					count: 48L
+				}
+			]
+			x: 2.0d
+			y: 61.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			id: "1DEE1289E2F35487"
+			optional: true
+			rewards: [
+				{
+					id: "7C369DC8B3CA0190"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6187DE131726B07E"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 101.1d
+		}
+		{
+			dependencies: [
+				"7F148005B8651E4F"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:cordium_plate"
+			}
+			id: "10192308E38C6C45"
+			rewards: [
+				{
+					id: "24EB5944B520DF69"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1F3A95AC5ACCB4BF"
+					item: {
+						count: 1
+						id: "adastraplanets:cordium_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 95.3d
+		}
+		{
+			dependencies: [
+				"6824C02B5C537914"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:nivalum_plate"
+			}
+			id: "484FA34D54485050"
+			rewards: [
+				{
+					id: "2A2B2AD26E57B23F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "69770E3134B0B8E0"
+					item: {
+						count: 1
+						id: "adastraplanets:nivalum_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 6.0d
+			y: 8.8d
+		}
+		{
+			dependencies: [
+				"3D125E002A57966D"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:calorite_plate"
+			}
+			id: "3D54AD3786260748"
+			rewards: [
+				{
+					id: "2428D444425964D8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "169D6284CDE82CDB"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"488CBF962BB50B36"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:eonyx_plate"
+			}
+			id: "6B587255026DD450"
+			rewards: [
+				{
+					id: "16BFF1C020F70A01"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "165CC5688B9ECA99"
+					item: {
+						count: 1
+						id: "adastraplanets:eonyx_plate"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 58.6d
+		}
+		{
+			dependencies: [
+				"1A5CF9E0490DF95A"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:ostrum_plate"
+			}
+			id: "1FB62E6FC37FA072"
+			rewards: [
+				{
+					id: "6D240FD279DAB14B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5E8404C33B9800EE"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 35.2d
+		}
+		{
+			dependencies: [
+				"584D607D34E3D75E"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:mosaicon_plate"
+			}
+			id: "2DF314B74F5F501C"
+			rewards: [
+				{
+					id: "6294F178B7DA4AF2"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "296DD8FD886B1CF5"
+					item: {
+						count: 1
+						id: "adastraplanets:mosaicon_plate"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 76.2d
+		}
+		{
+			dependencies: [
+				"33B826E2471FFE85"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:chasmal_plate"
+			}
+			id: "26D1DA8179F6925F"
+			rewards: [
+				{
+					id: "426B44277724703E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5278803E853FD74C"
+					item: {
+						count: 1
+						id: "adastraplanets:chasmal_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 6.0d
+			y: 74.7d
+		}
+		{
+			dependencies: [
+				"1BBB1A5E6B003485"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tholinar_plate"
+			}
+			id: "11DA959E3A35C0D7"
+			rewards: [
+				{
+					id: "34C63B61DCCDF408"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "76D86E1BD041BB82"
+					item: {
+						count: 1
+						id: "adastraplanets:tholinar_plate"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 6.0d
+			y: 10.3d
+		}
+		{
+			dependencies: [
+				"3B5C8CDA7338DCD0"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:umbrite_plate"
+			}
+			id: "251F6E25908841B6"
+			rewards: [
+				{
+					id: "3B0C4BA781F6024A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "102CA92AA34B7A21"
+					item: {
+						count: 1
+						id: "adastraplanets:umbrite_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 48.3d
+		}
+		{
+			dependencies: [
+				"68FD44F177DA5101"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:azurane_plate"
+			}
+			id: "655D9972135F1365"
+			rewards: [
+				{
+					id: "7F643056AF985D47"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6F7B47ADB72677E9"
+					item: {
+						count: 1
+						id: "adastraplanets:azurane_plate"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 6.0d
+			y: 73.2d
+		}
+		{
+			dependencies: [
+				"1D2B7581E670C422"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:igneum_plate"
+			}
+			id: "609F03A1050762D4"
+			rewards: [
+				{
+					id: "3EA20B355B14F7D4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "19803948CA896775"
+					item: {
+						count: 1
+						id: "adastraplanets:igneum_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 60.1d
+		}
+		{
+			dependencies: [
+				"2AC5CFCF0F260CBE"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:stormium_plate"
+			}
+			id: "6E3D8152105C9676"
+			rewards: [
+				{
+					id: "600330E50699FE94"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "76E1E8B7B005A1D1"
+					item: {
+						count: 1
+						id: "adastraplanets:stormium_plate"
+					}
+					type: "item"
+					count: 7L
+				}
+			]
+			x: 6.0d
+			y: 55.6d
+		}
+		{
+			dependencies: [
+				"2D85ED90C88A52D2"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:vesperine_plate"
+			}
+			id: "18601C223182DA5C"
+			rewards: [
+				{
+					id: "397041817C067D45"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "44CC202D9AEEBE2F"
+					item: {
+						count: 1
+						id: "adastraplanets:vesperine_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 11.8d
+		}
+		{
+			dependencies: [
+				"228FA1AAE7887D94"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:obscurex_plate"
+			}
+			id: "1D7842C40FBC417A"
+			rewards: [
+				{
+					id: "6C542E03B76E43FA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2211409DE8FC6F0F"
+					item: {
+						count: 1
+						id: "adastraplanets:obscurex_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 77.7d
+		}
+		{
+			dependencies: [
+				"4CAB84D8BD093800"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tempestine_plate"
+			}
+			id: "1E55137BF343593F"
+			rewards: [
+				{
+					id: "7EF93A95284E10BC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "30CFB78CE0108BF1"
+					item: {
+						count: 1
+						id: "adastraplanets:tempestine_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 6.0d
+			y: 86.5d
+		}
+		{
+			dependencies: [
+				"280F030707DDFBDB"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:ferrolith_plate"
+			}
+			id: "7E84A741FA3F8E48"
+			rewards: [
+				{
+					id: "227C858FA78F4DE5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3CE60974CE97ED70"
+					item: {
+						count: 1
+						id: "adastraplanets:ferrolith_plate"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 6.0d
+			y: 7.3d
+		}
+		{
+			dependencies: [
+				"1A5624FF8BBEBE0A"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:mordrine_plate"
+			}
+			id: "446F23CBAD038C07"
+			rewards: [
+				{
+					id: "2442A80D7EBC5FE1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4306A886CFA5086A"
+					item: {
+						count: 1
+						id: "adastraplanets:mordrine_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 93.8d
+		}
+		{
+			dependencies: [
+				"33482CE2C99E9B0A"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:abyssium_plate"
+			}
+			id: "67B9F8EFC77922AC"
+			rewards: [
+				{
+					id: "25A4249F712440FC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "53E224677910961E"
+					item: {
+						count: 1
+						id: "adastraplanets:abyssium_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 6.0d
+			y: 57.1d
+		}
+		{
+			dependencies: [
+				"1CB1F9E59CA9B219"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:desh_plate"
+			}
+			id: "2347D5D897909541"
+			rewards: [
+				{
+					id: "778700C4694BED5D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "17745EAAA12CA1BD"
+					item: {
+						count: 1
+						id: "ad_astra:desh_plate"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 4.0d
+			y: 20.4d
+		}
+		{
+			dependencies: [
+				"7DA25604DB49BEAD"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:nitralis_plate"
+			}
+			id: "4B601415BC0B1F24"
+			rewards: [
+				{
+					id: "36FCB97E52959F0A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "39A792B0015FC30F"
+					item: {
+						count: 1
+						id: "adastraplanets:nitralis_plate"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 88.0d
+		}
+		{
+			dependencies: [
+				"3ED701D7533F7B09"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:pallorite_plate"
+			}
+			id: "311C3348B550AE16"
+			rewards: [
+				{
+					id: "3650F8A58A81A464"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2493242C904E5D1B"
+					item: {
+						count: 1
+						id: "adastraplanets:pallorite_plate"
+					}
+					type: "item"
+					count: 5L
+				}
+			]
+			x: 4.0d
+			y: 49.8d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:blue_ice"
+			}
+			id: "42198CD88A3683C8"
+			optional: true
+			rewards: [
+				{
+					id: "59DE7CC33B5344A1"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "2E7607D21E2EB53B"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 2.0d
+			y: 105.6d
+		}
+		{
+			dependencies: [
+				"2347D5D897909541"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:photovoltaic_etrium_cell"
+			}
+			id: "18351F0C0C1CA3B4"
+			optional: true
+			rewards: [
+				{
+					id: "541E0CA2F92F29D2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7A49FF4BF596A03A"
+					item: {
+						count: 1
+						id: "ad_astra:photovoltaic_etrium_cell"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 6.0d
+			y: 23.4d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:etrionic_blast_furnace"
+			}
+			id: "603B388D33B99B8B"
+			optional: true
+			rewards: [
+				{
+					id: "2A8B949CB1FE43C1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "71BF10754392C95B"
+					item: {
+						count: 1
+						id: "ad_astra:etrionic_blast_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 107.1d
+		}
+		{
+			dependencies: [
+				"58FFCBF85B767DB3"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_block"
+			}
+			id: "2529564E67FC3483"
+			rewards: [
+				{
+					id: "470C7C6EFCDD0750"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5CD08C945D095A53"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 26.4d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:etrionic_capacitor"
+			}
+			id: "69CEACD1EE4E8CD0"
+			optional: true
+			rewards: [
+				{
+					id: "26A4FB52962416F5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6FD5274BFD62AD09"
+					item: {
+						count: 1
+						id: "ad_astra:etrionic_capacitor"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 2.0d
+			y: 101.1d
+		}
+		{
+			dependencies: [
+				"69CEACD1EE4E8CD0"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:gravity_normalizer"
+			}
+			id: "2C6C74E697FEA57C"
+			optional: true
+			rewards: [
+				{
+					id: "293AE515F479243C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6BA67F1DAD2CAD99"
+					item: {
+						count: 1
+						id: "ad_astra:gravity_normalizer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 102.6d
+		}
+		{
+			dependencies: [
+				"69CEACD1EE4E8CD0"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:energizer"
+			}
+			id: "6D30A32674660AD8"
+			optional: true
+			rewards: [
+				{
+					id: "2CDE2D89E75CA1DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3FCA278853A1D4FE"
+					item: {
+						count: 1
+						id: "ad_astra:energizer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 101.1d
+		}
+		{
+			dependencies: [
+				"18351F0C0C1CA3B4"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:solar_panel"
+			}
+			id: "560C417599F9312B"
+			optional: true
+			rewards: [
+				{
+					id: "6FB95232D0A72F14"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "77D44005912F2A73"
+					item: {
+						count: 1
+						id: "ad_astra:solar_panel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 23.4d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:water_pump"
+			}
+			id: "2601D96296B78377"
+			optional: true
+			rewards: [
+				{
+					id: "711649B8E6B129BB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2AFB390A93AF1D09"
+					item: {
+						count: 1
+						id: "ad_astra:water_pump"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 110.1d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:oxygen_gear"
+			}
+			id: "683CE0C00F9131DE"
+			optional: true
+			rewards: [
+				{
+					id: "2C743744C61FD46E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1351D8BA2A096378"
+					item: {
+						count: 1
+						id: "ad_astra:oxygen_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 108.6d
+		}
+		{
+			dependencies: [
+				"58FFCBF85B767DB3"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:steel_tank"
+			}
+			id: "506D3864BFD43A1D"
+			rewards: [
+				{
+					id: "46F18D5B9A7BD70D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1A1A86A3ED55849E"
+					item: {
+						count: 1
+						id: "ad_astra:steel_tank"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 2.0d
+			y: 29.4d
+		}
+		{
+			dependencies: [
+				"1DEE1289E2F35487"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:large_gas_tank"
+			}
+			id: "336F7B850AE87FA4"
+			optional: true
+			rewards: [
+				{
+					id: "2A75D7ACA415CF17"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "262B6484B8249FBB"
+					item: {
+						count: 1
+						id: "ad_astra:large_gas_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 104.1d
+		}
+		{
+			dependencies: [
+				"336F7B850AE87FA4"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:cryo_freezer"
+			}
+			id: "7D128E7E784058C3"
+			optional: true
+			rewards: [
+				{
+					id: "5A35A064B8D6AB53"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1B602CC611EEFD3E"
+					item: {
+						count: 1
+						id: "ad_astra:cryo_freezer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 104.1d
+		}
+		{
+			dependencies: [
+				"58FFCBF85B767DB3"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:steel_engine"
+			}
+			id: "6BEE6142400C7F81"
+			rewards: [
+				{
+					id: "208CED359354BDC3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "18E3636608CE7A2C"
+					item: {
+						count: 1
+						id: "ad_astra:steel_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 27.9d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/era_5.png"
+			order: 0
+			rotation: 0.0d
+			width: 5.688d
+			x: 5.0d
+			y: -2.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_sistema_interno.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.367d
+			x: 1.18d
+			y: -1.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_giganti.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.3d
+			x: 1.15d
+			y: 3.2d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_confini.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.3d
+			x: 1.15d
+			y: 15.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_leviatano.png"
+			order: 4
+			rotation: 0.0d
+			width: 4.167d
+			x: 1.58d
+			y: 19.3d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_resto_antico.png"
+			order: 5
+			rotation: 0.0d
+			width: 4.7d
+			x: 1.85d
+			y: 31.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_maledictus.png"
+			order: 6
+			rotation: 0.0d
+			width: 4.367d
+			x: 1.68d
+			y: 36.9d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_lich.png"
+			order: 7
+			rotation: 0.0d
+			width: 3.167d
+			x: 1.08d
+			y: 42.7d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_guanto.png"
+			order: 8
+			rotation: 0.0d
+			width: 3.633d
+			x: 1.32d
+			y: 51.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_guardiano.png"
+			order: 9
+			rotation: 0.0d
+			width: 4.167d
+			x: 1.58d
+			y: 64.8d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_fiore.png"
+			order: 10
+			rotation: 0.0d
+			width: 3.367d
+			x: 1.18d
+			y: 69.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_obsidilith.png"
+			order: 11
+			rotation: 0.0d
+			width: 4.233d
+			x: 1.62d
+			y: 82.4d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_scilla.png"
+			order: 12
+			rotation: 0.0d
+			width: 3.567d
+			x: 1.28d
+			y: 89.7d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_officina.png"
+			order: 13
+			rotation: 0.0d
+			width: 2.033d
+			x: 0.52d
+			y: 100.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_facoltative.png"
+			order: 14
+			rotation: 0.0d
+			width: 2.7d
+			x: 0.85d
+			y: 111.8d
+		}
+	]
+}

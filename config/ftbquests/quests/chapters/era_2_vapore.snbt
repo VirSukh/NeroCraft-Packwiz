@@ -1,0 +1,2816 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "era_2_vapore"
+	group: "538E5527864EF186"
+	icon: {
+		count: 1
+		id: "modern_industrialization:steam_blast_furnace"
+	}
+	id: "12AC10711B34BE70"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"28710DC22E221CEF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_boiler"
+			}
+			id: "4160DF60E413F3B6"
+			rewards: [
+				{
+					count: 1
+					id: "14F16B5B928F600F"
+					item: {
+						count: 1
+						id: "modern_industrialization:guidebook"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "505D343AAF1E48BC"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3DAD196FD699043E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "23AAE81E26A52DB4"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			id: "6F1F0AF1A470A309"
+			rewards: [
+				{
+					count: 1
+					id: "5B32F0F62F19CE2E"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "1DC04F693E5DAF0E"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "3A524655BB4370F4"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_machine_casing"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "1D8B9A8919988565"
+					item: {
+						count: 1
+						id: "modern_industrialization:fluid_pipe"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F1F0AF1A470A309"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_macerator"
+			}
+			id: "6DE5A7C69527E278"
+			rewards: [
+				{
+					count: 16
+					id: "1F91DE0A6D922083"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "6B5641872C996EAC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "19A74C0D4F95C1FD"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_macerator"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F1F0AF1A470A309"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:coke_oven"
+			}
+			id: "280F5B713849B50E"
+			rewards: [
+				{
+					count: 32
+					id: "40EAED79C45E8899"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "41514228619D99B6"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "496A66C6DC8B46C7"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"6DE5A7C69527E278"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:fire_clay_bricks"
+			}
+			id: "4710E876D5C59ECC"
+			rewards: [
+				{
+					count: 32
+					id: "333385D79E78592B"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "215DAF75B29195DD"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "1DB1E54580F89343"
+					item: {
+						count: 1
+						id: "modern_industrialization:fire_clay_bricks"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4710E876D5C59ECC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steam_blast_furnace"
+			}
+			id: "29BE0CCAE0381C3B"
+			rewards: [
+				{
+					count: 2
+					id: "320E81A4EA7C0FEB"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "5ED5AA30F5D0F614"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "2C01870F0B249712"
+					item: {
+						count: 1
+						id: "modern_industrialization:steam_blast_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29BE0CCAE0381C3B"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_ingot"
+			}
+			id: "59E3D73CE3681FEC"
+			rewards: [
+				{
+					count: 8
+					id: "145E23C184E5247E"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "11B962B10A162694"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "50CE86379E95596D"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_ingot"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D31F35A3B73D5BF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			id: "7A934BA0F95597D4"
+			rewards: [
+				{
+					count: 2
+					id: "6E2262A80C9E272F"
+					item: {
+						count: 1
+						id: "farmersdelight:mixed_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "1B52A154C414931E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "6A59FE3303021CD8"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_machine_casing"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "1DF4D5B45C834E26"
+					item: {
+						count: 1
+						id: "modern_industrialization:fire_clay_brick"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A934BA0F95597D4"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "1DB8E3B238387055"
+			rewards: [
+				{
+					count: 16
+					id: "478A9362A94A8112"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26A2E1F6D76745C3"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "4E062D4EC686A570"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "62A0471515CFEFA6"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_blast_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			id: "2D15C719B1202F56"
+			rewards: [
+				{
+					count: 2
+					id: "10EA2303F326335E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4BE19B3985F8BB40"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3D4D8E8BBB7B05AA"
+					type: "xp"
+					xp: 80
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "3209FF4B83179BB5"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 56.4d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:altar_of_fire"
+			}
+			id: "40794F343F4AC633"
+			rewards: [
+				{
+					count: 8
+					id: "1D9F0D012067DBE4"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "5CA784DEDE3AC7D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "65F2C26D7B58F319"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 56.4d
+		}
+		{
+			dependencies: [
+				"40794F343F4AC633"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:burning_ashes"
+			}
+			id: "14E08A28ED56DEC0"
+			rewards: [
+				{
+					count: 1
+					id: "44A23FDB123E3670"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1D2B1304D48B7834"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "183BC3A68AE937E8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3F77F49725EB672D"
+					item: {
+						count: 1
+						id: "cataclysm:burning_ashes"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 56.4d
+		}
+		{
+			dependencies: [
+				"14E08A28ED56DEC0"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "339B1507D1DC54AB"
+			rewards: [
+				{
+					count: 8
+					id: "15CBDE80861991AC"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "63C047CD4A15B5C1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2CC33D18C1D8EFC3"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 56.4d
+		}
+		{
+			dependencies: [
+				"339B1507D1DC54AB"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "520897AAB16FE60F"
+			rewards: [
+				{
+					count: 4
+					id: "41CBB6780386EBC8"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "730DA1A4E933E73A"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "611BEA10A1B4BD05"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "22C81E535FE26BD4"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 56.4d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutsawmill"
+			}
+			id: "6AC504D806BB4133"
+			rewards: [
+				{
+					count: 64
+					id: "1C5B01CFC927DFD0"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "273859C59903CB83"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "171A9A2F8259D348"
+					type: "xp"
+					xp: 100
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2EDBB28F6EF325F0"
+					type: "checkmark"
+				}
+				{
+					id: "1A51D399FB05A617"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 53.6d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "backpacked:unlock_token"
+			}
+			id: "69D32FD2A993AC1D"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "2FC21405DABF2363"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "6286020918EF5A5B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "507FA1F83A2A1B77"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 59.2d
+		}
+		{
+			dependencies: [
+				"69D32FD2A993AC1D"
+			]
+			icon: {
+				count: 1
+				id: "waystones:waystone"
+			}
+			id: "69E27EFDA833E830"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "352E1DB61F0E9B34"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2455364379E70A57"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7A1B71F0AC6CE2C8"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 62.2d
+		}
+		{
+			dependencies: [
+				"6F1F0AF1A470A309"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_compressor"
+			}
+			id: "298F30E0DDC9A7D4"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "25DD0C5EA86D4A92"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6DF76178F158664D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "1857D778B5EDADC6"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_compressor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"69D32FD2A993AC1D"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:gyrodyne"
+			}
+			id: "3A21B2EB11595CCF"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "229DEDD2CA957364"
+					item: {
+						count: 1
+						id: "minecraft:white_carpet"
+					}
+					type: "item"
+				}
+				{
+					id: "6B6CAE37FABEC674"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "4ECCEFB121619B70"
+					item: {
+						count: 1
+						id: "immersive_aircraft:gyrodyne"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 60.7d
+		}
+		{
+			dependencies: [
+				"69D32FD2A993AC1D"
+			]
+			icon: {
+				count: 1
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "232BDB073C8518B8"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "1409F617CDF6671D"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2AE5AED9FB122053"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "39081088FDA7D816"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 59.2d
+		}
+		{
+			dependencies: [
+				"69D32FD2A993AC1D"
+			]
+			icon: {
+				count: 1
+				id: "backpacked:unlock_token"
+			}
+			id: "39D3FED2C43FAEDD"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "48796B0B708AC179"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1C12FE8F6C11353F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "26D14766D612E1CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 63.7d
+		}
+		{
+			dependencies: [
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:telaio_strutturale_rinforzato"
+			}
+			id: "331158139B1824D3"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "57DD5931DD91AB08"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+				{
+					id: "2F4CF319C95D6BEC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "65953B40CC9D1139"
+					item: {
+						count: 1
+						id: "kubejs:telaio_strutturale_rinforzato"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "modern_industrialization:raw_silver"
+			}
+			id: "2F59137651675CFA"
+			optional: true
+			rewards: [
+				{
+					id: "63EA38D4B3E7CD82"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7FC12A812FEDB236"
+					item: {
+						count: 1
+						id: "modern_industrialization:raw_silver"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 0.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:raw_nickel"
+			}
+			id: "3EF0222290C99FA0"
+			optional: true
+			rewards: [
+				{
+					id: "55AEC1753C9129C9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "35E94B338F367B33"
+					item: {
+						count: 1
+						id: "modern_industrialization:raw_nickel"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 2.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:silver_ingot"
+			}
+			id: "702B805ABB70918F"
+			optional: true
+			rewards: [
+				{
+					id: "6DA3F9905FD47FDA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7DA9636FF8B04AF4"
+					item: {
+						count: 1
+						id: "modern_industrialization:silver_ingot"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 2.0d
+			y: 43.3d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+			id: "5FFF9BC287BA3C1F"
+			rewards: [
+				{
+					id: "3DC015EE0C01AE79"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4A1096B164108ADB"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_curved_plate"
+			}
+			id: "5785170EF0AC1F83"
+			optional: true
+			rewards: [
+				{
+					id: "1C318F6B981D70EA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "41023402E388D599"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_curved_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 2.0d
+			y: 41.8d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_bolt"
+			}
+			id: "1FC3887A5FCC3317"
+			optional: true
+			rewards: [
+				{
+					id: "2ACC3CC19FC3A179"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7D3E3ACFD9744DE0"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_bolt"
+					}
+					type: "item"
+					count: 12L
+				}
+			]
+			x: 2.0d
+			y: 50.8d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_ring"
+			}
+			id: "5F300F6F7D4A1202"
+			optional: true
+			rewards: [
+				{
+					id: "2E343F99F9A36DA3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "34CBC28EB19F3E09"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_ring"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 2.0d
+			y: 37.3d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:coal_dust"
+			}
+			id: "1C4AE166D84E1344"
+			rewards: [
+				{
+					id: "51EBA604FA4A260C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "394463A91EEDA24C"
+					item: {
+						count: 1
+						id: "modern_industrialization:coal_dust"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			id: "34C9AF61C6E64CFC"
+			optional: true
+			rewards: [
+				{
+					id: "5E48BDDF4F469BD9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2E8DA3919AE4DC72"
+					item: {
+						count: 1
+						id: "minecraft:barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 44.8d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:brick_dust"
+			}
+			id: "1F09EE381000FB0E"
+			rewards: [
+				{
+					id: "14466B5B03D328FB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "1F69A756F924702B"
+					item: {
+						count: 1
+						id: "modern_industrialization:brick_dust"
+					}
+					type: "item"
+					count: 24L
+				}
+			]
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:blast_furnace"
+			}
+			id: "3FBDA98DDAC3365E"
+			rewards: [
+				{
+					id: "73962632333C1721"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "54ADD0819F7436C0"
+					item: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"5FFF9BC287BA3C1F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:coke_oven"
+			}
+			id: "5E6D7CDDDEF3BAA4"
+			rewards: [
+				{
+					id: "1E190538D9BAAD84"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2EADBC1C75742D8E"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke_oven"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"1F09EE381000FB0E"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:fire_clay_dust"
+			}
+			id: "555AF868563ACFE2"
+			rewards: [
+				{
+					id: "15F08A968F89EC82"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7C1364BB1889E73B"
+					item: {
+						count: 1
+						id: "modern_industrialization:fire_clay_dust"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 4.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"5E6D7CDDDEF3BAA4"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:coke_dust"
+			}
+			id: "5F205266F096FF2F"
+			rewards: [
+				{
+					id: "1B352BB80EB90CF9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "79112BBB4E79E0E5"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke_dust"
+					}
+					type: "item"
+					count: 10L
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"5785170EF0AC1F83"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_blade"
+			}
+			id: "4508CC39CFDADC20"
+			optional: true
+			rewards: [
+				{
+					id: "1222966A9BE5CD61"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "67E99AFA512F9F88"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_blade"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 4.0d
+			y: 41.8d
+		}
+		{
+			dependencies: [
+				"5F300F6F7D4A1202"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_gear"
+			}
+			id: "77AF0AB663AAAEDF"
+			optional: true
+			rewards: [
+				{
+					id: "1C337B44E410AE33"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "67035F26230638D8"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_gear"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 4.0d
+			y: 37.3d
+		}
+		{
+			dependencies: [
+				"4508CC39CFDADC20"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:copper_rotor"
+			}
+			id: "20426FA69BD5AF11"
+			optional: true
+			rewards: [
+				{
+					id: "16BE918DF9670CDA"
+					type: "xp"
+					xp: 55
+				}
+			]
+			tasks: [
+				{
+					id: "1D9B2D7135EDC101"
+					item: {
+						count: 1
+						id: "modern_industrialization:copper_rotor"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 6.0d
+			y: 41.8d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_ring"
+			}
+			id: "5DB876099E1E36C5"
+			optional: true
+			rewards: [
+				{
+					id: "5FF9A673CC0ABF39"
+					type: "xp"
+					xp: 65
+				}
+			]
+			tasks: [
+				{
+					id: "3B1961C18EEFD7FE"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ring"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 2.0d
+			y: 46.3d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_bolt"
+			}
+			id: "6950F447E6489243"
+			optional: true
+			rewards: [
+				{
+					id: "52F16E9F659724CA"
+					type: "xp"
+					xp: 65
+				}
+			]
+			tasks: [
+				{
+					id: "5D357F32DCC5DEBA"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_bolt"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 2.0d
+			y: 47.8d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_curved_plate"
+			}
+			id: "3E867B83EB114F9B"
+			optional: true
+			rewards: [
+				{
+					id: "65E9524A49BBFC16"
+					type: "xp"
+					xp: 65
+				}
+			]
+			tasks: [
+				{
+					id: "41CF86D784627868"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_curved_plate"
+					}
+					type: "item"
+					count: 6L
+				}
+			]
+			x: 2.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"2F59137651675CFA"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_tank"
+			}
+			id: "1B7F9DCEC092A335"
+			optional: true
+			rewards: [
+				{
+					id: "70FF6345AC6A0C58"
+					type: "xp"
+					xp: 70
+				}
+			]
+			tasks: [
+				{
+					id: "17260B4346431F86"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 49.3d
+		}
+		{
+			dependencies: [
+				"34C9AF61C6E64CFC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_barrel"
+			}
+			id: "6120449C18A60272"
+			optional: true
+			rewards: [
+				{
+					id: "1CB15033ADE00F83"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "618CE35D7B0CF74F"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 44.8d
+		}
+		{
+			dependencies: [
+				"4710E876D5C59ECC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_furnace"
+			}
+			id: "2E6768552C53743A"
+			optional: true
+			rewards: [
+				{
+					id: "294C923EDCB3E5E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2C36A4210AE60673"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3E867B83EB114F9B"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_blade"
+			}
+			id: "545AAB2ECBB4F9DE"
+			optional: true
+			rewards: [
+				{
+					id: "4AB1D01A36D84A76"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "40ECDA4B3DF789F6"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_blade"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 4.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"5F205266F096FF2F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:uncooked_steel_dust"
+			}
+			id: "4003515B9A10ABF6"
+			rewards: [
+				{
+					id: "577B5A5947021D01"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1540767FEE19B0CD"
+					item: {
+						count: 1
+						id: "modern_industrialization:uncooked_steel_dust"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_plate"
+			}
+			id: "79B9DA4BA87CC927"
+			rewards: [
+				{
+					id: "4196E7E7F39A1BD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "62E23ED2861D8F1E"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_plate"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_bolt"
+			}
+			id: "11E42B1C2939FE2E"
+			rewards: [
+				{
+					id: "3DDBE9BD0AFAFE3F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "14411B6A8D326FFB"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_bolt"
+					}
+					type: "item"
+					count: 16L
+				}
+			]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_ring"
+			}
+			id: "32DA8E44DE2AAAE3"
+			rewards: [
+				{
+					id: "527BE4352411ED64"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "66CCEFF1AB6B62D9"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_ring"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"79B9DA4BA87CC927"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_large_plate"
+			}
+			id: "12D9EC3E4CFDC532"
+			optional: true
+			rewards: [
+				{
+					id: "22DB762C35925267"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "52759C7D4896FA7E"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_large_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"79B9DA4BA87CC927"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_tank"
+			}
+			id: "4E913560ACBB30F5"
+			optional: true
+			rewards: [
+				{
+					id: "5717994639AE76C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "69D7437762BF52B0"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5DB876099E1E36C5"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_gear"
+			}
+			id: "780041D68FCA8C02"
+			optional: true
+			rewards: [
+				{
+					id: "62619BD383CDCBC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "36F181962206F5B0"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_gear"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.0d
+			y: 46.3d
+		}
+		{
+			dependencies: [
+				"79B9DA4BA87CC927"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_furnace"
+			}
+			id: "3F3160C7E104E2B4"
+			optional: true
+			rewards: [
+				{
+					id: "41F54703F948D5EE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3E50900D9E8DB3CA"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3EF0222290C99FA0"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:nickel_dust"
+			}
+			id: "3504EFF2963387A1"
+			optional: true
+			rewards: [
+				{
+					id: "352BB953E75647E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "628E6C8EB2B84A13"
+					item: {
+						count: 1
+						id: "modern_industrialization:nickel_dust"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 4.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"6DE5A7C69527E278"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:diamond_dust"
+			}
+			id: "542B9887CE097ACE"
+			optional: true
+			rewards: [
+				{
+					id: "2BD32E35519CF453"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "420308EE77A86767"
+					item: {
+						count: 1
+						id: "modern_industrialization:diamond_dust"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"702B805ABB70918F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:silver_plate"
+			}
+			id: "11B4C8D08472AB18"
+			optional: true
+			rewards: [
+				{
+					id: "736F108B883C2009"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7D67F7EB75B140E6"
+					item: {
+						count: 1
+						id: "modern_industrialization:silver_plate"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 4.0d
+			y: 43.3d
+		}
+		{
+			dependencies: [
+				"545AAB2ECBB4F9DE"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_rotor"
+			}
+			id: "6591B2E430116F4D"
+			optional: true
+			rewards: [
+				{
+					id: "24E19E35CE79AB4B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "201B1573218AD632"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_rotor"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 6.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"11B4C8D08472AB18"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:bronze_solar_boiler"
+			}
+			id: "4743B2FE4DECC5FC"
+			optional: true
+			rewards: [
+				{
+					id: "7E97E4EE283AFCB0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3785511F6D18AC13"
+					item: {
+						count: 1
+						id: "extended_industrialization:bronze_solar_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 43.3d
+		}
+		{
+			dependencies: [
+				"4E913560ACBB30F5"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_boiler"
+			}
+			id: "761012E0D87A6D23"
+			optional: true
+			rewards: [
+				{
+					id: "5FA15525AE5F447B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4E9FCC9D4317EB61"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"77AF0AB663AAAEDF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_cutting_machine"
+			}
+			id: "4553EC94C0010D52"
+			optional: true
+			rewards: [
+				{
+					id: "52C4590D745BCB00"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "188C9FBE3564CBCC"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_cutting_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 38.8d
+		}
+		{
+			dependencies: [
+				"77AF0AB663AAAEDF"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:bronze_bending_machine"
+			}
+			id: "4875685075A64ECE"
+			optional: true
+			rewards: [
+				{
+					id: "19CE95832F7A9BB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6BC60DA0B3971DF0"
+					item: {
+						count: 1
+						id: "extended_industrialization:bronze_bending_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 37.3d
+		}
+		{
+			dependencies: [
+				"3504EFF2963387A1"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_dust"
+			}
+			id: "60E5EFDF466F8775"
+			optional: true
+			rewards: [
+				{
+					id: "1A7D6281C09A3438"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1CDF2CCFC74C683F"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_dust"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 6.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"77AF0AB663AAAEDF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:bronze_mixer"
+			}
+			id: "366D237C9AA0DE70"
+			optional: true
+			rewards: [
+				{
+					id: "19CEC4420E417216"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5987B3658DDE6546"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_mixer"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 40.3d
+		}
+		{
+			dependencies: [
+				"60E5EFDF466F8775"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_ingot"
+			}
+			id: "6907EDF32A9BE3C3"
+			optional: true
+			rewards: [
+				{
+					id: "1590703608E7BBD4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "334DF6509B38348A"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_ingot"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 8.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"32DA8E44DE2AAAE3"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_gear"
+			}
+			id: "6D31F35A3B73D5BF"
+			rewards: [
+				{
+					id: "5BCA7510C8CD1409"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1ACD4A7153B6C92E"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_gear"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D31F35A3B73D5BF"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:item_pipe"
+			}
+			id: "5257951A255E896D"
+			optional: true
+			rewards: [
+				{
+					id: "76669A673CDD2828"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2C5BEE532E720355"
+					item: {
+						count: 1
+						id: "modern_industrialization:item_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6907EDF32A9BE3C3"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_plate"
+			}
+			id: "26619E166CE0BB86"
+			optional: true
+			rewards: [
+				{
+					id: "6D33A789BC4484BA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6C3DDB408E39C243"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_plate"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 10.0d
+			y: 35.8d
+		}
+		{
+			dependencies: [
+				"6907EDF32A9BE3C3"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_rod"
+			}
+			id: "19FC81A205A5567F"
+			optional: true
+			rewards: [
+				{
+					id: "5832E422E1EC36FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4F647DD588F308E5"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_rod"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 10.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"19FC81A205A5567F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_ring"
+			}
+			id: "6C019DDEA88D3EBB"
+			optional: true
+			rewards: [
+				{
+					id: "70275AB309419581"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6B1E2505958B85B0"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"6591B2E430116F4D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_wiremill"
+			}
+			id: "228A4A6BCE945B33"
+			optional: true
+			rewards: [
+				{
+					id: "5C09335D8C2EB787"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "56A02CC9048D3F3F"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_wiremill"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 31.3d
+		}
+		{
+			dependencies: [
+				"6591B2E430116F4D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_upgrade"
+			}
+			id: "4DC9A0BEC65D41D7"
+			optional: true
+			rewards: [
+				{
+					id: "282C3C5D3BC52CE8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "61D8FC2BBE69DEF4"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"19FC81A205A5567F"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_bolt"
+			}
+			id: "624B161AF6A144DD"
+			optional: true
+			rewards: [
+				{
+					id: "7606D63CCB52E99F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "359FE30E45AD3E1A"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_bolt"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 12.0d
+			y: 34.3d
+		}
+		{
+			dependencies: [
+				"5257951A255E896D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_packer"
+			}
+			id: "60430AA4EAB16A29"
+			optional: true
+			rewards: [
+				{
+					id: "1FD7E53335A7217A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "392C766BECECA5DD"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_packer"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"26619E166CE0BB86"
+			]
+			icon: {
+				count: 1
+				id: "extended_industrialization:steel_alloy_smelter"
+			}
+			id: "5B01A22C64B6D4CF"
+			optional: true
+			rewards: [
+				{
+					id: "4710FD7629E24C27"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1B6D13F1221B71AF"
+					item: {
+						count: 1
+						id: "extended_industrialization:steel_alloy_smelter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 35.8d
+		}
+		{
+			dependencies: [
+				"4DC9A0BEC65D41D7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_macerator"
+			}
+			id: "69B96F13AD379C34"
+			optional: true
+			rewards: [
+				{
+					id: "2CAC1C18D1790528"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "40FF749349CA255B"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_macerator"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 28.3d
+		}
+		{
+			dependencies: [
+				"4DC9A0BEC65D41D7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_cutting_machine"
+			}
+			id: "305AA7A157F0B92E"
+			optional: true
+			rewards: [
+				{
+					id: "6096241D8597DFAA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1A80497DAAA461DD"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_cutting_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 26.8d
+		}
+		{
+			dependencies: [
+				"4DC9A0BEC65D41D7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_compressor"
+			}
+			id: "2A769DA7AF7B3BA3"
+			optional: true
+			rewards: [
+				{
+					id: "2A05165ADAEB7592"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5E5E66C622C825A9"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_compressor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 25.3d
+		}
+		{
+			dependencies: [
+				"4DC9A0BEC65D41D7"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steel_mixer"
+			}
+			id: "618DB4578D6953D4"
+			optional: true
+			rewards: [
+				{
+					id: "3CC29886A96171EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7C2D36724D7413ED"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_mixer"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 29.8d
+		}
+		{
+			dependencies: [
+				"6C019DDEA88D3EBB"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_gear"
+			}
+			id: "1A6350CDEDB8109D"
+			optional: true
+			rewards: [
+				{
+					id: "7DC9535DAD0DB289"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "132278F5AB4CF8EF"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"1A6350CDEDB8109D"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:invar_rotary_blade"
+			}
+			id: "7BFFF47D9C8F38F4"
+			optional: true
+			rewards: [
+				{
+					id: "284FCDE9B5F4AC83"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "477997991F29D89A"
+					item: {
+						count: 1
+						id: "modern_industrialization:invar_rotary_blade"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 32.8d
+		}
+		{
+			dependencies: [
+				"7BFFF47D9C8F38F4"
+			]
+			icon: {
+				count: 1
+				id: "modern_industrialization:steam_quarry"
+			}
+			id: "7D441DA2F7056803"
+			optional: true
+			rewards: [
+				{
+					id: "566BA89115415CA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2A837EE52AEB0634"
+					item: {
+						count: 1
+						id: "modern_industrialization:steam_quarry"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 32.8d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/era_2.png"
+			order: 0
+			rotation: 0.0d
+			width: 5.938d
+			x: 9.0d
+			y: -2.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_industria.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.62d
+			y: -1.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_officina.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.033d
+			x: 0.52d
+			y: 24.2d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.433d
+			x: 0.72d
+			y: 52.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_nether.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.62d
+			y: 55.3d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_equipaggiamento.png"
+			order: 5
+			rotation: 0.0d
+			width: 3.433d
+			x: 1.22d
+			y: 58.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_cancello.png"
+			order: 6
+			rotation: 0.0d
+			width: 2.167d
+			x: 20.08d
+			y: 0.75d
+		}
+	]
+}

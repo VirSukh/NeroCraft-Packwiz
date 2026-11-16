@@ -1,0 +1,1151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trasporti"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "immersive_aircraft:biplane"
+	}
+	id: "54C9BE480912D935"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			id: "48DEAF1AA07C04E4"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2B49969F4E5C3193"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "7CAF0249A73B767C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "446AD6D438BEDC2C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			id: "1100C51DF532BDCC"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "47156F398AAB84AE"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2BAD3C30950C2C3B"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "2C34FD38FEB9B801"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "29230CBC8F92FE3E"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					id: "6BB5A6D3677F87F4"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1100C51DF532BDCC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_horse_armor"
+			}
+			id: "29306194F3F3BB53"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "1474B5D7D53CFDE7"
+					item: {
+						count: 1
+						id: "minecraft:hay_block"
+					}
+					type: "item"
+				}
+				{
+					id: "277321EB92696C1E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2F6CC75A57FD48B1"
+					item: {
+						count: 1
+						id: "minecraft:iron_horse_armor"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:oak_chest_boat"
+			}
+			id: "1BA99F1AAC801C62"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "26C2DB65106F46B6"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+				{
+					id: "5D4242F252B22988"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2A1BC91421B60286"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46E35D41CA32E436"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:powered_rail"
+			}
+			id: "1188D4C863D7E1C8"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "4230C64EBC4261CF"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+				{
+					id: "5B3229AABC3779C7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "159265C197FF0E7A"
+					item: {
+						count: 1
+						id: "minecraft:powered_rail"
+					}
+					type: "item"
+					count: 8L
+				}
+				{
+					id: "751370298F0C81EC"
+					item: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+				"1100C51DF532BDCC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:warped_fungus_on_a_stick"
+			}
+			id: "3B25D310073CAF6A"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "6C2BC22D97BBE3E5"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus"
+					}
+					type: "item"
+				}
+				{
+					id: "27E1D8498284D40A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/ride_strider"
+					criterion: ""
+					id: "7BC5823E1524EAD4"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69E27EFDA833E830"
+			]
+			icon: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			id: "1D9C57B123D64483"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "2DF8B6C2C0FB3184"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "633D3B56D989FB7D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "318352825EE0173F"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D9C57B123D64483"
+			]
+			icon: {
+				count: 1
+				id: "waystones:warp_scroll"
+			}
+			id: "2B0A32667AB94553"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "78BE06F36458DE8C"
+					item: {
+						count: 1
+						id: "minecraft:ink_sac"
+					}
+					type: "item"
+				}
+				{
+					id: "25A86E77B3CABAA7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2584D51E54B38DBE"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2B0A32667AB94553"
+			]
+			icon: {
+				count: 1
+				id: "waystones:bound_scroll"
+			}
+			id: "2662A943A609B3F9"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "56B6DD8B4211A8EB"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "1F9D98C8745401D0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "67B0F8FFB86251E1"
+					item: {
+						count: 1
+						id: "waystones:bound_scroll"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69E27EFDA833E830"
+			]
+			icon: {
+				count: 1
+				id: "waystones:light_blue_sharestone"
+			}
+			id: "4EBBEFDD3D733A10"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "3C0CD2A92D7C80CC"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "2C72BE2EE4C916E7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7BFB31B6807B8374"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4EBBEFDD3D733A10"
+			]
+			icon: {
+				count: 1
+				id: "waystones:white_portstone"
+			}
+			id: "2358DD4542DBE9F4"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "202CC344560918C6"
+					item: {
+						count: 1
+						id: "minecraft:polished_andesite"
+					}
+					type: "item"
+				}
+				{
+					id: "46899A9E4C4108CA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5573B18D558D34E1"
+					item: {
+						count: 1
+						id: "waystones:white_portstone"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69E27EFDA833E830"
+			]
+			icon: {
+				count: 1
+				id: "waystones:warp_plate"
+			}
+			id: "1C29BAFB8C75D6F3"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "6F22DAAA724D374E"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "7893FAB4A94A6FFF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4189E988DDC327F9"
+					item: {
+						count: 1
+						id: "waystones:warp_plate"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1C29BAFB8C75D6F3"
+			]
+			icon: {
+				count: 1
+				id: "waystones:attuned_shard"
+			}
+			id: "534B9197551141A0"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "34F68F120A1D7CCA"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+				{
+					id: "740889BA8B7DBD8B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1A8EE1B2C5F8B88C"
+					item: {
+						count: 1
+						id: "waystones:attuned_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A21B2EB11595CCF"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:airship"
+			}
+			id: "44118B58586195DD"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2F07E75F607BB832"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "5B108AB8A44B60F8"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7D14FED3082A13CA"
+					item: {
+						count: 1
+						id: "immersive_aircraft:airship"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.6d
+		}
+		{
+			dependencies: [
+				"3A21B2EB11595CCF"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:quadrocopter"
+			}
+			id: "285617284ED8F723"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2116D1E6613AC991"
+					item: {
+						count: 1
+						id: "minecraft:bamboo"
+					}
+					type: "item"
+				}
+				{
+					id: "425C534923537E85"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "5187F2AEA4ECF271"
+					item: {
+						count: 1
+						id: "immersive_aircraft:quadrocopter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"44118B58586195DD"
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:biplane"
+			}
+			id: "4A13196B2CC1984A"
+			optional: true
+			rewards: [
+				{
+					count: 24
+					id: "274088F337C71DAE"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "36EF2C1C187E0899"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "353D625E63EB0B8B"
+					item: {
+						count: 1
+						id: "immersive_aircraft:biplane"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4A13196B2CC1984A"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:bamboo_hopper"
+			}
+			id: "323A24848B9D8D76"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4AC9484E1A6797DF"
+					item: {
+						count: 1
+						id: "minecraft:bamboo_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6E9A997D3FBDC4A2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "5FA09D7C5D487A58"
+					item: {
+						count: 1
+						id: "immersive_aircraft:bamboo_hopper"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"44118B58586195DD"
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:cargo_airship"
+			}
+			id: "1FD6E99751995E9A"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "479EB34C8E328FEF"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "3E5A741DBE732C27"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "2C1310DB50EA7FFF"
+					item: {
+						count: 1
+						id: "immersive_aircraft:cargo_airship"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"1FD6E99751995E9A"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:warship"
+			}
+			id: "3531295CE7744A97"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "71D50CF5D1CCBF8A"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7BCFBB6C646DE38A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "215DA0A57E3FEA13"
+					item: {
+						count: 1
+						id: "immersive_aircraft:warship"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"3531295CE7744A97"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:rotary_cannon"
+			}
+			id: "3E173D5F929AB429"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "51397A3DF367DFAD"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3E174BA339326F66"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "5FDA5690A95364C1"
+					item: {
+						count: 1
+						id: "immersive_aircraft:rotary_cannon"
+					}
+					type: "item"
+				}
+				{
+					id: "28A2F6CE6F6495F9"
+					item: {
+						count: 1
+						id: "immersive_aircraft:heavy_crossbow"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"285617284ED8F723"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:improved_landing_gear"
+			}
+			id: "21E26F147A00019A"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "43A64681F2E8CD75"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2FE6A03608530E60"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5B9A14CD30128564"
+					item: {
+						count: 1
+						id: "immersive_aircraft:improved_landing_gear"
+					}
+					type: "item"
+				}
+				{
+					id: "16401B9F32C24161"
+					item: {
+						count: 1
+						id: "immersive_aircraft:sturdy_pipes"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"21E26F147A00019A"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:gyroscope_hud"
+			}
+			id: "43D2433D009CDE61"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "31EF4B69A10C8CBC"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "20893A49E4973D9D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "23D32AFA7F42BCBD"
+					item: {
+						count: 1
+						id: "immersive_aircraft:gyroscope"
+					}
+					type: "item"
+				}
+				{
+					id: "11455E2EDBA0E92D"
+					item: {
+						count: 1
+						id: "immersive_aircraft:gyroscope_hud"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"21E26F147A00019A"
+				"59E3D73CE3681FEC"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:enhanced_propeller"
+			}
+			id: "30D3F077A53440AE"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "55C3821C542AB9C5"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4DE63C5C3D220558"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "3DDC8DC6C8547348"
+					item: {
+						count: 1
+						id: "immersive_aircraft:enhanced_propeller"
+					}
+					type: "item"
+				}
+				{
+					id: "11F9B101A32F9EA1"
+					item: {
+						count: 1
+						id: "immersive_aircraft:steel_boiler"
+					}
+					type: "item"
+				}
+				{
+					id: "5015A11EDD52B312"
+					item: {
+						count: 1
+						id: "immersive_aircraft:hull_reinforcement"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"30D3F077A53440AE"
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "immersive_aircraft:nether_engine"
+			}
+			id: "6FB8E10CC7498F1B"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2B65C0C6B4B3B85F"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "2BC14149E82F3A9B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7539F1AE50536263"
+					item: {
+						count: 1
+						id: "immersive_aircraft:eco_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "702C00E849CEA7BF"
+					item: {
+						count: 1
+						id: "immersive_aircraft:nether_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"715E700470912A11"
+				"520897AAB16FE60F"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:ignitium_elytra_chestplate"
+			}
+			id: "3ABC9673FDB9CE34"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "28E20F4ABCB3778D"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "1D8EC3E8613C23D0"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "74B6B702DC52F57C"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_elytra_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.4d
+		}
+		{
+			dependencies: [
+				"715E700470912A11"
+			]
+			icon: {
+				count: 1
+				id: "deeperdarker:soul_elytra"
+			}
+			id: "7A2B3FDDDFA2844B"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "1DC99750049F758D"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6949839D9399951A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "7939E1D36F1F9FC5"
+					item: {
+						count: 1
+						id: "deeperdarker:soul_elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.6d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_trasporti.png"
+			order: 0
+			rotation: 0.0d
+			width: 4.188d
+			x: 4.5d
+			y: -1.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_trasporti_terra.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.833d
+			x: -2.4d
+			y: 0.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_trasporti_waystone.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.167d
+			x: -2.4d
+			y: 2.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_trasporti_aerei.png"
+			order: 3
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.4d
+			y: 4.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_trasporti_ali.png"
+			order: 4
+			rotation: 0.0d
+			width: 2.7d
+			x: -2.4d
+			y: 8.0d
+		}
+	]
+}

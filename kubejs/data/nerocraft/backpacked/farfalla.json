@@ -1,0 +1,11 @@
+{
+  "unlock_challenge": {
+    "formatter": "backpacked:explored_x_of_x",
+    "challenge": {
+      "type": "backpacked:explore_biome",
+      "biomes": [
+        "minecraft:flower_forest"
+      ]
+    }
+  }
+}

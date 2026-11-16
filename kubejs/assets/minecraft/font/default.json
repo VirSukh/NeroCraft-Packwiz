@@ -1,0 +1,61 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "nerocraft:font/banner_s.png",
+      "height": 18,
+      "ascent": 13,
+      "chars": [
+        "\ue900"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "nerocraft:font/banner_m.png",
+      "height": 18,
+      "ascent": 13,
+      "chars": [
+        "\ue901"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "nerocraft:font/banner_l.png",
+      "height": 18,
+      "ascent": 13,
+      "chars": [
+        "\ue902"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "nerocraft:font/banner_xl.png",
+      "height": 18,
+      "ascent": 13,
+      "chars": [
+        "\ue903"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue910": -1,
+        "\ue911": -2,
+        "\ue912": -4,
+        "\ue913": -8,
+        "\ue914": -16,
+        "\ue915": -32,
+        "\ue916": -64,
+        "\ue917": -128,
+        "\ue920": 1,
+        "\ue921": 2,
+        "\ue922": 4,
+        "\ue923": 8,
+        "\ue924": 16,
+        "\ue925": 32,
+        "\ue926": 64,
+        "\ue927": 128
+      }
+    }
+  ]
+}

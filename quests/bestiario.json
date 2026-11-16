@@ -1,0 +1,5283 @@
+{
+  "capitolo": {
+    "id": "bestiario",
+    "titolo": "Il Bestiario",
+    "sottotitolo": "Tutti i boss e i mostri del mondo",
+    "icona": "minecraft:zombie_head",
+    "ordine": 16,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/cap_bestiario.png",
+        "x": 6.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_boss.png",
+        "x": 0.98,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_mondo.png",
+        "x": 0.52,
+        "y": 4.7,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_nether.png",
+        "x": 0.62,
+        "y": 10.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_end.png",
+        "x": 0.25,
+        "y": 14.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_profondo.png",
+        "x": 1.02,
+        "y": 17.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_cataclysm.png",
+        "x": 1.08,
+        "y": 21.9,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_crepuscolo.png",
+        "x": 1.02,
+        "y": 27.7,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_spazio.png",
+        "x": 0.62,
+        "y": 36.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_bestiario_predoni.png",
+        "x": 0.45,
+        "y": 40.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "quest": [
+    {
+      "id": "uccidi_cataclysm_ignis",
+      "titolo": "Ignis",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNel Nether c'è un'arena dove le fiamme non si spengono mai. Qualcuno, lì, aspetta uno sfidante.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "icona": "cataclysm:ignitium_ingot",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignis",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_netherite_monstrosity",
+      "titolo": "Mostro di Netherite",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oTra le rocce del Nether, un'antica forgia custodisce qualcosa di enorme che dorme sotto la lava.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 1.5,
+      "y": 0.0,
+      "icona": "cataclysm:monstrous_horn",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:netherite_monstrosity",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_the_harbinger",
+      "titolo": "L'Araldo",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oSotto la superficie del mondo, una fabbrica dimenticata non ha mai smesso di lavorare.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "icona": "cataclysm:witherite_ingot",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_harbinger",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_the_leviathan",
+      "titolo": "Il Leviatano",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oIn fondo all'oceano riposano le rovine di una città. Qualcosa nuota tra le sue torri.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 4.5,
+      "y": 0.0,
+      "icona": "cataclysm:tidal_claws",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_leviathan",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_ancient_remnant",
+      "titolo": "Antico Rimasuglio",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oIl deserto nasconde una piramide maledetta: chi entra sente la sabbia muoversi da sola.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "icona": "cataclysm:remnant_skull",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ancient_remnant",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_maledictus",
+      "titolo": "Maledictus",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oTra i ghiacci sorge una prigione congelata. Le catene, dentro, sono ancora tese.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 7.5,
+      "y": 0.0,
+      "icona": "cataclysm:cursium_ingot",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:maledictus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_ender_guardian",
+      "titolo": "Guardiano di Ender",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNelle isole esterne dell'End, una cittadella in rovina è ancora sorvegliata.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "icona": "cataclysm:gauntlet_of_guard",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ender_guardian",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_cataclysm_scylla",
+      "titolo": "Scylla",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oSopra il mare si alza un'acropoli battuta dai fulmini. La tempesta ha una padrona.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 10.5,
+      "y": 0.0,
+      "icona": "cataclysm:essence_of_the_storm",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:scylla",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_naga",
+      "titolo": "Naga",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNella Foresta del Crepuscolo, un cortile di pietra circondato da siepi. Qualcosa striscia al suo interno.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 0.0,
+      "y": 1.5,
+      "icona": "twilightforest:naga_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:naga",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_lich",
+      "titolo": "Linch",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oUna torre altissima domina la Foresta del Crepuscolo. In cima, uno stregone vi aspetta.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 1.5,
+      "y": 1.5,
+      "icona": "twilightforest:lich_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:lich",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_minoshroom",
+      "titolo": "Fungotauro",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oSotto la palude dei funghi si apre un labirinto. Al centro, un guardiano con le corna.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 3.0,
+      "y": 1.5,
+      "icona": "twilightforest:minoshroom_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:minoshroom",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_hydra",
+      "titolo": "Idra",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNella palude di fuoco l'aria brucia. Una tana fumante ospita qualcosa con più di una testa.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 4.5,
+      "y": 1.5,
+      "icona": "twilightforest:hydra_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:hydra",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_knight_phantom",
+      "titolo": "Cavaliere Fanstasma",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNella foresta oscura, una roccaforte dei goblin nasconde cavalieri che non sono più vivi.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 6.0,
+      "y": 1.5,
+      "icona": "twilightforest:knight_phantom_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:knight_phantom",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_ur_ghast",
+      "titolo": "Ur-Ghast",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oTra gli alberi giganti, torri scure e rosse custodiscono il pianto di una creatura antica.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 7.5,
+      "y": 1.5,
+      "icona": "twilightforest:ur_ghast_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:ur_ghast",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_alpha_yeti",
+      "titolo": "Alpha Yeti",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNella foresta innevata, una grotta di ghiaccio ospita il capo del branco.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 9.0,
+      "y": 1.5,
+      "icona": "twilightforest:alpha_yeti_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:alpha_yeti",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_twilightforest_snow_queen",
+      "titolo": "Regina delle nevi",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oIn cima al ghiacciaio brilla un palazzo d'aurora. La sua regina non ama i visitatori.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 10.5,
+      "y": 1.5,
+      "icona": "twilightforest:snow_queen_trophy",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:snow_queen",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_bosses_of_mass_destruction_lich",
+      "titolo": "Night Lich",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNelle terre gelate sorge una torre buia. Di notte, le sue finestre si illuminano.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "icona": "bosses_of_mass_destruction:ancient_anima",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:lich",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_bosses_of_mass_destruction_gauntlet",
+      "titolo": "Nether Gauntlet",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNel Nether, un'arena di pietra nera custodisce un pugno d'acciaio grande come una casa.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 1.5,
+      "y": 3.0,
+      "icona": "bosses_of_mass_destruction:blazing_eye",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:gauntlet",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_bosses_of_mass_destruction_void_blossom",
+      "titolo": "Void Blossom",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNelle caverne più rigogliose, una pianta del vuoto ha messo radici.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 3.0,
+      "y": 3.0,
+      "icona": "bosses_of_mass_destruction:void_thorn",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:void_blossom",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_bosses_of_mass_destruction_obsidilith",
+      "titolo": "Obsidilith",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNell'End, un monolito di ossidiana resta immobile. Finché qualcuno non lo tocca.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 4.5,
+      "y": 3.0,
+      "icona": "bosses_of_mass_destruction:obsidian_heart",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:obsidilith",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_minecraft_elder_guardian",
+      "titolo": "Guardiano antico",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNegli oceani profondi sorgono monumenti di prismarino. Il loro custode è il più vecchio di tutti."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "icona": "minecraft:prismarine_shard",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:elder_guardian",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_minecraft_wither",
+      "titolo": "Wither",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNon si trova: si evoca. Tre teschi e un po' di sabbia delle anime. Fatelo lontano dalla colonia.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "icona": "minecraft:nether_star",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:wither",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_minecraft_warden",
+      "titolo": "Sorvegliante",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oNelle città antiche del buio profondo si cammina in silenzio. Il guardiano sente tutto.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 9.0,
+      "y": 3.0,
+      "icona": "minecraft:echo_shard",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:warden",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "uccidi_minecraft_ender_dragon",
+      "titolo": "Enderdrago",
+      "sottotitolo": "Boss",
+      "descrizione": [
+        "&oOltre il portale dell'End, il drago aspetta da sempre.",
+        "&7Diventa più forte ogni volta che lo sconfiggete."
+      ],
+      "x": 10.5,
+      "y": 3.0,
+      "icona": "minecraft:dragon_head",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:ender_dragon",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true,
+      "forma": "hexagon"
+    },
+    {
+      "id": "completo_boss",
+      "titolo": "Albo dei boss: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 1.5,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_cataclysm_ignis",
+        "uccidi_cataclysm_netherite_monstrosity",
+        "uccidi_cataclysm_the_harbinger",
+        "uccidi_cataclysm_the_leviathan",
+        "uccidi_cataclysm_ancient_remnant",
+        "uccidi_cataclysm_maledictus",
+        "uccidi_cataclysm_ender_guardian",
+        "uccidi_cataclysm_scylla",
+        "uccidi_twilightforest_naga",
+        "uccidi_twilightforest_lich",
+        "uccidi_twilightforest_minoshroom",
+        "uccidi_twilightforest_hydra",
+        "uccidi_twilightforest_knight_phantom",
+        "uccidi_twilightforest_ur_ghast",
+        "uccidi_twilightforest_alpha_yeti",
+        "uccidi_twilightforest_snow_queen",
+        "uccidi_bosses_of_mass_destruction_lich",
+        "uccidi_bosses_of_mass_destruction_gauntlet",
+        "uccidi_bosses_of_mass_destruction_void_blossom",
+        "uccidi_bosses_of_mass_destruction_obsidilith",
+        "uccidi_minecraft_elder_guardian",
+        "uccidi_minecraft_wither",
+        "uccidi_minecraft_warden",
+        "uccidi_minecraft_ender_dragon"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_friendsandfoes_barnacle",
+      "titolo": "Barnacle",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 5.8,
+      "icona": "friendsandfoes:barnacle_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "friendsandfoes:barnacle",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_friendsandfoes_iceologer",
+      "titolo": "Iceologo",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 5.8,
+      "icona": "friendsandfoes:iceologer_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "friendsandfoes:iceologer",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_friendsandfoes_illusioner",
+      "titolo": "Illusioner",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 5.8,
+      "icona": "friendsandfoes:illusioner_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "friendsandfoes:illusioner",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_bogged",
+      "titolo": "Paludoso",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 5.8,
+      "icona": "minecraft:bogged_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:bogged",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_breeze",
+      "titolo": "Brezza",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 5.8,
+      "icona": "minecraft:breeze_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:breeze",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_cave_spider",
+      "titolo": "Ragno delle caverne",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 5.8,
+      "icona": "minecraft:cave_spider_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:cave_spider",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_creeper",
+      "titolo": "Creeper",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 5.8,
+      "icona": "minecraft:creeper_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:creeper",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_drowned",
+      "titolo": "Annegato",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 5.8,
+      "icona": "minecraft:drowned_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:drowned",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_evoker",
+      "titolo": "Evocatore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 7.3,
+      "icona": "minecraft:evoker_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:evoker",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_guardian",
+      "titolo": "Guardiano",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 7.3,
+      "icona": "minecraft:guardian_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:guardian",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_husk",
+      "titolo": "Mummificato",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 7.3,
+      "icona": "minecraft:husk_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:husk",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_phantom",
+      "titolo": "Fantasma",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 7.3,
+      "icona": "minecraft:phantom_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:phantom",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_pillager",
+      "titolo": "Predone",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 7.3,
+      "icona": "minecraft:pillager_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:pillager",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_ravager",
+      "titolo": "Devastatore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 7.5,
+      "y": 7.3,
+      "icona": "minecraft:ravager_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:ravager",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_silverfish",
+      "titolo": "Pesciolino d'argento",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 7.3,
+      "icona": "minecraft:silverfish_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:silverfish",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_skeleton",
+      "titolo": "Scheletro",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 7.3,
+      "icona": "minecraft:skeleton_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:skeleton",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_slime",
+      "titolo": "Gelatina",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 8.8,
+      "icona": "minecraft:slime_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:slime",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_spider",
+      "titolo": "Ragno",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 8.8,
+      "icona": "minecraft:spider_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:spider",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_stray",
+      "titolo": "Errante",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 8.8,
+      "icona": "minecraft:stray_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:stray",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_vex",
+      "titolo": "Vessante",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 8.8,
+      "icona": "minecraft:vex_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:vex",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_vindicator",
+      "titolo": "Vendicatore",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 8.8,
+      "icona": "minecraft:vindicator_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:vindicator",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_witch",
+      "titolo": "Strega",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 8.8,
+      "icona": "minecraft:witch_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:witch",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_zombie",
+      "titolo": "Zombi",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 8.8,
+      "icona": "minecraft:zombie_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:zombie",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_zombie_villager",
+      "titolo": "Villico zombi",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra nell'Overworld: di notte, nelle grotte o vicino ai villaggi.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 8.8,
+      "icona": "minecraft:zombie_villager_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:zombie_villager",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_mondo",
+      "titolo": "Il mondo: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 7.3,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_friendsandfoes_barnacle",
+        "uccidi_friendsandfoes_iceologer",
+        "uccidi_friendsandfoes_illusioner",
+        "uccidi_minecraft_bogged",
+        "uccidi_minecraft_breeze",
+        "uccidi_minecraft_cave_spider",
+        "uccidi_minecraft_creeper",
+        "uccidi_minecraft_drowned",
+        "uccidi_minecraft_evoker",
+        "uccidi_minecraft_guardian",
+        "uccidi_minecraft_husk",
+        "uccidi_minecraft_phantom",
+        "uccidi_minecraft_pillager",
+        "uccidi_minecraft_ravager",
+        "uccidi_minecraft_silverfish",
+        "uccidi_minecraft_skeleton",
+        "uccidi_minecraft_slime",
+        "uccidi_minecraft_spider",
+        "uccidi_minecraft_stray",
+        "uccidi_minecraft_vex",
+        "uccidi_minecraft_vindicator",
+        "uccidi_minecraft_witch",
+        "uccidi_minecraft_zombie",
+        "uccidi_minecraft_zombie_villager"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_cataclysm_ignited_berserker",
+      "titolo": "Berserker Fiammeggiante",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 11.6,
+      "icona": "cataclysm:ignited_berserker_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignited_berserker",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_ignited_revenant",
+      "titolo": "Revenant Fiammeggiante",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 11.6,
+      "icona": "cataclysm:ignited_revenant_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignited_revenant",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_friendsandfoes_wildfire",
+      "titolo": "Wildfire",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 11.6,
+      "icona": "friendsandfoes:wildfire_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "friendsandfoes:wildfire",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_blaze",
+      "titolo": "Blaze",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 11.6,
+      "icona": "minecraft:blaze_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:blaze",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_ghast",
+      "titolo": "Ghast",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 11.6,
+      "icona": "minecraft:ghast_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:ghast",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_hoglin",
+      "titolo": "Hoglin",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 11.6,
+      "icona": "minecraft:hoglin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:hoglin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_magma_cube",
+      "titolo": "Cubo di magma",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 11.6,
+      "icona": "minecraft:magma_cube_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:magma_cube",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_piglin",
+      "titolo": "Piglin",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 11.6,
+      "icona": "minecraft:piglin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:piglin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_piglin_brute",
+      "titolo": "Piglin bruto",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 13.1,
+      "icona": "minecraft:piglin_brute_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:piglin_brute",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_wither_skeleton",
+      "titolo": "Scheletro di Wither",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 13.1,
+      "icona": "minecraft:wither_skeleton_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:wither_skeleton",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_zoglin",
+      "titolo": "Zoglin",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 13.1,
+      "icona": "minecraft:zoglin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:zoglin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_zombified_piglin",
+      "titolo": "Piglin zombificato",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita il Nether e le sue fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 13.1,
+      "icona": "minecraft:zombified_piglin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:zombified_piglin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_nether",
+      "titolo": "Il nether: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 12.35,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_cataclysm_ignited_berserker",
+        "uccidi_cataclysm_ignited_revenant",
+        "uccidi_friendsandfoes_wildfire",
+        "uccidi_minecraft_blaze",
+        "uccidi_minecraft_ghast",
+        "uccidi_minecraft_hoglin",
+        "uccidi_minecraft_magma_cube",
+        "uccidi_minecraft_piglin",
+        "uccidi_minecraft_piglin_brute",
+        "uccidi_minecraft_wither_skeleton",
+        "uccidi_minecraft_zoglin",
+        "uccidi_minecraft_zombified_piglin"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_cataclysm_ender_golem",
+      "titolo": "Golem di Ender",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si trova nell'End o nelle sue strutture.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 15.9,
+      "icona": "cataclysm:ender_golem_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ender_golem",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_endermaptera",
+      "titolo": "Endermaptera",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si trova nell'End o nelle sue strutture.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 15.9,
+      "icona": "cataclysm:endermaptera_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:endermaptera",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_enderman",
+      "titolo": "Enderman",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si trova nell'End o nelle sue strutture.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 15.9,
+      "icona": "minecraft:enderman_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:enderman",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_endermite",
+      "titolo": "Endermite",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si trova nell'End o nelle sue strutture.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 15.9,
+      "icona": "minecraft:endermite_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:endermite",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecraft_shulker",
+      "titolo": "Shulker",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si trova nell'End o nelle sue strutture.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 15.9,
+      "icona": "minecraft:shulker_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:shulker",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_end",
+      "titolo": "L end: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 15.9,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_cataclysm_ender_golem",
+        "uccidi_cataclysm_endermaptera",
+        "uccidi_minecraft_enderman",
+        "uccidi_minecraft_endermite",
+        "uccidi_minecraft_shulker"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_deeperdarker_anger_pot",
+      "titolo": "Anger Pot",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 18.7,
+      "icona": "deeperdarker:anger_pot_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:anger_pot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_fear_pot",
+      "titolo": "Fear Pot",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 18.7,
+      "icona": "deeperdarker:fear_pot_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:fear_pot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_sculk_centipede",
+      "titolo": "Centopiedi di sculk",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 18.7,
+      "icona": "deeperdarker:sculk_centipede_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:sculk_centipede",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_sculk_leech",
+      "titolo": "Sculk Leech",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 18.7,
+      "icona": "deeperdarker:sculk_leech_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:sculk_leech",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_sculk_snapper",
+      "titolo": "Sculk Snapper",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 18.7,
+      "icona": "deeperdarker:sculk_snapper_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:sculk_snapper",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_shattered",
+      "titolo": "Shattered",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 18.7,
+      "icona": "deeperdarker:shattered_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:shattered",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_shriek_worm",
+      "titolo": "Shriek Worm",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 9.0,
+      "y": 18.7,
+      "icona": "deeperdarker:shriek_worm_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:shriek_worm",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_sludge",
+      "titolo": "Sludge",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 18.7,
+      "icona": "deeperdarker:sludge_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:sludge",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_sorrow_pot",
+      "titolo": "Sorrow Pot",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 20.2,
+      "icona": "deeperdarker:sorrow_pot_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:sorrow_pot",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_deeperdarker_stalker",
+      "titolo": "Persecutore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Vive nelle profondita' dello sculk e dell'Otherside.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 20.2,
+      "icona": "deeperdarker:stalker_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "deeperdarker:stalker",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_profondo",
+      "titolo": "Le profondita: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 19.45,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_deeperdarker_anger_pot",
+        "uccidi_deeperdarker_fear_pot",
+        "uccidi_deeperdarker_sculk_centipede",
+        "uccidi_deeperdarker_sculk_leech",
+        "uccidi_deeperdarker_sculk_snapper",
+        "uccidi_deeperdarker_shattered",
+        "uccidi_deeperdarker_shriek_worm",
+        "uccidi_deeperdarker_sludge",
+        "uccidi_deeperdarker_sorrow_pot",
+        "uccidi_deeperdarker_stalker"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_cataclysm_amethyst_crab",
+      "titolo": "Granchio di Ametista",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 23.0,
+      "icona": "cataclysm:amethyst_crab_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:amethyst_crab",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_aptrgangr",
+      "titolo": "Aptrgangr",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 23.0,
+      "icona": "cataclysm:aptrgangr_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:aptrgangr",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_cindaria",
+      "titolo": "Cindaria",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 23.0,
+      "icona": "cataclysm:cindaria_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:cindaria",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_clawdian",
+      "titolo": "Clawdian",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 4.5,
+      "y": 23.0,
+      "icona": "cataclysm:clawdian_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:clawdian",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_coral_golem",
+      "titolo": "Golem di Corallo",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 23.0,
+      "icona": "cataclysm:coral_golem_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:coral_golem",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_coralssus",
+      "titolo": "Corallosso",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 7.5,
+      "y": 23.0,
+      "icona": "cataclysm:coralssus_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:coralssus",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_deepling",
+      "titolo": "Deepling",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 23.0,
+      "icona": "cataclysm:deepling_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:deepling",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_deepling_angler",
+      "titolo": "Deepling Pescatore",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 23.0,
+      "icona": "cataclysm:deepling_angler_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:deepling_angler",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_deepling_brute",
+      "titolo": "Deepling Brutale",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 24.5,
+      "icona": "cataclysm:deepling_brute_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:deepling_brute",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_deepling_priest",
+      "titolo": "Deepling Prete",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 24.5,
+      "icona": "cataclysm:deepling_priest_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:deepling_priest",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_deepling_warlock",
+      "titolo": "Deepling Stregone",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 24.5,
+      "icona": "cataclysm:deepling_warlock_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:deepling_warlock",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_draugr",
+      "titolo": "Draugr",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 24.5,
+      "icona": "cataclysm:draugr_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:draugr",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_drowned_host",
+      "titolo": "Drowned Host",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 24.5,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:drowned_host",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_elite_draugr",
+      "titolo": "Draugr d'Elite",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 7.5,
+      "y": 24.5,
+      "icona": "cataclysm:elite_draugr_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:elite_draugr",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_hippocamtus",
+      "titolo": "Hippocamtus",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 9.0,
+      "y": 24.5,
+      "icona": "cataclysm:hippocamtus_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:hippocamtus",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_kobolediator",
+      "titolo": "Koboladiatore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 10.5,
+      "y": 24.5,
+      "icona": "cataclysm:kobolediator_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:kobolediator",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_koboleton",
+      "titolo": "Koboleton",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 26.0,
+      "icona": "cataclysm:koboleton_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:koboleton",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_lionfish",
+      "titolo": "Pesce Scorpione",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 26.0,
+      "icona": "cataclysm:lionfish_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:lionfish",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_royal_draugr",
+      "titolo": "Draugr Reale",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 26.0,
+      "icona": "cataclysm:royal_draugr_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:royal_draugr",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_symbiocto",
+      "titolo": "Symbiocto",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 26.0,
+      "icona": "cataclysm:symbiocto_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:symbiocto",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_the_prowler",
+      "titolo": "Il Predatore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 26.0,
+      "icona": "cataclysm:the_prowler_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_prowler",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_the_watcher",
+      "titolo": "L'Osservatore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 7.5,
+      "y": 26.0,
+      "icona": "cataclysm:the_watcher_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_watcher",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_urchinkin",
+      "titolo": "Urchinkin",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 26.0,
+      "icona": "cataclysm:urchinkin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:urchinkin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_cataclysm_wadjet",
+      "titolo": "Wadjet",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Sorveglia le strutture di Cataclysm: rovine, piramidi, acropoli e fortezze.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 10.5,
+      "y": 26.0,
+      "icona": "cataclysm:wadjet_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:wadjet",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_cataclysm",
+      "titolo": "Rovine antiche: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 24.5,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_cataclysm_amethyst_crab",
+        "uccidi_cataclysm_aptrgangr",
+        "uccidi_cataclysm_cindaria",
+        "uccidi_cataclysm_clawdian",
+        "uccidi_cataclysm_coral_golem",
+        "uccidi_cataclysm_coralssus",
+        "uccidi_cataclysm_deepling",
+        "uccidi_cataclysm_deepling_angler",
+        "uccidi_cataclysm_deepling_brute",
+        "uccidi_cataclysm_deepling_priest",
+        "uccidi_cataclysm_deepling_warlock",
+        "uccidi_cataclysm_draugr",
+        "uccidi_cataclysm_drowned_host",
+        "uccidi_cataclysm_elite_draugr",
+        "uccidi_cataclysm_hippocamtus",
+        "uccidi_cataclysm_kobolediator",
+        "uccidi_cataclysm_koboleton",
+        "uccidi_cataclysm_lionfish",
+        "uccidi_cataclysm_royal_draugr",
+        "uccidi_cataclysm_symbiocto",
+        "uccidi_cataclysm_the_prowler",
+        "uccidi_cataclysm_the_watcher",
+        "uccidi_cataclysm_urchinkin",
+        "uccidi_cataclysm_wadjet"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_twilightforest_adherent",
+      "titolo": "Aderente",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 28.8,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:adherent",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_armored_giant",
+      "titolo": "Gigante corazzato",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 28.8,
+      "icona": "twilightforest:armored_giant_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:armored_giant",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_blockchain_goblin",
+      "titolo": "Block and Chain Goblin",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 28.8,
+      "icona": "twilightforest:blockchain_goblin_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:blockchain_goblin",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_carminite_broodling",
+      "titolo": "Ragno di carminite",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 28.8,
+      "icona": "twilightforest:carminite_broodling_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:carminite_broodling",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_carminite_ghastguard",
+      "titolo": "Ghast guardia di carminite",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 28.8,
+      "icona": "twilightforest:carminite_ghastguard_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:carminite_ghastguard",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_carminite_ghastling",
+      "titolo": "Ghastling di caminite",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 28.8,
+      "icona": "twilightforest:carminite_ghastling_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:carminite_ghastling",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_carminite_golem",
+      "titolo": "Golem di carminite",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 9.0,
+      "y": 28.8,
+      "icona": "twilightforest:carminite_golem_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:carminite_golem",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_fire_beetle",
+      "titolo": "Coleottero di fuoco",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 28.8,
+      "icona": "twilightforest:fire_beetle_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:fire_beetle",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_giant_miner",
+      "titolo": "Minatore gigante",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 30.3,
+      "icona": "twilightforest:giant_miner_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:giant_miner",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_hedge_spider",
+      "titolo": "Ragno delle siepi",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 30.3,
+      "icona": "twilightforest:hedge_spider_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:hedge_spider",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_helmet_crab",
+      "titolo": "Paguro armato",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 30.3,
+      "icona": "twilightforest:helmet_crab_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:helmet_crab",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_hostile_wolf",
+      "titolo": "Lupo selvatico",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 30.3,
+      "icona": "twilightforest:hostile_wolf_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:hostile_wolf",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_king_spider",
+      "titolo": "Re Ragno",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 30.3,
+      "icona": "twilightforest:king_spider_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:king_spider",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_kobold",
+      "titolo": "Coboldo",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 30.3,
+      "icona": "twilightforest:kobold_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:kobold",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_lower_goblin_knight",
+      "titolo": "Cavaliere goblin inferiore",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 30.3,
+      "icona": "twilightforest:lower_goblin_knight_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:lower_goblin_knight",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_maze_slime",
+      "titolo": "Slime del labirinto",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 30.3,
+      "icona": "twilightforest:maze_slime_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:maze_slime",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_minotaur",
+      "titolo": "Minotauro",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 31.8,
+      "icona": "twilightforest:minotaur_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:minotaur",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_mist_wolf",
+      "titolo": "Lupo della nebbia",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 31.8,
+      "icona": "twilightforest:mist_wolf_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:mist_wolf",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_mosquito_swarm",
+      "titolo": "Sciame di zanzare",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 31.8,
+      "icona": "twilightforest:mosquito_swarm_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:mosquito_swarm",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_pinch_beetle",
+      "titolo": "Coleottero",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 31.8,
+      "icona": "twilightforest:pinch_beetle_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:pinch_beetle",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_redcap",
+      "titolo": "Cappuccio rosso",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 31.8,
+      "icona": "twilightforest:redcap_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:redcap",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_redcap_sapper",
+      "titolo": "Geniere dal cappuccio rosso",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 31.8,
+      "icona": "twilightforest:redcap_sapper_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:redcap_sapper",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_roving_cube",
+      "titolo": "Cubo vagante",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 31.8,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:roving_cube",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_skeleton_druid",
+      "titolo": "Scheletro druido",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 31.8,
+      "icona": "twilightforest:skeleton_druid_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:skeleton_druid",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_slime_beetle",
+      "titolo": "Coleottero slime",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 33.3,
+      "icona": "twilightforest:slime_beetle_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:slime_beetle",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_snow_guardian",
+      "titolo": "Guardiano delle nevi",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 33.3,
+      "icona": "twilightforest:snow_guardian_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:snow_guardian",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_stable_ice_core",
+      "titolo": "Nucleo di ghiaccio stabile",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 33.3,
+      "icona": "twilightforest:stable_ice_core_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:stable_ice_core",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_swarm_spider",
+      "titolo": "Ragno dello sciame",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 33.3,
+      "icona": "twilightforest:swarm_spider_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:swarm_spider",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_towerwood_borer",
+      "titolo": "Tarlo del torrelegno",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 33.3,
+      "icona": "twilightforest:towerwood_borer_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:towerwood_borer",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_troll",
+      "titolo": "Troll",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 7.5,
+      "y": 33.3,
+      "icona": "twilightforest:troll_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:troll",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_unstable_ice_core",
+      "titolo": "Nucleo di ghiaccio instabile",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 9.0,
+      "y": 33.3,
+      "icona": "twilightforest:unstable_ice_core_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:unstable_ice_core",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_upper_goblin_knight",
+      "titolo": "Cavaliere goblin superiore",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 10.5,
+      "y": 33.3,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:upper_goblin_knight",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_winter_wolf",
+      "titolo": "Lupo invernale",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 34.8,
+      "icona": "twilightforest:winter_wolf_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:winter_wolf",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_wraith",
+      "titolo": "Spettro",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 34.8,
+      "icona": "twilightforest:wraith_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:wraith",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_twilightforest_yeti",
+      "titolo": "Yeti",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Abita la Foresta del Crepuscolo.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 34.8,
+      "icona": "twilightforest:yeti_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:yeti",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_crepuscolo",
+      "titolo": "Il crepuscolo: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 31.8,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_twilightforest_adherent",
+        "uccidi_twilightforest_armored_giant",
+        "uccidi_twilightforest_blockchain_goblin",
+        "uccidi_twilightforest_carminite_broodling",
+        "uccidi_twilightforest_carminite_ghastguard",
+        "uccidi_twilightforest_carminite_ghastling",
+        "uccidi_twilightforest_carminite_golem",
+        "uccidi_twilightforest_fire_beetle",
+        "uccidi_twilightforest_giant_miner",
+        "uccidi_twilightforest_hedge_spider",
+        "uccidi_twilightforest_helmet_crab",
+        "uccidi_twilightforest_hostile_wolf",
+        "uccidi_twilightforest_king_spider",
+        "uccidi_twilightforest_kobold",
+        "uccidi_twilightforest_lower_goblin_knight",
+        "uccidi_twilightforest_maze_slime",
+        "uccidi_twilightforest_minotaur",
+        "uccidi_twilightforest_mist_wolf",
+        "uccidi_twilightforest_mosquito_swarm",
+        "uccidi_twilightforest_pinch_beetle",
+        "uccidi_twilightforest_redcap",
+        "uccidi_twilightforest_redcap_sapper",
+        "uccidi_twilightforest_roving_cube",
+        "uccidi_twilightforest_skeleton_druid",
+        "uccidi_twilightforest_slime_beetle",
+        "uccidi_twilightforest_snow_guardian",
+        "uccidi_twilightforest_stable_ice_core",
+        "uccidi_twilightforest_swarm_spider",
+        "uccidi_twilightforest_towerwood_borer",
+        "uccidi_twilightforest_troll",
+        "uccidi_twilightforest_unstable_ice_core",
+        "uccidi_twilightforest_upper_goblin_knight",
+        "uccidi_twilightforest_winter_wolf",
+        "uccidi_twilightforest_wraith",
+        "uccidi_twilightforest_yeti"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_ad_astra_corrupted_lunarian",
+      "titolo": "Corrupted Lunarian",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 37.6,
+      "icona": "ad_astra:corrupted_lunarian_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:corrupted_lunarian",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_martian_raptor",
+      "titolo": "Martian Raptor",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 37.6,
+      "icona": "ad_astra:martian_raptor_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:martian_raptor",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_mogler",
+      "titolo": "Mogler",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 37.6,
+      "icona": "ad_astra:mogler_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:mogler",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_pygro",
+      "titolo": "Pygro",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 37.6,
+      "icona": "ad_astra:pygro_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:pygro",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_pygro_brute",
+      "titolo": "Pygro Brute",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 6.0,
+      "y": 37.6,
+      "icona": "ad_astra:pygro_brute_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:pygro_brute",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_star_crawler",
+      "titolo": "Star Crawler",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 37.6,
+      "icona": "ad_astra:star_crawler_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:star_crawler",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_sulfur_creeper",
+      "titolo": "Sulfur Creeper",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 37.6,
+      "icona": "ad_astra:sulfur_creeper_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:sulfur_creeper",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_zombified_mogler",
+      "titolo": "Zombified Mogler",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 10.5,
+      "y": 37.6,
+      "icona": "ad_astra:zombified_mogler_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:zombified_mogler",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_ad_astra_zombified_pygro",
+      "titolo": "Zombified Pygro",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Si incontra su Luna, Marte, Venere e Mercurio.",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 39.1,
+      "icona": "ad_astra:zombified_pygro_spawn_egg",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:zombified_pygro",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_spazio",
+      "titolo": "Lo spazio: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 38.35,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_ad_astra_corrupted_lunarian",
+        "uccidi_ad_astra_martian_raptor",
+        "uccidi_ad_astra_mogler",
+        "uccidi_ad_astra_pygro",
+        "uccidi_ad_astra_pygro_brute",
+        "uccidi_ad_astra_star_crawler",
+        "uccidi_ad_astra_sulfur_creeper",
+        "uccidi_ad_astra_zombified_mogler",
+        "uccidi_ad_astra_zombified_pygro"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "uccidi_minecolonies_amazon",
+      "titolo": "Amazzone",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:amazon",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_amazonchief",
+      "titolo": "Leader Amazzone",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 1.5,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:amazonchief",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_amazonspearman",
+      "titolo": "Lanciere amazzone",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 3.0,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:amazonspearman",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_archerbarbarian",
+      "titolo": "Arciere Barbaro",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:archerbarbarian",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_archermummy",
+      "titolo": "Mummia Arciere",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:archermummy",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_archerpirate",
+      "titolo": "Pirata Arciere",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:archerpirate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_barbarian",
+      "titolo": "Barbaro",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 9.0,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:barbarian",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_chiefbarbarian",
+      "titolo": "Capo barbaro",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 10.5,
+      "y": 41.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:chiefbarbarian",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_chiefpirate",
+      "titolo": "Capitano pirata",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 0.0,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:chiefpirate",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_drownedarcherpirate",
+      "titolo": "Pirata Annegato Arciere",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:drownedarcherpirate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_drownedchiefpirate",
+      "titolo": "Pirata Annegato Capo",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 3.0,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:drownedchiefpirate",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_drownedpirate",
+      "titolo": "Pirata Annegato",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 4.5,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:drownedpirate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_mummy",
+      "titolo": "Mummia",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 6.0,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:mummy",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_norsemenarcher",
+      "titolo": "Arciere Vichingo",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 7.5,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:norsemenarcher",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_norsemenchief",
+      "titolo": "Capo Vichingo",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 9.0,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:norsemenchief",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_pharao",
+      "titolo": "Faraone",
+      "sottotitolo": "Nemico d'elite",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e3&r."
+      ],
+      "x": 10.5,
+      "y": 43.4,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:pharao",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_pirate",
+      "titolo": "Pirata",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 0.0,
+      "y": 44.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:pirate",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "uccidi_minecolonies_shieldmaiden",
+      "titolo": "Scudiero",
+      "sottotitolo": "Nemico",
+      "descrizione": [
+        "&7Arriva con le razzie contro la colonia: difendetela!",
+        "Sconfiggetene &e10&r."
+      ],
+      "x": 1.5,
+      "y": 44.9,
+      "icona": "minecraft:iron_sword",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecolonies:shieldmaiden",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "opzionale": true
+    },
+    {
+      "id": "completo_predoni",
+      "titolo": "Predoni: completo",
+      "sottotitolo": "Sezione del bestiario completata",
+      "descrizione": [
+        "Avete sconfitto ogni creatura di questa sezione.",
+        "&6Il bestiario della colonia cresce."
+      ],
+      "x": 13.0,
+      "y": 43.4,
+      "icona": "minecraft:writable_book",
+      "dipendenze": [
+        "uccidi_minecolonies_amazon",
+        "uccidi_minecolonies_amazonchief",
+        "uccidi_minecolonies_amazonspearman",
+        "uccidi_minecolonies_archerbarbarian",
+        "uccidi_minecolonies_archermummy",
+        "uccidi_minecolonies_archerpirate",
+        "uccidi_minecolonies_barbarian",
+        "uccidi_minecolonies_chiefbarbarian",
+        "uccidi_minecolonies_chiefpirate",
+        "uccidi_minecolonies_drownedarcherpirate",
+        "uccidi_minecolonies_drownedchiefpirate",
+        "uccidi_minecolonies_drownedpirate",
+        "uccidi_minecolonies_mummy",
+        "uccidi_minecolonies_norsemenarcher",
+        "uccidi_minecolonies_norsemenchief",
+        "uccidi_minecolonies_pharao",
+        "uccidi_minecolonies_pirate",
+        "uccidi_minecolonies_shieldmaiden"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 1.3,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Sezione completata"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 300
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 10
+        }
+      ]
+    },
+    {
+      "id": "cacciatore_leggendario",
+      "titolo": "Cacciatori leggendari",
+      "sottotitolo": "Tutto il bestiario",
+      "descrizione": [
+        "Non esiste creatura che la colonia non abbia affrontato.",
+        "&6Le vostre gesta resteranno negli archivi della colonia."
+      ],
+      "x": 16.0,
+      "y": 0.0,
+      "icona": "minecraft:totem_of_undying",
+      "dipendenze": [
+        "completo_boss",
+        "completo_mondo",
+        "completo_nether",
+        "completo_end",
+        "completo_profondo",
+        "completo_cataclysm",
+        "completo_crepuscolo",
+        "completo_spazio",
+        "completo_predoni"
+      ],
+      "nascondi_linee": true,
+      "forma": "hexagon",
+      "dimensione": 2.0,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Bestiario completo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 1000
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 25
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:totem_of_undying",
+          "quantita": 1
+        }
+      ]
+    }
+  ]
+}

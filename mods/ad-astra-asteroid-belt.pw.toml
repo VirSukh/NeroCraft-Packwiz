@@ -1,0 +1,13 @@
+name = "Ad Astra: Asteroid Belt"
+filename = "Ad-Astra-Asteroid-Belt-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a94002928887b85efbd4068a4f13812d914ceefe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9611382
+project-id = 1697341

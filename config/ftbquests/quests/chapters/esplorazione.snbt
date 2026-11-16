@@ -1,0 +1,1359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esplorazione"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "explorerscompass:explorerscompass"
+	}
+	id: "60EE115275694EA1"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "naturescompass:naturescompass"
+			}
+			id: "3A382BED9C031243"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5C2D8CA1BB34E536"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2FCBE843341E36AA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7200A1F6264D5FDB"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/root"
+					criterion: ""
+					id: "202312E09F72C2DF"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3A382BED9C031243"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:filled_map"
+			}
+			id: "1F3055D27AC5C14E"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "47D860B7BB61BEEE"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "3B17165EC1672EAD"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "234D81AF09536ABA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "73F52B34DE1EF82C"
+					item: {
+						count: 1
+						id: "minecraft:filled_map"
+					}
+					type: "item"
+				}
+				{
+					id: "30C0994BFC5EF109"
+					item: {
+						count: 1
+						id: "minecraft:cartography_table"
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:bell"
+			}
+			id: "140F829A8802C3D6"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "65B1C07559F3C783"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "629636E2B72678A1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trade"
+					criterion: ""
+					id: "2E967C92D15787A4"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "lootr:lootr_chest"
+			}
+			id: "2A8E428F3FD6C579"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "6275E4B15C035766"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "7E6587D8F895892D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "141E303DE8F3B845"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2A8E428F3FD6C579"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "29B45C7C5613EBD9"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "7A5E3EACD75FD137"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "30068005F139CD54"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "6E583F341EB66A73"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:small_dungeon"
+					criterion: ""
+					id: "23923404C277B525"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29B45C7C5613EBD9"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
+			id: "194AF34EDCEA0863"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "64C9FEB8ADF754BD"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7AAE94AAFF796455"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "4351BE1437BE650D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1cart"
+					criterion: ""
+					id: "194629E6CFF2E463"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:brush"
+			}
+			id: "20C4106EB3B7114C"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "392D979D3D0B2487"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "6505BFBA9E7AA3FA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "4E25DA5EB84A02F7"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+				{
+					id: "1662964F1DA24DCA"
+					type: "checkmark"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"20C4106EB3B7114C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chiseled_sandstone"
+			}
+			id: "3A79AE7CF3AE966E"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "237D659B2BB286E0"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "20A4E70FCFFADCBA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_entry"
+					criterion: ""
+					id: "7A897396942BA67B"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3A79AE7CF3AE966E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:husk_spawn_egg"
+			}
+			id: "57FE2728E3891332"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "38FEAD3423C055A0"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "4A481861AA8BF9C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "1B128487A9F5C042"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:trial_key"
+			}
+			id: "41F1031A62B9A36F"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1A1C4682EF5C1696"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "33174123904AA413"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2905868622E23FD0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/minecraft_trials_edition"
+					criterion: ""
+					id: "71F6EB14930417B0"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/under_lock_and_key"
+					criterion: ""
+					id: "6A6AC9E7D5BAA7A7"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"41F1031A62B9A36F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			id: "6C574AC1A30A9BED"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2A00DAAAF5B8B733"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "52D1C6AD0AEDF759"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5610DC8FC27D1484"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "3F45B75DD15DD7F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"232BDB073C8518B8"
+				"140F829A8802C3D6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:bell"
+			}
+			id: "71224E35886F965B"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "15FD118EB0AB5041"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "7510F28A2B2CEDBB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/true_traveler"
+					criterion: ""
+					id: "1EFA2DAA71C80917"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 5.3d
+		}
+		{
+			dependencies: [
+				"232BDB073C8518B8"
+			]
+			icon: {
+				count: 1
+				id: "biomeswevegone:pale_jack_o_lantern"
+			}
+			id: "27D36E017DBC8F6F"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "66DAC399A7D1C614"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "15F761CE353C9E4F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/pale_in_comparison"
+					criterion: ""
+					id: "58B3E27FB6C7041C"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 5.3d
+		}
+		{
+			dependencies: [
+				"27D36E017DBC8F6F"
+			]
+			icon: {
+				count: 1
+				id: "biomeswevegone:witch_hazel_blossom"
+			}
+			id: "3F6B2AC960B963BE"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "21E0966C8723A172"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "14EEFBD7DAE68632"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					advancement: "biomeswevegone:biomeswevegone/adventure/witches_road"
+					criterion: ""
+					id: "3C74EE45D6797412"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 5.3d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "57F32F2020C46E2B"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "35A85A902F5177EB"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "222EA48F80CC3368"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:misc/root"
+					criterion: ""
+					id: "145844DB88FC3C28"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"57F32F2020C46E2B"
+				"66FAC9B9A5554DA8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
+			id: "7DD2624A89669DE5"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5E520E0C12BA8FF0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "641EBDB51CE94EEA"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "2228FFC6156A33AE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:ash_barrens/enter_castle"
+					criterion: ""
+					id: "154F7062C6D65C56"
+					type: "advancement"
+				}
+				{
+					id: "73256F0ECACCC465"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			id: "15BB020C5AAAE132"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "79C01765B6676576"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "507FB01F6F05701F"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "53776A6E93FE2A38"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "687FE4A0F16D1F8D"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15BB020C5AAAE132"
+			]
+			icon: {
+				count: 1
+				id: "friendsandfoes:wildfire_crown"
+			}
+			id: "572C0CD2AEFEBC5A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6E2C4405F0F629C2"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1D30546DD52E84D3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:nether/find_citadel"
+					criterion: ""
+					id: "3F10DCBC15A29683"
+					type: "advancement"
+				}
+				{
+					advancement: "friendsandfoes:nether/kill_wildfire"
+					criterion: ""
+					id: "531E1AF060BF44AC"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:piglin_head"
+			}
+			id: "276AA7087AF53F65"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "6CDD318AF4B3DE0E"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "776089F80B17C1D5"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_bastion"
+					criterion: ""
+					id: "2C00CD951F59E3FB"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"66FAC9B9A5554DA8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:sculk_catalyst"
+			}
+			id: "3CECF2790A580E27"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2FC8C8053E4A656D"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4D3013684B95B280"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "10BE3B24D73C09AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/find_ancient_city"
+					criterion: ""
+					id: "13087D515A3957D0"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3CECF2790A580E27"
+				"619D6D1B2FD73578"
+			]
+			icon: {
+				count: 1
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "2BC8888A86C55553"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "46E6DEA510B269AC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "306526E99A4E4F6E"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "6188477453B24EAC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "22985D4B8B5CE637"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2A4520B8F18EB566"
+					item: {
+						count: 1
+						id: "deeperdarker:heart_of_the_deep"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2BC8888A86C55553"
+			]
+			icon: {
+				count: 1
+				id: "deeperdarker:sculk_stone"
+			}
+			id: "24CA40CCA277E6E0"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "3C0C61130E5867EA"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3808BCAD9662F823"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "688B727E09163D71"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "37D6AD959E7496C9"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"24CA40CCA277E6E0"
+			]
+			icon: {
+				count: 1
+				id: "deeperdarker:gloomslate"
+			}
+			id: "5A8F7D59086B7DA8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "53B9F6CFDBDB01CB"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2B4EC7F5963FAA09"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/find_ancient_temple"
+					criterion: ""
+					id: "1073EC2F92079DB0"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"24CA40CCA277E6E0"
+			]
+			icon: {
+				count: 1
+				id: "deeperdarker:warden_chestplate"
+			}
+			id: "66C8CA9FC24C37FF"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "1AAEE8B9B04DAD3D"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "2120EBC13FBE8376"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/warden_armor"
+					criterion: ""
+					id: "1BE05FB37A475B53"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"66FAC9B9A5554DA8"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			id: "64D7DF72CBC2CAF1"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "7418D547A66F2346"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3E3A4598900E4112"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "25A05FEDD161C747"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "4A0D228AE16FF554"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"64D7DF72CBC2CAF1"
+				"619D6D1B2FD73578"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:end_stone"
+			}
+			id: "450584B4C5665886"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "196D60285AE7C4EE"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3D0C33782CB954AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "40ED30F50BD63A3F"
+					type: "dimension"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"450584B4C5665886"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			id: "56504D68223A13C3"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "215A3EB95FC33800"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "34C081F770FF3582"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3D5D0E69B81CC29B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "54AA6A7955BEBE42"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"56504D68223A13C3"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chorus_flower"
+			}
+			id: "5F1A025566FC6932"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "2EE3072EB2CE8ACA"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "283159FFD836B30C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "7B41BD14C8A471D6"
+					type: "advancement"
+				}
+				{
+					advancement: "nullscape:root"
+					criterion: ""
+					id: "466AC4C84AF5DAAD"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5F1A025566FC6932"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:purpur_block"
+			}
+			id: "797813F6A5DA5704"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "39BEEF48109C1ABC"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "4063DC2BEE60875A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "10D6142FC0060C30"
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"797813F6A5DA5704"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			id: "715E700470912A11"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "387EF5E5DB495F18"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "18DD1A8157B4F958"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "49CFC9BD40B8B2A3"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_esplorazione.png"
+			order: 0
+			rotation: 0.0d
+			width: 5.312d
+			x: 1.25d
+			y: -5.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_esplorazione_mondo.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.033d
+			x: -6.0d
+			y: -4.2d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_esplorazione_terre.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.1d
+			x: -6.0d
+			y: 4.3d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_nether.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.75d
+			y: -4.2d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_esplorazione_profondo.png"
+			order: 4
+			rotation: 0.0d
+			width: 3.967d
+			x: 2.25d
+			y: 1.4d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_esplorazione_end.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.433d
+			x: 8.5d
+			y: -4.2d
+		}
+	]
+}

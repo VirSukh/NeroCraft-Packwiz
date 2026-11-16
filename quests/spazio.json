@@ -1,0 +1,1206 @@
+{
+  "capitolo": {
+    "id": "spazio",
+    "titolo": "Lo Spazio",
+    "sottotitolo": "Basi, lune minori e la porta di Eris",
+    "icona": "ad_astra:tier_1_rover",
+    "ordine": 14,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/cap_spazio.png",
+        "x": 5.25,
+        "y": -7.5,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_spazio_basi.png",
+        "x": -2.75,
+        "y": -5.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_spazio_fauna.png",
+        "x": -2.75,
+        "y": -2.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_sistema_interno.png",
+        "x": -2.75,
+        "y": -1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_giganti.png",
+        "x": -2.75,
+        "y": 0.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_confini.png",
+        "x": -2.75,
+        "y": 2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_spazio_nuclei.png",
+        "x": -2.75,
+        "y": 4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_spazio_porta.png",
+        "x": 3,
+        "y": 5.4,
+        "altezza": 0.5,
+        "trasparenza": 230,
+        "dopo": "ultima_porta"
+      },
+      {
+        "item": "adastraplanets:eris_globe",
+        "x": 7.5,
+        "y": 4,
+        "larghezza": 1.5,
+        "altezza": 1.5,
+        "trasparenza": 200,
+        "dopo": "ultima_porta"
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "rover_lunare",
+      "titolo": "Il Rover",
+      "sottotitolo": "Quattro ruote sulla regolite",
+      "descrizione": [
+        "&7&oA piedi la Luna è grande. In rover un po' meno.&r",
+        "Il &6Rover&r si crafta con motore e blocchi di desh, piastre di desh, una bombola grande, una radio e quattro ruote.",
+        "Va a carburante, come i razzi. &aPorta due persone: uno guida, l'altro scava.&r"
+      ],
+      "x": 0,
+      "y": -5.5,
+      "icona": "ad_astra:tier_1_rover",
+      "dipendenze": [
+        "era_5_spazio/desh_e_banco_nasa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:wheel",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:radio",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:tier_1_rover",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:black_wool",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ]
+    },
+    {
+      "id": "energia_solare",
+      "titolo": "Pannelli solari",
+      "sottotitolo": "Lassù il sole non tramonta mai del tutto",
+      "descrizione": [
+        "&7&oNiente nuvole, niente atmosfera: solo luce.&r",
+        "La &6Cella Fotovoltaica&r (vetro blu, piastre di desh, diamante) va nel &6Pannello Solare&r.",
+        "Più vicini al sole, più energia: su Mercurio rendono il massimo."
+      ],
+      "x": 1.5,
+      "y": -5.5,
+      "icona": "ad_astra:solar_panel",
+      "dipendenze": [
+        "era_5_spazio/desh_e_banco_nasa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:photovoltaic_etrium_cell",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:solar_panel",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blue_stained_glass",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ]
+    },
+    {
+      "id": "gravita_artificiale",
+      "titolo": "Gravità su misura",
+      "sottotitolo": "Piedi per terra, anche sulla Luna",
+      "descrizione": [
+        "&7&oSaltare tre metri è divertente. Per dieci minuti.&r",
+        "Il &6Normalizzatore di Gravità&r riporta la gravità terrestre nella stanza sigillata. Servono due &6Condensatori Etrionici&r e un blocco di diamante.",
+        "Va alimentato, come il distributore d'ossigeno."
+      ],
+      "x": 3,
+      "y": -5.5,
+      "icona": "ad_astra:gravity_normalizer",
+      "dipendenze": [
+        "era_5_spazio/base_lunare"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:etrionic_capacitor",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:gravity_normalizer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ]
+    },
+    {
+      "id": "camera_stagna",
+      "titolo": "Camera stagna",
+      "sottotitolo": "Entrare senza perdere l'aria",
+      "descrizione": [
+        "&7&oUna porta aperta e l'ossigeno della base se ne va.&r",
+        "La &6Camera Stagna&r chiude l'ingresso; il &6Sensore d'Ossigeno&r manda un segnale redstone quando la stanza è piena d'aria.",
+        "&aCollegateli: la porta si apre solo se dentro si respira.&r"
+      ],
+      "x": 4.5,
+      "y": -5.5,
+      "icona": "ad_astra:airlock",
+      "dipendenze": [
+        "era_5_spazio/marte_e_ostrum",
+        "era_5_spazio/base_lunare"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:airlock",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:oxygen_sensor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:glass",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ]
+    },
+    {
+      "id": "stazione_orbitale",
+      "titolo": "Stazione orbitale",
+      "sottotitolo": "Una casa sopra le nuvole",
+      "descrizione": [
+        "&7&oDa quassù la colonia è un puntino. Il vostro puntino.&r",
+        "In &6orbita terrestre&r, dal menu dei pianeti, si costruisce una &6stazione spaziale&r: 64 piastre di ferro, 32 lingotti d'acciaio, 32 lingotti e 32 piastre di desh.",
+        "&aMettete i materiali in comune: la stazione è di tutti.&r"
+      ],
+      "x": 6,
+      "y": -5.5,
+      "icona": "ad_astra:earth_globe",
+      "dipendenze": [
+        "era_5_spazio/desh_e_banco_nasa"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:earth_orbit",
+          "titolo": "Raggiungete l'orbita terrestre"
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "La stazione spaziale è costruita"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ]
+    },
+    {
+      "id": "tuta_a_reazione",
+      "titolo": "Tuta a reazione",
+      "sottotitolo": "Volare dove non c'è aria",
+      "descrizione": [
+        "&7&oUn motore sulla schiena. Cosa potrebbe andare storto?&r",
+        "La &6Tuta a Reazione&r nasce dalla tuta di netherite: piastre e serbatoi di calorite, un motore di calorite e i condensatori etrionici.",
+        "Si ricarica come un macchinario. &cNon sostituisce la fodera.&r"
+      ],
+      "x": 7.5,
+      "y": -5.5,
+      "icona": "ad_astra:jet_suit",
+      "dipendenze": [
+        "era_5_spazio/venere_e_calorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:jet_suit_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:jet_suit",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:jet_suit_pants",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "ad_astra:jet_suit_boots",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ]
+    },
+    {
+      "id": "orto_spaziale",
+      "titolo": "Orto spaziale",
+      "sottotitolo": "Senza aria non cresce niente",
+      "descrizione": [
+        "&7&oUn seme, un po' di terra portata da casa e tanta pazienza.&r",
+        "Le piante muoiono senza ossigeno. Dentro una stanza sigillata con il distributore crescono come a casa.",
+        "&aTerra, acqua e luce: coltivate qualcosa sulla Luna e portate il raccolto alla taverna.&r"
+      ],
+      "x": 1.5,
+      "y": -4,
+      "icona": "minecraft:wheat",
+      "dipendenze": [
+        "era_5_spazio/base_lunare"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Un raccolto cresciuto sulla Luna, sotto ossigeno"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bone_meal",
+          "quantita": 32
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:rich_soil",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ]
+    },
+    {
+      "id": "creature_lunari",
+      "titolo": "Ombre sulla Luna",
+      "sottotitolo": "Non siamo soli",
+      "descrizione": [
+        "&7&oQualcosa cammina nella polvere grigia. E qualcosa striscia.&r",
+        "Nelle lande lunari girano &cLunariani Corrotti&r e &cStriscianti Stellari&r. Uscite in gruppo."
+      ],
+      "x": 0,
+      "y": -2.5,
+      "icona": "ad_astra:star_crawler_spawn_egg",
+      "dipendenze": [
+        "era_5_spazio/verso_la_luna"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:corrupted_lunarian",
+          "quantita": 5
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:star_crawler",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:arrow",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ]
+    },
+    {
+      "id": "predatori_marziani",
+      "titolo": "Rapaci di Marte",
+      "sottotitolo": "Denti nella polvere rossa",
+      "descrizione": [
+        "&7&oVeloci, affamati, sempre in branco.&r",
+        "I &cRapaci Marziani&r cacciano nei canyon e nelle lande di Marte. Chi tiene la linea, chi colpisce da lontano."
+      ],
+      "x": 1.5,
+      "y": -2.5,
+      "icona": "ad_astra:martian_raptor_spawn_egg",
+      "dipendenze": [
+        "era_5_spazio/marte_e_ostrum"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:martian_raptor",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ]
+    },
+    {
+      "id": "fauna_venusiana",
+      "titolo": "L'inferno di Venere",
+      "sottotitolo": "Zolfo, zanne e zombi",
+      "descrizione": [
+        "&7&oSu Venere anche i creeper sono peggio.&r",
+        "&cMogler&r, &cCreeper di Zolfo&r e &cPygro Zombificati&r popolano le lande di Venere. Restate uniti."
+      ],
+      "x": 3,
+      "y": -2.5,
+      "icona": "ad_astra:sulfur_creeper_spawn_egg",
+      "dipendenze": [
+        "era_5_spazio/venere_e_calorite"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:mogler",
+          "quantita": 3
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:sulfur_creeper",
+          "quantita": 3
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:zombified_pygro",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 250
+        }
+      ]
+    },
+    {
+      "id": "villaggio_lunariano",
+      "titolo": "I Lunariani",
+      "sottotitolo": "Vicini di casa",
+      "descrizione": [
+        "&7&oCommerciano come i nostri, ma guardano la Terra dal basso.&r",
+        "Sulla Luna ci sono &6villaggi lunariani&r. Trovatene uno e fate almeno uno scambio.",
+        "&7Trattateli bene: sono gli unici amici quassù.&r"
+      ],
+      "x": 0,
+      "y": -1,
+      "icona": "ad_astra:moon_globe",
+      "dipendenze": [
+        "era_5_spazio/verso_la_luna"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Villaggio trovato, uno scambio fatto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:emerald",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ]
+    },
+    {
+      "id": "fascia_asteroidi",
+      "titolo": "La Fascia degli Asteroidi",
+      "sottotitolo": "Sassi che galleggiano",
+      "descrizione": [
+        "&7&oTra Marte e Giove, un campo di rocce sospese.&r",
+        "Con il &6Razzo Tier 2&r si arriva anche alla &6Fascia degli Asteroidi&r. Gravità bassa, freddo forte: fodera addosso."
+      ],
+      "x": 1.5,
+      "y": -1,
+      "icona": "minecraft:cobblestone",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_2"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "pv_asteroid_belt:asteroid_belt",
+          "titolo": "Atterrate sulla Fascia degli Asteroidi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ]
+    },
+    {
+      "id": "glacio",
+      "titolo": "Glacio",
+      "sottotitolo": "Un'altra stella",
+      "descrizione": [
+        "&7&oProxima Centauri. Qui si respira, ma si gela.&r",
+        "Il &6Razzo Tier 4&r porta fuori dal sistema solare, su &6Glacio&r: ha aria propria.",
+        "Gli &cArieti Glaciali&r pascolano tra le vette ghiacciate. Non sono pecore docili."
+      ],
+      "x": 3,
+      "y": -1,
+      "icona": "ad_astra:glacio_globe",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_4"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "ad_astra:glacio",
+          "titolo": "Atterrate su Glacio"
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "ad_astra:glacian_ram",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blue_ice",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ]
+    },
+    {
+      "id": "geodi_e_rovine",
+      "titolo": "Geodi e rovine",
+      "sottotitolo": "Chi c'era prima di noi?",
+      "descrizione": [
+        "&7&oPietre squadrate su lune dove nessuno è mai stato.&r",
+        "Su Deimos e Phobos crescono &6geodi di cristallo di brace&r. Le &6Rovine Antiche&r custodiscono &6pietra antica&r.",
+        "&eOgni sistema ha il suo cristallo:&r i frammenti accendono le prese di cristallo che aprono i cancelli degli Antichi. Tenetene sempre qualcuno."
+      ],
+      "x": 4.5,
+      "y": -1,
+      "icona": "adastraplanets:ember_crystal_shard",
+      "dipendenze": [
+        "era_5_spazio/lune_di_marte"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ember_crystal_shard",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_stone",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:amethyst_shard",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ]
+    },
+    {
+      "id": "lune_galileiane",
+      "titolo": "Le lune di Giove",
+      "sottotitolo": "Callisto, Ganimede, Io, Europa",
+      "descrizione": [
+        "&7&oQuattro lune, quattro mondi diversi.&r",
+        "Mettete piede su tutte e quattro. Nelle geodi crescono i &6cristalli d'ambra&r del sistema gioviano."
+      ],
+      "x": 0,
+      "y": 0.5,
+      "icona": "adastraplanets:jupiter_globe",
+      "dipendenze": [
+        "era_5_spazio/sistema_gioviano"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:callisto",
+          "titolo": "Atterrate su Callisto"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:ganymede",
+          "titolo": "Atterrate su Ganimede"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:io",
+          "titolo": "Atterrate su Io"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:europa",
+          "titolo": "Atterrate su Europa"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:amber_crystal_shard",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ]
+    },
+    {
+      "id": "santuario_sommerso",
+      "titolo": "Il Santuario Sommerso",
+      "sottotitolo": "Sotto il ghiaccio di Europa",
+      "descrizione": [
+        "&7&oUn tempio annegato in un oceano che non vede il sole.&r",
+        "Su &6Europa&r c'è il &6Santuario Sommerso&r. I cancelli si aprono con i frammenti d'ambra nelle prese di cristallo.",
+        "In fondo custodisce il &6Nucleo di Luce Ambra&r. &aPozioni di respirazione per tutti.&r"
+      ],
+      "x": 1.5,
+      "y": 0.5,
+      "icona": "adastraplanets:amber_light_core",
+      "dipendenze": [
+        "lune_galileiane",
+        "era_5_spazio/sistema_gioviano"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:amber_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:turtle_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "lune_di_saturno",
+      "titolo": "Le lune di Saturno",
+      "sottotitolo": "Rea, Giapeto, Encelado",
+      "descrizione": [
+        "&7&oGeyser di ghiaccio e polvere scura.&r",
+        "Titano l'avete già visto. Mancano &6Rea&r, &6Giapeto&r ed &6Encelado&r, con i suoi geyser.",
+        "Qui crescono i &6cristalli d'aureola&r."
+      ],
+      "x": 3,
+      "y": 0.5,
+      "icona": "adastraplanets:saturn_globe",
+      "dipendenze": [
+        "era_5_spazio/sistema_saturniano"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:rhea",
+          "titolo": "Atterrate su Rea"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:iapetus",
+          "titolo": "Atterrate su Giapeto"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:enceladus",
+          "titolo": "Atterrate su Encelado"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:halo_crystal_shard",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 450
+        }
+      ]
+    },
+    {
+      "id": "lune_di_urano",
+      "titolo": "Le lune di Urano",
+      "sottotitolo": "Miranda, Oberon, Titania",
+      "descrizione": [
+        "&7&oScogliere alte chilometri e ghiaccio a strisce.&r",
+        "&6Miranda&r, &6Oberon&r e &6Titania&r: tre lune da visitare. Nelle geodi crescono i &6cristalli di marea&r."
+      ],
+      "x": 4.5,
+      "y": 0.5,
+      "icona": "adastraplanets:uranus_globe",
+      "dipendenze": [
+        "era_5_spazio/sistema_di_urano"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:miranda",
+          "titolo": "Atterrate su Miranda"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:oberon",
+          "titolo": "Atterrate su Oberon"
+        },
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:titania",
+          "titolo": "Atterrate su Titania"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tide_crystal_shard",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "osservatorio_inclinato",
+      "titolo": "L'Osservatorio Inclinato",
+      "sottotitolo": "Un telescopio storto su Miranda",
+      "descrizione": [
+        "&7&oGuardava le stelle. Poi qualcosa l'ha piegato.&r",
+        "Su &6Miranda&r c'è l'&6Osservatorio Inclinato&r. Frammenti di marea nelle prese per aprire i cancelli.",
+        "In fondo custodisce il &6Nucleo di Luce Marea&r."
+      ],
+      "x": 6,
+      "y": 0.5,
+      "icona": "adastraplanets:tide_light_core",
+      "dipendenze": [
+        "lune_di_urano"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tide_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:spyglass",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 550
+        }
+      ]
+    },
+    {
+      "id": "forgia_abissale",
+      "titolo": "La Forgia Abissale",
+      "sottotitolo": "Fuoco sotto l'azoto di Tritone",
+      "descrizione": [
+        "&7&oSfiati d'azoto e una fucina che non si è mai spenta.&r",
+        "Su &6Tritone&r c'è la &6Forgia Abissale&r. I &6cristalli di cobalto&r crescono nelle geodi di Nettuno e Tritone.",
+        "In fondo custodisce il &6Nucleo di Luce Cobalto&r."
+      ],
+      "x": 0,
+      "y": 2,
+      "icona": "adastraplanets:cobalt_light_core",
+      "dipendenze": [
+        "era_5_spazio/sistema_di_nettuno"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:triton",
+          "titolo": "Atterrate su Tritone"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cobalt_crystal_shard",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cobalt_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "caronte",
+      "titolo": "Caronte",
+      "sottotitolo": "Il traghettatore di Plutone",
+      "descrizione": [
+        "&7&oUna luna grande quasi quanto il suo pianeta.&r",
+        "Atterrate su &6Caronte&r. Lì e su Plutone crescono i &6cristalli di rosa&r."
+      ],
+      "x": 1.5,
+      "y": 2,
+      "icona": "adastraplanets:charon_globe",
+      "dipendenze": [
+        "era_5_spazio/sistema_di_plutone"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:charon",
+          "titolo": "Atterrate su Caronte"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:rose_crystal_shard",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 24
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "cuore_sigillato",
+      "titolo": "Il Cuore Sigillato",
+      "sottotitolo": "Dentro il ghiaccio di Plutone",
+      "descrizione": [
+        "&7&oUna porta che chiede un tesserino. Qualcuno l'ha perso qui.&r",
+        "Su &6Plutone&r c'è il &6Cuore Sigillato&r. Le porte della spedizione si aprono con la &6Tessera d'Accesso&r, trovata negli scrigni: si passa sul lettore e resta a voi.",
+        "In fondo custodisce il &6Nucleo di Luce Rosa&r."
+      ],
+      "x": 3,
+      "y": 2,
+      "icona": "adastraplanets:rose_light_core",
+      "dipendenze": [
+        "caronte",
+        "era_5_spazio/sistema_di_plutone"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:access_card",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:rose_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 650
+        }
+      ]
+    },
+    {
+      "id": "disnomia",
+      "titolo": "Disnomia",
+      "sottotitolo": "La luna dell'ultimo pianeta",
+      "descrizione": [
+        "&7&oPiù in là non c'è niente. Proprio niente.&r",
+        "Eris ha una luna: &6Disnomia&r. Qui e su Eris crescono i &6cristalli di gelo&r, gli ultimi del sistema."
+      ],
+      "x": 4.5,
+      "y": 2,
+      "icona": "adastraplanets:dysnomia_globe",
+      "dipendenze": [
+        "era_5_spazio/oltre_il_confine"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "adastraplanets:dysnomia",
+          "titolo": "Atterrate su Disnomia"
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:frost_crystal_shard",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "soglia_di_eris",
+      "titolo": "La soglia di Eris",
+      "sottotitolo": "Una porta nel ghiaccio",
+      "descrizione": [
+        "&7&oSette prese vuote attorno a un portale chiuso.&r",
+        "Su &6Eris&r c'è l'&6Ultima Porta&r. Davanti alla soglia si trova il &6Nucleo di Luce Gelo&r, il settimo.",
+        "Contate le prese: ognuna aspetta il nucleo di un sistema."
+      ],
+      "x": 6,
+      "y": 2,
+      "icona": "adastraplanets:frost_light_core",
+      "dipendenze": [
+        "era_5_spazio/oltre_il_confine"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:frost_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 700
+        }
+      ]
+    },
+    {
+      "id": "sette_nuclei",
+      "titolo": "I sette nuclei",
+      "sottotitolo": "Brace, Ambra, Aureola, Marea, Cobalto, Rosa, Gelo",
+      "descrizione": [
+        "&7&oSette luci, sette sistemi, un'unica porta.&r",
+        "Riunite i sette &6Nuclei di Luce&r. Brace e Aureola li avete già: tornano indietro dopo ogni craft dei banchi NASA.",
+        "&aChi li ha trovati li porta a Eris: serve tutta la squadra.&r"
+      ],
+      "x": 0,
+      "y": 4,
+      "icona": "adastraplanets:halo_light_core",
+      "dipendenze": [
+        "santuario_sommerso",
+        "osservatorio_inclinato",
+        "forgia_abissale",
+        "cuore_sigillato",
+        "soglia_di_eris",
+        "era_5_spazio/lune_di_marte",
+        "era_5_spazio/biblioteca_degli_anelli"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ember_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:amber_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:halo_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:tide_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:cobalt_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:rose_light_core",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:frost_light_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:experience_bottle",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1000
+        }
+      ]
+    },
+    {
+      "id": "ultima_porta",
+      "titolo": "&6&lL'Ultima Porta&r",
+      "sottotitolo": "Oltre la soglia, l'arca",
+      "descrizione": [
+        "&7&oLa porta si apre. Dietro, l'arca di chi c'era prima.&r",
+        "Mettete i sette nuclei nelle prese della soglia su &6Eris&r: l'&6Ultima Porta&r si apre.",
+        "Dentro: l'&6Arsenale&r, l'&6Hangar&r e l'&6Origine&r. Esplorateli insieme."
+      ],
+      "x": 2,
+      "y": 4,
+      "icona": "adastraplanets:eris_globe",
+      "dipendenze": [
+        "sette_nuclei"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "L'Ultima Porta è aperta"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1500
+        }
+      ]
+    },
+    {
+      "id": "arca_degli_antichi",
+      "titolo": "L'arca degli Antichi",
+      "sottotitolo": "L'armatura e la nave",
+      "descrizione": [
+        "&7&oNon serve aria, non serve carburante. Servivano solo sette luci.&r",
+        "Nell'&6Arsenale&r c'è l'&6Armatura degli Antichi&r: indossata intera non servono ossigeno, fodera né protezione dal clima.",
+        "Nell'&6Hangar&r c'è la &6Nave degli Antichi&r: raggiunge ogni corpo celeste senza carburante e parte da una piazzola normale.",
+        "&aIl premio di tutto il viaggio. Decidete insieme chi la indossa.&r"
+      ],
+      "x": 4,
+      "y": 4,
+      "icona": "adastraplanets:ancient_ship",
+      "dipendenze": [
+        "ultima_porta"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_chestplate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_leggings",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_boots",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "adastraplanets:ancient_ship",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cake",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 64
+        },
+        {
+          "tipo": "xp",
+          "quantita": 2500
+        }
+      ]
+    }
+  ]
+}

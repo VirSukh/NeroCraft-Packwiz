@@ -1,0 +1,1297 @@
+{
+  "capitolo": {
+    "id": "cucina",
+    "titolo": "Cucina",
+    "sottotitolo": "Orto, fornelli, cantina e un menu sempre vario",
+    "icona": "farmersdelight:cooking_pot",
+    "ordine": 18,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/cap_cucina.png",
+        "x": 2.25,
+        "y": -6.3,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cucina_varieta.png",
+        "x": 3,
+        "y": -5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cucina_fornelli.png",
+        "x": 2.25,
+        "y": -3.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cucina_cantina.png",
+        "x": 1.5,
+        "y": 0.65,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_colonia.png",
+        "x": 2.25,
+        "y": 4.4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cucina_mondi.png",
+        "x": 2.25,
+        "y": 6.9,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cucina_mano.png",
+        "x": 2.0,
+        "y": 9.4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "menu_vario",
+      "titolo": "Il gusto della varietà",
+      "sottotitolo": "Più cibi diversi, più cuori",
+      "descrizione": [
+        "Con &6Spice of Life&r ogni cibo &adiverso&r che mangi per la prima volta viene segnato.",
+        "A &e5, 10, 15, 20 e 25&r cibi diversi guadagni &acuori in più&r. Mangiare sempre pane non serve.",
+        "Ognuno ha il suo conto: il &6Libro dei cibi&r (libro + carota) mostra cosa hai già assaggiato.",
+        "Morire non toglie i cuori guadagnati."
+      ],
+      "x": -2,
+      "y": -1,
+      "icona": "solcarrot:food_book",
+      "dimensione": 1.5,
+      "dipendenze": [
+        "era_1_fondazione/benvenuto"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "solcarrot:food_book",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:carrot",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:apple",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ]
+    },
+    {
+      "id": "cinque_sapori",
+      "titolo": "Cinque sapori",
+      "descrizione": [
+        "Mangia &e5&r cibi diversi. Primo traguardo: cuori in più."
+      ],
+      "x": 0,
+      "y": -4,
+      "icona": "minecraft:apple",
+      "dipendenze": [
+        "menu_vario"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Libro dei cibi conta almeno 5 cibi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:fruit_salad",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ]
+    },
+    {
+      "id": "dieci_sapori",
+      "titolo": "Dieci sapori",
+      "descrizione": [
+        "&e10&r cibi diversi. Zuppe e piatti di Farmer's Delight contano tutti."
+      ],
+      "x": 1.5,
+      "y": -4,
+      "icona": "farmersdelight:cabbage_rolls",
+      "dipendenze": [
+        "cinque_sapori"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Libro dei cibi conta almeno 10 cibi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage_rolls",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "quindici_sapori",
+      "titolo": "Quindici sapori",
+      "descrizione": [
+        "&e15&r cibi diversi. Scambiatevi i piatti: chi cucina sfama tutta la squadra."
+      ],
+      "x": 3,
+      "y": -4,
+      "icona": "farmersdelight:bacon_sandwich",
+      "dipendenze": [
+        "dieci_sapori"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Libro dei cibi conta almeno 15 cibi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:bacon_sandwich",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "venti_sapori",
+      "titolo": "Venti sapori",
+      "descrizione": [
+        "&e20&r cibi diversi. Cantina, Nether e colonia offrono piatti nuovi."
+      ],
+      "x": 4.5,
+      "y": -4,
+      "icona": "farmersdelight:steak_and_potatoes",
+      "dipendenze": [
+        "quindici_sapori"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Libro dei cibi conta almeno 20 cibi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:steak_and_potatoes",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "venticinque_sapori",
+      "titolo": "&6Palato d'oro&r",
+      "sottotitolo": "Ultimo traguardo di Spice of Life",
+      "descrizione": [
+        "&e25&r cibi diversi: hai tutti i cuori che la varietà può dare."
+      ],
+      "x": 6,
+      "y": -4,
+      "icona": "minecraft:golden_carrot",
+      "dimensione": 1.25,
+      "dipendenze": [
+        "venti_sapori"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Libro dei cibi conta almeno 25 cibi"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:golden_knife",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ]
+    },
+    {
+      "id": "coltello_e_tagliere",
+      "titolo": "Coltello e tagliere",
+      "descrizione": [
+        "Un &6coltello&r e un &6tagliere&r: metti l'ingrediente sul tagliere e colpiscilo col coltello.",
+        "Così si ottengono fette, tagli di carne e paglia. Il coltello fa anche cadere più carne dagli animali."
+      ],
+      "x": 0,
+      "y": -2.25,
+      "icona": "farmersdelight:cutting_board",
+      "dipendenze": [
+        "menu_vario"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cutting_board",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "farmersdelight:main/use_cutting_board"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage_seeds",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "orto",
+      "titolo": "L'orto",
+      "descrizione": [
+        "Pomodori, cavoli, cipolle e riso: semi dalla quest &6Dispensa varia&r o dalle piante selvatiche.",
+        "Il riso va piantato in acqua bassa."
+      ],
+      "x": 1.5,
+      "y": -2.25,
+      "icona": "farmersdelight:tomato",
+      "dipendenze": [
+        "coltello_e_tagliere"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:tomato",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:onion",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:rice",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:organic_compost",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "terra_ricca",
+      "titolo": "Terra ricca",
+      "descrizione": [
+        "Il &6compost organico&r piazzato a terra matura da solo in &aterra ricca&r: le colture crescono più in fretta.",
+        "Funghi e luce vicino lo aiutano."
+      ],
+      "x": 3,
+      "y": -2.25,
+      "icona": "farmersdelight:rich_soil",
+      "dipendenze": [
+        "orto"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:organic_compost",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "farmersdelight:main/get_rich_soil"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:rich_soil",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "pollice_verde",
+      "titolo": "Pollice verde",
+      "descrizione": [
+        "Raccolto abbondante: casse di verdura e balle di riso per la dispensa comune."
+      ],
+      "x": 4.5,
+      "y": -2.25,
+      "icona": "farmersdelight:tomato_crate",
+      "dipendenze": [
+        "terra_ricca"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:tomato_crate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage_crate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:onion_crate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:rice_bale",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bone_meal",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "fornello",
+      "titolo": "Il fornello",
+      "descrizione": [
+        "Il &6fornello&r cuoce da solo fino a sei cibi sopra di sé.",
+        "Sotto la &6Pentola&r prende il posto del falò."
+      ],
+      "x": 0,
+      "y": -0.75,
+      "icona": "farmersdelight:stove",
+      "dipendenze": [
+        "menu_vario",
+        "era_1_fondazione/dispensa"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:stove",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cooked_rice",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "zuppe_e_stufati",
+      "titolo": "Zuppe e stufati",
+      "descrizione": [
+        "Le zuppe della Pentola danno &aNutrimento&r: niente fame finché dura l'effetto.",
+        "Servono una ciotola e gli ingredienti giusti: guarda le ricette in JEI."
+      ],
+      "x": 1.5,
+      "y": -0.75,
+      "icona": "farmersdelight:vegetable_soup",
+      "dipendenze": [
+        "fornello",
+        "orto"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:vegetable_soup",
+          "quantita": 1
+        },
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "farmersdelight:main/eat_nourishing_food"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "piatti_serviti",
+      "titolo": "A tavola!",
+      "sottotitolo": "Piatti da portata",
+      "descrizione": [
+        "Arrosti, torte e prosciutti glassati si &6piazzano sul tavolo&r.",
+        "Ognuno prende la sua porzione con una ciotola: un pasto per tutta la squadra."
+      ],
+      "x": 3,
+      "y": -0.75,
+      "icona": "farmersdelight:roast_chicken_block",
+      "dipendenze": [
+        "zuppe_e_stufati"
+      ],
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "farmersdelight:main/place_feast"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bowl",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:pie_crust",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "gran_maestro",
+      "titolo": "&6Gran maestro chef&r",
+      "descrizione": [
+        "Assaggia &etutti i 27 piatti&r principali di Farmer's Delight.",
+        "Basta che ci riesca uno di voi. Vale anche come traguardo di Spice of Life!"
+      ],
+      "x": 4.5,
+      "y": -0.75,
+      "icona": "farmersdelight:honey_glazed_ham_block",
+      "dimensione": 1.25,
+      "dipendenze": [
+        "piatti_serviti"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "farmersdelight:main/master_chef"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:diamond_knife",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ]
+    },
+    {
+      "id": "padella",
+      "titolo": "La padella",
+      "descrizione": [
+        "La &6padella&r cuoce sul fornello o sul falò. Tienila in mano e clicca col cibo crudo nell'altra.",
+        "In mischia è anche un'arma rispettabile."
+      ],
+      "x": 6,
+      "y": -0.75,
+      "icona": "farmersdelight:skillet",
+      "dipendenze": [
+        "fornello"
+      ],
+      "nascondi_linee": true,
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:skillet",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:egg",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:bacon",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ]
+    },
+    {
+      "id": "la_botte",
+      "titolo": "La botte",
+      "descrizione": [
+        "La &6botte&r di Brewin' and Chewin' fa fermentare bevande, formaggi e conserve.",
+        "La temperatura conta: ghiaccio o fuoco vicino cambiano il risultato."
+      ],
+      "x": 0,
+      "y": 1.75,
+      "icona": "brewinandchewin:keg",
+      "dipendenze": [
+        "fornello"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:keg",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:tankard",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "prima_birra",
+      "titolo": "Prima fermentazione",
+      "descrizione": [
+        "Riempi la botte e aspetta: esce una bevanda fermentata.",
+        "Ogni bevanda dà un effetto, ma troppe danno la sbornia."
+      ],
+      "x": 1.5,
+      "y": 1.75,
+      "icona": "brewinandchewin:beer",
+      "dipendenze": [
+        "la_botte"
+      ],
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "brewinandchewin:main/brew_drink"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:honey_bottle",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "formaggi",
+      "titolo": "Formaggi stagionati",
+      "descrizione": [
+        "Il latte in botte diventa una forma di formaggio &7acerbo&r.",
+        "Piazzala e lasciala stagionare: poi si taglia a spicchi."
+      ],
+      "x": 1.5,
+      "y": 3.25,
+      "icona": "brewinandchewin:flaxen_cheese_wheel",
+      "dipendenze": [
+        "la_botte"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:flaxen_cheese_wheel",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:milk_bottle",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "dal_boccale_al_serbatoio",
+      "titolo": "Dal boccale al serbatoio",
+      "descrizione": [
+        "La &6Centrifuga&r di Modern Industrialization trasforma le bevande fermentate in &aetanolo&r e restituisce il boccale.",
+        "Il riso nel Miscelatore dà soluzione zuccherina: la cantina diventa carburante."
+      ],
+      "x": 3,
+      "y": 1.75,
+      "icona": "modern_industrialization:ethanol_bucket",
+      "dipendenze": [
+        "prima_birra",
+        "era_3_elettricita/macchine_elettriche"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:ethanol_bucket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:tankard",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "ristorante",
+      "titolo": "Il Ristorante",
+      "descrizione": [
+        "I coloni affamati lavorano male. Il &6Ristorante&r col suo cuoco li sfama.",
+        "Tenete il suo magazzino pieno di cibi vari."
+      ],
+      "x": 0,
+      "y": 5.5,
+      "icona": "minecolonies:blockhutcook",
+      "dipendenze": [
+        "menu_vario",
+        "era_1_fondazione/costruttori_al_lavoro"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Ristorante è costruito e il cuoco è al lavoro"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "cucina_dello_chef",
+      "titolo": "La cucina dello Chef",
+      "descrizione": [
+        "Nella &6Cucina&r lo Chef prepara piatti della colonia: tacos, ramen, sushi e altri.",
+        "Piatti nuovi per il vostro Libro dei cibi."
+      ],
+      "x": 1.5,
+      "y": 5.5,
+      "icona": "minecolonies:blockhutkitchen",
+      "dipendenze": [
+        "ristorante"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La Cucina è costruita e lo Chef ha preparato un piatto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecolonies:steak_dinner",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "contadino",
+      "titolo": "Il Contadino",
+      "descrizione": [
+        "Il &6Contadino&r coltiva i campi della colonia al posto vostro.",
+        "Piazzate un campo, assegnategli i semi e lasciatelo lavorare."
+      ],
+      "x": 3,
+      "y": 5.5,
+      "icona": "minecolonies:blockhutfarmer",
+      "dipendenze": [
+        "menu_vario",
+        "era_1_fondazione/costruttori_al_lavoro"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Contadino è al lavoro su almeno un campo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:wheat_seeds",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:tomato_seeds",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "fornaio",
+      "titolo": "Il Fornaio",
+      "descrizione": [
+        "Con il grano del Contadino, il &6Fornaio&r sforna pane per tutta la colonia."
+      ],
+      "x": 4.5,
+      "y": 5.5,
+      "icona": "minecolonies:blockhutbaker",
+      "dipendenze": [
+        "contadino"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Fornaio è costruito e sforna pane"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecolonies:manchet_bread",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "banchetto_crepuscolare",
+      "titolo": "Banchetto crepuscolare",
+      "descrizione": [
+        "La &6Twilight Forest&r ha la sua selvaggina: i cervi del crepuscolo.",
+        "Cuocine la carne e porta in tavola un sapore nuovo per il Libro dei cibi."
+      ],
+      "x": 0,
+      "y": 8.0,
+      "icona": "twilightforest:cooked_venison",
+      "dipendenze": [
+        "era_2_vapore/vapore_in_pressione"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "twilightforest:twilight_forest"
+        },
+        {
+          "tipo": "item",
+          "item": "twilightforest:cooked_venison",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:mixed_salad",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "cucina_del_nether",
+      "titolo": "Cucina infernale",
+      "descrizione": [
+        "My Nether's Delight: lombo di hoglin, peperoncini proiettile e piatti piccantissimi.",
+        "Lo stufato di hoglin si cuoce nella Pentola."
+      ],
+      "x": 1.5,
+      "y": 8.0,
+      "icona": "mynethersdelight:spicy_hoglin_stew",
+      "dipendenze": [
+        "era_2_vapore/rotta_per_il_nether"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "mynethersdelight:bullet_pepper",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "mynethersdelight:spicy_hoglin_stew",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "mynethersdelight:roasted_sausage",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "cucina_dell_end",
+      "titolo": "Sapori dell'End",
+      "descrizione": [
+        "End's Delight: frutti di chorus, carne di shulker e altre stranezze.",
+        "Prima ricetta: la torta di frutti di chorus."
+      ],
+      "x": 3,
+      "y": 8.0,
+      "icona": "ends_delight:chorus_fruit_pie",
+      "dipendenze": [
+        "era_4_rete_digitale/rete_accesa"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "minecraft:the_end"
+        },
+        {
+          "tipo": "item",
+          "item": "ends_delight:chorus_fruit_pie",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "ends_delight:chorus_cookie",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "formaggio_lunare",
+      "titolo": "La Luna è di formaggio",
+      "descrizione": [
+        "Sulla Luna c'è davvero il &6formaggio&r: si estrae dal minerale di formaggio lunare."
+      ],
+      "x": 4.5,
+      "y": 8.0,
+      "icona": "ad_astra:cheese",
+      "dipendenze": [
+        "era_5_spazio/verso_la_luna"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "ad_astra:cheese",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:bacon_sandwich",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ]
+    },
+    {
+      "id": "mani_in_pasta",
+      "titolo": "Mani in pasta",
+      "sottotitolo": "Si cucina davvero",
+      "x": 0,
+      "y": 12.75,
+      "icona": "farmersdelight:cooking_pot",
+      "dipendenze": [
+        "fornello"
+      ],
+      "nascondi_linee": true,
+      "descrizione": [
+        "Con &6Hands-On Delight&r le stazioni di Farmer's Delight si usano con le mani: clic destro sulla pentola e la visuale si avvicina.",
+        "Mettete gli ingredienti uno alla volta e seguite la cottura da vicino.",
+        "{@pagebreak}",
+        "&7Funziona anche con il tagliere, la padella e la botte della cantina."
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho cucinato un piatto a mano nella pentola"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 50
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:onion",
+          "quantita": 8
+        }
+      ]
+    },
+    {
+      "id": "mescolare_la_zuppa",
+      "titolo": "Mescolare la zuppa",
+      "sottotitolo": "La pentola",
+      "x": 1.5,
+      "y": 10.5,
+      "icona": "farmersdelight:beef_stew",
+      "dipendenze": [
+        "mani_in_pasta"
+      ],
+      "descrizione": [
+        "Nella pentola alcuni ingredienti si sciolgono nel brodo, altri si scolano alla fine.",
+        "Preparate uno stufato e uno di pesce mescolando voi."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:fish_stew",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:tomato",
+          "quantita": 8
+        }
+      ]
+    },
+    {
+      "id": "in_padella",
+      "titolo": "In padella",
+      "sottotitolo": "Girare al momento giusto",
+      "x": 1.5,
+      "y": 12.0,
+      "icona": "farmersdelight:skillet",
+      "dipendenze": [
+        "mani_in_pasta"
+      ],
+      "descrizione": [
+        "Sulla padella si cuoce a vista: alcuni cibi si girano, altri si friggono da un lato solo.",
+        "Tenete la padella su un fornello acceso."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:fried_egg",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:bacon",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:egg",
+          "quantita": 12
+        }
+      ]
+    },
+    {
+      "id": "al_tagliere",
+      "titolo": "Al tagliere",
+      "sottotitolo": "Fette, spicchi e listarelle",
+      "x": 1.5,
+      "y": 13.5,
+      "icona": "farmersdelight:cutting_board",
+      "dipendenze": [
+        "mani_in_pasta"
+      ],
+      "descrizione": [
+        "Sul tagliere ogni cibo si taglia a modo suo: a fette dritte, a spicchi o a listarelle.",
+        "Tagliate carne e pesce con il coltello in mano."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:minced_beef",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cod_slice",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 60
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage",
+          "quantita": 8
+        }
+      ]
+    },
+    {
+      "id": "piatti_a_strati",
+      "titolo": "Piatti a strati",
+      "sottotitolo": "Si monta sul tagliere",
+      "x": 3.0,
+      "y": 13.5,
+      "icona": "farmersdelight:hamburger",
+      "dipendenze": [
+        "al_tagliere"
+      ],
+      "descrizione": [
+        "Panini, hamburger e involtini si montano sul tagliere un ingrediente alla volta, nell'ordine giusto.",
+        "&7JEI mostra quale ingrediente va per primo."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:hamburger",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:bacon_sandwich",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:mutton_wrap",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 80
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "id": "botte_a_mano",
+      "titolo": "La botte a mano",
+      "sottotitolo": "Fermentare con calma",
+      "x": 1.5,
+      "y": 15.0,
+      "icona": "brewinandchewin:keg",
+      "dipendenze": [
+        "mani_in_pasta"
+      ],
+      "opzionale": true,
+      "descrizione": [
+        "Anche la botte della cantina si apre nel mondo: versate i liquidi e aspettate la fermentazione.",
+        "&7Serve la botte di Brewin' and Chewin'."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:beer",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "brewinandchewin:mead",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 80
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "id": "chef_a_mano",
+      "titolo": "Chef con le mani",
+      "sottotitolo": "Un menu fatto da voi",
+      "x": 4.5,
+      "y": 12.75,
+      "icona": "farmersdelight:pasta_with_meatballs",
+      "dipendenze": [
+        "mescolare_la_zuppa",
+        "in_padella",
+        "piatti_a_strati"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "descrizione": [
+        "Pentola, padella e tagliere non hanno più segreti.",
+        "Preparate un pranzo completo per tutta la colonia."
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:pasta_with_meatballs",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:steak_and_potatoes",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:vegetable_noodles",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham_block",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 250
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 5
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        }
+      ]
+    }
+  ]
+}

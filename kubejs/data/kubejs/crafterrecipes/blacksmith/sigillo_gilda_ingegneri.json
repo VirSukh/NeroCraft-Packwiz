@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "id": "minecolonies:compost"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": {
+    "id": "kubejs:sigillo_gilda_ingegneri"
+  }
+}

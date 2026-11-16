@@ -1,0 +1,1151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "colonia"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "minecolonies:colony_banner"
+	}
+	id: "6903973460DC3206"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4329655A64A6D5B2"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "6FE0333563586619"
+			rewards: [
+				{
+					count: 8
+					id: "2CBF42E192555169"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "7CAAD5C22CACA9AF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "7F925351F0A361BC"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6FE0333563586619"
+			]
+			icon: {
+				count: 1
+				id: "structurize:sceptergold"
+			}
+			id: "244A8C8175BF2B3B"
+			rewards: [
+				{
+					count: 9
+					id: "4B549F8CE8BEB9AE"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "19FE9BD008C0F99A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7189EE1061000EF7"
+					item: {
+						count: 1
+						id: "structurize:sceptergold"
+					}
+					type: "item"
+					count: 2L
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"244A8C8175BF2B3B"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:clipboard"
+			}
+			id: "1C66DCEFFB777BA7"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "550A38AC574291B8"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "2CA0ACA157655CCE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "381C01D7F1757C80"
+					item: {
+						count: 1
+						id: "minecolonies:clipboard"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"244A8C8175BF2B3B"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:questlog"
+			}
+			id: "4C39B49F2EB5972D"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "56A4582EC6A9CBE7"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3145F18FC71B3F25"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1B1D4333CE157823"
+					item: {
+						count: 1
+						id: "minecolonies:questlog"
+					}
+					type: "item"
+				}
+				{
+					id: "6340B155F61EB6A0"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6FE0333563586619"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttavern"
+			}
+			id: "4362A427E8C5F53A"
+			rewards: [
+				{
+					count: 6
+					id: "105AC924ECAEF5D7"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "353BE0DB35F2E83B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5AC4ADB52FB10364"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4362A427E8C5F53A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:cake"
+			}
+			id: "19285A909AFC7431"
+			rewards: [
+				{
+					count: 1
+					id: "13D051722A9090CD"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "34608FE87BC97DB7"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "27CF4D4BE451937E"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"19285A909AFC7431"
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutbuilder"
+			}
+			id: "49C3AA77D5775509"
+			rewards: [
+				{
+					count: 64
+					id: "66496F7BE5D2BE91"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "5CD1DCD05A994CEB"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "2EA79613DB7E8766"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"49C3AA77D5775509"
+				"66FAC9B9A5554DA8"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:colony_banner"
+			}
+			id: "18801CB53CD4C7C3"
+			rewards: [
+				{
+					count: 64
+					id: "1E108C39943AE682"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "2BDCB1DE22769E02"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "56E8B4473716A431"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"18801CB53CD4C7C3"
+				"154CCF7E6D7C0D00"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "54E21A6F60C6D61B"
+			rewards: [
+				{
+					count: 4
+					id: "1F470D9C099C8108"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6F8EFB3BBEC3166B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5FF8272AD9B0824D"
+					type: "checkmark"
+				}
+			]
+			x: 7.75d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6FE0333563586619"
+				"1989D8B551D833A6"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutuniversity"
+			}
+			id: "61DEB56CC4EC4C4F"
+			rewards: [
+				{
+					count: 4
+					id: "236345844B137409"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "1403023F3BDA2951"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "48CC923ECCC82031"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: [
+				"61DEB56CC4EC4C4F"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutschool"
+			}
+			id: "11B70AE1B17575A6"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3526740CE9F487CB"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1AD28B40E044CF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "22E970823A31CD03"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: [
+				"61DEB56CC4EC4C4F"
+				"244A8C8175BF2B3B"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:scroll_tp"
+			}
+			id: "4F6039AAA31ABDCF"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "3E9E5502497E8A47"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "6D8AEAE901F8284B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "28F10A34E9E9DBC3"
+					item: {
+						count: 1
+						id: "minecolonies:scroll_tp"
+					}
+					type: "item"
+					count: 3L
+				}
+			]
+			x: 3.0d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"6FE0333563586619"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutguardtower"
+			}
+			id: "6E6CEC3E423431BF"
+			rewards: [
+				{
+					count: 32
+					id: "1A2722FA109961A9"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "260F3C3619E670FA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4900D3FDBCCECFBD"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutguardtower"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6E6CEC3E423431BF"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:chiefsword"
+			}
+			id: "751999999750C17B"
+			rewards: [
+				{
+					count: 8
+					id: "228594837268E260"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "36B0073A113AD3BF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "57DA1FDBFE170B33"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"751999999750C17B"
+				"4160DF60E413F3B6"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutbarracks"
+			}
+			id: "1CA7DE0387BDDEF0"
+			rewards: [
+				{
+					count: 16
+					id: "7372FE90C71FEB2C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "59E9D4125F89DFD1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "1D6DB3E1E1D206A4"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1CA7DE0387BDDEF0"
+				"61DEB56CC4EC4C4F"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:plate_armor_chest"
+			}
+			id: "2A385F06F15171E2"
+			rewards: [
+				{
+					count: 8
+					id: "7BA81ADFD7B2DD42"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "1ED08E6E1DD8FE6F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "17D051AAF3D53ADA"
+					item: {
+						count: 1
+						id: "minecolonies:plate_armor_chest"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1989D8B551D833A6"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			id: "79158481C23D54C5"
+			rewards: [
+				{
+					count: 8
+					id: "34F2BCD7477721EC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "44FFC0D60781B56C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "5F87C105EB095AE4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"79158481C23D54C5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			id: "1AFA3D5A74F76D72"
+			rewards: [
+				{
+					count: 8
+					id: "26E42C3B056B190F"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "577EACF362924C77"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "385694F1591A1DED"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1AFA3D5A74F76D72"
+				"61DEB56CC4EC4C4F"
+			]
+			icon: {
+				count: 1
+				id: "colonyautopilot:colony_bucks"
+			}
+			id: "749CF57E603E3843"
+			rewards: [
+				{
+					count: 16
+					id: "2DDB694FE0DCA9C1"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "17C1EBB79AAC149B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4CFA2149AED23D4A"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+					count: 32L
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "warnnobility:chancery_table"
+			}
+			id: "2158A1B6561BD8A3"
+			rewards: [
+				{
+					count: 1
+					id: "655C4B8608BDD9C1"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6482D2E02D58C262"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2A693A3B3CA9E492"
+					item: {
+						count: 1
+						id: "warnnobility:chancery_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2158A1B6561BD8A3"
+				"28710DC22E221CEF"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:anvil"
+			}
+			id: "3F18385DA65CC3DF"
+			rewards: [
+				{
+					count: 16
+					id: "20ABD47F4D6760F0"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "624C958F792CC2F5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2583F42E79CE343F"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3F18385DA65CC3DF"
+				"520897AAB16FE60F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "3AE92CB0A2A9B91D"
+			rewards: [
+				{
+					count: 16
+					id: "51BD1FBC732D4490"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6C45DB9D6B675357"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4E4EAFD8B92BB49E"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3AE92CB0A2A9B91D"
+				"1DB8E3B238387055"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:golden_helmet"
+			}
+			id: "10B983B156CB6042"
+			rewards: [
+				{
+					count: 16
+					id: "59C88A96A294D017"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "28033A3165A41E86"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "59E35B990151A0F4"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"10B983B156CB6042"
+			]
+			icon: {
+				count: 1
+				id: "warnnobility:crown"
+			}
+			id: "161A4575268EFC30"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1A4583C4EDED8483"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2AADB6F7FD8A5F55"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "5020EA9B4E126895"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"32FAA9BAEA6ABE52"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:sigillo_gilda_ingegneri"
+			}
+			id: "6664756E9978D418"
+			rewards: [
+				{
+					count: 8
+					id: "18A9E2CAD92F1DA1"
+					item: {
+						count: 1
+						id: "minecolonies:compost"
+					}
+					type: "item"
+				}
+				{
+					id: "56882F9CAF0F37AF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "21742047E7A676A0"
+					item: {
+						count: 1
+						id: "kubejs:sigillo_gilda_ingegneri"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6664756E9978D418"
+				"331158139B1824D3"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:telaio_strutturale_rinforzato"
+			}
+			id: "1EBFF7DD0CF24215"
+			rewards: [
+				{
+					count: 32
+					id: "611C16D5E57765A0"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "50D9C52E0694CA77"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "47D66D24C668A7CD"
+					item: {
+						count: 1
+						id: "kubejs:telaio_strutturale_rinforzato"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1EBFF7DD0CF24215"
+				"547530BB30B72E5C"
+			]
+			icon: {
+				count: 1
+				id: "kubejs:pannello_termoisolante_composito"
+			}
+			id: "5494D80D202FA7D6"
+			rewards: [
+				{
+					count: 8
+					id: "6CCA695767BF47BA"
+					item: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					type: "item"
+				}
+				{
+					id: "683AA3BE378A71E1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "5CBFF9220751479C"
+					item: {
+						count: 1
+						id: "kubejs:pannello_termoisolante_composito"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2D15C719B1202F56"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutnetherworker"
+			}
+			id: "27E415E81572011C"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "566DE1FC2D6090FA"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "60FA3265E8DC2AE1"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "31196603AB34AABB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"480038F922EFB8D8"
+			]
+			icon: {
+				count: 1
+				id: "ae2colonies:colony_terminal"
+			}
+			id: "7B27577041EC8EBA"
+			rewards: [
+				{
+					count: 32
+					id: "61FFCD3A1C2907F1"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1464CFA99F0E207F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "1BA3F5CBD9822B03"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 8.75d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_colonia.png"
+			order: 0
+			rotation: 0.0d
+			width: 4.438d
+			x: 3.75d
+			y: -5.9d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia_edifici.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.367d
+			x: -2.75d
+			y: -2.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia_difesa.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.75d
+			y: 1.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia_economia.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.1d
+			x: -2.75d
+			y: 3.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia_nobilta.png"
+			order: 4
+			rotation: 0.0d
+			width: 1.9d
+			x: -2.75d
+			y: 5.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_colonia_artigiani.png"
+			order: 5
+			rotation: 0.0d
+			width: 4.3d
+			x: -2.75d
+			y: 8.1d
+		}
+	]
+}

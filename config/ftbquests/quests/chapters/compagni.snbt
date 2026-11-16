@@ -1,0 +1,1165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "compagni"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "doggytalents:training_treat"
+	}
+	id: "54225A4AB825BB3D"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1E545423D5AF5FB8"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:training_treat"
+			}
+			id: "28569E16671DFE35"
+			rewards: [
+				{
+					count: 2
+					id: "131CD6F18C0CF50D"
+					item: {
+						count: 1
+						id: "doggytalents:training_treat"
+					}
+					type: "item"
+				}
+				{
+					id: "20F7F8CBD56A577F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "doggytalents:dtn_core/train_dog"
+					criterion: ""
+					id: "20ED280A91AAC165"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"28569E16671DFE35"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:smarty_glasses"
+			}
+			id: "40BB43424DC04A5F"
+			rewards: [
+				{
+					count: 8
+					id: "670BAB9989ABA7A0"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "5C3669E191C1D7A4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1178E7FF7D3FA442"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40BB43424DC04A5F"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:super_treat"
+			}
+			id: "2356DC16D51B0761"
+			rewards: [
+				{
+					count: 8
+					id: "39999508BB213B69"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE6A11A6B375D4A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "142A2F0FA2161BB2"
+					item: {
+						count: 1
+						id: "doggytalents:super_treat"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2356DC16D51B0761"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:master_treat"
+			}
+			id: "28C24E5C4F645988"
+			rewards: [
+				{
+					count: 8
+					id: "4E80E4E2165AB1A6"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "41888697949CA1E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "61F43E27B9F85DD5"
+					item: {
+						count: 1
+						id: "doggytalents:master_treat"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28C24E5C4F645988"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:kami_treat"
+			}
+			id: "7B920A3FCA1E5164"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "18468149938B523C"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+				{
+					id: "1754575968CF428E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "254362C78EE961E5"
+					item: {
+						count: 1
+						id: "doggytalents:kami_treat"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28569E16671DFE35"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:dog_bed"
+			}
+			id: "7B6B8F309BDF7BEE"
+			rewards: [
+				{
+					count: 8
+					id: "26DDBA9209F19145"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "501A53B591D3DBEF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "281A1DA4C2B43581"
+					item: {
+						count: 1
+						id: "doggytalents:food_bowl"
+					}
+					type: "item"
+				}
+				{
+					id: "119AE0123757FC28"
+					item: {
+						count: 1
+						id: "doggytalents:dog_bed"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"7B6B8F309BDF7BEE"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:whistle"
+			}
+			id: "5A4CBF5A4687AD5C"
+			rewards: [
+				{
+					count: 8
+					id: "6A5ADC4873E4033E"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "1EFB798399251376"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3CD6305D848F91C0"
+					item: {
+						count: 1
+						id: "doggytalents:whistle"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"5A4CBF5A4687AD5C"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:canine_tracker"
+			}
+			id: "2F74CD1B97694E20"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1AD37EFE267FD352"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+				{
+					id: "4A3615B5A14C39C9"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "21F7856E3F78FAAE"
+					item: {
+						count: 1
+						id: "doggytalents:radio_collar"
+					}
+					type: "item"
+				}
+				{
+					id: "124D05AAA49ECAEB"
+					item: {
+						count: 1
+						id: "doggytalents:canine_tracker"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"5A4CBF5A4687AD5C"
+			]
+			icon: {
+				count: 1
+				id: "doggytalents:throw_bone"
+			}
+			id: "54B9AE937A4BA1BD"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "69AB8679044DF67F"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "259F31818FC3E568"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2E7D09E47F8FD627"
+					item: {
+						count: 1
+						id: "doggytalents:throw_bone"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"28569E16671DFE35"
+			]
+			icon: {
+				count: 1
+				id: "dtnpaletteofpaws:wolf_charm"
+			}
+			id: "20D264481133CAAC"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "24808B9A054F0ABD"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "123117E43421BF8D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "25219604F2A23F95"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:lead"
+			}
+			id: "47368D26DBBB4661"
+			rewards: [
+				{
+					count: 2
+					id: "4FBDDAA5AA70D0B2"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "119DBF13CC1DB4EA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					id: "2676E856DCC3D164"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.6d
+		}
+		{
+			dependencies: [
+				"47368D26DBBB4661"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+			id: "22C1C95E2AE37170"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "27EE6C2308EFFA7C"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60BFAB83341D6248"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "5CE76B7D6306DE3A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3B9A9F7678A4349C"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"47368D26DBBB4661"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			id: "715B1A8B19CCAD89"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "4EC5BDBE648FED9C"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1AC39718B804658E"
+					item: {
+						count: 1
+						id: "minecraft:hay_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD85906201107A0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "11A9DFC0E765B3F4"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					id: "7E0630077A201DFD"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"22C1C95E2AE37170"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+			id: "325B6F4F03B19C94"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "751A438AF1FEE1F6"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "225A5729554E4C4D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:husbandry/tame_a_glare"
+					criterion: ""
+					id: "6DADF8D65A92FC10"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"715B1A8B19CCAD89"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:copper_block"
+			}
+			id: "38B935560238E500"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "3426B41114098E84"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4994CFEC68367DC1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:adventure/summon_copper_golem"
+					criterion: ""
+					id: "2305D29B2AF22981"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 5.2d
+		}
+		{
+			dependencies: [
+				"325B6F4F03B19C94"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:axolotl_bucket"
+			}
+			id: "748318CD949A7793"
+			optional: true
+			rewards: [
+				{
+					count: 1
+					id: "6D8725A4799F0077"
+					item: {
+						count: 1
+						id: "minecraft:tropical_fish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "29C8365FA7217580"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+					criterion: ""
+					id: "74AB8509250E76BC"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 4.6d
+		}
+		{
+			dependencies: [
+				"47368D26DBBB4661"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			id: "78CBCE2A73584EA9"
+			rewards: [
+				{
+					count: 16
+					id: "5F529F8D7FB01AA2"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "43FB4927EFA4F15D"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "2E2A9E03B4B3ADEA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/breed_an_animal"
+					criterion: ""
+					id: "1B14EF4BD35290B3"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 7.6d
+		}
+		{
+			dependencies: [
+				"78CBCE2A73584EA9"
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutshepherd"
+			}
+			id: "7044A4AA37C2D85C"
+			rewards: [
+				{
+					count: 16
+					id: "381F22E948DF3583"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AB439B7B39E801B"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "75C2A8628ED6F654"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3FBE9B0731FD11FE"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7044A4AA37C2D85C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:egg"
+			}
+			id: "558F40F3CE60B9C3"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "40CA0FCC168F1BAB"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "555D1804ED91E78C"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+				{
+					id: "6BEEC1B505D79084"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/bred_all_animals"
+					criterion: ""
+					id: "16E5A19EB06EE768"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"78CBCE2A73584EA9"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+			id: "1B66D6530DB21153"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "656D4B878EEC9665"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "37B80852A45CECE5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/safely_harvest_honey"
+					criterion: ""
+					id: "6865BD327BEBCD42"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 8.2d
+		}
+		{
+			dependencies: [
+				"1B66D6530DB21153"
+				"1532340EB2C5CF31"
+			]
+			icon: {
+				count: 1
+				id: "minecolonies:blockhutbeekeeper"
+			}
+			id: "2F00F9D9A634083D"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "163F2A5CE6A12B9B"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+				{
+					id: "63413CA27245BC3B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2D75730AA5ADD0D7"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 8.2d
+		}
+		{
+			dependencies: [
+				"2F89153B28E32312"
+			]
+			icon: {
+				count: 1
+				id: "naturalist:capture_net"
+			}
+			id: "1D2ED08FB63F303C"
+			rewards: [
+				{
+					count: 4
+					id: "774E9354491C6864"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "5F98DC2EB31812EC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "21457FAEFE64010B"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			dependencies: [
+				"1D2ED08FB63F303C"
+			]
+			icon: {
+				count: 1
+				id: "naturalist:butterfly"
+			}
+			id: "63B1AA2B7CDF1171"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "553B86A326943A36"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "6C59FF0B9CE4E275"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4C019FD4F1E19903"
+					item: {
+						count: 1
+						id: "naturalist:butterfly"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.6d
+		}
+		{
+			dependencies: [
+				"63B1AA2B7CDF1171"
+			]
+			icon: {
+				count: 1
+				id: "farmerd_naturalist_compat:bushmeat_strips_cooked"
+			}
+			id: "59B410E6215191EB"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4CC1089F0ECAFCCC"
+					item: {
+						count: 1
+						id: "farmerd_naturalist_compat:deer_jerky"
+					}
+					type: "item"
+				}
+				{
+					id: "5D5C1CE5EC79D9D1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4BC46ED354929C59"
+					item: {
+						count: 1
+						id: "naturalist:venison"
+					}
+					type: "item"
+				}
+				{
+					id: "6F4D0EB24C219D4D"
+					item: {
+						count: 1
+						id: "farmerd_naturalist_compat:bushmeat_strips_cooked"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 10.6d
+		}
+		{
+			dependencies: [
+				"1D2ED08FB63F303C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+			id: "1DC71770F94C9B51"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "74A78DB93981B73C"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "159E10B929905FAE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/feed_bear_honeycomb"
+					criterion: ""
+					id: "2BEA4EE88877569C"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 11.8d
+		}
+		{
+			dependencies: [
+				"1DC71770F94C9B51"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:melon_slice"
+			}
+			id: "3C16ADED5E4F4B5A"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2C9904590BDF5C63"
+					item: {
+						count: 1
+						id: "minecraft:melon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "53DF484C822A2EBE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/feed_hippo_melon"
+					criterion: ""
+					id: "1A28F64820070482"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 11.8d
+		}
+		{
+			dependencies: [
+				"3C16ADED5E4F4B5A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:map"
+			}
+			id: "5DD51AC19B87A65B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "54E78C69C2C73F64"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+				{
+					id: "253DF2A8BC8DB8EB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/ride_giraffe_with_map"
+					criterion: ""
+					id: "21C372C1AC2EFE8C"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 11.2d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_compagni.png"
+			order: 0
+			rotation: 0.0d
+			width: 3.812d
+			x: 3.75d
+			y: -2.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_compagni_cane.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.833d
+			x: 1.5d
+			y: -1.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_compagni_domestici.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.633d
+			x: 2.25d
+			y: 2.9d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_compagni_allevamento.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.767d
+			x: 1.5d
+			y: 6.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_compagni_natura.png"
+			order: 4
+			rotation: 0.0d
+			width: 3.633d
+			x: 2.25d
+			y: 10.1d
+		}
+		{
+			alpha: 200
+			color: 16777215
+			height: 0.8d
+			image: "item:doggytalents:kami_treat"
+			order: 5
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.5d
+			y: -0.9d
+			dependency: "7B920A3FCA1E5164"
+		}
+	]
+}

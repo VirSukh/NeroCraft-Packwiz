@@ -1,0 +1,1050 @@
+{
+ "capitolo": {
+  "id": "industria",
+  "titolo": "Industria",
+  "sottotitolo": "Modern Industrialization oltre la linea principale",
+  "icona": "modern_industrialization:large_steam_boiler",
+  "ordine": 12,
+  "gruppo": "approfondimenti",
+  "immagini": [
+   {
+    "texture": "nerocraft:textures/gui/quests/cap_industria.png",
+    "x": 4.4,
+    "y": -4.6,
+    "altezza": 1.0,
+    "trasparenza": 255
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_vapore.png",
+    "x": -2.8,
+    "y": -3,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_energia.png",
+    "x": -2.8,
+    "y": -1.5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_petrolio.png",
+    "x": -2.8,
+    "y": 0,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_bio.png",
+    "x": -2.8,
+    "y": 1.5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_alta_tensione.png",
+    "x": -2.8,
+    "y": 3,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_nucleare.png",
+    "x": -2.8,
+    "y": 4.5,
+    "altezza": 0.6,
+    "trasparenza": 230
+   },
+   {
+    "texture": "nerocraft:textures/gui/quests/sez_industria_quantum.png",
+    "x": -2.8,
+    "y": 6,
+    "altezza": 0.6,
+    "trasparenza": 230
+   }
+  ]
+ },
+ "quest": [
+  {
+   "id": "caldaia_solare",
+   "titolo": "Caldaia solare",
+   "sottotitolo": "Vapore gratis di giorno",
+   "descrizione": [
+    "Vetro, piastre d'argento e mattoni refrattari attorno a una &6Caldaia di Bronzo&r.",
+    "Non brucia nulla: le basta il sole. Mettetene una fila sul tetto dell'officina."
+   ],
+   "x": 0.0,
+   "y": -3,
+   "icona": "extended_industrialization:bronze_solar_boiler",
+   "dipendenze": [
+    "era_2_vapore/argilla_refrattaria"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "extended_industrialization:bronze_solar_boiler",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:glass",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "trivella_a_vapore",
+   "titolo": "Trivella a vapore",
+   "sottotitolo": "Scavare senza fatica",
+   "descrizione": [
+    "Una trivella che va ad acqua e combustibile, non a energia.",
+    "Riempila con un secchio d'acqua e del carbone. Utile a chi fa il minatore della squadra."
+   ],
+   "x": 1.75,
+   "y": -3,
+   "icona": "modern_industrialization:steam_mining_drill",
+   "dipendenze": [
+    "era_2_vapore/acciaio"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:steam_mining_drill",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:coal",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 60
+    }
+   ]
+  },
+  {
+   "id": "grande_caldaia",
+   "titolo": "Grande Caldaia a Vapore",
+   "sottotitolo": "Il primo multiblocco di energia",
+   "descrizione": [
+    "Caldaia di Bronzo al centro, piastre curve e mattoni placcati di bronzo, circuiti analogici.",
+    "La struttura completa è nel &6Manuale&r di Modern Industrialization.",
+    "Fa molto più vapore della caldaia singola: alimenta tutte le turbine LV."
+   ],
+   "x": 0.0,
+   "y": -1.5,
+   "icona": "modern_industrialization:large_steam_boiler",
+   "dipendenze": [
+    "era_3_elettricita/circuito_analogico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:large_steam_boiler",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:guidebook",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "minecraft:coal_block",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "accumulatori",
+   "titolo": "Accumulatori",
+   "sottotitolo": "L'energia di notte",
+   "descrizione": [
+    "Un'unità di accumulo LV conserva l'energia quando le macchine sono ferme.",
+    "Le batterie di redstone si fanno nell'assemblatore o al banco: guarda JEI."
+   ],
+   "x": 1.75,
+   "y": -1.5,
+   "icona": "modern_industrialization:lv_storage_unit",
+   "dipendenze": [
+    "era_3_elettricita/turbina_a_vapore"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:lv_storage_unit",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:redstone",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 80
+    }
+   ]
+  },
+  {
+   "id": "pannelli_solari",
+   "titolo": "Pannelli solari",
+   "sottotitolo": "Energia pulita",
+   "descrizione": [
+    "Extended Industrialization aggiunge i pannelli solari LV.",
+    "Producono poco ma non chiedono niente: buoni per le macchine lontane dalla base."
+   ],
+   "x": 3.5,
+   "y": -1.5,
+   "icona": "extended_industrialization:lv_solar_panel",
+   "dipendenze": [
+    "era_3_elettricita/turbina_a_vapore"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "extended_industrialization:lv_solar_panel",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:tin_ingot",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 80
+    }
+   ]
+  },
+  {
+   "id": "turbina_mv",
+   "titolo": "Turbina MV",
+   "sottotitolo": "Media tensione",
+   "descrizione": [
+    "Scafo avanzato, rotore d'alluminio, cavi di elettro e un circuito elettronico.",
+    "Con la turbina MV e un trasformatore LV→MV la fabbrica sale di livello."
+   ],
+   "x": 5.25,
+   "y": -1.5,
+   "icona": "modern_industrialization:mv_steam_turbine",
+   "dipendenze": [
+    "era_3_elettricita/circuito_elettronico",
+    "grande_caldaia"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:mv_steam_turbine",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:lv_mv_transformer",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:aluminum_ingot",
+     "quantita": 8
+    },
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "trivella_petrolio",
+   "titolo": "Oro nero",
+   "sottotitolo": "La trivella petrolifera",
+   "descrizione": [
+    "Il &6Trivellatore petrolifero&r è un multiblocco: va messo sopra un giacimento.",
+    "Consuma lentamente punte di trivella d'alluminio. Il petrolio è la base di plastica e carburanti."
+   ],
+   "x": 0.0,
+   "y": 0,
+   "icona": "modern_industrialization:oil_drilling_rig",
+   "dipendenze": [
+    "era_3_elettricita/circuito_elettronico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:oil_drilling_rig",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:crude_oil_bucket",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:bucket",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "distilleria",
+   "titolo": "Distilleria",
+   "sottotitolo": "Una frazione alla volta",
+   "descrizione": [
+    "La distilleria separa il greggio, ma un prodotto per volta: scegli la ricetta.",
+    "Benzina leggera, pesante e nafta escono ancora solforose: vanno purificate."
+   ],
+   "x": 1.75,
+   "y": 0,
+   "icona": "modern_industrialization:distillery",
+   "dipendenze": [
+    "trivella_petrolio"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:distillery",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "reattore_chimico",
+   "titolo": "Reattore chimico",
+   "sottotitolo": "Il cuore della chimica",
+   "descrizione": [
+    "Rotore d'alluminio, pompa grande, circuito elettronico.",
+    "Quasi tutta la petrolchimica e i biocombustibili passano da qui."
+   ],
+   "x": 3.5,
+   "y": 0,
+   "icona": "modern_industrialization:chemical_reactor",
+   "dipendenze": [
+    "distilleria"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:chemical_reactor",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "minecraft:glass",
+     "quantita": 16
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "polietilene",
+   "titolo": "Plastica",
+   "sottotitolo": "Polietilene",
+   "descrizione": [
+    "L'etilene nel reattore chimico, con polvere minuta di cromo o di piombo, diventa &6polietilene&r.",
+    "L'etilene arriva dal petrolio distillato o dall'etanolo."
+   ],
+   "x": 5.25,
+   "y": 0,
+   "icona": "modern_industrialization:polyethylene_bucket",
+   "dipendenze": [
+    "reattore_chimico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:ethylene_bucket",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:polyethylene_bucket",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "circuito_digitale",
+   "titolo": "Circuito Digitale",
+   "sottotitolo": "Il terzo livello di circuiti",
+   "descrizione": [
+    "La scheda del circuito digitale si fa con il polietilene.",
+    "Servono anche le porte logiche AND, OR e NOT: tutto nell'assemblatore."
+   ],
+   "x": 7.0,
+   "y": 0,
+   "icona": "modern_industrialization:digital_circuit",
+   "dipendenze": [
+    "polietilene"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:digital_circuit",
+     "quantita": 4
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "torre_di_distillazione",
+   "titolo": "Torre di distillazione",
+   "sottotitolo": "Tutte le frazioni insieme",
+   "descrizione": [
+    "Il multiblocco che separa il greggio in tutte le frazioni in un colpo solo.",
+    "Scafo turbo, pompe avanzate, circuiti digitali e due distillerie."
+   ],
+   "x": 8.75,
+   "y": 0,
+   "icona": "modern_industrialization:distillation_tower",
+   "dipendenze": [
+    "circuito_digitale",
+    "alta_tensione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:distillation_tower",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "etanolo_dalla_taverna",
+   "titolo": "Etanolo dalla taverna",
+   "sottotitolo": "Birra per le macchine",
+   "descrizione": [
+    "Una bevanda fermentata di Brewin' and Chewin' nella &6Centrifuga&r dà 250 mB di etanolo e restituisce il boccale.",
+    "Chi cucina per la colonia può riempire anche i serbatoi. Il riso nel miscelatore dà invece soluzione zuccherina."
+   ],
+   "x": 0.0,
+   "y": 1.5,
+   "icona": "modern_industrialization:ethanol_bucket",
+   "dipendenze": [
+    "era_3_elettricita/circuito_elettronico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:centrifuge",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:ethanol_bucket",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "brewinandchewin:tankard",
+     "quantita": 4
+    },
+    {
+     "tipo": "xp",
+     "quantita": 100
+    }
+   ]
+  },
+  {
+   "id": "biodiesel",
+   "titolo": "Biodiesel",
+   "sottotitolo": "Carburante dai campi",
+   "descrizione": [
+    "Olio vegetale, etanolo e idrossido di sodio nel reattore chimico danno biodiesel grezzo; con il vapore diventa &6biodiesel&r.",
+    "Bruciatelo in un generatore diesel."
+   ],
+   "x": 1.75,
+   "y": 1.5,
+   "icona": "modern_industrialization:biodiesel_bucket",
+   "dipendenze": [
+    "etanolo_dalla_taverna",
+    "reattore_chimico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:biodiesel_bucket",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:lv_diesel_generator",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "item",
+     "item": "farmersdelight:rice",
+     "quantita": 32
+    },
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "congelatore",
+   "titolo": "Congelatore sottovuoto",
+   "sottotitolo": "Raffreddare i lingotti caldi",
+   "descrizione": [
+    "I metalli più duri escono dall'altoforno come &clingotti caldi&r.",
+    "Il congelatore sottovuoto è un multiblocco che li raffredda."
+   ],
+   "x": 0.0,
+   "y": 3,
+   "icona": "modern_industrialization:vacuum_freezer",
+   "dipendenze": [
+    "era_3_elettricita/alluminio",
+    "era_3_elettricita/circuito_elettronico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:vacuum_freezer",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 120
+    }
+   ]
+  },
+  {
+   "id": "bobine_di_kanthal",
+   "titolo": "Bobine di Kanthal",
+   "sottotitolo": "Più calore all'altoforno",
+   "descrizione": [
+    "Lingotto caldo di kanthal, poi congelatore, poi cavi e bobine.",
+    "Sostituisci le bobine di cupronichel: l'altoforno raggiunge temperature più alte."
+   ],
+   "x": 1.75,
+   "y": 3,
+   "icona": "modern_industrialization:kanthal_coil",
+   "dipendenze": [
+    "congelatore"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:kanthal_coil",
+     "quantita": 8
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "acciaio_inox",
+   "titolo": "Acciaio inossidabile",
+   "sottotitolo": "Il metallo dell'HV",
+   "descrizione": [
+    "Con le bobine di kanthal l'altoforno fonde l'acciaio inossidabile.",
+    "Esce caldo: anche questo passa dal congelatore."
+   ],
+   "x": 3.5,
+   "y": 3,
+   "icona": "modern_industrialization:stainless_steel_ingot",
+   "dipendenze": [
+    "bobine_di_kanthal"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:stainless_steel_ingot",
+     "quantita": 16
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "alta_tensione",
+   "titolo": "Alta tensione",
+   "sottotitolo": "Il livello HV",
+   "descrizione": [
+    "Scafo turbo e unità di accumulo HV con le batterie al sodio.",
+    "Da qui la fabbrica regge le macchine più affamate."
+   ],
+   "x": 5.25,
+   "y": 3,
+   "icona": "modern_industrialization:turbo_machine_hull",
+   "dipendenze": [
+    "acciaio_inox",
+    "circuito_digitale"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:turbo_machine_hull",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:hv_storage_unit",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "unita_di_elaborazione",
+   "titolo": "Unità di elaborazione",
+   "sottotitolo": "Il quarto livello di circuiti",
+   "descrizione": [
+    "Circuito digitale, ALU, RAM e unità di gestione della memoria.",
+    "Serve per i multiblocchi grandi e per il nucleare."
+   ],
+   "x": 7.0,
+   "y": 3,
+   "icona": "modern_industrialization:processing_unit",
+   "dipendenze": [
+    "alta_tensione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:processing_unit",
+     "quantita": 2
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "grande_turbina",
+   "titolo": "Grande turbina a vapore",
+   "sottotitolo": "Tutto il vapore che vuoi",
+   "descrizione": [
+    "Il multiblocco di turbine più grande: si costruisce su una turbina HV.",
+    "Abbinatelo alla grande caldaia avanzata per un'intera centrale."
+   ],
+   "x": 8.75,
+   "y": 3,
+   "icona": "modern_industrialization:large_steam_turbine",
+   "dipendenze": [
+    "unita_di_elaborazione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:large_steam_turbine",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "fabbrica_in_rete",
+   "titolo": "Fabbrica in rete",
+   "sottotitolo": "AE2 parla con MI",
+   "descrizione": [
+    "Industrialization Overdrive aggiunge portelli ME per i multiblocchi.",
+    "Il portello d'ingresso ME prende gli ingredienti direttamente dalla rete."
+   ],
+   "x": 0.0,
+   "y": 4.5,
+   "icona": "industrialization_overdrive:me_item_input_hatch",
+   "dipendenze": [
+    "era_4_rete_digitale/prima_memoria"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "industrialization_overdrive:me_item_input_hatch",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 150
+    }
+   ]
+  },
+  {
+   "id": "uranio",
+   "titolo": "Uranio",
+   "sottotitolo": "Maneggiare con cura",
+   "descrizione": [
+    "L'uranio si trova in profondità.",
+    "Va separato in isotopi e chiuso in barre di combustibile."
+   ],
+   "x": 1.75,
+   "y": 4.5,
+   "icona": "modern_industrialization:raw_uranium",
+   "dipendenze": [
+    "era_4_rete_digitale/rete_accesa",
+    "unita_di_elaborazione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:raw_uranium",
+     "quantita": 16
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:uranium_fuel_rod",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 200
+    }
+   ]
+  },
+  {
+   "id": "reattore_nucleare",
+   "titolo": "Reattore nucleare",
+   "sottotitolo": "Calore senza fine",
+   "descrizione": [
+    "Lega nucleare, scafo altamente avanzato, unità di elaborazione e barre di controllo al cadmio.",
+    "Le barre esaurite si riprocessano: da lì viene il &6plutonio&r."
+   ],
+   "x": 3.5,
+   "y": 4.5,
+   "icona": "modern_industrialization:nuclear_reactor",
+   "dipendenze": [
+    "uranio"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:nuclear_reactor",
+     "quantita": 1
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:plutonium_ingot",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "superconduttori",
+   "titolo": "Superconduttori",
+   "sottotitolo": "Zero perdite",
+   "descrizione": [
+    "Rame ricotto, iridio, neodimio e ittrio nel miscelatore danno la polvere superconduttrice.",
+    "Altoforno, congelatore, poi cavi e bobine superconduttrici."
+   ],
+   "x": 5.25,
+   "y": 4.5,
+   "icona": "modern_industrialization:superconductor_coil",
+   "dipendenze": [
+    "era_4_rete_digitale/rete_accesa",
+    "acciaio_inox"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:superconductor_cable",
+     "quantita": 8
+    },
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:superconductor_coil",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "livello_ev",
+   "titolo": "Livello EV",
+   "sottotitolo": "Tensione estrema",
+   "descrizione": [
+    "Unità di accumulo EV con batterie al cadmio e scafo altamente avanzato.",
+    "Con i trasformatori superconduttori la rete elettrica non ha più limiti pratici."
+   ],
+   "x": 7.0,
+   "y": 4.5,
+   "icona": "modern_industrialization:ev_storage_unit",
+   "dipendenze": [
+    "superconduttori",
+    "unita_di_elaborazione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:ev_storage_unit",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 250
+    }
+   ]
+  },
+  {
+   "id": "circuito_quantico",
+   "titolo": "Circuito quantico",
+   "sottotitolo": "L'ultimo circuito",
+   "descrizione": [
+    "Unità di elaborazione, scheda quantica, qubit e celle di raffreddamento.",
+    "È il circuito dei macchinari di fine gioco."
+   ],
+   "x": 0.0,
+   "y": 6,
+   "icona": "modern_industrialization:quantum_circuit",
+   "dipendenze": [
+    "era_5_spazio/verso_la_luna",
+    "superconduttori"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:quantum_circuit",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "scafo_quantico",
+   "titolo": "Scafo quantico",
+   "sottotitolo": "La base del fine gioco",
+   "descrizione": [
+    "Involucro quantico, cavi superconduttori, circuito quantico e una batteria al plutonio."
+   ],
+   "x": 1.75,
+   "y": 6,
+   "icona": "modern_industrialization:quantum_machine_hull",
+   "dipendenze": [
+    "circuito_quantico",
+    "reattore_nucleare"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:quantum_machine_hull",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 300
+    }
+   ]
+  },
+  {
+   "id": "reattore_a_fusione",
+   "titolo": "Reattore a fusione",
+   "sottotitolo": "Una stella in officina",
+   "descrizione": [
+    "Camera di fusione, scafo quantico e circuito quantico.",
+    "Deuterio e trizio diventano plasma di elio."
+   ],
+   "x": 3.5,
+   "y": 6,
+   "icona": "modern_industrialization:fusion_reactor",
+   "dipendenze": [
+    "scafo_quantico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:fusion_reactor",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 400
+    }
+   ]
+  },
+  {
+   "id": "turbina_al_plasma",
+   "titolo": "Turbina al plasma",
+   "sottotitolo": "Energia dalle stelle",
+   "descrizione": [
+    "Bobine superconduttrici, rotori di titanio e scafo quantico.",
+    "Il plasma del reattore a fusione la fa girare."
+   ],
+   "x": 5.25,
+   "y": 6,
+   "icona": "modern_industrialization:plasma_turbine",
+   "dipendenze": [
+    "reattore_a_fusione"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:plasma_turbine",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 400
+    }
+   ]
+  },
+  {
+   "id": "armatura_quantica",
+   "titolo": "Armatura quantica",
+   "sottotitolo": "Il premio dell'ingegnere",
+   "descrizione": [
+    "Un potenziamento quantico su un pezzo di armatura di netherite, nell'impacchettatrice.",
+    "Basta un pezzo per cominciare: chi la indossa protegge la squadra in prima linea."
+   ],
+   "x": 7.0,
+   "y": 6,
+   "icona": "modern_industrialization:quantum_chestplate",
+   "dipendenze": [
+    "scafo_quantico"
+   ],
+   "opzionale": true,
+   "compiti": [
+    {
+     "tipo": "item",
+     "item": "modern_industrialization:quantum_chestplate",
+     "quantita": 1
+    }
+   ],
+   "ricompense": [
+    {
+     "tipo": "xp",
+     "quantita": 500
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiario"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "minecraft:zombie_head"
+	}
+	id: "1B0275DDA56004C9"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "7534DE150EFEA839"
+			optional: true
+			rewards: [
+				{
+					id: "78ED63DF827AF88D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "47DDBC34D3C09F43"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63F478C7A1D2D77A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "12A1DDF0C1EFD874"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:monstrous_horn"
+			}
+			id: "122C8CFD1C1C0A8F"
+			optional: true
+			rewards: [
+				{
+					id: "105E8EAA3FD64409"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "6BAEC2C29DEB7240"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "128771488592E07C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "1206A2F52F767575"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "34145579F77F77C2"
+			optional: true
+			rewards: [
+				{
+					id: "3FA9C3560B6CEF89"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "227937CDAC65F239"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "64C8BCCEF3DD5866"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "533180056D4022E3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:tidal_claws"
+			}
+			id: "49D69FF33C44A666"
+			optional: true
+			rewards: [
+				{
+					id: "6F6E811E8411C55B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "6C7EBCB4C19B0CFD"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "46D06BE19F64C916"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "5651483F1F4111ED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:remnant_skull"
+			}
+			id: "7BDACA5374E89202"
+			optional: true
+			rewards: [
+				{
+					id: "136BA0DAC25B854B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "5EA0539A58603164"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4175210C8E0464FC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "1B6685CC69AAE091"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "34F1F7731A232E1B"
+			optional: true
+			rewards: [
+				{
+					id: "21F5BECB550A9C8E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "5E673E981FB7833E"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47D1D1B43D0B90FB"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "155DF83C702BE190"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			id: "1A6CB2CB08DD01EA"
+			optional: true
+			rewards: [
+				{
+					id: "782DFF052481CCA2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "2BBA877844B427B4"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1596081A7C82BF32"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "1370C7FA1A6B065D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:essence_of_the_storm"
+			}
+			id: "5949C4F7BF2AE088"
+			optional: true
+			rewards: [
+				{
+					id: "638C62B3AB9EC908"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "15DFCADB230891BD"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68B21B332A87045A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "299CF32DED0C8289"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:naga_trophy"
+			}
+			id: "2DF620D825B1AC74"
+			optional: true
+			rewards: [
+				{
+					id: "48158AAB4B29A397"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "2201DC5A2D76E1D2"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1BFF4761FB8BD436"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "34C4171C2C6A11E9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:lich_trophy"
+			}
+			id: "132C9C1CBD2B8283"
+			optional: true
+			rewards: [
+				{
+					id: "7515621259D0E9E4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "4F3B447ED95063AC"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "141CBD781BF5AAFA"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "281D93DD4C85DC74"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "4B4A9EB95A181F02"
+			optional: true
+			rewards: [
+				{
+					id: "7575EFF951257B77"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "4E8079C1C4DB4801"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B6750DB1593A27E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "20805DD3951B6D2B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "11A2DF76A92E8F34"
+			optional: true
+			rewards: [
+				{
+					id: "4948AE30385084BA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "1D21CE9E7A383299"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "19E552F3071B4122"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "71A9F3767ED76D88"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "7523999F72F5CA0D"
+			optional: true
+			rewards: [
+				{
+					id: "4DD397D2B6819F5F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "2C9084ECB3AF555A"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AD5B0877978372E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "19B9594C5BD19E3D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "2CAB0486ED210E81"
+			optional: true
+			rewards: [
+				{
+					id: "600195F3E767ECD2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "698727CC9CB5B1DD"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5AA683DF0FE23DC7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "2B44361999F4B63F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "1FFEF59BBA815B4C"
+			optional: true
+			rewards: [
+				{
+					id: "46BC3B7D8811125B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "3D46FA8AEB18BCB1"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "704BEBB7E1427BF6"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "154DDC10DBB2C426"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "7ABA4DC25CD2EFEB"
+			optional: true
+			rewards: [
+				{
+					id: "620A24DF5D346462"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "367B2123ACE0087D"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "349592D0B8BE51A9"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "twilightforest:snow_queen"
+					id: "3B8490345794561B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:ancient_anima"
+			}
+			id: "704B869603A451E0"
+			optional: true
+			rewards: [
+				{
+					id: "3DAD33142B8A6126"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "46223557C6389A80"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6049C1695B7E0EF9"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "6221C5F9A2B26286"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "54AF29075A23D760"
+			optional: true
+			rewards: [
+				{
+					id: "71DCFC42EFAEA599"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "22DB305E0EACB43A"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2535304E7DDB9D6C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "63CB316FF514FC75"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:void_thorn"
+			}
+			id: "126D30EA8EE64BF2"
+			optional: true
+			rewards: [
+				{
+					id: "5F3FAAF2DFA9E086"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "4A70E912D16AE256"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F8953AF38482C0C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "38C17E4D5F905D1E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:obsidian_heart"
+			}
+			id: "17D1E3F0674B4F78"
+			optional: true
+			rewards: [
+				{
+					id: "5775151FF3A951B0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "3BF392336C1E0275"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2F74D666A65F0C8A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "28C32F71B6AC39CE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			id: "16591D6971709912"
+			optional: true
+			rewards: [
+				{
+					id: "23EC62FD0D37810A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "3DEA348FCA5AEE29"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3029C6CE45EDD47D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "561712CA36E00A60"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			id: "7651C8FBFD8F1D7E"
+			optional: true
+			rewards: [
+				{
+					id: "7BE404A40FCEF091"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "18C73335B0ABEC9F"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DA865977D9199D7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "1987B583EFC0CADB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			id: "40945FA559881E9F"
+			optional: true
+			rewards: [
+				{
+					id: "2771FC4D142185D7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "2855D62E26267B91"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "219139EC78DE99F3"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "40BDEB5BE3D07CFF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			id: "779E5EE71494A95B"
+			optional: true
+			rewards: [
+				{
+					id: "4A2D8BEC32676379"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "7431939860141F51"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3BD46602BA1F398A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "68B605D236D134AC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7534DE150EFEA839"
+				"122C8CFD1C1C0A8F"
+				"34145579F77F77C2"
+				"49D69FF33C44A666"
+				"7BDACA5374E89202"
+				"34F1F7731A232E1B"
+				"1A6CB2CB08DD01EA"
+				"5949C4F7BF2AE088"
+				"2DF620D825B1AC74"
+				"132C9C1CBD2B8283"
+				"4B4A9EB95A181F02"
+				"11A2DF76A92E8F34"
+				"7523999F72F5CA0D"
+				"2CAB0486ED210E81"
+				"1FFEF59BBA815B4C"
+				"7ABA4DC25CD2EFEB"
+				"704B869603A451E0"
+				"54AF29075A23D760"
+				"126D30EA8EE64BF2"
+				"17D1E3F0674B4F78"
+				"16591D6971709912"
+				"7651C8FBFD8F1D7E"
+				"40945FA559881E9F"
+				"779E5EE71494A95B"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "490A9D61C5B947DE"
+			optional: true
+			rewards: [
+				{
+					id: "1DCD9CA802053AA9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "67AB3F2303306919"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "49AB3FFF6FEEF14B"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "friendsandfoes:barnacle_spawn_egg"
+			}
+			id: "66339AFE74B5F2A7"
+			optional: true
+			rewards: [
+				{
+					id: "66D64AB5B2EE7D4D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:barnacle"
+					id: "11743A692E3D8056"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "friendsandfoes:iceologer_spawn_egg"
+			}
+			id: "5D4EC81BCDE71F66"
+			optional: true
+			rewards: [
+				{
+					id: "1B13BAC1F39092DF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "3BCC468689B074B0"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:iceologer"
+					id: "28D1C956044BFB5D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "friendsandfoes:illusioner_spawn_egg"
+			}
+			id: "1B29DED73E2692B7"
+			optional: true
+			rewards: [
+				{
+					id: "43ECD06DB4265E10"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "239455096C31B682"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:illusioner"
+					id: "2513F6CDE80CFB96"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:bogged_spawn_egg"
+			}
+			id: "72A128B6F96F86E9"
+			optional: true
+			rewards: [
+				{
+					id: "64C788AD64F0F4C5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:bogged"
+					id: "1527B6176C2E96E3"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:breeze_spawn_egg"
+			}
+			id: "21BD2396D011BD02"
+			optional: true
+			rewards: [
+				{
+					id: "4F2E69D12CE22513"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "42AA893C3E16C3E9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:breeze"
+					id: "5E18BA038D79B053"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:cave_spider_spawn_egg"
+			}
+			id: "7CC9779AAD312586"
+			optional: true
+			rewards: [
+				{
+					id: "3AF11EBF42086162"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:cave_spider"
+					id: "74B3DD92DCBB3353"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:creeper_spawn_egg"
+			}
+			id: "174A02753AB8B971"
+			optional: true
+			rewards: [
+				{
+					id: "509DE4D63A16323D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "2CF60529A2BC8416"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:drowned_spawn_egg"
+			}
+			id: "18B58829474D22C8"
+			optional: true
+			rewards: [
+				{
+					id: "423C6907064C031E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:drowned"
+					id: "258591173C91F4C4"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 5.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:evoker_spawn_egg"
+			}
+			id: "79BA4E564D2B2AE7"
+			optional: true
+			rewards: [
+				{
+					id: "5BD2C62B9DD11255"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5826A37ECD46AF75"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "5E3924B0FED6D69C"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:guardian_spawn_egg"
+			}
+			id: "5FCCAD3F8D18342B"
+			optional: true
+			rewards: [
+				{
+					id: "221CC7C7B1A193C9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:guardian"
+					id: "6A3910BE0344FC24"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:husk_spawn_egg"
+			}
+			id: "700E57A1A0820716"
+			optional: true
+			rewards: [
+				{
+					id: "1BDE55FEB7A5C02D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:husk"
+					id: "62977080E5D835C6"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:phantom_spawn_egg"
+			}
+			id: "27BBDA799ADFBF16"
+			optional: true
+			rewards: [
+				{
+					id: "3CFA3364F3B9D46F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:phantom"
+					id: "35B5285FC1FF43A5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:pillager_spawn_egg"
+			}
+			id: "111118F5E72B819A"
+			optional: true
+			rewards: [
+				{
+					id: "41F843E444DB7740"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "5860CD8FFED1FC2C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:ravager_spawn_egg"
+			}
+			id: "2EBFB0E8545C6C4E"
+			optional: true
+			rewards: [
+				{
+					id: "25E6B0423DA30369"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "25F4C02FD88D90C3"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ravager"
+					id: "7B70E6D28D61FB90"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 7.5d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:silverfish_spawn_egg"
+			}
+			id: "58B8F7DD38EACF6D"
+			optional: true
+			rewards: [
+				{
+					id: "56CBA3C6DEDFA8E2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:silverfish"
+					id: "5332D1F001FD76EA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:skeleton_spawn_egg"
+			}
+			id: "6426A91C3F8E60DB"
+			optional: true
+			rewards: [
+				{
+					id: "51B35F761D67A656"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "1A3F3B0630937307"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:slime_spawn_egg"
+			}
+			id: "1AF87AB7B2419257"
+			optional: true
+			rewards: [
+				{
+					id: "4F6E619FC5AA9100"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:slime"
+					id: "195778EF1AD4CA83"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:spider_spawn_egg"
+			}
+			id: "1D41E7C352486683"
+			optional: true
+			rewards: [
+				{
+					id: "653D9EADB4E5607E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "602800DFD7B66ECA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:stray_spawn_egg"
+			}
+			id: "212EECC652B006B5"
+			optional: true
+			rewards: [
+				{
+					id: "7453CD50BE1E0CF4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:stray"
+					id: "4B0C1808670F79FA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:vex_spawn_egg"
+			}
+			id: "4354703D9D04A917"
+			optional: true
+			rewards: [
+				{
+					id: "6CA1361E1192F7B4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:vex"
+					id: "4784D104A46A62E2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:vindicator_spawn_egg"
+			}
+			id: "63AA84D08614A435"
+			optional: true
+			rewards: [
+				{
+					id: "22EAE5E826833997"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:vindicator"
+					id: "5C357FE03D1B8C7C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:witch_spawn_egg"
+			}
+			id: "5577117276E273C0"
+			optional: true
+			rewards: [
+				{
+					id: "67472F2F8F5D6BAD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					id: "593759631D54CD59"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:zombie_spawn_egg"
+			}
+			id: "1631D6740D0BFCAE"
+			optional: true
+			rewards: [
+				{
+					id: "780EF311FA8879D6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "701D7A0992A35FFC"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 8.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:zombie_villager_spawn_egg"
+			}
+			id: "7E92D90765C7C043"
+			optional: true
+			rewards: [
+				{
+					id: "28FAB273129B7C3E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie_villager"
+					id: "1B92D1056BDEDC6D"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 8.8d
+		}
+		{
+			dependencies: [
+				"66339AFE74B5F2A7"
+				"5D4EC81BCDE71F66"
+				"1B29DED73E2692B7"
+				"72A128B6F96F86E9"
+				"21BD2396D011BD02"
+				"7CC9779AAD312586"
+				"174A02753AB8B971"
+				"18B58829474D22C8"
+				"79BA4E564D2B2AE7"
+				"5FCCAD3F8D18342B"
+				"700E57A1A0820716"
+				"27BBDA799ADFBF16"
+				"111118F5E72B819A"
+				"2EBFB0E8545C6C4E"
+				"58B8F7DD38EACF6D"
+				"6426A91C3F8E60DB"
+				"1AF87AB7B2419257"
+				"1D41E7C352486683"
+				"212EECC652B006B5"
+				"4354703D9D04A917"
+				"63AA84D08614A435"
+				"5577117276E273C0"
+				"1631D6740D0BFCAE"
+				"7E92D90765C7C043"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "471B65E39702428E"
+			optional: true
+			rewards: [
+				{
+					id: "4A2875193524FADD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "22D828E30F15C6AE"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "189D51A4829DEDF3"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 7.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:ignited_berserker_spawn_egg"
+			}
+			id: "54B68C3D8FCF1DB8"
+			optional: true
+			rewards: [
+				{
+					id: "24536B2B75BA78D9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "335713C10B46B493"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "48F31F556A33C1AF"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:ignited_revenant_spawn_egg"
+			}
+			id: "4F9A79542B360FE0"
+			optional: true
+			rewards: [
+				{
+					id: "66B01AB6C20278CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "41216518804B162F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "friendsandfoes:wildfire_spawn_egg"
+			}
+			id: "52A867105C176E98"
+			optional: true
+			rewards: [
+				{
+					id: "164D2C89AC1E0233"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "584AB232023DB2AE"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:wildfire"
+					id: "38B1B12D2DB9D250"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:blaze_spawn_egg"
+			}
+			id: "1A1A75163B0B3832"
+			optional: true
+			rewards: [
+				{
+					id: "29A4AEF33F83249C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "2879E78BBE8D030C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:ghast_spawn_egg"
+			}
+			id: "7809ABD931E4B0C8"
+			optional: true
+			rewards: [
+				{
+					id: "3C37321049B2B0F9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "5E9FFFA0231A85DF"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:hoglin_spawn_egg"
+			}
+			id: "1FD46405AA0FD20B"
+			optional: true
+			rewards: [
+				{
+					id: "20E577576A0AC3EB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:hoglin"
+					id: "7F91F2FDD2460373"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:magma_cube_spawn_egg"
+			}
+			id: "6ADE0726145156F2"
+			optional: true
+			rewards: [
+				{
+					id: "6B08323F8FD78739"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:magma_cube"
+					id: "34E8F154C258287A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:piglin_spawn_egg"
+			}
+			id: "105FD811BAAD5E3A"
+			optional: true
+			rewards: [
+				{
+					id: "386FF8823D16DADE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					id: "387D4D46C6EEC4A2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 11.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:piglin_brute_spawn_egg"
+			}
+			id: "3274D32FB5112025"
+			optional: true
+			rewards: [
+				{
+					id: "117209AC07CD67BC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "54B0F1394AD86EAF"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "7CE14730D02B9265"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 13.1d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:wither_skeleton_spawn_egg"
+			}
+			id: "43B777966A03CC37"
+			optional: true
+			rewards: [
+				{
+					id: "53FE5FA9D58B7A59"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "4B2E079A171DA4E4"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 13.1d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:zoglin_spawn_egg"
+			}
+			id: "6747AA2C9A4145FA"
+			optional: true
+			rewards: [
+				{
+					id: "408687CEF59CA6F9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zoglin"
+					id: "5359C1A37A381258"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 13.1d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:zombified_piglin_spawn_egg"
+			}
+			id: "2F5B006A5947A04E"
+			optional: true
+			rewards: [
+				{
+					id: "76892D567F846271"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "2F6253EFFCFAC80E"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 13.1d
+		}
+		{
+			dependencies: [
+				"54B68C3D8FCF1DB8"
+				"4F9A79542B360FE0"
+				"52A867105C176E98"
+				"1A1A75163B0B3832"
+				"7809ABD931E4B0C8"
+				"1FD46405AA0FD20B"
+				"6ADE0726145156F2"
+				"105FD811BAAD5E3A"
+				"3274D32FB5112025"
+				"43B777966A03CC37"
+				"6747AA2C9A4145FA"
+				"2F5B006A5947A04E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "64F897D75D1E11FF"
+			optional: true
+			rewards: [
+				{
+					id: "42114A984C23EC0F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "3F155992553BC268"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "1BEAC813FC585401"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 12.35d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:ender_golem_spawn_egg"
+			}
+			id: "17A621E0437200C6"
+			optional: true
+			rewards: [
+				{
+					id: "1A6F468B176BB6C2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "6FE1A7B35B129DB5"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					id: "5D25548137C21986"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 15.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:endermaptera_spawn_egg"
+			}
+			id: "7BD3A195996F983B"
+			optional: true
+			rewards: [
+				{
+					id: "713FF79ACB0489DB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:endermaptera"
+					id: "5FB888595AC3436D"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 15.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:enderman_spawn_egg"
+			}
+			id: "48BF43D986CF3B6A"
+			optional: true
+			rewards: [
+				{
+					id: "128C60C4D92D2CB8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "64EE2568BBF9FAD7"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 15.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:endermite_spawn_egg"
+			}
+			id: "151E5BA89BC2A447"
+			optional: true
+			rewards: [
+				{
+					id: "15022E0BD2D99BA0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:endermite"
+					id: "2C6D3D1FC702BBFB"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 15.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:shulker_spawn_egg"
+			}
+			id: "185C8AF1DD171629"
+			optional: true
+			rewards: [
+				{
+					id: "2817FF78715C0013"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:shulker"
+					id: "7D9B39EA750FE048"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 15.9d
+		}
+		{
+			dependencies: [
+				"17A621E0437200C6"
+				"7BD3A195996F983B"
+				"48BF43D986CF3B6A"
+				"151E5BA89BC2A447"
+				"185C8AF1DD171629"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "58132DA5C2A31145"
+			optional: true
+			rewards: [
+				{
+					id: "6E11374B3A759D27"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "2B879C22D8D2A4B9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "20702D6237DFFC10"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 15.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:anger_pot_spawn_egg"
+			}
+			id: "278E0B5C49B9375A"
+			optional: true
+			rewards: [
+				{
+					id: "2FE5963593750A61"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:anger_pot"
+					id: "269EC15B2A423DA5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:fear_pot_spawn_egg"
+			}
+			id: "7A3F6999C066BAA6"
+			optional: true
+			rewards: [
+				{
+					id: "7DE86D54450D99BE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:fear_pot"
+					id: "6FD69335798DB8E7"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:sculk_centipede_spawn_egg"
+			}
+			id: "5D1F0AB5FF76FF0C"
+			optional: true
+			rewards: [
+				{
+					id: "2BB87BD3423BAB6D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sculk_centipede"
+					id: "5FEF4A5B4D8127E6"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:sculk_leech_spawn_egg"
+			}
+			id: "305D6B8CB472B945"
+			optional: true
+			rewards: [
+				{
+					id: "200DC96E8B7A515A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sculk_leech"
+					id: "24AC4C180F5893B9"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:sculk_snapper_spawn_egg"
+			}
+			id: "157CE0FFE3E996B9"
+			optional: true
+			rewards: [
+				{
+					id: "7BE7992CD1CDE9B8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sculk_snapper"
+					id: "316C2A5333B84828"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:shattered_spawn_egg"
+			}
+			id: "69CFB0D1355A3693"
+			optional: true
+			rewards: [
+				{
+					id: "227A59C0D5DAA556"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:shattered"
+					id: "110D159C8B328E21"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:shriek_worm_spawn_egg"
+			}
+			id: "516923B38AA89990"
+			optional: true
+			rewards: [
+				{
+					id: "36176A8E46303AF7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "446B9945735DCA52"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:shriek_worm"
+					id: "275C1031558F40D3"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 9.0d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:sludge_spawn_egg"
+			}
+			id: "34E73CF94D3A18E7"
+			optional: true
+			rewards: [
+				{
+					id: "3687FB65B5DAF98E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sludge"
+					id: "378CE2C923C2CC59"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 18.7d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:sorrow_pot_spawn_egg"
+			}
+			id: "1C3EE6E5094B8654"
+			optional: true
+			rewards: [
+				{
+					id: "23916C2CB4624D25"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sorrow_pot"
+					id: "71F9B42F48E328AB"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 20.2d
+		}
+		{
+			icon: {
+				count: 1
+				id: "deeperdarker:stalker_spawn_egg"
+			}
+			id: "5FACD9494D6EBD90"
+			optional: true
+			rewards: [
+				{
+					id: "3AA6F5A1A7704DC7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2CDD1DEAC2C7704C"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:stalker"
+					id: "5F9FBFC29A437196"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 20.2d
+		}
+		{
+			dependencies: [
+				"278E0B5C49B9375A"
+				"7A3F6999C066BAA6"
+				"5D1F0AB5FF76FF0C"
+				"305D6B8CB472B945"
+				"157CE0FFE3E996B9"
+				"69CFB0D1355A3693"
+				"516923B38AA89990"
+				"34E73CF94D3A18E7"
+				"1C3EE6E5094B8654"
+				"5FACD9494D6EBD90"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "3B1298C5E91ED946"
+			optional: true
+			rewards: [
+				{
+					id: "1A73E7D2FEFFBD01"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "34646DEAECEF7F7A"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "1AFE0913AA1CAE30"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 19.45d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:amethyst_crab_spawn_egg"
+			}
+			id: "7E00E6AB655D02BF"
+			optional: true
+			rewards: [
+				{
+					id: "6917B1759CD3238C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "16E50CF0ECDF5DD1"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:aptrgangr_spawn_egg"
+			}
+			id: "52A7E88D73D56742"
+			optional: true
+			rewards: [
+				{
+					id: "5E974564265970FF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "630D20D6469E3D5A"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "3972A415383E4FBE"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:cindaria_spawn_egg"
+			}
+			id: "6684244566AD30A2"
+			optional: true
+			rewards: [
+				{
+					id: "6E787A16BC1E643A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "26F3AAB3B19FC4A6"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:cindaria"
+					id: "199E98E3D6B52937"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:clawdian_spawn_egg"
+			}
+			id: "40AEB588249C1621"
+			optional: true
+			rewards: [
+				{
+					id: "733C627C2944D97D"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "61C8D9A7B30B2DC6"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					id: "3F60633D22E16A92"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:coral_golem_spawn_egg"
+			}
+			id: "4C0240960A24A5BB"
+			optional: true
+			rewards: [
+				{
+					id: "33729C29E6EF3C75"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "279763E6E1A7FF90"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:coral_golem"
+					id: "292010205756E899"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:coralssus_spawn_egg"
+			}
+			id: "1C1EA44F9AA99CEA"
+			optional: true
+			rewards: [
+				{
+					id: "54EDBDA1FB438BEE"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "3537ABB7B8EAB7D7"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:coralssus"
+					id: "7BC095425A874E70"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 7.5d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:deepling_spawn_egg"
+			}
+			id: "28C8587BD575E167"
+			optional: true
+			rewards: [
+				{
+					id: "47032296F085B6C2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					id: "4B50A8A251DA489F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:deepling_angler_spawn_egg"
+			}
+			id: "1257FF909825022E"
+			optional: true
+			rewards: [
+				{
+					id: "20B10420D8D4F58B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_angler"
+					id: "115057CE655AA6A0"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 23.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:deepling_brute_spawn_egg"
+			}
+			id: "23F6A3870993410E"
+			optional: true
+			rewards: [
+				{
+					id: "148962915A474081"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_brute"
+					id: "17AA5CFF857847CD"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:deepling_priest_spawn_egg"
+			}
+			id: "24FB4ED7A99D6CAA"
+			optional: true
+			rewards: [
+				{
+					id: "1C3E9AFE6B8AB5CF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "68A43452E086E459"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_priest"
+					id: "5C45BA1807CA5E87"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:deepling_warlock_spawn_egg"
+			}
+			id: "32AF298E3BD4631E"
+			optional: true
+			rewards: [
+				{
+					id: "24518392E3EC1F84"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "3B7AC754555C8CA9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_warlock"
+					id: "2CEC852F9F006886"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:draugr_spawn_egg"
+			}
+			id: "283698EAACDE8B1E"
+			optional: true
+			rewards: [
+				{
+					id: "6576DE0D6123C9D2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:draugr"
+					id: "179A6A86BCB2FFC5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "10EFEDBD671C013E"
+			optional: true
+			rewards: [
+				{
+					id: "6452A7CA0ABEB4D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:drowned_host"
+					id: "5B74BD7E6FFF0BF5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:elite_draugr_spawn_egg"
+			}
+			id: "6AD5197DE5AF2CDF"
+			optional: true
+			rewards: [
+				{
+					id: "2B101AA754B5EAD4"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2F99C8293038A6A3"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:elite_draugr"
+					id: "4E62F0698381CF6F"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 7.5d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:hippocamtus_spawn_egg"
+			}
+			id: "65F5405DD50C6F36"
+			optional: true
+			rewards: [
+				{
+					id: "1C0A115ACCA9680D"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "406C9D000431369B"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:hippocamtus"
+					id: "2B353D8DE9E1143B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 9.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:kobolediator_spawn_egg"
+			}
+			id: "52120D84FE6D533C"
+			optional: true
+			rewards: [
+				{
+					id: "5B663A398FC344EF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2AA6759E0ADBE2D8"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:kobolediator"
+					id: "3CD5E27621B3B505"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 10.5d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:koboleton_spawn_egg"
+			}
+			id: "2D53A3CF0BEFC5C4"
+			optional: true
+			rewards: [
+				{
+					id: "3A3F7BE1895EC947"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:koboleton"
+					id: "27BAA3FE4C692F79"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:lionfish_spawn_egg"
+			}
+			id: "7A3CEF568DA20E2C"
+			optional: true
+			rewards: [
+				{
+					id: "549836A1535A2D98"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:lionfish"
+					id: "54B5D11736692F1A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:royal_draugr_spawn_egg"
+			}
+			id: "3AA8B3D96394AA00"
+			optional: true
+			rewards: [
+				{
+					id: "4DD0854C278B1F9D"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "697A025179DCEDF9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:royal_draugr"
+					id: "7E732FFBB3DF938A"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:symbiocto_spawn_egg"
+			}
+			id: "19CFC3A9F4BE3EC7"
+			optional: true
+			rewards: [
+				{
+					id: "18934D57895167A6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:symbiocto"
+					id: "5F2DAB3B94B0EFDB"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:the_prowler_spawn_egg"
+			}
+			id: "58BEFCFD34A2BB5A"
+			optional: true
+			rewards: [
+				{
+					id: "193E8497C7B37636"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "22E6CAF4A40E9B04"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					id: "75A703BFB7757AC5"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:the_watcher_spawn_egg"
+			}
+			id: "1A661F13034CAEA8"
+			optional: true
+			rewards: [
+				{
+					id: "18F2D43C522211E3"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "170DC2A0A1E746BC"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_watcher"
+					id: "5A5E0F4CF06DC74A"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 7.5d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:urchinkin_spawn_egg"
+			}
+			id: "34EC4D810D11EF0F"
+			optional: true
+			rewards: [
+				{
+					id: "1959A567AD2173FA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:urchinkin"
+					id: "17D502F9BD05FFC3"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 26.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "cataclysm:wadjet_spawn_egg"
+			}
+			id: "15647F5C5E68359F"
+			optional: true
+			rewards: [
+				{
+					id: "373F03D74DA43EF6"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "1E8424C8C9DBF3F0"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:wadjet"
+					id: "48A2A0484A36CD55"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 10.5d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"7E00E6AB655D02BF"
+				"52A7E88D73D56742"
+				"6684244566AD30A2"
+				"40AEB588249C1621"
+				"4C0240960A24A5BB"
+				"1C1EA44F9AA99CEA"
+				"28C8587BD575E167"
+				"1257FF909825022E"
+				"23F6A3870993410E"
+				"24FB4ED7A99D6CAA"
+				"32AF298E3BD4631E"
+				"283698EAACDE8B1E"
+				"10EFEDBD671C013E"
+				"6AD5197DE5AF2CDF"
+				"65F5405DD50C6F36"
+				"52120D84FE6D533C"
+				"2D53A3CF0BEFC5C4"
+				"7A3CEF568DA20E2C"
+				"3AA8B3D96394AA00"
+				"19CFC3A9F4BE3EC7"
+				"58BEFCFD34A2BB5A"
+				"1A661F13034CAEA8"
+				"34EC4D810D11EF0F"
+				"15647F5C5E68359F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "1F6A04C53491FB5E"
+			optional: true
+			rewards: [
+				{
+					id: "3EBB569DFBA0D2C8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "34A0AD70493AB515"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2EF4FF69EDC7457B"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "136DFB54C6A25C31"
+			optional: true
+			rewards: [
+				{
+					id: "4C05D44BC5742EA7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:adherent"
+					id: "489A9611418370ED"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:armored_giant_spawn_egg"
+			}
+			id: "4D2E44077BF54FC2"
+			optional: true
+			rewards: [
+				{
+					id: "6C9BC5BBC1271A0F"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5441C5FE60843E7C"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:armored_giant"
+					id: "17B3ACF3A727896B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:blockchain_goblin_spawn_egg"
+			}
+			id: "7A2AB894DEEEE813"
+			optional: true
+			rewards: [
+				{
+					id: "36A51C7B10577451"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:blockchain_goblin"
+					id: "22423B03D367FF87"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:carminite_broodling_spawn_egg"
+			}
+			id: "2C005502B9C3344C"
+			optional: true
+			rewards: [
+				{
+					id: "317E037C78C0E07C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:carminite_broodling"
+					id: "16D12A4D81717AC7"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:carminite_ghastguard_spawn_egg"
+			}
+			id: "16DE694291809ED0"
+			optional: true
+			rewards: [
+				{
+					id: "462C87EB141E22C1"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "773EE1FD315349FB"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:carminite_ghastguard"
+					id: "70F7A43911AF193B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:carminite_ghastling_spawn_egg"
+			}
+			id: "386BEA064C893143"
+			optional: true
+			rewards: [
+				{
+					id: "643EBCAD0F36AEE3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:carminite_ghastling"
+					id: "5B7C52FAC717908A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:carminite_golem_spawn_egg"
+			}
+			id: "705745C57625961B"
+			optional: true
+			rewards: [
+				{
+					id: "21A9A08372A6B83B"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "6A74115F32AB274F"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:carminite_golem"
+					id: "68B9935EC412DD12"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 9.0d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:fire_beetle_spawn_egg"
+			}
+			id: "47807E167F7F1A5A"
+			optional: true
+			rewards: [
+				{
+					id: "1D852912CB8322FE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:fire_beetle"
+					id: "421A771D26D1D56B"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 28.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:giant_miner_spawn_egg"
+			}
+			id: "515501E27E878CB5"
+			optional: true
+			rewards: [
+				{
+					id: "78A74FCBE6216FD9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "4E0E3D54E1794EEF"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:giant_miner"
+					id: "22B5EBE8E904593A"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:hedge_spider_spawn_egg"
+			}
+			id: "3DBD5CC2C9542398"
+			optional: true
+			rewards: [
+				{
+					id: "548E03F8ACC06DDC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:hedge_spider"
+					id: "2CD68CD522CA423E"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:helmet_crab_spawn_egg"
+			}
+			id: "55C7EBBBD999ECFB"
+			optional: true
+			rewards: [
+				{
+					id: "33B202738FACF5ED"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:helmet_crab"
+					id: "1D260632D3379743"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:hostile_wolf_spawn_egg"
+			}
+			id: "3557A5DE75BEC61F"
+			optional: true
+			rewards: [
+				{
+					id: "49C2582D9D30E234"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:hostile_wolf"
+					id: "237E33894E0DE87A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:king_spider_spawn_egg"
+			}
+			id: "3272DADEEA9A64BF"
+			optional: true
+			rewards: [
+				{
+					id: "10B7753112AB2BBB"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2E012151098DB2A9"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:king_spider"
+					id: "28745B96F90FB60D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:kobold_spawn_egg"
+			}
+			id: "3E654F86F67DB7E2"
+			optional: true
+			rewards: [
+				{
+					id: "1A70813C4C52BD87"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:kobold"
+					id: "29CB557EE74A4404"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:lower_goblin_knight_spawn_egg"
+			}
+			id: "5BE2D8814EDA81DB"
+			optional: true
+			rewards: [
+				{
+					id: "26C5568212465BCA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:lower_goblin_knight"
+					id: "264A840A78FA848C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:maze_slime_spawn_egg"
+			}
+			id: "15A0D6464ACA7239"
+			optional: true
+			rewards: [
+				{
+					id: "229D381F3781D90D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:maze_slime"
+					id: "31DC4ED6BFB173AA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 30.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:minotaur_spawn_egg"
+			}
+			id: "4A3105DB1AC3BCC2"
+			optional: true
+			rewards: [
+				{
+					id: "3D0887DE52FFBA99"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "17D6A0A18632A647"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:minotaur"
+					id: "3E12BEC9182CC3F0"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:mist_wolf_spawn_egg"
+			}
+			id: "2D68D7D24D6BFDA3"
+			optional: true
+			rewards: [
+				{
+					id: "61A681889FD8BAD3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:mist_wolf"
+					id: "42ABD28A3778A92B"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:mosquito_swarm_spawn_egg"
+			}
+			id: "15CC9FAF51B16C2F"
+			optional: true
+			rewards: [
+				{
+					id: "1C8F3CD83509883D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:mosquito_swarm"
+					id: "45EE8738B5AA117F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:pinch_beetle_spawn_egg"
+			}
+			id: "6409C2D29247CBB3"
+			optional: true
+			rewards: [
+				{
+					id: "109711E3C8ABAE61"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:pinch_beetle"
+					id: "67EC0D57C0E18B63"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:redcap_spawn_egg"
+			}
+			id: "273125F4ACBC6F3D"
+			optional: true
+			rewards: [
+				{
+					id: "61EF699335431427"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:redcap"
+					id: "1E2E13D05A91D0C2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:redcap_sapper_spawn_egg"
+			}
+			id: "38802888339DFF84"
+			optional: true
+			rewards: [
+				{
+					id: "203CD0C715B3B5BC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:redcap_sapper"
+					id: "7CF04D87FD01BB99"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "278586CB99C85213"
+			optional: true
+			rewards: [
+				{
+					id: "74865C0E0A024273"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:roving_cube"
+					id: "5982484B11C137A6"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:skeleton_druid_spawn_egg"
+			}
+			id: "24198083DC5CBC7E"
+			optional: true
+			rewards: [
+				{
+					id: "1107EFCF38471662"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:skeleton_druid"
+					id: "22C495AF930D0D80"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:slime_beetle_spawn_egg"
+			}
+			id: "31CFFB9316A98E4A"
+			optional: true
+			rewards: [
+				{
+					id: "771942AD188A3862"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:slime_beetle"
+					id: "78A5B6449BF624F5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:snow_guardian_spawn_egg"
+			}
+			id: "62943B7D4E8A7EA7"
+			optional: true
+			rewards: [
+				{
+					id: "6937517B35989B56"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "175C97B6C35DC7D1"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:snow_guardian"
+					id: "663FFCCBC6AE7695"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:stable_ice_core_spawn_egg"
+			}
+			id: "1CF51C91C0BCD579"
+			optional: true
+			rewards: [
+				{
+					id: "502DFC13CE74E5E1"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "36BD54015D6A4B36"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:stable_ice_core"
+					id: "36F3D216D4426E7F"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:swarm_spider_spawn_egg"
+			}
+			id: "3EF5745E63D2E400"
+			optional: true
+			rewards: [
+				{
+					id: "426B9442C1918D94"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:swarm_spider"
+					id: "1860B4B3F8338ABC"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:towerwood_borer_spawn_egg"
+			}
+			id: "7D2C9546B61BCBAD"
+			optional: true
+			rewards: [
+				{
+					id: "5DD31F29E820ACFA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:towerwood_borer"
+					id: "56A4BB4E85A0CBFE"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:troll_spawn_egg"
+			}
+			id: "239D086F097C55D2"
+			optional: true
+			rewards: [
+				{
+					id: "549220A94B7D07F9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "1473232DF419CAA2"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:troll"
+					id: "1022BE6C218BBA18"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 7.5d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:unstable_ice_core_spawn_egg"
+			}
+			id: "7003067A7CD525F8"
+			optional: true
+			rewards: [
+				{
+					id: "33499043400CFFA9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5CE7EFFD539ADBBC"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:unstable_ice_core"
+					id: "683C0892DD1AD523"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 9.0d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "612ABC422D37F558"
+			optional: true
+			rewards: [
+				{
+					id: "589E4C471E6140EA"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "6E06D9A9425751BD"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:upper_goblin_knight"
+					id: "46CCD341C719F52B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 10.5d
+			y: 33.3d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:winter_wolf_spawn_egg"
+			}
+			id: "32A7B76CE3FA74BB"
+			optional: true
+			rewards: [
+				{
+					id: "787CAF73D9910495"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:winter_wolf"
+					id: "22BCC778390ABDB3"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 34.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:wraith_spawn_egg"
+			}
+			id: "3E4D96DA115236AD"
+			optional: true
+			rewards: [
+				{
+					id: "38FB16DB0D65BC9F"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2E1A8057A38571BA"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:wraith"
+					id: "5751301E038CCEF7"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 34.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "twilightforest:yeti_spawn_egg"
+			}
+			id: "47A1328BB593AAD7"
+			optional: true
+			rewards: [
+				{
+					id: "6838D0F6343BCF7B"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "6140B50A36F9B5D6"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:yeti"
+					id: "36F3F3913850D000"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 34.8d
+		}
+		{
+			dependencies: [
+				"136DFB54C6A25C31"
+				"4D2E44077BF54FC2"
+				"7A2AB894DEEEE813"
+				"2C005502B9C3344C"
+				"16DE694291809ED0"
+				"386BEA064C893143"
+				"705745C57625961B"
+				"47807E167F7F1A5A"
+				"515501E27E878CB5"
+				"3DBD5CC2C9542398"
+				"55C7EBBBD999ECFB"
+				"3557A5DE75BEC61F"
+				"3272DADEEA9A64BF"
+				"3E654F86F67DB7E2"
+				"5BE2D8814EDA81DB"
+				"15A0D6464ACA7239"
+				"4A3105DB1AC3BCC2"
+				"2D68D7D24D6BFDA3"
+				"15CC9FAF51B16C2F"
+				"6409C2D29247CBB3"
+				"273125F4ACBC6F3D"
+				"38802888339DFF84"
+				"278586CB99C85213"
+				"24198083DC5CBC7E"
+				"31CFFB9316A98E4A"
+				"62943B7D4E8A7EA7"
+				"1CF51C91C0BCD579"
+				"3EF5745E63D2E400"
+				"7D2C9546B61BCBAD"
+				"239D086F097C55D2"
+				"7003067A7CD525F8"
+				"612ABC422D37F558"
+				"32A7B76CE3FA74BB"
+				"3E4D96DA115236AD"
+				"47A1328BB593AAD7"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "131200A6FC02649B"
+			optional: true
+			rewards: [
+				{
+					id: "7FFEE657A8D6FB68"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "1B86A50EF1B85191"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "13DF275915B4E374"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 31.8d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:corrupted_lunarian_spawn_egg"
+			}
+			id: "1F866248D2B5D1AD"
+			optional: true
+			rewards: [
+				{
+					id: "1CFE24495BDE6A27"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:corrupted_lunarian"
+					id: "7B331228453E9E4B"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:martian_raptor_spawn_egg"
+			}
+			id: "16198CE84F44A804"
+			optional: true
+			rewards: [
+				{
+					id: "21F9BC32A10E112A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:martian_raptor"
+					id: "1145A269F58A47A2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:mogler_spawn_egg"
+			}
+			id: "3B44E2CE635D77A5"
+			optional: true
+			rewards: [
+				{
+					id: "19398C3AF6D49401"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:mogler"
+					id: "4E24C0AB074709AD"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:pygro_spawn_egg"
+			}
+			id: "43D07149F2C4A539"
+			optional: true
+			rewards: [
+				{
+					id: "1A51BA4FB5D55105"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:pygro"
+					id: "6B52CC708B56D9ED"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:pygro_brute_spawn_egg"
+			}
+			id: "30CBAEA12605D85D"
+			optional: true
+			rewards: [
+				{
+					id: "4E0E58C59AA52194"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "223DC4A621ADB761"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:pygro_brute"
+					id: "3D51EB2A23FCEA09"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:star_crawler_spawn_egg"
+			}
+			id: "1096378A85463AA9"
+			optional: true
+			rewards: [
+				{
+					id: "7A3358ACC7D30112"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:star_crawler"
+					id: "1FCB53E4D4A2E01C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:sulfur_creeper_spawn_egg"
+			}
+			id: "55E9BD64920AEAF2"
+			optional: true
+			rewards: [
+				{
+					id: "5B08A481A71CECED"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:sulfur_creeper"
+					id: "30F3EA1484A6C95A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:zombified_mogler_spawn_egg"
+			}
+			id: "1D3196EF77C67FED"
+			optional: true
+			rewards: [
+				{
+					id: "6DEFB408DD2BE233"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:zombified_mogler"
+					id: "613834A2E8FE70F1"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 10.5d
+			y: 37.6d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ad_astra:zombified_pygro_spawn_egg"
+			}
+			id: "401D165B416EFE38"
+			optional: true
+			rewards: [
+				{
+					id: "6008CCE231EA2329"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:zombified_pygro"
+					id: "24461CA319CCFDBD"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 39.1d
+		}
+		{
+			dependencies: [
+				"1F866248D2B5D1AD"
+				"16198CE84F44A804"
+				"3B44E2CE635D77A5"
+				"43D07149F2C4A539"
+				"30CBAEA12605D85D"
+				"1096378A85463AA9"
+				"55E9BD64920AEAF2"
+				"1D3196EF77C67FED"
+				"401D165B416EFE38"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "3E9C847542482274"
+			optional: true
+			rewards: [
+				{
+					id: "33B245C7D87C346D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "462938867D19D458"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "32D380F357C7C7FB"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 38.35d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "2C159FB325779D46"
+			optional: true
+			rewards: [
+				{
+					id: "2187C72ECD3D5CDC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:amazon"
+					id: "2BF1D17B99CCC3CF"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "785573EFED1F4A2D"
+			optional: true
+			rewards: [
+				{
+					id: "4B52B09E18B54729"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "311A49179450F005"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:amazonchief"
+					id: "5C0CD32D1BEA4C4D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "2D1375F5B61315D6"
+			optional: true
+			rewards: [
+				{
+					id: "41686C0C40D81B67"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:amazonspearman"
+					id: "4A24FA7C50F89F3E"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "5ABA3CEDB7205E09"
+			optional: true
+			rewards: [
+				{
+					id: "6DFED50DA598C760"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:archerbarbarian"
+					id: "28BF765F3DA42E82"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "45CF3A3934A8B34F"
+			optional: true
+			rewards: [
+				{
+					id: "2C9B634F094E8265"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:archermummy"
+					id: "331DBD002AA8DCFF"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "5515ED8195D71ED5"
+			optional: true
+			rewards: [
+				{
+					id: "166E80269930C199"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:archerpirate"
+					id: "2C4CC3F1F7579E09"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "50AF344E3B2A36A9"
+			optional: true
+			rewards: [
+				{
+					id: "55F848FA445D72FE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:barbarian"
+					id: "776E1C409A937A7F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 9.0d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "6B0CFFA1BEC2BCFD"
+			optional: true
+			rewards: [
+				{
+					id: "407A9F9F8541010E"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "174DC69C496D8536"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:chiefbarbarian"
+					id: "4D7E550E3CB0553C"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 10.5d
+			y: 41.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "18BC1A9E7E939888"
+			optional: true
+			rewards: [
+				{
+					id: "5C6DF16A682D22CB"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "725C9454842E48F8"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:chiefpirate"
+					id: "7CC1776A7EFB60FF"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "21EC6631056C7A30"
+			optional: true
+			rewards: [
+				{
+					id: "2B635EDBF11A05CF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:drownedarcherpirate"
+					id: "19E04736F33290B2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "65A169A3B3D95495"
+			optional: true
+			rewards: [
+				{
+					id: "773A10BAED7D4A0C"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "3D94972D39EBAA54"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:drownedchiefpirate"
+					id: "2223CC16764CCD74"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "6DF1F47BE65D7EFF"
+			optional: true
+			rewards: [
+				{
+					id: "23C946E632C10537"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:drownedpirate"
+					id: "68EF8D5C73F86FC4"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 4.5d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "7C2FC768D0B82B45"
+			optional: true
+			rewards: [
+				{
+					id: "687DF8A406B475A6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:mummy"
+					id: "5211E43C57F18FA8"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 6.0d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "249C6CD022B7C5A8"
+			optional: true
+			rewards: [
+				{
+					id: "2137C6FCA1A38731"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:norsemenarcher"
+					id: "141E2D2A052AEA4F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.5d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "1DDFD952DD0DD863"
+			optional: true
+			rewards: [
+				{
+					id: "206A7F570FE7C536"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "27187D608DE8227B"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:norsemenchief"
+					id: "23281202D4FA886B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 9.0d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "38539611E843EE07"
+			optional: true
+			rewards: [
+				{
+					id: "7AAD1E4578041C14"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "311F79A7A7AA19EE"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:pharao"
+					id: "4A8AF1DA74B6012A"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 10.5d
+			y: 43.4d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "4AA386D7012FDE4E"
+			optional: true
+			rewards: [
+				{
+					id: "604D04D9A170A45D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:pirate"
+					id: "5564CBF91B00EAF2"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 44.9d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "69B16454CF5128F4"
+			optional: true
+			rewards: [
+				{
+					id: "11944222C0B2FDA5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecolonies:shieldmaiden"
+					id: "1679932EEB171147"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 1.5d
+			y: 44.9d
+		}
+		{
+			dependencies: [
+				"2C159FB325779D46"
+				"785573EFED1F4A2D"
+				"2D1375F5B61315D6"
+				"5ABA3CEDB7205E09"
+				"45CF3A3934A8B34F"
+				"5515ED8195D71ED5"
+				"50AF344E3B2A36A9"
+				"6B0CFFA1BEC2BCFD"
+				"18BC1A9E7E939888"
+				"21EC6631056C7A30"
+				"65A169A3B3D95495"
+				"6DF1F47BE65D7EFF"
+				"7C2FC768D0B82B45"
+				"249C6CD022B7C5A8"
+				"1DDFD952DD0DD863"
+				"38539611E843EE07"
+				"4AA386D7012FDE4E"
+				"69B16454CF5128F4"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "6B34C8E73FF91E8A"
+			optional: true
+			rewards: [
+				{
+					id: "293307461EB522EF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 10
+					id: "622C5BD8001006A4"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "1F62C954B39E7A2D"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 43.4d
+		}
+		{
+			dependencies: [
+				"490A9D61C5B947DE"
+				"471B65E39702428E"
+				"64F897D75D1E11FF"
+				"58132DA5C2A31145"
+				"3B1298C5E91ED946"
+				"1F6A04C53491FB5E"
+				"131200A6FC02649B"
+				"3E9C847542482274"
+				"6B34C8E73FF91E8A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			id: "4B5188C019C64243"
+			optional: true
+			rewards: [
+				{
+					id: "16FABFD8C44662D1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 25
+					id: "29F0347AC32E4151"
+					item: {
+						count: 1
+						id: "colonyautopilot:colony_bucks"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "16AE2806D051A6D8"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2035D176C9B364F5"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_bestiario.png"
+			order: 0
+			rotation: 0.0d
+			width: 4.938d
+			x: 6.0d
+			y: -2.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_boss.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.967d
+			x: 0.98d
+			y: -1.1d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_mondo.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.033d
+			x: 0.52d
+			y: 4.7d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_nether.png"
+			order: 3
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.62d
+			y: 10.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_end.png"
+			order: 4
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.25d
+			y: 14.8d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_profondo.png"
+			order: 5
+			rotation: 0.0d
+			width: 3.033d
+			x: 1.02d
+			y: 17.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_cataclysm.png"
+			order: 6
+			rotation: 0.0d
+			width: 3.167d
+			x: 1.08d
+			y: 21.9d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_crepuscolo.png"
+			order: 7
+			rotation: 0.0d
+			width: 3.033d
+			x: 1.02d
+			y: 27.7d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_spazio.png"
+			order: 8
+			rotation: 0.0d
+			width: 2.233d
+			x: 0.62d
+			y: 36.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_bestiario_predoni.png"
+			order: 9
+			rotation: 0.0d
+			width: 1.9d
+			x: 0.45d
+			y: 40.8d
+		}
+	]
+}

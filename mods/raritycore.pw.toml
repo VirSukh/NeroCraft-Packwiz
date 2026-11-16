@@ -1,0 +1,13 @@
+name = "RarityCore"
+filename = "raritycore-1211.14.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1969dd3196eb7966c9e741a186132377d057d7c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9033843
+project-id = 1441762

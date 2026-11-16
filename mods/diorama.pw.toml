@@ -1,0 +1,13 @@
+name = "Diorama"
+filename = "diorama-0.10.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53b0249016c1334ed56453ed429580a216845c41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9601226
+project-id = 1748961

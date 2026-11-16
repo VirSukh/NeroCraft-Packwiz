@@ -1,0 +1,977 @@
+{
+  "capitolo": {
+    "id": "trasporti",
+    "titolo": "Trasporti",
+    "sottotitolo": "A cavallo, in barca, in volo e via waystone",
+    "icona": "immersive_aircraft:biplane",
+    "ordine": 20,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/cap_trasporti.png",
+        "x": 4.5,
+        "y": -1.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_trasporti_terra.png",
+        "x": -2.4,
+        "y": 0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_trasporti_waystone.png",
+        "x": -2.4,
+        "y": 2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_trasporti_aerei.png",
+        "x": -2.4,
+        "y": 4.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_trasporti_ali.png",
+        "x": -2.4,
+        "y": 8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "quest": [
+    {
+      "id": "braccia_forti",
+      "titolo": "Braccia forti",
+      "sottotitolo": "Traslochi senza svuotare",
+      "descrizione": [
+        "Con le &6mani vuote&r, accovacciati e clic destro: sollevi un baule pieno, un animale o un compagno di squadra.",
+        "&7Non funziona su blocchi della colonia, macchine e waystone.&r"
+      ],
+      "x": 0,
+      "y": 0,
+      "icona": "minecraft:chest",
+      "dipendenze": [
+        "era_1_fondazione/la_colonia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho spostato un baule pieno in braccio"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:chest",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ]
+    },
+    {
+      "id": "in_sella",
+      "titolo": "In sella",
+      "sottotitolo": "Il primo mezzo di trasporto",
+      "descrizione": [
+        "Doma un cavallo salendoci sopra finché non si calma, poi mettigli una &6sella&r.",
+        "Le selle si trovano nei forzieri: dungeon, villaggi, templi."
+      ],
+      "x": 1.5,
+      "y": 0,
+      "icona": "minecraft:saddle",
+      "dipendenze": [
+        "era_1_fondazione/benvenuto"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:saddle",
+          "quantita": 1
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ho domato e sellato un cavallo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:lead",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "bardatura",
+      "titolo": "Bardatura",
+      "sottotitolo": "Un cavallo che sopravvive",
+      "descrizione": [
+        "I mob si rafforzano col tempo: proteggi il cavallo con una &6bardatura di ferro&r."
+      ],
+      "x": 3,
+      "y": 0,
+      "icona": "minecraft:iron_horse_armor",
+      "dipendenze": [
+        "in_sella"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_horse_armor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:hay_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "per_mare",
+      "titolo": "Per fiumi e mari",
+      "sottotitolo": "La barca col baule",
+      "descrizione": [
+        "Una &6barca con baule&r porta te e un carico. Sull'acqua è più veloce del cavallo.",
+        "Va bene qualsiasi legno."
+      ],
+      "x": 4.5,
+      "y": 0,
+      "icona": "minecraft:oak_chest_boat",
+      "dipendenze": [
+        "era_1_fondazione/benvenuto"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho attraversato un lago o un mare in barca"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_cod",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ]
+    },
+    {
+      "id": "binari",
+      "titolo": "Binari per la miniera",
+      "sottotitolo": "Carrelli, non treni",
+      "descrizione": [
+        "Un tratto di &6binari alimentati&r dalla colonia alla miniera: carrelli per te e carrelli con baule per il bottino."
+      ],
+      "x": 6,
+      "y": 0,
+      "icona": "minecraft:powered_rail",
+      "dipendenze": [
+        "era_1_fondazione/ferro_e_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:powered_rail",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:chest_minecart",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:rail",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "sul_lago_di_lava",
+      "titolo": "Sul lago di lava",
+      "sottotitolo": "Lo strider",
+      "descrizione": [
+        "Nel Nether lo &6strider&r cammina sulla lava. Sellalo e guidalo con un fungo distorto su un bastone."
+      ],
+      "x": 7.5,
+      "y": 0,
+      "icona": "minecraft:warped_fungus_on_a_stick",
+      "dipendenze": [
+        "era_2_vapore/rotta_per_il_nether",
+        "in_sella"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "minecraft:nether/ride_strider",
+          "titolo": "Cavalca uno strider con il fungo distorto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:warped_fungus",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "pergamene_di_ritorno",
+      "titolo": "Pergamene di ritorno",
+      "sottotitolo": "A casa in un attimo",
+      "descrizione": [
+        "Pepite di bronzo, inchiostro e carta: tre pergamene che ti riportano al tuo letto o al punto di rinascita.",
+        "Tienine sempre una nello zaino."
+      ],
+      "x": 0,
+      "y": 2,
+      "icona": "waystones:return_scroll",
+      "dipendenze": [
+        "era_2_vapore/rete_di_waystone"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:return_scroll",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:paper",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ]
+    },
+    {
+      "id": "pergamene_di_curvatura",
+      "titolo": "Pergamene di curvatura",
+      "sottotitolo": "Una waystone da ovunque",
+      "descrizione": [
+        "Come le pergamene di ritorno, con una perla di ender in più: scegli una qualsiasi waystone attivata, senza pagare esperienza."
+      ],
+      "x": 1.5,
+      "y": 2,
+      "icona": "waystones:warp_scroll",
+      "dipendenze": [
+        "pergamene_di_ritorno"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:warp_scroll",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ink_sac",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "pergamena_vincolata",
+      "titolo": "Pergamena vincolata",
+      "sottotitolo": "Un biglietto di sola andata",
+      "descrizione": [
+        "Usa una &6pergamena vuota&r su una waystone: diventa vincolata a quella pietra.",
+        "Regalatela a chi arriva dopo: lo porta dritto alla colonia."
+      ],
+      "x": 3,
+      "y": 2,
+      "icona": "waystones:bound_scroll",
+      "dipendenze": [
+        "pergamene_di_curvatura"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:bound_scroll",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:feather",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "pietre_condivise",
+      "titolo": "Pietre condivise",
+      "sottotitolo": "Un colore, una linea",
+      "descrizione": [
+        "Le &6sharestone&r dello stesso colore sono collegate tra loro e non vanno attivate: tutta la squadra le usa subito.",
+        "&aScegliete un colore per la linea colonia - miniere - avamposti.&r"
+      ],
+      "x": 4.5,
+      "y": 2,
+      "icona": "waystones:light_blue_sharestone",
+      "dipendenze": [
+        "era_2_vapore/rete_di_waystone"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Abbiamo piazzato due sharestone dello stesso colore"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_bricks",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "pietra_di_partenza",
+      "titolo": "Pietra di partenza",
+      "sottotitolo": "Solo in uscita",
+      "descrizione": [
+        "La &6portstone&r porta a qualsiasi waystone, ma nessuno può arrivarci.",
+        "Mettetela nel cuore della colonia, accanto al magazzino."
+      ],
+      "x": 6,
+      "y": 2,
+      "icona": "waystones:white_portstone",
+      "dipendenze": [
+        "pietre_condivise"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:white_portstone",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:polished_andesite",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ]
+    },
+    {
+      "id": "piastra_di_curvatura",
+      "titolo": "Piastra di curvatura",
+      "sottotitolo": "Teletrasporto senza esperienza",
+      "descrizione": [
+        "Mattoni placcati di bronzo, polvere di curvatura e un frammento dormiente.",
+        "Due piastre collegate ti spostano solo salendoci sopra: ideale tra fabbrica e colonia."
+      ],
+      "x": 7.5,
+      "y": 2,
+      "icona": "waystones:warp_plate",
+      "dipendenze": [
+        "era_2_vapore/rete_di_waystone"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:warp_plate",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:amethyst_shard",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "frammento_sintonizzato",
+      "titolo": "Frammento sintonizzato",
+      "sottotitolo": "Collegare due piastre",
+      "descrizione": [
+        "Metti un &6frammento dormiente&r nella prima piastra: diventa sintonizzato.",
+        "Portalo nella seconda piastra e il collegamento è fatto.",
+        "&7Ricorda: nessun teletrasporto tra dimensioni, per quello servono portali e razzi.&r"
+      ],
+      "x": 9,
+      "y": 2,
+      "icona": "waystones:attuned_shard",
+      "dipendenze": [
+        "piastra_di_curvatura"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:attuned_shard",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:flint",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "dirigibile",
+      "titolo": "Dirigibile",
+      "sottotitolo": "Lento ma instancabile",
+      "descrizione": [
+        "Sei vele, due scafi e un &6motore&r: caldaia di rame, altoforno, pistoni e bronzo.",
+        "Il motore brucia carbone o legna. Porta due persone."
+      ],
+      "x": 0,
+      "y": 4.6,
+      "icona": "immersive_aircraft:airship",
+      "dipendenze": [
+        "era_2_vapore/primo_volo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:airship",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "quadricottero",
+      "titolo": "Quadricottero",
+      "sottotitolo": "Su e giù in verticale",
+      "descrizione": [
+        "Motore, quattro eliche di bronzo e bambù.",
+        "Sale e scende dritto: perfetto per cantieri e miniere a cielo aperto."
+      ],
+      "x": 0,
+      "y": 6.4,
+      "icona": "immersive_aircraft:quadrocopter",
+      "dipendenze": [
+        "era_2_vapore/primo_volo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:quadrocopter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bamboo",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "id": "biplano",
+      "titolo": "Biplano",
+      "sottotitolo": "Il più veloce",
+      "descrizione": [
+        "Tre scafi, motore, elica, piastre e ingranaggio d'&6acciaio&r.",
+        "Corre tantissimo ma ha bisogno di una pista per decollare."
+      ],
+      "x": 1.5,
+      "y": 4,
+      "icona": "immersive_aircraft:biplane",
+      "dipendenze": [
+        "dirigibile",
+        "era_2_vapore/acciaio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:biplane",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 24
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "bamboo_hopper",
+      "titolo": "Bamboo Hopper",
+      "sottotitolo": "Un biplano più grande",
+      "descrizione": [
+        "Un biplano, uno scafo, un altro motore e blocchi di bambù.",
+        "Più posti e più spazio: per spedizioni di squadra."
+      ],
+      "x": 3,
+      "y": 4,
+      "icona": "immersive_aircraft:bamboo_hopper",
+      "dipendenze": [
+        "biplano"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:bamboo_hopper",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bamboo_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "dirigibile_da_carico",
+      "titolo": "Dirigibile da carico",
+      "sottotitolo": "Un magazzino che vola",
+      "descrizione": [
+        "Il dirigibile con quattro bauli, uno scafo e piastre d'&6acciaio&r.",
+        "Ideale per riportare alla colonia il bottino delle spedizioni."
+      ],
+      "x": 1.5,
+      "y": 5.2,
+      "icona": "immersive_aircraft:cargo_airship",
+      "dipendenze": [
+        "dirigibile",
+        "era_2_vapore/acciaio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:cargo_airship",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:chest",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "nave_da_guerra",
+      "titolo": "Nave da guerra",
+      "sottotitolo": "La fortezza volante",
+      "descrizione": [
+        "Dirigibile da carico, due motori, scafi, vele e &6ingranaggi industriali&r d'acciaio.",
+        "Il velivolo più grande: porta tutta la squadra e monta armi."
+      ],
+      "x": 3,
+      "y": 5.2,
+      "icona": "immersive_aircraft:warship",
+      "dipendenze": [
+        "dirigibile_da_carico"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:warship",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ]
+    },
+    {
+      "id": "armi_di_bordo",
+      "titolo": "Armi di bordo",
+      "sottotitolo": "Difesa dall'alto",
+      "descrizione": [
+        "Il &6cannone rotante&r usa gli ingranaggi industriali; balestra pesante e vano bombe sono più semplici.",
+        "Si montano negli slot arma del velivolo. &cAttenti a non colpire la colonia.&r"
+      ],
+      "x": 4.5,
+      "y": 5.2,
+      "icona": "immersive_aircraft:rotary_cannon",
+      "dipendenze": [
+        "nave_da_guerra"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:rotary_cannon",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:heavy_crossbow",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:arrow",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "potenziamenti_di_bordo",
+      "titolo": "Potenziamenti di bordo",
+      "sottotitolo": "Atterraggi morbidi",
+      "descrizione": [
+        "Carrello d'atterraggio migliorato e tubi robusti: ferro, rame e carbone.",
+        "Si mettono negli slot potenziamento di qualsiasi velivolo."
+      ],
+      "x": 1.5,
+      "y": 6.4,
+      "icona": "immersive_aircraft:improved_landing_gear",
+      "dipendenze": [
+        "quadricottero"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:improved_landing_gear",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:sturdy_pipes",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "cruscotto",
+      "titolo": "Cruscotto",
+      "sottotitolo": "Strumenti di volo",
+      "descrizione": [
+        "Il &6giroscopio&r stabilizza il volo; con il visore vedi quota e velocità.",
+        "Un cannocchiale di rame aiuta a cercare strutture dall'alto."
+      ],
+      "x": 3,
+      "y": 6.4,
+      "icona": "immersive_aircraft:gyroscope_hud",
+      "dipendenze": [
+        "potenziamenti_di_bordo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:gyroscope",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:gyroscope_hud",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "componenti_d_acciaio",
+      "titolo": "Componenti d'acciaio",
+      "sottotitolo": "Più spinta, più corazza",
+      "descrizione": [
+        "Con le piastre d'&6acciaio&r: elica potenziata, caldaia d'acciaio e rinforzo dello scafo.",
+        "Più velocità, meno carburante, più resistenza ai colpi."
+      ],
+      "x": 4.5,
+      "y": 6.4,
+      "icona": "immersive_aircraft:enhanced_propeller",
+      "dipendenze": [
+        "potenziamenti_di_bordo",
+        "era_2_vapore/acciaio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:enhanced_propeller",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:steel_boiler",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:hull_reinforcement",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ]
+    },
+    {
+      "id": "motori_speciali",
+      "titolo": "Motori speciali",
+      "sottotitolo": "Eco e Nether",
+      "descrizione": [
+        "Il motore &6eco&r (oro, slime, acciaio) consuma meno.",
+        "Il motore del &6Nether&r (netherite, blaze, magma, acciaio) è il più potente."
+      ],
+      "x": 6,
+      "y": 6.4,
+      "icona": "immersive_aircraft:nether_engine",
+      "dipendenze": [
+        "componenti_d_acciaio",
+        "era_2_vapore/rotta_per_il_nether"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:eco_engine",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:nether_engine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blaze_rod",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ]
+    },
+    {
+      "id": "elitre_di_ignitium",
+      "titolo": "Corazza alata",
+      "sottotitolo": "Armatura e ali insieme",
+      "descrizione": [
+        "Sull'&6Incudine a Fusione Meccanica&r unisci il pettorale di ignitium alle elitre.",
+        "Niente più scelta tra protezione e volo."
+      ],
+      "x": 3,
+      "y": 7.4,
+      "icona": "cataclysm:ignitium_elytra_chestplate",
+      "dipendenze": [
+        "esplorazione/ali_di_elitra",
+        "era_2_vapore/ignis"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_elytra_chestplate",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ]
+    },
+    {
+      "id": "elitre_dell_anima",
+      "titolo": "Elitre dell'anima",
+      "sottotitolo": "Dall'Altro Lato",
+      "descrizione": [
+        "Elitre, cristalli e polvere d'anima, ossa di sculk: materiali dell'&6Altro Lato&r, oltre il portale delle città antiche.",
+        "Si ricaricano e danno una spinta senza razzi."
+      ],
+      "x": 3,
+      "y": 8.6,
+      "icona": "deeperdarker:soul_elytra",
+      "dipendenze": [
+        "esplorazione/ali_di_elitra"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "deeperdarker:soul_elytra",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ]
+    }
+  ]
+}

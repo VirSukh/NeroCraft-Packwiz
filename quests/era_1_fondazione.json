@@ -1,0 +1,2050 @@
+{
+  "capitolo": {
+    "id": "era_1_fondazione",
+    "titolo": "Era 1 - Fondazione",
+    "sottotitolo": "Dalla prima colonia alla Caldaia di Bronzo",
+    "icona": "minecolonies:blockhuttownhall",
+    "ordine": 1,
+    "gruppo": "ere",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/era_1.png",
+        "x": 7.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_sopravvivenza.png",
+        "x": 1.05,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_colonia.png",
+        "x": 0.72,
+        "y": 9.2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_industria.png",
+        "x": 0.62,
+        "y": 28.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_esplorazione.png",
+        "x": 0.95,
+        "y": 44.8,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_facoltative.png",
+        "x": 0.85,
+        "y": 50.6,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cancello.png",
+        "x": 16.08,
+        "y": 30.35,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "benvenuto",
+      "titolo": "Benvenuti in NeroCraft",
+      "sottotitolo": "Una colonia, un'industria, poi lo spazio",
+      "descrizione": [
+        "§7§oCronaca di NeroCraft, giorno uno: pochi coloni, tanta strada davanti.§r",
+        "Le quest avanzano per tutta la squadra: §adividetevi i compiti§r.",
+        "Meta dell'Era 1: la §6Caldaia di Bronzo§r. Per costruirla serve un §6Sigillo§r che solo il Fabbro della colonia sa forgiare.",
+        "Spunta il compito e ritira cibo, torce e un letto."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "icona": "minecraft:bread",
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho letto, cominciamo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:baked_potato",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_chicken",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:torch",
+          "quantita": 32
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:white_bed",
+          "quantita": 1
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "primi_strumenti",
+      "titolo": "Primi strumenti",
+      "sottotitolo": "Pietra e legno per cominciare",
+      "descrizione": [
+        "§7§oLe mani nude non bastano.§r",
+        "Costruisci un §6piccone di pietra§r e un'§6ascia di pietra§r. Serviranno per minare ferro e rame prima del previsto.",
+        "Se hai già strumenti di ferro puoi completare subito: conta il risultato, non il materiale."
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "icona": "minecraft:stone_pickaxe",
+      "dipendenze": [
+        "benvenuto"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_pickaxe",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_axe",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cobblestone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "primo_rifugio",
+      "titolo": "Primo rifugio",
+      "sottotitolo": "Un tetto, un letto, un falò",
+      "descrizione": [
+        "§7§oLa notte arriva in fretta e porta ospiti.§r",
+        "Piazza un §6letto§r per impostare il punto di rinascita. Costruisci un §6falò§r davanti alla base: la luce tiene lontani i mob.",
+        "Un riparo chiuso con una porta basta per le prime notti."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "icona": "minecraft:campfire",
+      "dipendenze": [
+        "primi_strumenti"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:campfire",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:white_bed",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:torch",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_door",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "sacco_a_pelo",
+      "titolo": "Sacco a pelo",
+      "sottotitolo": "Dormire senza cambiare rinascita",
+      "descrizione": [
+        "Tre lane dello stesso colore in riga: ottieni un §6sacco a pelo§r.",
+        "A differenza del letto, §anon cambia il punto di rinascita§r. Perfetto per le spedizioni lontane.",
+        "§aBasta che dormano la metà dei giocatori§r per far passare la notte."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "icona": "comforts:sleeping_bag_red",
+      "dipendenze": [
+        "primo_rifugio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "comforts:sleeping_bag_red",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_wool",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "fornace",
+      "titolo": "La fornace",
+      "sottotitolo": "Fondi il minerale in lingotti",
+      "descrizione": [
+        "§7§oIl primo fuoco industriale: otto ciottoli in cerchio.§r",
+        "La §6fornace§r trasforma il minerale grezzo in lingotti. Brucia carbone, legna o carbonella.",
+        "Ne serviranno parecchie: il ferro è la base di quasi tutto."
+      ],
+      "x": 4.0,
+      "y": 6.0,
+      "icona": "minecraft:furnace",
+      "dipendenze": [
+        "primi_strumenti"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "sopravvivenza",
+      "titolo": "Trucchi di sopravvivenza",
+      "sottotitolo": "Cadaveri e traslochi",
+      "descrizione": [
+        "§cSe muori§r lasci un cadavere con tutto il tuo inventario: torna lì e aprilo per riprendere le tue cose.",
+        "Shift + clic destro a mani vuote su una cassa o un animale per prenderlo in braccio, contenuto compreso.",
+        "Il sacco a pelo del kit fa passare la notte senza spostare il punto di rinascita. §aBasta che dorma metà della squadra.§r"
+      ],
+      "x": 6.0,
+      "y": 4.5,
+      "icona": "minecraft:chest",
+      "dipendenze": [
+        "primo_rifugio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho capito"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:chest",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "ferro_e_rame",
+      "titolo": "Ferro e rame",
+      "sottotitolo": "La scorta per tutto ciò che segue",
+      "descrizione": [
+        "§7§oLe prime gallerie: la colonia ha fame di metallo.§r",
+        "Scendete in miniera e fondete 16 lingotti di ferro e 16 di rame.",
+        "Il ferro serve per il §6Barile da Compost§r, il §6Martello da Forgia§r e il Sigillo. Il rame diventerà bronzo.",
+        "Ricompensa: lo &6Zaino&r. Se ne indossa uno solo: per allargarlo servono i &egettoni&r che lasciano i boss."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "icona": "minecraft:iron_ingot",
+      "dipendenze": [
+        "primo_rifugio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "backpacked:backpack",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:torch",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "armatura_di_ferro",
+      "titolo": "Armatura di ferro",
+      "sottotitolo": "Indispensabile la notte",
+      "descrizione": [
+        "§7§oI mob colpiscono duro fin dal primo giorno.§r",
+        "Costruisci almeno un §6elmo§r e un §6pettorale di ferro§r. Un set completo protegge molto meglio.",
+        "La corazza è la priorità: ogni pezzo aggiunge barre di armatura."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "icona": "minecraft:iron_chestplate",
+      "dipendenze": [
+        "ferro_e_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_chestplate",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "spada_e_scudo",
+      "titolo": "Spada e scudo",
+      "sottotitolo": "Per la prima ronda",
+      "descrizione": [
+        "Costruisci una §6spada di ferro§r e uno §6scudo§r. Lo scudo si alza con il tasto destro e blocca i colpi frontali.",
+        "La spada di ferro è il minimo indispensabile contro gli scheletri e i creeper notturni."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "icona": "minecraft:iron_sword",
+      "dipendenze": [
+        "armatura_di_ferro"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_sword",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:shield",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:arrow",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "piccone_di_ferro",
+      "titolo": "Piccone di ferro",
+      "sottotitolo": "Scava più in fretta e più in profondo",
+      "descrizione": [
+        "Il §6piccone di ferro§r è più veloce di quello di pietra e mina tutto tranne l'ossidiana.",
+        "Ne serviranno tanti: il sottosuolo è ricco di minerali."
+      ],
+      "x": 8.0,
+      "y": 1.5,
+      "icona": "minecraft:iron_pickaxe",
+      "dipendenze": [
+        "ferro_e_rame"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_pickaxe",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:raw_iron",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "secchio",
+      "titolo": "Secchio d'acqua",
+      "sottotitolo": "Lava, cascate, e la Pentola",
+      "descrizione": [
+        "Il §6secchio§r porta acqua e lava, e salva la vita nelle cadute: l'acqua annulla il danno.",
+        "Ne servirà uno anche per la §6Pentola§r e per riempire la Caldaia di Bronzo."
+      ],
+      "x": 10.0,
+      "y": 1.5,
+      "icona": "minecraft:bucket",
+      "dipendenze": [
+        "piccone_di_ferro"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bucket",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 15
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "la_colonia",
+      "titolo": "La colonia di tutti",
+      "sottotitolo": "Un solo Municipio per la squadra",
+      "descrizione": [
+        "§7§oIl Municipio è la prima pietra: tutto il resto ci crescerà attorno.§r",
+        "La colonia è una sola e condivisa. Il primo giocatore entrato nel mondo ha ricevuto il §6Municipio§r: va piazzato su un terreno ampio e pianeggiante.",
+        "Se la colonia esiste già, la chat ti ha indicato dove si trova: raggiungila.",
+        "Da qui in poi il villaggio assume coloni, sceglie i terreni e costruisce da solo."
+      ],
+      "x": 0.0,
+      "y": 10.3,
+      "icona": "minecolonies:blockhuttownhall",
+      "dipendenze": [
+        "benvenuto"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La colonia è fondata e so dove si trova"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_log",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia",
+      "nascondi_linee": true
+    },
+    {
+      "id": "zone_protette",
+      "titolo": "Giù le mani",
+      "sottotitolo": "Proteggi la tua base dai Costruttori",
+      "descrizione": [
+        "La colonia costruisce dove trova spazio, anche sopra casa tua.",
+        "Con la bacchetta §6Zone Marker§r in mano, clic destro su un angolo e poi sull'angolo opposto: lì dentro (fino a 48 blocchi per lato) il villaggio non costruirà mai.",
+        "§cSegna la zona PRIMA di costruire vicino al villaggio.§r"
+      ],
+      "x": 2.0,
+      "y": 26.8,
+      "icona": "colonyautopilot:zone_marker",
+      "dipendenze": [
+        "la_colonia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho segnato la zona della mia base"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cobblestone",
+          "quantita": 64
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "costruttori_al_lavoro",
+      "titolo": "Costruttori al lavoro",
+      "sottotitolo": "Il villaggio prende forma da solo",
+      "descrizione": [
+        "§7§oSi sentono i primi martelli: il villaggio prende forma.§r",
+        "La colonia piazza da sola i §6Capanni del Costruttore§r, le case e i primi edifici: circa uno ogni dieci minuti. La chat annuncia ogni lavoro finito.",
+        "Non devi assumere nessuno. Nel frattempo sistemati: una base, un letto, qualcosa da mangiare."
+      ],
+      "x": 2.0,
+      "y": 10.3,
+      "icona": "minecolonies:blockhutbuilder",
+      "dipendenze": [
+        "la_colonia"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "I Costruttori hanno finito i primi edifici"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_bricks",
+          "quantita": 32
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:glass",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "la_fattoria",
+      "titolo": "La Fattoria",
+      "sottotitolo": "Cibo automatico per la colonia",
+      "descrizione": [
+        "§7§oI coloni hanno fame: servono campi.§r",
+        "La colonia piazza la §6Fattoria§r da sola. Il contadino semina e raccoglie grano, patate e carote.",
+        "Porta semi e zappe nel Magazzino per aiutarlo a partire."
+      ],
+      "x": 4.0,
+      "y": 19.3,
+      "icona": "minecolonies:blockhutfarmer",
+      "dipendenze": [
+        "costruttori_al_lavoro"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La Fattoria è costruita e il contadino lavora"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:wheat_seeds",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:bone_meal",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "il_pescatore",
+      "titolo": "Il Pescatore",
+      "sottotitolo": "Pesce fresco ogni giorno",
+      "descrizione": [
+        "Il §6Pescatore§r va in acqua e riporta pesce al Magazzino. È uno dei primi edifici che la colonia costruisce.",
+        "Non ha bisogno di materiali speciali: basta aspettare."
+      ],
+      "x": 2.0,
+      "y": 22.3,
+      "icona": "minecolonies:blockhutfisherman",
+      "dipendenze": [
+        "la_colonia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Pescatore è costruito"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:fishing_rod",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "il_boscaiolo",
+      "titolo": "Il Boscaiolo",
+      "sottotitolo": "Legna infinita",
+      "descrizione": [
+        "Il §6Boscaiolo§r taglia alberi e li ripianta. Il legno è il materiale più usato della colonia: tavole, assi, strumenti.",
+        "Più il suo edificio sale di livello, più è veloce."
+      ],
+      "x": 4.0,
+      "y": 17.8,
+      "icona": "minecolonies:blockhutlumberjack",
+      "dipendenze": [
+        "costruttori_al_lavoro"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Boscaiolo è costruito e al lavoro"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_log",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "la_miniera",
+      "titolo": "La Miniera",
+      "sottotitolo": "Ferro, rame e carbone dalla colonia",
+      "descrizione": [
+        "La §6Miniera§r scava gallerie e riporta minerale al Magazzino. Più sale di livello, più in profondo scende.",
+        "Il minerale va nel Magazzino e la Fonderia (se c'è) lo fonde in lingotti."
+      ],
+      "x": 4.0,
+      "y": 20.8,
+      "icona": "minecolonies:blockhutminer",
+      "dipendenze": [
+        "costruttori_al_lavoro"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La Miniera è costruita"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:raw_iron",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:raw_copper",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "il_magazzino",
+      "titolo": "Il Magazzino",
+      "sottotitolo": "Tutto finisce qui",
+      "descrizione": [
+        "§7§oUn posto per ogni cosa: la colonia non funziona senza un deposito.§r",
+        "Il §6Magazzino§r è il cuore logistico. Tutti i lavoratori portano qui i prodotti e prendono i materiali.",
+        "Nel blocco del Magazzino trovi la scheda §6Scorta minima§r: da lì ordini ciò che serve (come il Sigillo)."
+      ],
+      "x": 4.0,
+      "y": 10.3,
+      "icona": "minecolonies:blockhutwarehouse",
+      "dipendenze": [
+        "costruttori_al_lavoro"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Magazzino è costruito"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:chest",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "casse_comuni",
+      "titolo": "Tasse e casse comuni",
+      "sottotitolo": "I ColonyBucks pagano ciò che manca",
+      "descrizione": [
+        "§7§oIl tesoriere della colonia apre il primo registro.§r",
+        "Quello che la colonia non produce lo paga in §6ColonyBucks§r: senza soldi le richieste restano in attesa.",
+        "{@pagebreak}",
+        "La colonia raccoglie tasse in smeraldi ogni 20 minuti: ritirale con /wnt claimtax. Più i coloni sono felici, più pagano.",
+        "Al banco 16 smeraldi (un blocco di smeraldo più 7 smeraldi) diventano 1 ColonyBuck; ne cadono anche dai mostri. Shift + clic destro sul Municipio per versarli.",
+        "Il Fabbro e gli altri artigiani comprano col tesoro quello che non trovano nel Magazzino: §asenza ColonyBucks il Sigillo può restare in attesa§r."
+      ],
+      "x": 6.0,
+      "y": 13.3,
+      "icona": "colonyautopilot:colony_bucks",
+      "dipendenze": [
+        "il_magazzino"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "la_fonderia",
+      "titolo": "La Fonderia",
+      "sottotitolo": "Lingotti senza fatica",
+      "descrizione": [
+        "La §6Fonderia§r della colonia fonde il minerale grezzo in lingotti, così non dovete farlo voi in fornace.",
+        "Più sale di livello, più veloce diventa. Il minerale va nel Magazzino."
+      ],
+      "x": 6.0,
+      "y": 16.3,
+      "icona": "minecolonies:blockhutsmeltery",
+      "dipendenze": [
+        "il_magazzino"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La Fonderia è costruita"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "barile_compost",
+      "titolo": "Barile da Compost",
+      "sottotitolo": "Il Sigillo comincia dagli scarti",
+      "descrizione": [
+        "§7§oIl vecchio fabbro giura che il Sigillo nasce dagli scarti. Nessuno ride.§r",
+        "Il §6Sigillo della Gilda§r richiede ferro e Compost di MineColonies.",
+        "Costruisci un Barile da Compost: assi, un blocco di terra, un lingotto di ferro e il bastone da costruzione in alto al centro (non viene consumato)."
+      ],
+      "x": 6.0,
+      "y": 10.3,
+      "icona": "minecolonies:barrel_block",
+      "dipendenze": [
+        "il_magazzino"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecolonies:barrel_block",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:hay_block",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "compost",
+      "titolo": "Compost",
+      "sottotitolo": "Riempi, aspetta, raccogli",
+      "descrizione": [
+        "§7§oL'odore arriva fino al Municipio. Si chiama progresso.§r",
+        "Clic destro sul Barile con scarti in mano finché è pieno: foglie, semi, fiori, carne marcia, grano, funghi.",
+        "Aspetta che fermenti, poi clic destro per raccogliere il §6Compost§r. Per un Sigillo ne basta 1."
+      ],
+      "x": 8.0,
+      "y": 10.3,
+      "icona": "minecolonies:compost",
+      "dipendenze": [
+        "barile_compost"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecolonies:compost",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bone_meal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "compostatore",
+      "titolo": "Un colono al barile",
+      "sottotitolo": "Il Compostatore lo fa al posto tuo",
+      "descrizione": [
+        "§6Capanno del Compostatore§r: assi, un Barile da Compost al centro e il bastone da costruzione in alto.",
+        "Piazzalo nel villaggio: un Costruttore lo edifica e un colono riempie i barili al posto tuo."
+      ],
+      "x": 10.0,
+      "y": 11.8,
+      "icona": "minecolonies:blockhutcomposter",
+      "dipendenze": [
+        "compost"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecolonies:blockhutcomposter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_planks",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "il_fabbro",
+      "titolo": "Il Fabbro",
+      "sottotitolo": "L'unico che sa forgiare il Sigillo",
+      "descrizione": [
+        "§7§oLa fucina della colonia si accende per la prima volta.§r",
+        "Servono tre edifici: il §6Fabbro§r forgia, il §6Magazzino§r conserva, il Corriere trasporta.",
+        "La colonia li costruisce da sola quando cresce. Avete fretta? Il Capanno del Fabbro potete fabbricarlo e piazzarlo voi: assi, tre lingotti di ferro e il bastone da costruzione."
+      ],
+      "x": 10.0,
+      "y": 10.3,
+      "icona": "minecolonies:blockhutblacksmith",
+      "dipendenze": [
+        "compost"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Fabbro, Magazzino e Corriere sono costruiti e al lavoro"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_bricks",
+          "quantita": 32
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:chicken_soup",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "sigillo_gilda",
+      "titolo": "Sigillo della Gilda",
+      "sottotitolo": "Non si fabbrica al banco: si ordina",
+      "descrizione": [
+        "§7§oSul Sigillo c'è il marchio della Gilda degli Ingegneri: senza, niente vapore.§r",
+        "Il Fabbro conosce già la ricetta: 4 lingotti di ferro e 1 Compost.",
+        "{@pagebreak}",
+        "Nel blocco del Magazzino, scheda §6Scorta minima§r, aggiungi il §6Sigillo della Gilda degli Ingegneri§r: la richiesta arriva al Fabbro.",
+        "Metti ferro e Compost negli scaffali del Magazzino: il Corriere li porta al Fabbro e riporta il Sigillo finito.",
+        "La Cassetta Postale non serve: gli ordini dei giocatori sono bloccati."
+      ],
+      "x": 12.0,
+      "y": 10.3,
+      "icona": "kubejs:sigillo_gilda_ingegneri",
+      "dipendenze": [
+        "il_fabbro"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "kubejs:sigillo_gilda_ingegneri",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:pumpkin_pie",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "martello_forgia",
+      "titolo": "Martello da Forgia",
+      "sottotitolo": "Il primo banco dell'industria",
+      "descrizione": [
+        "§7§oNel retro della fucina qualcuno monta un banco tutto suo.§r",
+        "Mentre la colonia lavora, prepara l'industria.",
+        "Al banco: tre piastre a pressione pesanti in alto, un lingotto di ferro al centro, tre in basso.",
+        "Inserisci un lingotto e scegli cosa ottenere: polvere, piastra, asta. §6Non consuma carburante§r."
+      ],
+      "x": 2.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:forge_hammer",
+      "dipendenze": [
+        "raw_tin"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:forge_hammer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:baked_potato",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "polvere_di_ferro",
+      "titolo": "Polvere di ferro",
+      "sottotitolo": "Il Martello macina tutto",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r inserisci un lingotto di ferro e scegli la polvere.",
+        "La polvere ha molti usi: nelle ere successive servirà per leghe e componenti chimici."
+      ],
+      "x": 4.0,
+      "y": 43.1,
+      "icona": "modern_industrialization:iron_dust",
+      "dipendenze": [
+        "martello_forgia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:iron_dust",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "piastre_di_ferro",
+      "titolo": "Piastre di ferro",
+      "sottotitolo": "Appiattite al Martello",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r inserisci un lingotto di ferro e scegli la §6piastra§r.",
+        "Le piastre sono il componente base di quasi tutte le macchine di Modern Industrialization. §aPrimi passi dell'industria!§r"
+      ],
+      "x": 4.0,
+      "y": 38.6,
+      "icona": "modern_industrialization:iron_plate",
+      "dipendenze": [
+        "martello_forgia"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:iron_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "aste_di_ferro",
+      "titolo": "Aste di ferro",
+      "sottotitolo": "Lunghe e sottili",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r, con un lingotto di ferro, scegli l'§6asta§r.",
+        "Le aste servono come assi per pistoni, supporti e parti meccaniche. Anche il rame e il bronzo hanno le loro."
+      ],
+      "x": 6.0,
+      "y": 38.6,
+      "icona": "modern_industrialization:iron_rod",
+      "dipendenze": [
+        "piastre_di_ferro"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:iron_rod",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "piastre_di_rame",
+      "titolo": "Piastre di rame",
+      "sottotitolo": "Anche il rame si appiattisce",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r inserisci un lingotto di rame e scegli la §6piastra§r.",
+        "Le piastre di rame servono come materiale per componenti dell'era 2. Per ora sono utili per le tubature."
+      ],
+      "x": 4.0,
+      "y": 41.6,
+      "icona": "modern_industrialization:copper_plate",
+      "dipendenze": [
+        "martello_forgia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "stagno",
+      "titolo": "Stagno",
+      "sottotitolo": "Il metallo che manca",
+      "descrizione": [
+        "§7§oLo stagno non affiora: bisogna scendere.§r",
+        "Il minerale di §6stagno§r di Modern Industrialization si trova sottoterra nel mondo normale.",
+        "Fondi lo stagno grezzo in lingotti, poi nel Martello da Forgia trasformali in polvere."
+      ],
+      "x": 4.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:raw_tin",
+      "dipendenze": [
+        "martello_forgia"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_dust",
+          "quantita": 5
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "lingotti_di_stagno",
+      "titolo": "Lingotti di stagno",
+      "sottotitolo": "Lo stagno si fonde come il ferro",
+      "descrizione": [
+        "Fondi lo §6stagno grezzo§r in fornace per ottenere i lingotti. Oppure usa la polvere di stagno e fondi quella.",
+        "I lingotti serviranno per cavi e componenti nelle ere successive."
+      ],
+      "x": 6.0,
+      "y": 37.1,
+      "icona": "modern_industrialization:tin_ingot",
+      "dipendenze": [
+        "stagno"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:tin_ingot",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "polvere_di_rame",
+      "titolo": "Polvere di rame",
+      "sottotitolo": "Tre parti della lega",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r inserisci un lingotto di rame e scegli la polvere.",
+        "Per la lega di bronzo servono §63 polveri di rame§r + 1 di stagno. Preparane almeno 15 per i primi lingotti di bronzo."
+      ],
+      "x": 6.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:copper_dust",
+      "dipendenze": [
+        "stagno"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_dust",
+          "quantita": 15
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "lega_di_bronzo",
+      "titolo": "Lega di bronzo",
+      "sottotitolo": "Tre parti di rame, una di stagno",
+      "descrizione": [
+        "§7§oPrima colata di bronzo: il metallo di tutta l'era che viene.§r",
+        "Al banco unisci §63 polveri di rame§r e §61 di stagno§r: ottieni 3 polveri di bronzo.",
+        "Cuoci la polvere in fornace. Per la caldaia servono §614 lingotti di bronzo§r."
+      ],
+      "x": 10.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:bronze_ingot",
+      "dipendenze": [
+        "polvere_di_bronzo"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_ingot",
+          "quantita": 14
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "piastre_di_bronzo",
+      "titolo": "Piastre di bronzo",
+      "sottotitolo": "Sette piastre per una caldaia",
+      "descrizione": [
+        "§7§oIl martello batte fino a sera.§r",
+        "Nel Martello da Forgia metti i lingotti di bronzo e scegli la piastra: 2 lingotti per piastra.",
+        "La §6Caldaia di Bronzo§r ne chiede 7."
+      ],
+      "x": 12.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:bronze_plate",
+      "dipendenze": [
+        "lega_di_bronzo"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_plate",
+          "quantita": 7
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "aste_di_bronzo",
+      "titolo": "Aste di bronzo",
+      "sottotitolo": "Rinforzi per le macchine a vapore",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r trasforma i lingotti di bronzo in §6aste§r.",
+        "Le aste di bronzo servono nelle macchine a vapore dell'Era 2. Preparane qualcuna in anticipo."
+      ],
+      "x": 12.0,
+      "y": 34.1,
+      "icona": "modern_industrialization:bronze_rod",
+      "dipendenze": [
+        "lega_di_bronzo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_rod",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_ingot",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "involucro_di_bronzo",
+      "titolo": "Involucro di macchina in bronzo",
+      "sottotitolo": "La corazza delle macchine a vapore",
+      "descrizione": [
+        "Al banco: 8 §6piastre di bronzo§r in cerchio = 1 §6Bronze Machine Casing§r.",
+        "È la base di quasi ogni macchina a vapore dell'Era 2. Preparane almeno uno."
+      ],
+      "x": 14.0,
+      "y": 32.6,
+      "icona": "modern_industrialization:bronze_machine_casing",
+      "dipendenze": [
+        "piastre_di_bronzo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_machine_casing",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_plate",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "caldaia_di_bronzo",
+      "titolo": "§6§lCaldaia di Bronzo§r",
+      "sottotitolo": "Il vapore apre l'Era 2",
+      "descrizione": [
+        "§7§oIl primo sbuffo di vapore si sente in tutta la colonia.§r",
+        "Al banco: un lingotto di rame al centro, il §6Sigillo della Gilda§r sotto, piastre di bronzo nelle altre sette caselle. Il Sigillo viene consumato.",
+        "Appena qualcuno la ottiene, §atutta la squadra entra nell'Era 2§r e FTB Ultimine si attiva.",
+        "Riempila d'acqua e brucia carbone o legna: il vapore muove le prime macchine."
+      ],
+      "x": 14.0,
+      "y": 30.35,
+      "icona": "modern_industrialization:bronze_boiler",
+      "dipendenze": [
+        "piastre_di_bronzo"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_boiler",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:mixed_salad",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 200
+        }
+      ],
+      "sezione": "sez_cancello"
+    },
+    {
+      "id": "dispensa",
+      "titolo": "Dispensa varia",
+      "sottotitolo": "Più piatti diversi, più cuori",
+      "descrizione": [
+        "La §6Pentola§r di Farmer's Delight si fa con mattoni, lingotti di ferro, una pala di legno e un secchio d'acqua.",
+        "Mettila sopra un falò: cuoce zuppe e stufati che saziano molto.",
+        "Ogni cibo nuovo che assaggi ti avvicina a cuori in più: varia il menu."
+      ],
+      "x": 0.0,
+      "y": 51.7,
+      "icona": "farmersdelight:cooking_pot",
+      "dipendenze": [
+        "benvenuto"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cooking_pot",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:tomato_seeds",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:cabbage_seeds",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:onion",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:rice",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_facoltative",
+      "nascondi_linee": true
+    },
+    {
+      "id": "la_tua_classe",
+      "titolo": "La tua classe",
+      "sottotitolo": "Ognuno il suo ruolo",
+      "descrizione": [
+        "Uccidere mostri dà punti abilità. Apri l'albero (tasto di base K): 8 classi tra maghi (arcano, fuoco, gelo), sacerdote, paladino, guerriero, ladro e arciere.",
+        "§cUna sola classe a testa§r: la prima scelta esclude le altre. §aDecidete i ruoli in squadra prima di spendere punti.§r Tutto il resto è nel capitolo Classi."
+      ],
+      "x": 2.0,
+      "y": 53.2,
+      "icona": "minecraft:iron_sword",
+      "dipendenze": [
+        "dispensa"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:zombie",
+          "quantita": 10
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Ho aperto l'albero delle abilità"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_facoltative"
+    },
+    {
+      "id": "pietre_del_viaggio",
+      "titolo": "Pietre del viaggio",
+      "sottotitolo": "Le waystone del mondo",
+      "descrizione": [
+        "Nel mondo e in alcuni villaggi si trovano §6waystone§r già pronte. Clic destro per attivarle: poi puoi teletrasportarti da una all'altra pagando esperienza.",
+        "Costruirne di nuove richiede il bronzo: arriverà nell'Era 2."
+      ],
+      "x": 0.0,
+      "y": 45.9,
+      "icona": "waystones:waystone",
+      "dipendenze": [
+        "benvenuto"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ho attivato una waystone"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 6
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_esplorazione",
+      "nascondi_linee": true
+    },
+    {
+      "id": "bussola_natura",
+      "titolo": "Bussola della Natura",
+      "sottotitolo": "Trova qualsiasi bioma",
+      "descrizione": [
+        "La §6Nature's Compass§r ti dice direzione e distanza del bioma che cerchi. Perfetta per trovare una giungla, un deserto o un bioma con risorse specifiche.",
+        "Al banco: 4 assi di legno intorno a una bussola e 4 semi di grano agli angoli. Ha la ricetta originale, nessun blocco di progressione."
+      ],
+      "x": 2.0,
+      "y": 45.9,
+      "icona": "naturescompass:naturescompass",
+      "dipendenze": [
+        "pietre_del_viaggio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "naturescompass:naturescompass",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:compass",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_esplorazione"
+    },
+    {
+      "id": "miglior_amico",
+      "titolo": "Il miglior amico",
+      "sottotitolo": "Un cane che impara",
+      "descrizione": [
+        "Addomestica un lupo, poi dagli un §6Training Treat§r: diventa un cane di Doggy Talents, che sale di livello e impara talenti.",
+        "Il Training Treat si fa con spago, osso, polvere da sparo, zucchero e una ciotola di riso."
+      ],
+      "x": 2.0,
+      "y": 47.4,
+      "icona": "doggytalents:training_treat",
+      "dipendenze": [
+        "pietre_del_viaggio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "doggytalents:training_treat",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bone",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_esplorazione"
+    },
+    {
+      "id": "rete_cattura",
+      "titolo": "Rete da cattura",
+      "sottotitolo": "Cattura animali di Naturalist",
+      "descrizione": [
+        "La §6Capture Net§r cattura gli animali di Naturalist in un oggetto: rilasciali dove preferisci.",
+        "Utile per portare animali esotici alla base. Si crafta con spago e bastoni."
+      ],
+      "x": 2.0,
+      "y": 48.9,
+      "icona": "naturalist:capture_net",
+      "dipendenze": [
+        "pietre_del_viaggio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "naturalist:capture_net",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:lead",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_esplorazione"
+    },
+    {
+      "id": "polvere_di_bronzo",
+      "titolo": "Polvere di bronzo",
+      "sottotitolo": "La lega prima della fornace",
+      "descrizione": [
+        "Al banco: §63 polveri di rame§r + §61 polvere di stagno§r = §63 polveri di bronzo§r.",
+        "La polvere di bronzo va cotta in fornace per ottenere i lingotti. È l'unico modo per fare il bronzo a mano."
+      ],
+      "x": 8.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:bronze_dust",
+      "dipendenze": [
+        "polvere_di_rame"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_dust",
+          "quantita": 15
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "la_taverna",
+      "titolo": "La Taverna",
+      "sottotitolo": "Nuovi coloni arrivano qui",
+      "descrizione": [
+        "La §6Taverna§r è il punto di arrivo dei nuovi coloni. Senza, la crescita della colonia si ferma.",
+        "La colonia la costruisce da sola, ma se tarda potete piazzare il blocco voi."
+      ],
+      "x": 2.0,
+      "y": 23.8,
+      "icona": "minecolonies:blockhuttavern",
+      "dipendenze": [
+        "la_colonia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "La Taverna è costruita"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "tagliapietre",
+      "titolo": "Tagliapietre",
+      "sottotitolo": "Pietre decorative per i Costruttori",
+      "descrizione": [
+        "Il §6Tagliapietre§r trasforma un blocco di pietra in scalini, lastre e muri con meno sprechi del banco.",
+        "Utile per decorare la base e per fornire materiale ai Costruttori della colonia."
+      ],
+      "x": 2.0,
+      "y": 25.3,
+      "icona": "minecraft:stonecutter",
+      "dipendenze": [
+        "la_colonia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stonecutter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:stone",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 15
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "prima_scorta_carbone",
+      "titolo": "Prima scorta di carbone",
+      "sottotitolo": "Combustibile per tutto",
+      "descrizione": [
+        "Il carbone è il combustibile più versatile: fornaci, torce e la futura Caldaia di Bronzo lo bruciano.",
+        "Raccogline una §6scorta§r: servirà da qui fino alla fine dell'Era 2."
+      ],
+      "x": 4.0,
+      "y": 7.5,
+      "icona": "minecraft:coal",
+      "dipendenze": [
+        "primi_strumenti"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:torch",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_sopravvivenza"
+    },
+    {
+      "id": "corriere",
+      "titolo": "Il Corriere",
+      "sottotitolo": "Porta e preleva dal Magazzino",
+      "descrizione": [
+        "Il §6Corriere§r trasporta oggetti tra il Magazzino e i lavoratori. Senza di lui, il Fabbro non riceve materiali.",
+        "La colonia lo costruisce da sola. Puoi averne più d'uno per velocizzare le consegne."
+      ],
+      "x": 6.0,
+      "y": 14.8,
+      "icona": "minecolonies:blockhutdeliveryman",
+      "dipendenze": [
+        "il_magazzino"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Almeno un Corriere è al lavoro"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:leather_boots",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_colonia"
+    },
+    {
+      "id": "cucinare_primi_piatti",
+      "titolo": "Primi piatti",
+      "sottotitolo": "Zuppe e stufati dalla Pentola",
+      "descrizione": [
+        "Piazza la §6Pentola§r sopra un §6falò§r: inserisci gli ingredienti e un contenitore (ciotola). Aspetta che cuocia.",
+        "Prova la §6zuppa di pollo§r: pollo, patata, carota, ciotola. O uno §6stufato di manzo§r: manzo, patata, carota, ciotola.",
+        "I piatti cucinati saziano molto più degli ingredienti crudi!"
+      ],
+      "x": 2.0,
+      "y": 51.7,
+      "icona": "farmersdelight:chicken_soup",
+      "dipendenze": [
+        "dispensa"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:chicken_soup",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bowl",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_facoltative"
+    },
+    {
+      "id": "polvere_di_bronzo_extra",
+      "titolo": "Scorta di bronzo",
+      "sottotitolo": "L'Era 2 ne mangia parecchio",
+      "descrizione": [
+        "Le macchine a vapore dell'Era 2 richiedono §6molte piastre e aste di bronzo§r.",
+        "Preparate almeno §632 lingotti in più§r oltre a quelli della caldaia: sarà il materiale base per tutto l'inizio dell'Era 2.",
+        "Ogni set di 3 polveri di rame + 1 di stagno dà 3 polveri di bronzo. Cuocetele in fornace."
+      ],
+      "x": 12.0,
+      "y": 35.6,
+      "icona": "modern_industrialization:bronze_ingot",
+      "dipendenze": [
+        "lega_di_bronzo"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_ingot",
+          "quantita": 32,
+          "consuma": true
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_plate",
+          "quantita": 8
+        },
+        {
+          "tipo": "item",
+          "item": "colonyautopilot:colony_bucks",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "aste_di_rame",
+      "titolo": "Aste di rame",
+      "sottotitolo": "I primi cavi dell'industria",
+      "descrizione": [
+        "Nel §6Martello da Forgia§r inserisci un lingotto di rame e scegli l'§6asta§r.",
+        "Le aste di rame servono nelle ricette di alcune macchine e componenti elettrici."
+      ],
+      "x": 4.0,
+      "y": 40.1,
+      "icona": "modern_industrialization:copper_rod",
+      "dipendenze": [
+        "martello_forgia"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_rod",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "raw_tin",
+      "titolo": "Stagno grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Lo stagno serve per il bronzo: cercatelo in miniera insieme al rame.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Polvere di stagno"
+      ],
+      "x": 0.0,
+      "y": 29.6,
+      "icona": "modern_industrialization:raw_tin",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_tin",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "items": {
+    "ad_astra:jet_suit": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:jet_suit_boots": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:jet_suit_helmet": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:jet_suit_pants": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:netherite_space_boots": {
+      "theme": "netherite",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:netherite_space_helmet": {
+      "theme": "netherite",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:netherite_space_pants": {
+      "theme": "netherite",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:netherite_space_suit": {
+      "theme": "netherite",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:space_boots": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:space_helmet": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:space_pants": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "ad_astra:space_suit": {
+      "theme": "cosmic",
+      "badges": [
+        "SPAZIO"
+      ]
+    },
+    "adastraplanets:ancient_boots": {
+      "theme": "radiant",
+      "badges": [
+        "ANTICO"
+      ]
+    },
+    "adastraplanets:ancient_chestplate": {
+      "theme": "radiant",
+      "badges": [
+        "ANTICO"
+      ]
+    },
+    "adastraplanets:ancient_helmet": {
+      "theme": "radiant",
+      "badges": [
+        "ANTICO"
+      ]
+    },
+    "adastraplanets:ancient_leggings": {
+      "theme": "radiant",
+      "badges": [
+        "ANTICO"
+      ]
+    },
+    "bosses_of_mass_destruction:earthdive_spear": {
+      "theme": "cosmic",
+      "badges": [
+        "DISTRUZIONE"
+      ]
+    },
+    "cataclysm:ancient_spear": {
+      "theme": "earth",
+      "badges": [
+        "RESTO ANTICO"
+      ]
+    },
+    "cataclysm:astrape": {
+      "theme": "lightning",
+      "badges": [
+        "SCILLA"
+      ]
+    },
+    "cataclysm:athame": {
+      "theme": "earth",
+      "badges": [
+        "RESTO ANTICO"
+      ]
+    },
+    "cataclysm:azure_sea_shield": {
+      "theme": "ocean",
+      "badges": [
+        "ABISSI"
+      ]
+    },
+    "cataclysm:black_steel_axe": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:black_steel_hoe": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:black_steel_pickaxe": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:black_steel_shovel": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:black_steel_sword": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:black_steel_targe": {
+      "theme": "netherite",
+      "badges": [
+        "ACCIAIO NERO"
+      ]
+    },
+    "cataclysm:blazing_grips": {
+      "theme": "ember",
+      "badges": [
+        "IGNIS"
+      ]
+    },
+    "cataclysm:bloom_stone_pauldrons": {
+      "theme": "jade",
+      "badges": [
+        "PIETRA FIORITA"
+      ]
+    },
+    "cataclysm:bone_reptile_chestplate": {
+      "theme": "earth",
+      "badges": [
+        "RESTO ANTICO"
+      ]
+    },
+    "cataclysm:bone_reptile_helmet": {
+      "theme": "earth",
+      "badges": [
+        "RESTO ANTICO"
+      ]
+    },
+    "cataclysm:brontes": {
+      "theme": "lightning",
+      "badges": [
+        "SCILLA"
+      ]
+    },
+    "cataclysm:bulwark_of_the_flame": {
+      "theme": "ember",
+      "badges": [
+        "IGNIS"
+      ]
+    },
+    "cataclysm:ceraunus": {
+      "theme": "lightning",
+      "badges": [
+        "SCILLA"
+      ]
+    },
+    "cataclysm:coral_bardiche": {
+      "theme": "ocean",
+      "badges": [
+        "CORALLO"
+      ]
+    },
+    "cataclysm:coral_spear": {
+      "theme": "ocean",
+      "badges": [
+        "CORALLO"
+      ]
+    },
+    "cataclysm:cursed_bow": {
+      "theme": "soul",
+      "badges": [
+        "MALEDICTUS"
+      ]
+    },
+    "cataclysm:cursium_boots": {
+      "theme": "soul",
+      "badges": [
+        "CURSIUM"
+      ]
+    },
+    "cataclysm:cursium_chestplate": {
+      "theme": "soul",
+      "badges": [
+        "CURSIUM"
+      ]
+    },
+    "cataclysm:cursium_helmet": {
+      "theme": "soul",
+      "badges": [
+        "CURSIUM"
+      ]
+    },
+    "cataclysm:cursium_leggings": {
+      "theme": "soul",
+      "badges": [
+        "CURSIUM"
+      ]
+    },
+    "cataclysm:gauntlet_of_bulwark": {
+      "theme": "spectral",
+      "badges": [
+        "GUARDIANO"
+      ]
+    },
+    "cataclysm:gauntlet_of_guard": {
+      "theme": "spectral",
+      "badges": [
+        "GUARDIANO"
+      ]
+    },
+    "cataclysm:gauntlet_of_maelstrom": {
+      "theme": "lightning",
+      "badges": [
+        "SCILLA"
+      ]
+    },
+    "cataclysm:ignitium_boots": {
+      "theme": "ember",
+      "badges": [
+        "IGNITIUM"
+      ]
+    },
+    "cataclysm:ignitium_chestplate": {
+      "theme": "ember",
+      "badges": [
+        "IGNITIUM"
+      ]
+    },
+    "cataclysm:ignitium_elytra_chestplate": {
+      "theme": "ember",
+      "badges": [
+        "IGNITIUM"
+      ]
+    },
+    "cataclysm:ignitium_helmet": {
+      "theme": "ember",
+      "badges": [
+        "IGNITIUM"
+      ]
+    },
+    "cataclysm:ignitium_leggings": {
+      "theme": "ember",
+      "badges": [
+        "IGNITIUM"
+      ]
+    },
+    "cataclysm:infernal_forge": {
+      "theme": "ember",
+      "badges": [
+        "MOSTRUOSITA"
+      ]
+    },
+    "cataclysm:laser_gatling": {
+      "theme": "unstable",
+      "badges": [
+        "ARALDO"
+      ]
+    },
+    "cataclysm:meat_shredder": {
+      "theme": "unstable",
+      "badges": [
+        "ARALDO"
+      ]
+    },
+    "cataclysm:monstrous_helm": {
+      "theme": "ember",
+      "badges": [
+        "MOSTRUOSITA"
+      ]
+    },
+    "cataclysm:soul_render": {
+      "theme": "soul",
+      "badges": [
+        "MALEDICTUS"
+      ]
+    },
+    "cataclysm:the_annihilator": {
+      "theme": "soul",
+      "badges": [
+        "MALEDICTUS"
+      ]
+    },
+    "cataclysm:the_immolator": {
+      "theme": "ember",
+      "badges": [
+        "MOSTRUOSITA"
+      ]
+    },
+    "cataclysm:the_incinerator": {
+      "theme": "ember",
+      "badges": [
+        "IGNIS"
+      ]
+    },
+    "cataclysm:tidal_claws": {
+      "theme": "ocean",
+      "badges": [
+        "LEVIATANO"
+      ]
+    },
+    "cataclysm:void_assault_shoulder_weapon": {
+      "theme": "cosmic",
+      "badges": [
+        "VUOTO"
+      ]
+    },
+    "cataclysm:void_forge": {
+      "theme": "cosmic",
+      "badges": [
+        "VUOTO"
+      ]
+    },
+    "cataclysm:wither_assault_shoulder_weapon": {
+      "theme": "unstable",
+      "badges": [
+        "ARALDO"
+      ]
+    },
+    "deeperdarker:resonarium_axe": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_boots": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_chestplate": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_helmet": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_hoe": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_leggings": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_pickaxe": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_shovel": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:resonarium_sword": {
+      "theme": "echo",
+      "badges": [
+        "RESONARIUM"
+      ]
+    },
+    "deeperdarker:sonorous_staff": {
+      "theme": "echo",
+      "badges": [
+        "SCULK"
+      ]
+    },
+    "deeperdarker:soul_elytra": {
+      "theme": "soul",
+      "badges": [
+        "SCULK"
+      ]
+    },
+    "deeperdarker:warden_axe": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_boots": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_chestplate": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_helmet": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_hoe": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_leggings": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_pickaxe": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_shovel": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "deeperdarker:warden_sword": {
+      "theme": "deepdark",
+      "badges": [
+        "WARDEN"
+      ]
+    },
+    "extended_industrialization:electric_chainsaw": {
+      "theme": "lightning",
+      "badges": [
+        "ELETTRICO"
+      ]
+    },
+    "extended_industrialization:electric_mining_drill": {
+      "theme": "lightning",
+      "badges": [
+        "ELETTRICO"
+      ]
+    },
+    "extended_industrialization:nano_boots": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:nano_chestplate": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:nano_gravichestplate": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:nano_helmet": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:nano_leggings": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:nano_quantum_boots": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "extended_industrialization:nano_quantum_chestplate": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "extended_industrialization:nano_quantum_helmet": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "extended_industrialization:nano_quantum_leggings": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "extended_industrialization:nano_quantum_saber": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "extended_industrialization:nano_saber": {
+      "theme": "lightning",
+      "badges": [
+        "NANO"
+      ]
+    },
+    "extended_industrialization:steam_chainsaw": {
+      "theme": "rustic",
+      "badges": [
+        "VAPORE"
+      ]
+    },
+    "extended_industrialization:ultimate_laser_drill": {
+      "theme": "lightning",
+      "badges": [
+        "LASER"
+      ]
+    },
+    "modern_industrialization:diamond_hammer": {
+      "theme": "iron",
+      "badges": [
+        "MARTELLO"
+      ]
+    },
+    "modern_industrialization:diesel_chainsaw": {
+      "theme": "rustic",
+      "badges": [
+        "DIESEL"
+      ]
+    },
+    "modern_industrialization:diesel_mining_drill": {
+      "theme": "rustic",
+      "badges": [
+        "DIESEL"
+      ]
+    },
+    "modern_industrialization:iron_hammer": {
+      "theme": "iron",
+      "badges": [
+        "MARTELLO"
+      ]
+    },
+    "modern_industrialization:netherite_hammer": {
+      "theme": "iron",
+      "badges": [
+        "MARTELLO"
+      ]
+    },
+    "modern_industrialization:quantum_boots": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "modern_industrialization:quantum_chestplate": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "modern_industrialization:quantum_helmet": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "modern_industrialization:quantum_leggings": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "modern_industrialization:quantum_sword": {
+      "theme": "cosmic",
+      "badges": [
+        "QUANTISTICO"
+      ]
+    },
+    "modern_industrialization:steam_mining_drill": {
+      "theme": "rustic",
+      "badges": [
+        "VAPORE"
+      ]
+    },
+    "modern_industrialization:steel_hammer": {
+      "theme": "iron",
+      "badges": [
+        "MARTELLO"
+      ]
+    },
+    "twilightforest:arctic_boots": {
+      "theme": "ice",
+      "badges": [
+        "ARTICO"
+      ]
+    },
+    "twilightforest:arctic_chestplate": {
+      "theme": "ice",
+      "badges": [
+        "ARTICO"
+      ]
+    },
+    "twilightforest:arctic_helmet": {
+      "theme": "ice",
+      "badges": [
+        "ARTICO"
+      ]
+    },
+    "twilightforest:arctic_leggings": {
+      "theme": "ice",
+      "badges": [
+        "ARTICO"
+      ]
+    },
+    "twilightforest:block_and_chain": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:diamond_minotaur_axe": {
+      "theme": "runic",
+      "badges": [
+        "MINOTAURO"
+      ]
+    },
+    "twilightforest:ender_bow": {
+      "theme": "amethyst",
+      "badges": [
+        "CREPUSCOLO"
+      ]
+    },
+    "twilightforest:fiery_boots": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:fiery_chestplate": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:fiery_helmet": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:fiery_leggings": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:fiery_pickaxe": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:fiery_sword": {
+      "theme": "ember",
+      "badges": [
+        "INFUOCATO"
+      ]
+    },
+    "twilightforest:giant_pickaxe": {
+      "theme": "stone",
+      "badges": [
+        "GIGANTE"
+      ]
+    },
+    "twilightforest:giant_sword": {
+      "theme": "stone",
+      "badges": [
+        "GIGANTE"
+      ]
+    },
+    "twilightforest:glass_sword": {
+      "theme": "diamond",
+      "badges": [
+        "CREPUSCOLO"
+      ]
+    },
+    "twilightforest:gold_minotaur_axe": {
+      "theme": "runic",
+      "badges": [
+        "MINOTAURO"
+      ]
+    },
+    "twilightforest:ice_bow": {
+      "theme": "ice",
+      "badges": [
+        "GHIACCIO"
+      ]
+    },
+    "twilightforest:ice_sword": {
+      "theme": "ice",
+      "badges": [
+        "GHIACCIO"
+      ]
+    },
+    "twilightforest:ironwood_axe": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_boots": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_chestplate": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_helmet": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_hoe": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_leggings": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_pickaxe": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_shovel": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:ironwood_sword": {
+      "theme": "rustic",
+      "badges": [
+        "IRONWOOD"
+      ]
+    },
+    "twilightforest:knightmetal_axe": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_boots": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_chestplate": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_helmet": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_leggings": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_pickaxe": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_shield": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:knightmetal_sword": {
+      "theme": "iron",
+      "badges": [
+        "KNIGHTMETAL"
+      ]
+    },
+    "twilightforest:mazebreaker_pickaxe": {
+      "theme": "runic",
+      "badges": [
+        "LABIRINTO"
+      ]
+    },
+    "twilightforest:naga_chestplate": {
+      "theme": "jade",
+      "badges": [
+        "NAGA"
+      ]
+    },
+    "twilightforest:naga_leggings": {
+      "theme": "jade",
+      "badges": [
+        "NAGA"
+      ]
+    },
+    "twilightforest:phantom_chestplate": {
+      "theme": "spectral",
+      "badges": [
+        "FANTASMA"
+      ]
+    },
+    "twilightforest:phantom_helmet": {
+      "theme": "spectral",
+      "badges": [
+        "FANTASMA"
+      ]
+    },
+    "twilightforest:seeker_bow": {
+      "theme": "runic",
+      "badges": [
+        "CREPUSCOLO"
+      ]
+    },
+    "twilightforest:steeleaf_axe": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_boots": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_chestplate": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_helmet": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_hoe": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_leggings": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_pickaxe": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_shovel": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:steeleaf_sword": {
+      "theme": "vine",
+      "badges": [
+        "STEELEAF"
+      ]
+    },
+    "twilightforest:travellers_belt": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:travellers_boots": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:travellers_gloves": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:travellers_goggles": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:travellers_vest": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:travellers_wings": {
+      "theme": "autumn",
+      "badges": [
+        "VIAGGIATORE"
+      ]
+    },
+    "twilightforest:triple_bow": {
+      "theme": "runic",
+      "badges": [
+        "CREPUSCOLO"
+      ]
+    },
+    "twilightforest:yeti_boots": {
+      "theme": "ice",
+      "badges": [
+        "YETI"
+      ]
+    },
+    "twilightforest:yeti_chestplate": {
+      "theme": "ice",
+      "badges": [
+        "YETI"
+      ]
+    },
+    "twilightforest:yeti_helmet": {
+      "theme": "ice",
+      "badges": [
+        "YETI"
+      ]
+    },
+    "twilightforest:yeti_leggings": {
+      "theme": "ice",
+      "badges": [
+        "YETI"
+      ]
+    }
+  }
+}

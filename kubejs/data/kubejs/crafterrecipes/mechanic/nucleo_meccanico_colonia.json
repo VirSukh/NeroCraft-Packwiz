@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "id": "modern_industrialization:motor"
+    },
+    {
+      "count": 2,
+      "id": "modern_industrialization:steel_gear"
+    },
+    {
+      "count": 2,
+      "id": "modern_industrialization:analog_circuit"
+    },
+    {
+      "count": 4,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "kubejs:nucleo_meccanico_colonia"
+  }
+}

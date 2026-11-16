@@ -1,0 +1,557 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "classi"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "spell_engine:spell_binding"
+	}
+	id: "327AE6C79D3E57CA"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"247577BE8F67F5E0"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			id: "7488A0AEECEDC30F"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4B131C0B206F27F8"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2113BCE970420EC1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "15D7B79A1E1DDD30"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "wizards:wand_arcane"
+			}
+			id: "152FED2C41BCFC5B"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "353B393537070181"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "75C328467224B199"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6B316B8C20E03125"
+					item: {
+						count: 1
+						id: "wizards:wand_arcane"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "wizards:wand_novice"
+			}
+			id: "13B1D5138B9C85F1"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5BE0BBFB2EE193B0"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "5C21A08293528A0F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "432252676E0996CC"
+					item: {
+						count: 1
+						id: "wizards:wand_novice"
+					}
+					type: "item"
+				}
+			]
+			x: -3.15d
+			y: -1.52d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "wizards:wand_frost"
+			}
+			id: "137D538D620A74C3"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "1858FD49BC842FA0"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					id: "62B1FA4A30B09896"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4B0ACBF775C264A8"
+					item: {
+						count: 1
+						id: "wizards:wand_frost"
+					}
+					type: "item"
+				}
+			]
+			x: -2.18d
+			y: -2.74d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "paladins:acolyte_wand"
+			}
+			id: "6EB373A2331C86FC"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7A4B3DC249E61F93"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "14F565353C80CFC1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1DEE870793E14C42"
+					item: {
+						count: 1
+						id: "paladins:acolyte_wand"
+					}
+					type: "item"
+				}
+			]
+			x: -0.78d
+			y: -3.41d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "paladins:stone_claymore"
+			}
+			id: "2DBF8CEBBFA78D61"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "19A4CE495714B765"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "4699486A7B5C3FA9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1B54CA2340B675D5"
+					item: {
+						count: 1
+						id: "paladins:stone_claymore"
+					}
+					type: "item"
+				}
+			]
+			x: 0.78d
+			y: -3.41d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "rogues:stone_double_axe"
+			}
+			id: "5EFD12F3E012F9AF"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "6CE92A6C79160D5E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "21260802C1B3BCA5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "41285D378EAD7F9F"
+					item: {
+						count: 1
+						id: "rogues:stone_double_axe"
+					}
+					type: "item"
+				}
+			]
+			x: 2.18d
+			y: -2.74d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "rogues:flint_dagger"
+			}
+			id: "68BB1F4B59054663"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "17B86217C96B54D5"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "6D57A29BE70FBF27"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "15ED4678BA8FE90D"
+					item: {
+						count: 1
+						id: "rogues:flint_dagger"
+					}
+					type: "item"
+				}
+			]
+			x: 3.15d
+			y: -1.52d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "archers:composite_longbow"
+			}
+			id: "740AB734FA1775FC"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "719ECF17432F0C9E"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "65833251523B075F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "50C90630360AE523"
+					item: {
+						count: 1
+						id: "archers:composite_longbow"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "spell_engine:spell_book"
+			}
+			id: "1643E44103B5D4F1"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7B0934C3ED191CA4"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "15A2F63E3A081910"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "171BF1310ABFC81E"
+					item: {
+						count: 1
+						id: "spell_engine:spell_binding"
+					}
+					type: "item"
+				}
+				{
+					id: "3229AFF9A627E235"
+					item: {
+						count: 1
+						id: "spell_engine:spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "runes:arcane_stone"
+			}
+			id: "4B31ABED01B2EAB1"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "205C2B833CBF817B"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3CF823A08016C42E"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "72B812FBD060A7F0"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4152466A2E6F59B1"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FA8FA89FD2BBB46"
+					item: {
+						count: 1
+						id: "runes:crafting_altar"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "2C99ADB5B910E82D"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4543BCD68148441A"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "75844940BD43E23D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2299C082A679AB1C"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7488A0AEECEDC30F"
+			]
+			icon: {
+				count: 1
+				id: "skill_tree_rpgs:orb_of_oblivion"
+			}
+			id: "7D78D9551790F5CE"
+			optional: true
+			rewards: [
+				{
+					id: "6EDE0CC5CE4218CA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "505E7459973CF4AB"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/classi.png"
+			order: 0
+			rotation: 0.0d
+			width: 4.062d
+			x: 0.0d
+			y: -4.6d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_equipaggiamento.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.433d
+			x: 0.0d
+			y: 3.6d
+		}
+	]
+}

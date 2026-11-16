@@ -1,0 +1,564 @@
+{
+  "capitolo": {
+    "id": "compagni",
+    "titolo": "Compagni",
+    "sottotitolo": "Cani, animali domestici, allevamento e natura selvaggia",
+    "icona": "doggytalents:training_treat",
+    "ordine": 19,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      { "texture": "nerocraft:textures/gui/quests/cap_compagni.png", "x": 3.75, "y": -2.6, "altezza": 1.0, "trasparenza": 255 },
+      { "texture": "nerocraft:textures/gui/quests/sez_compagni_cane.png", "x": 1.5, "y": -1.1, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_compagni_domestici.png", "x": 2.25, "y": 2.9, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_compagni_allevamento.png", "x": 1.5, "y": 6.6, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_compagni_natura.png", "x": 2.25, "y": 10.1, "altezza": 0.6, "trasparenza": 230 },
+      { "item": "doggytalents:kami_treat", "x": 7.5, "y": -0.9, "larghezza": 0.8, "altezza": 0.8, "trasparenza": 200, "dopo": "bocconcino_divino" }
+    ]
+  },
+  "quest": [
+    {
+      "id": "primo_allievo",
+      "titolo": "Il primo allievo",
+      "sottotitolo": "Da lupo a cane",
+      "descrizione": [
+        "Dai un &6Training Treat&r a un lupo addomesticato: diventa un cane di Doggy Talents.",
+        "Ogni bocconcino in più gli fa guadagnare esperienza e punti talento."
+      ],
+      "x": 0, "y": 0.6,
+      "icona": "doggytalents:training_treat",
+      "dipendenze": ["era_1_fondazione/miglior_amico"],
+      "forma": "hexagon",
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "doggytalents:dtn_core/train_dog" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "doggytalents:training_treat", "quantita": 2 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "primi_talenti",
+      "titolo": "Primi talenti",
+      "sottotitolo": "Ogni cane ha un mestiere",
+      "descrizione": [
+        "Apri il menu del cane e spendi i punti talento.",
+        "&6Pack Puppy&r porta oggetti, &6Guard Dog&r para i colpi, &6Hunter Dog&r caccia, &6Rescue Dog&r cura.",
+        "&aIn squadra, cani con talenti diversi si completano.&r"
+      ],
+      "x": 1.5, "y": 0,
+      "icona": "doggytalents:smarty_glasses",
+      "dipendenze": ["primo_allievo"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Il mio cane ha il primo talento" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bone", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "super_bocconcino",
+      "titolo": "Super bocconcino",
+      "sottotitolo": "Oltre il primo limite",
+      "descrizione": [
+        "Il &6Super Treat&r (5 Training Treat e una mela d'oro) fa crescere il cane oltre il livello base.",
+        "Più livelli, più punti talento."
+      ],
+      "x": 3, "y": 0,
+      "icona": "doggytalents:super_treat",
+      "dipendenze": ["primi_talenti"],
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:super_treat", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_beef", "quantita": 8 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "bocconcino_maestro",
+      "titolo": "Bocconcino del maestro",
+      "sottotitolo": "Un cane veterano",
+      "descrizione": [
+        "Il &6Master Treat&r si fa con 5 Super Treat e un diamante.",
+        "Porta il cane al grado più alto dei talenti."
+      ],
+      "x": 4.5, "y": 0,
+      "icona": "doggytalents:master_treat",
+      "dipendenze": ["super_bocconcino"],
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:master_treat", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 8 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "bocconcino_divino",
+      "titolo": "Bocconcino divino",
+      "sottotitolo": "Leggenda a quattro zampe",
+      "descrizione": [
+        "Il &6Kami Treat&r chiede 5 Master Treat e una pietra dell'End.",
+        "&7Facoltativa: un traguardo da veri addestratori.&r"
+      ],
+      "x": 6, "y": 0,
+      "icona": "doggytalents:kami_treat",
+      "dipendenze": ["bocconcino_maestro"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:kami_treat", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:name_tag", "quantita": 1 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "ciotola_e_cuccia",
+      "titolo": "Ciotola e cuccia",
+      "sottotitolo": "Una casa per il cane",
+      "descrizione": [
+        "La &6Ciotola&r sfama il cane da sola: riempila di cibo.",
+        "La &6Cuccia&r è il suo posto: lì torna e lì riposa."
+      ],
+      "x": 1.5, "y": 1.2,
+      "icona": "doggytalents:dog_bed",
+      "dipendenze": ["primo_allievo"],
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:food_bowl", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "doggytalents:dog_bed", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_chicken", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "fischietto",
+      "titolo": "Il fischietto",
+      "sottotitolo": "Seduto, vieni, attacca",
+      "descrizione": [
+        "Il &6Fischietto&r dà ordini a tutti i tuoi cani insieme.",
+        "Clic destro per usarlo, accovacciato per cambiare modalità."
+      ],
+      "x": 3, "y": 1.2,
+      "icona": "doggytalents:whistle",
+      "dipendenze": ["ciotola_e_cuccia"],
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:whistle", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bone", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "localizzatore",
+      "titolo": "Dov'è finito?",
+      "sottotitolo": "Collare radio e localizzatore",
+      "descrizione": [
+        "Metti un &6Collare radio&r al cane e usa il &6Localizzatore canino&r per ritrovarlo.",
+        "Utile quando il cane si perde lontano dalla colonia."
+      ],
+      "x": 4.5, "y": 1.2,
+      "icona": "doggytalents:canine_tracker",
+      "dipendenze": ["fischietto"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:radio_collar", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "doggytalents:canine_tracker", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:map", "quantita": 2 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "osso_da_lancio",
+      "titolo": "Riporta!",
+      "sottotitolo": "Un po' di gioco",
+      "descrizione": [
+        "Lancia l'&6Osso da lancio&r e il cane te lo riporta.",
+        "Un cane che gioca è un cane felice."
+      ],
+      "x": 6, "y": 1.2,
+      "icona": "doggytalents:throw_bone",
+      "dipendenze": ["fischietto"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "doggytalents:throw_bone", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bone", "quantita": 4 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "lupi_colorati",
+      "titolo": "Lupi di tutti i colori",
+      "sottotitolo": "Una tavolozza di zampe",
+      "descrizione": [
+        "Nei biomi del mondo vivono lupi dal manto insolito: cappuccino, glassa, corallo, ender...",
+        "Addomesticane uno diverso dal lupo grigio."
+      ],
+      "x": 7.5, "y": 0.6,
+      "icona": "dtnpaletteofpaws:wolf_charm",
+      "dipendenze": ["primo_allievo"],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Ho addomesticato un lupo dal manto raro" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bone", "quantita": 8 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "amici_a_quattro_zampe",
+      "titolo": "Amici a quattro zampe",
+      "sottotitolo": "Il primo animale tutto tuo",
+      "descrizione": [
+        "Addomestica un animale: lupo, gatto, pappagallo, cavallo...",
+        "Da qui parte tutto il resto del capitolo."
+      ],
+      "x": 0, "y": 4.6,
+      "icona": "minecraft:lead",
+      "dipendenze": ["era_1_fondazione/benvenuto"],
+      "forma": "hexagon",
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "minecraft:husbandry/tame_an_animal" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:lead", "quantita": 2 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "compagni_insoliti",
+      "titolo": "Compagni insoliti",
+      "sottotitolo": "Anche la mucca vuole un padrone",
+      "descrizione": [
+        "Con Tameable Animals molti animali vanilla diventano compagni: maiali, pecore, volpi, capre, panda...",
+        "Offri più volte il loro cibo preferito finché non compaiono i cuori.",
+        "Clic destro a mano vuota: resta qui o seguimi."
+      ],
+      "x": 1.5, "y": 4,
+      "icona": "minecraft:sweet_berries",
+      "dipendenze": ["amici_a_quattro_zampe"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Ho un compagno insolito" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:apple", "quantita": 8 },
+        { "tipo": "item", "item": "minecraft:sweet_berries", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "a_cavallo",
+      "titolo": "A cavallo",
+      "sottotitolo": "Più veloce dei piedi",
+      "descrizione": [
+        "Doma un cavallo salendoci sopra finché non si calma.",
+        "La sella non si crafta: cercala nei forzieri dei dungeon e dei villaggi.",
+        "Un guinzaglio tiene il cavallo legato alla staccionata."
+      ],
+      "x": 1.5, "y": 5.2,
+      "icona": "minecraft:saddle",
+      "dipendenze": ["amici_a_quattro_zampe"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "minecraft:saddle", "quantita": 1, "consuma": false },
+        { "tipo": "spunta", "titolo": "Ho cavalcato un cavallo sellato" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 6 },
+        { "tipo": "item", "item": "minecraft:hay_block", "quantita": 2 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "bagliore",
+      "titolo": "Un muschio volante",
+      "sottotitolo": "Il Glare delle caverne",
+      "descrizione": [
+        "Il &6Glare&r vive nelle caverne rigogliose e ama le bacche luminose.",
+        "Addomesticalo: ti segnala gli angoli bui dove nascono i mostri."
+      ],
+      "x": 3, "y": 4,
+      "icona": "minecraft:glow_berries",
+      "dipendenze": ["compagni_insoliti"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "friendsandfoes:husbandry/tame_a_glare" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:glow_berries", "quantita": 8 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "golem_di_rame",
+      "titolo": "Il golem di rame",
+      "sottotitolo": "Un piccolo aiutante",
+      "descrizione": [
+        "Costruisci un &6Golem di rame&r: blocco di rame, zucca intagliata e parafulmine in cima.",
+        "Gira per la colonia premendo i pulsanti di rame."
+      ],
+      "x": 3, "y": 5.2,
+      "icona": "minecraft:copper_block",
+      "dipendenze": ["a_cavallo"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "friendsandfoes:adventure/summon_copper_golem" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:copper_ingot", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "axolotl",
+      "titolo": "Un amico in secchio",
+      "sottotitolo": "Axolotl da guardia",
+      "descrizione": [
+        "Cattura un axolotl con un secchio d'acqua.",
+        "Liberato vicino a te, combatte i mostri acquatici al tuo fianco."
+      ],
+      "x": 4.5, "y": 4.6,
+      "icona": "minecraft:axolotl_bucket",
+      "dipendenze": ["bagliore"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "minecraft:husbandry/axolotl_in_a_bucket" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:tropical_fish_bucket", "quantita": 1 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "primo_allevamento",
+      "titolo": "Il primo allevamento",
+      "sottotitolo": "Due animali, un cucciolo",
+      "descrizione": [
+        "Dai da mangiare a due animali della stessa specie: nascerà un cucciolo.",
+        "Carne, lana e uova non finiscono mai."
+      ],
+      "x": 0, "y": 7.6,
+      "icona": "minecraft:wheat",
+      "dipendenze": ["amici_a_quattro_zampe"],
+      "forma": "hexagon",
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "minecraft:husbandry/breed_an_animal" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:wheat", "quantita": 16 },
+        { "tipo": "item", "item": "minecraft:carrot", "quantita": 8 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "recinti_della_colonia",
+      "titolo": "I recinti della colonia",
+      "sottotitolo": "Allevatori di mestiere",
+      "descrizione": [
+        "La colonia ha i suoi allevatori: &6Pastore&r, &6Mandriano&r, &6Porcaro&r, &6Pollaio&r e &6Conigliera&r.",
+        "Costruitene almeno uno: l'allevamento lo porta avanti un colono, non voi."
+      ],
+      "x": 1.5, "y": 7,
+      "icona": "minecolonies:blockhutshepherd",
+      "dipendenze": ["primo_allevamento", "era_1_fondazione/la_colonia"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La colonia ha un allevatore al lavoro" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:wheat_seeds", "quantita": 16 },
+        { "tipo": "item", "item": "minecraft:lead", "quantita": 2 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "due_di_tutto",
+      "titolo": "Due di tutto",
+      "sottotitolo": "L'arca della colonia",
+      "descrizione": [
+        "Fai nascere un cucciolo di ogni animale allevabile del gioco base.",
+        "&7Lunga: dividetevi le specie tra compagni.&r"
+      ],
+      "x": 3, "y": 7,
+      "icona": "minecraft:egg",
+      "dipendenze": ["recinti_della_colonia"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "minecraft:husbandry/bred_all_animals" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 16 },
+        { "tipo": "item", "item": "minecraft:name_tag", "quantita": 2 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "miele_al_sicuro",
+      "titolo": "Miele al sicuro",
+      "sottotitolo": "Senza punture",
+      "descrizione": [
+        "Metti un falò sotto l'alveare e raccogli il miele senza far arrabbiare le api."
+      ],
+      "x": 1.5, "y": 8.2,
+      "icona": "minecraft:honey_bottle",
+      "dipendenze": ["primo_allevamento"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "minecraft:husbandry/safely_harvest_honey" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:glass_bottle", "quantita": 8 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "apicoltore",
+      "titolo": "L'apicoltore",
+      "sottotitolo": "Miele per tutta la colonia",
+      "descrizione": [
+        "Costruisci la capanna dell'&6Apicoltore&r: un colono cura gli alveari e raccoglie miele e favi."
+      ],
+      "x": 3, "y": 8.2,
+      "icona": "minecolonies:blockhutbeekeeper",
+      "dipendenze": ["miele_al_sicuro", "era_1_fondazione/la_colonia"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "L'apicoltore è al lavoro" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:honeycomb", "quantita": 6 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "rete_da_cattura",
+      "titolo": "Rete da cattura",
+      "sottotitolo": "Il kit del naturalista",
+      "descrizione": [
+        "La &6Rete da cattura&r si fa con bambù e spago.",
+        "Serve a prendere farfalle, lucciole e altri piccoli animali."
+      ],
+      "x": 0, "y": 11.2,
+      "icona": "naturalist:capture_net",
+      "dipendenze": ["era_1_fondazione/benvenuto"],
+      "forma": "hexagon",
+      "compiti": [
+        { "tipo": "item", "item": "naturalist:capture_net", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:glass_bottle", "quantita": 4 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "farfalle",
+      "titolo": "Ali colorate",
+      "sottotitolo": "Farfalle nei prati",
+      "descrizione": [
+        "Cattura una farfalla con la rete.",
+        "Liberata vicino ai fiori, li impollina e li fa crescere."
+      ],
+      "x": 1.5, "y": 10.6,
+      "icona": "naturalist:butterfly",
+      "dipendenze": ["rete_da_cattura"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "naturalist:butterfly", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bone_meal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "selvaggina",
+      "titolo": "Selvaggina",
+      "sottotitolo": "Dal bosco alla dispensa",
+      "descrizione": [
+        "Cervi e cinghiali danno &6cacciagione&r e &6carne selvatica&r.",
+        "Sul tagliere di Farmer's Delight diventa strisce da cuocere in fornace, affumicatore o sul falò."
+      ],
+      "x": 3, "y": 10.6,
+      "icona": "farmerd_naturalist_compat:bushmeat_strips_cooked",
+      "dipendenze": ["farfalle"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "naturalist:venison", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "farmerd_naturalist_compat:bushmeat_strips_cooked", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "farmerd_naturalist_compat:deer_jerky", "quantita": 4 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "orso_goloso",
+      "titolo": "L'orso goloso",
+      "sottotitolo": "Un favo per fare pace",
+      "descrizione": [
+        "Lancia un favo a un orso: lo mangia e si calma.",
+        "&cGli orsi sono forti: meglio andarci in compagnia.&r"
+      ],
+      "x": 1.5, "y": 11.8,
+      "icona": "minecraft:honeycomb",
+      "dipendenze": ["rete_da_cattura"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "naturalist:husbandry/feed_bear_honeycomb" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:honey_bottle", "quantita": 4 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "ippopotamo",
+      "titolo": "Ippopotamo affamato",
+      "sottotitolo": "Anguria al fiume",
+      "descrizione": [
+        "Trova un ippopotamo vicino ai fiumi dei biomi caldi e dagli un'anguria."
+      ],
+      "x": 3, "y": 11.8,
+      "icona": "minecraft:melon_slice",
+      "dipendenze": ["orso_goloso"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "naturalist:husbandry/feed_hippo_melon" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:melon_slice", "quantita": 16 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "giraffa",
+      "titolo": "Panorama dall'alto",
+      "sottotitolo": "In groppa a una giraffa",
+      "descrizione": [
+        "Sali su una giraffa nella savana e apri una mappa da lassù.",
+        "&7Il modo più elegante di esplorare.&r"
+      ],
+      "x": 4.5, "y": 11.2,
+      "icona": "minecraft:map",
+      "dipendenze": ["ippopotamo"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "avanzamento", "avanzamento": "naturalist:husbandry/ride_giraffe_with_map" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:map", "quantita": 2 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    }
+  ]
+}

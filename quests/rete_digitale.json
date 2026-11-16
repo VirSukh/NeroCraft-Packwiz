@@ -1,0 +1,663 @@
+{
+  "capitolo": {
+    "id": "rete_digitale",
+    "titolo": "Rete Digitale",
+    "sottotitolo": "AE2 oltre le basi: canali, memoria, autocrafting e MEGA",
+    "icona": "ae2:fluix_smart_dense_cable",
+    "ordine": 13,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      { "texture": "nerocraft:textures/gui/quests/cap_rete_digitale.png", "x": 4.5, "y": -5.6, "altezza": 1.0, "trasparenza": 255 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_cavi.png", "x": -2.25, "y": -4, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_memoria.png", "x": -2.25, "y": -2, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_crafting.png", "x": -2.25, "y": 0, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_mega.png", "x": -2.25, "y": 2, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_spaziale.png", "x": -2.25, "y": 4, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_rete_digitale_colonia.png", "x": -2.25, "y": 6, "altezza": 0.6, "trasparenza": 230 }
+    ]
+  },
+  "quest": [
+    {
+      "id": "cavi_intelligenti",
+      "titolo": "Cavi intelligenti",
+      "sottotitolo": "Vedere i canali",
+      "descrizione": [
+        "Un cavo normale porta &e8 canali&r: ogni bus, terminale o interfaccia ne usa uno.",
+        "I cavi intelligenti si illuminano e mostrano quanti ne state usando.",
+        "La chiave di rete vi dice dove la rete si strozza."
+      ],
+      "x": 0, "y": -4,
+      "icona": "ae2:fluix_smart_cable",
+      "dipendenze": ["era_4_rete_digitale/energia_della_rete"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:fluix_smart_cable", "quantita": 16, "consuma": false },
+        { "tipo": "item", "item": "ae2:network_tool", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:certus_quartz_crystal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 80 }
+      ]
+    },
+    {
+      "id": "cavi_densi",
+      "titolo": "Cavi densi",
+      "sottotitolo": "32 canali in un tubo",
+      "descrizione": [
+        "Un cavo denso porta &e32 canali&r. Usatelo per la dorsale della base,",
+        "i cavi normali solo per le ultime diramazioni."
+      ],
+      "x": 1.5, "y": -4,
+      "icona": "ae2:fluix_smart_dense_cable",
+      "dipendenze": ["cavi_intelligenti"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:fluix_smart_dense_cable", "quantita": 8, "consuma": false },
+        { "tipo": "item", "item": "ae2:fluix_covered_dense_cable", "quantita": 8, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:fluix_crystal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "tunnel_p2p",
+      "titolo": "Tunnel P2P",
+      "sottotitolo": "Canali a distanza",
+      "descrizione": [
+        "Un tunnel P2P ME porta fino a 32 canali su un solo canale della rete.",
+        "Si collegano copiando le impostazioni con la scheda di memoria.",
+        "Con un'altra scheda si trasportano anche oggetti, fluidi e redstone."
+      ],
+      "x": 3, "y": -4,
+      "icona": "ae2:me_p2p_tunnel",
+      "dipendenze": ["cavi_densi"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:me_p2p_tunnel", "quantita": 2, "consuma": false },
+        { "tipo": "item", "item": "ae2:memory_card", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:redstone", "quantita": 32 },
+        { "tipo": "xp", "quantita": 120 }
+      ]
+    },
+    {
+      "id": "sottoreti",
+      "titolo": "Sottoreti",
+      "sottotitolo": "Reti dentro la rete",
+      "descrizione": [
+        "Una sottorete è una piccola rete separata, collegata alla principale",
+        "con un'&einterfaccia&r e un &ebus di stoccaggio&r.",
+        "Serve per isolare una fabbrica senza consumare i canali della rete grande."
+      ],
+      "x": 4.5, "y": -4,
+      "icona": "ae2:storage_bus",
+      "dipendenze": ["tunnel_p2p"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:interface", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:storage_bus", "quantita": 1, "consuma": false },
+        { "tipo": "spunta", "titolo": "Una sottorete funziona accanto alla rete principale" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:certus_quartz_crystal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "connettore_senza_fili",
+      "titolo": "Connettore senza fili",
+      "sottotitolo": "ExtendedAE",
+      "descrizione": [
+        "Il connettore senza fili di ExtendedAE unisce due punti della rete senza cavi.",
+        "Si assembla nell'assemblatore di cristalli e si accoppia con il suo attrezzo."
+      ],
+      "x": 6, "y": -4,
+      "icona": "extendedae:wireless_connect",
+      "dipendenze": ["sottoreti", "assemblatore_di_cristalli"],
+      "compiti": [
+        { "tipo": "item", "item": "extendedae:wireless_connect", "quantita": 2, "consuma": false },
+        { "tipo": "item", "item": "extendedae:wireless_tool", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:ender_pearl", "quantita": 8 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "collegamento_quantico",
+      "titolo": "Collegamento quantico",
+      "sottotitolo": "La rete ovunque",
+      "descrizione": [
+        "Due anelli quantici con una coppia di singolarità entangled uniscono",
+        "due reti in qualunque punto del mondo, anche in dimensioni diverse.",
+        "Entrambi i lati devono restare caricati."
+      ],
+      "x": 7.5, "y": -4,
+      "icona": "ae2:quantum_link",
+      "dipendenze": ["tunnel_p2p", "condensatore"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:quantum_ring", "quantita": 16, "consuma": false },
+        { "tipo": "item", "item": "ae2:quantum_link", "quantita": 2, "consuma": false },
+        { "tipo": "item", "item": "ae2:quantum_entangled_singularity", "quantita": 2, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:ender_dust", "quantita": 16 },
+        { "tipo": "xp", "quantita": 250 }
+      ]
+    },
+    {
+      "id": "terminale_universale",
+      "titolo": "Terminale universale",
+      "sottotitolo": "Un terminale per tutto",
+      "descrizione": [
+        "Il terminale universale senza fili riunisce crafting, modelli e accesso ai modelli.",
+        "Con la scheda ponte quantico funziona da qualsiasi distanza e dimensione."
+      ],
+      "x": 9, "y": -4,
+      "icona": "ae2wtlib:wireless_universal_terminal",
+      "dipendenze": ["collegamento_quantico", "era_4_rete_digitale/rete_senza_fili"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2wtlib:wireless_universal_terminal", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2wtlib:quantum_bridge_card", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 250 }
+      ]
+    },
+    {
+      "id": "celle_di_fluidi",
+      "titolo": "Celle di fluidi",
+      "sottotitolo": "Anche i liquidi in rete",
+      "descrizione": [
+        "Le celle di fluidi tengono vapore, oli e carburanti di Modern Industrialization.",
+        "Il serbatoio di pietra celeste è comodo per riempire secchi a mano."
+      ],
+      "x": 0, "y": -2,
+      "icona": "ae2:fluid_storage_cell_4k",
+      "dipendenze": ["era_4_rete_digitale/prima_memoria"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:fluid_storage_cell_4k", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:sky_stone_tank", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bucket", "quantita": 4 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "celle_grandi",
+      "titolo": "Celle grandi",
+      "sottotitolo": "Più spazio per tutti",
+      "descrizione": [
+        "Una cella da 64k tiene molto più di quattro celle piccole.",
+        "Il banco delle celle le partiziona: una cella per i minerali, una per i cibi della colonia..."
+      ],
+      "x": 1.5, "y": -2,
+      "icona": "ae2:item_storage_cell_64k",
+      "dipendenze": ["celle_di_fluidi"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:item_storage_cell_16k", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:item_storage_cell_64k", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:cell_workbench", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "cella_256k",
+      "titolo": "Cella da 256k",
+      "sottotitolo": "Il massimo di AE2",
+      "descrizione": [
+        "La cella più grande di AE2 base. Il suo componente servirà anche per le MEGA Cells."
+      ],
+      "x": 3, "y": -2,
+      "icona": "ae2:item_storage_cell_256k",
+      "dipendenze": ["celle_grandi"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:item_storage_cell_256k", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:fluid_storage_cell_64k", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:diamond", "quantita": 4 },
+        { "tipo": "xp", "quantita": 250 }
+      ]
+    },
+    {
+      "id": "condensatore",
+      "titolo": "Il condensatore",
+      "sottotitolo": "Dalla spazzatura alla singolarità",
+      "descrizione": [
+        "Il condensatore distrugge tutto quello che riceve e accumula energia.",
+        "Con una cella grande inserita produce le &esingolarità&r.",
+        "Una singolarità esplosa con polvere di ender dà la coppia entangled."
+      ],
+      "x": 4.5, "y": -2,
+      "icona": "ae2:condenser",
+      "dipendenze": ["celle_grandi"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:condenser", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:singularity", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cobblestone", "quantita": 64 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "terminale_dei_modelli",
+      "titolo": "Terminale dei modelli",
+      "sottotitolo": "Scrivere le ricette",
+      "descrizione": [
+        "Il terminale di codifica scrive i modelli, quello di accesso li gestisce tutti",
+        "da un'unica schermata. Il terminale di crafting vi serve per ExtendedAE."
+      ],
+      "x": 0, "y": 0,
+      "icona": "ae2:pattern_encoding_terminal",
+      "dipendenze": ["era_4_rete_digitale/autocrafting"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:pattern_encoding_terminal", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:pattern_access_terminal", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:crafting_terminal", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:blank_pattern", "quantita": 16, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:certus_quartz_crystal", "quantita": 32 },
+        { "tipo": "xp", "quantita": 120 }
+      ]
+    },
+    {
+      "id": "coprocessori",
+      "titolo": "Co-processori",
+      "sottotitolo": "CPU più grandi e più veloci",
+      "descrizione": [
+        "Gli acceleratori fanno lavorare la CPU di crafting su più passaggi insieme.",
+        "Il monitor mostra cosa sta facendo. Più memoria = ordini più grandi."
+      ],
+      "x": 1.5, "y": 0,
+      "icona": "ae2:crafting_accelerator",
+      "dipendenze": ["terminale_dei_modelli"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:crafting_accelerator", "quantita": 4, "consuma": false },
+        { "tipo": "item", "item": "ae2:crafting_monitor", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:16k_crafting_storage", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:redstone_block", "quantita": 8 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "memorie_di_crafting",
+      "titolo": "Memorie di crafting",
+      "sottotitolo": "Ordini enormi",
+      "descrizione": [
+        "Con 64k e 256k di memoria la rete può pianificare interi lotti di macchine",
+        "o i materiali di un edificio della colonia in un solo ordine."
+      ],
+      "x": 3, "y": 0,
+      "icona": "ae2:256k_crafting_storage",
+      "dipendenze": ["coprocessori"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:64k_crafting_storage", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:256k_crafting_storage", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "scorte_automatiche",
+      "titolo": "Scorte automatiche",
+      "sottotitolo": "La rete si rifornisce da sola",
+      "descrizione": [
+        "Un emettitore di livello con una scheda di crafting su un bus di esportazione",
+        "fabbrica qualcosa solo quando scende sotto una soglia.",
+        "Le schede velocità e capacità migliorano bus e interfacce."
+      ],
+      "x": 4.5, "y": 0,
+      "icona": "ae2:level_emitter",
+      "dipendenze": ["coprocessori"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:level_emitter", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:crafting_card", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:export_bus", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:speed_card", "quantita": 2, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:redstone", "quantita": 32 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "assemblatore_di_cristalli",
+      "titolo": "Assemblatore di cristalli",
+      "sottotitolo": "ExtendedAE",
+      "descrizione": [
+        "La macchina di ExtendedAE che fabbrica i suoi pezzi migliori.",
+        "Il processore concorrente nasce da una pressa nuova nell'incisore."
+      ],
+      "x": 6, "y": 0,
+      "icona": "extendedae:crystal_assembler",
+      "dipendenze": ["terminale_dei_modelli"],
+      "compiti": [
+        { "tipo": "item", "item": "extendedae:crystal_assembler", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "extendedae:concurrent_processor", "quantita": 2, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:fluix_crystal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "fornitore_esteso",
+      "titolo": "Fornitore esteso",
+      "sottotitolo": "Più modelli, meno blocchi",
+      "descrizione": [
+        "Il fornitore di modelli esteso tiene molti più modelli di quello base.",
+        "Perfetto davanti alle macchine di Modern Industrialization."
+      ],
+      "x": 7.5, "y": 0,
+      "icona": "extendedae:ex_pattern_provider",
+      "dipendenze": ["assemblatore_di_cristalli"],
+      "compiti": [
+        { "tipo": "item", "item": "extendedae:ex_pattern_provider", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "extendedae:ex_interface", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:blank_pattern", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "matrice_assemblatrice",
+      "titolo": "Matrice assemblatrice",
+      "sottotitolo": "Una fabbrica di crafting",
+      "descrizione": [
+        "La matrice è una struttura di ExtendedAE che sostituisce decine di assemblatori",
+        "molecolari. Telaio, pareti e vetro chiudono la struttura,",
+        "dentro vanno moduli per modelli, crafting e velocità."
+      ],
+      "x": 9, "y": 0,
+      "icona": "extendedae:assembler_matrix_frame",
+      "dipendenze": ["fornitore_esteso", "memorie_di_crafting"],
+      "compiti": [
+        { "tipo": "item", "item": "extendedae:assembler_matrix_frame", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "extendedae:assembler_matrix_pattern", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "extendedae:assembler_matrix_crafter", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "extendedae:assembler_matrix_speed", "quantita": 1, "consuma": false },
+        { "tipo": "spunta", "titolo": "La matrice è formata e lavora" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:lapis_lazuli", "quantita": 32 },
+        { "tipo": "xp", "quantita": 300 }
+      ]
+    },
+    {
+      "id": "acciaio_celeste",
+      "titolo": "Acciaio celeste",
+      "sottotitolo": "Il metallo di MEGA Cells",
+      "descrizione": [
+        "L'acciaio celeste è la base di tutte le MEGA Cells.",
+        "Si ottiene con una trasformazione nel mondo: guardate la ricetta in JEI."
+      ],
+      "x": 0, "y": 2,
+      "icona": "megacells:sky_steel_ingot",
+      "dipendenze": ["era_4_rete_digitale/processori"],
+      "compiti": [
+        { "tipo": "item", "item": "megacells:sky_steel_ingot", "quantita": 16, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:sky_dust", "quantita": 16 },
+        { "tipo": "xp", "quantita": 120 }
+      ]
+    },
+    {
+      "id": "processore_di_accumulo",
+      "titolo": "Processore di accumulo",
+      "sottotitolo": "Una nuova pressa",
+      "descrizione": [
+        "La pressa di accumulo si fabbrica nell'incisore e stampa il processore",
+        "che serve a celle, CPU e interfacce MEGA."
+      ],
+      "x": 1.5, "y": 2,
+      "icona": "megacells:accumulation_processor",
+      "dipendenze": ["acciaio_celeste"],
+      "compiti": [
+        { "tipo": "item", "item": "megacells:accumulation_processor_press", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "megacells:accumulation_processor", "quantita": 8, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:silicon", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "cella_1m",
+      "titolo": "Cella da 1M",
+      "sottotitolo": "Un milione di byte",
+      "descrizione": [
+        "Il primo gradino di MEGA Cells: quattro volte una 256k.",
+        "Poi vengono 4M, 16M, 64M e 256M: non c'è fretta."
+      ],
+      "x": 3, "y": 2,
+      "icona": "megacells:item_storage_cell_1m",
+      "dipendenze": ["processore_di_accumulo", "cella_256k"],
+      "compiti": [
+        { "tipo": "item", "item": "megacells:cell_component_1m", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "megacells:item_storage_cell_1m", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:diamond", "quantita": 8 },
+        { "tipo": "xp", "quantita": 300 }
+      ]
+    },
+    {
+      "id": "cpu_mega",
+      "titolo": "CPU MEGA",
+      "sottotitolo": "Crafting su larga scala",
+      "descrizione": [
+        "Le unità MEGA costruiscono CPU di crafting più compatte e potenti.",
+        "Una memoria da 1M basta per quasi tutto."
+      ],
+      "x": 4.5, "y": 2,
+      "icona": "megacells:mega_crafting_accelerator",
+      "dipendenze": ["processore_di_accumulo", "memorie_di_crafting"],
+      "compiti": [
+        { "tipo": "item", "item": "megacells:mega_crafting_unit", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "megacells:mega_crafting_accelerator", "quantita": 2, "consuma": false },
+        { "tipo": "item", "item": "megacells:1m_crafting_storage", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:redstone_block", "quantita": 16 },
+        { "tipo": "xp", "quantita": 300 }
+      ]
+    },
+    {
+      "id": "cella_massiva",
+      "titolo": "Cella massiva",
+      "sottotitolo": "Un solo oggetto, quantità infinita",
+      "descrizione": [
+        "La cella massiva tiene un solo tipo di oggetto, ma senza limite.",
+        "Con la scheda di compressione converte da sola lingotti, pepite e blocchi.",
+        "Ideale per il ciottolo o il minerale principale della colonia."
+      ],
+      "x": 6, "y": 2,
+      "icona": "megacells:bulk_item_cell",
+      "dipendenze": ["cella_1m", "pilone_spaziale"],
+      "compiti": [
+        { "tipo": "item", "item": "megacells:bulk_item_cell", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "megacells:compression_card", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:iron_ingot", "quantita": 32 },
+        { "tipo": "xp", "quantita": 300 }
+      ]
+    },
+    {
+      "id": "pilone_spaziale",
+      "titolo": "Piloni spaziali",
+      "sottotitolo": "Impacchettare lo spazio",
+      "descrizione": [
+        "La porta I/O spaziale, circondata da piloni, salva un intero volume del mondo",
+        "dentro una cella spaziale. Blocchi, macchine e contenuto compresi."
+      ],
+      "x": 0, "y": 4,
+      "icona": "ae2:spatial_io_port",
+      "dipendenze": ["era_4_rete_digitale/processori", "era_4_rete_digitale/prima_memoria"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:spatial_io_port", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "ae2:spatial_pylon", "quantita": 12, "consuma": false },
+        { "tipo": "item", "item": "ae2:spatial_storage_cell_2", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "ae2:fluix_crystal", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "trasloco",
+      "titolo": "Il trasloco",
+      "sottotitolo": "Una stanza in tasca",
+      "descrizione": [
+        "Con una cella da 16 si sposta una stanza intera: utile per spostare",
+        "una fabbrica senza smontarla. &cProvate prima con qualcosa di poco valore.&r"
+      ],
+      "x": 1.5, "y": 4,
+      "icona": "ae2:spatial_storage_cell_16",
+      "dipendenze": ["pilone_spaziale"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:spatial_storage_cell_16", "quantita": 1, "consuma": false },
+        { "tipo": "spunta", "titolo": "Abbiamo spostato una stanza con la porta I/O spaziale" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:ender_pearl", "quantita": 8 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "processori_in_serie",
+      "titolo": "Processori in serie",
+      "sottotitolo": "MI lavora per AE2",
+      "descrizione": [
+        "L'assemblatore di Modern Industrialization stampa i processori AE2 senza presse.",
+        "L'elettrolizzatore carica il certus, il miscelatore fa il fluix.",
+        "Mettete un fornitore di modelli davanti e la rete li ordina da sola."
+      ],
+      "x": 0, "y": 6,
+      "icona": "modern_industrialization:assembler",
+      "dipendenze": ["era_4_rete_digitale/assemblatore", "era_4_rete_digitale/processori"],
+      "compiti": [
+        { "tipo": "item", "item": "ae2:logic_processor", "quantita": 32, "consuma": false },
+        { "tipo": "item", "item": "ae2:calculation_processor", "quantita": 32, "consuma": false },
+        { "tipo": "item", "item": "ae2:engineering_processor", "quantita": 32, "consuma": false },
+        { "tipo": "item", "item": "ae2:charged_certus_quartz_crystal", "quantita": 16, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "modern_industrialization:steel_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "fili_me_industriali",
+      "titolo": "Fili ME e tunnel di energia",
+      "sottotitolo": "Una rete, due mod",
+      "descrizione": [
+        "Il filo ME di Modern Industrialization porta insieme energia EU e canali ME.",
+        "Il tunnel P2P di energia sposta EU attraverso la rete AE2."
+      ],
+      "x": 1.5, "y": 6,
+      "icona": "modern_industrialization:me_wire",
+      "dipendenze": ["processori_in_serie", "tunnel_p2p"],
+      "compiti": [
+        { "tipo": "item", "item": "modern_industrialization:me_wire", "quantita": 16, "consuma": false },
+        { "tipo": "item", "item": "modern_industrialization:energy_p2p_tunnel", "quantita": 2, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:copper_ingot", "quantita": 32 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "colonia_in_rete",
+      "titolo": "La colonia in rete",
+      "sottotitolo": "AE2Colonies al lavoro",
+      "descrizione": [
+        "Con il Terminale della Colonia le richieste dei coloni arrivano alla rete.",
+        "Mettete in rete ciò che chiedono più spesso: cibo, legna, pietra, attrezzi."
+      ],
+      "x": 3, "y": 6,
+      "icona": "ae2colonies:colony_terminal",
+      "dipendenze": ["era_4_rete_digitale/terminale_colonia"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Un Costruttore ha ricevuto i materiali dalla rete ME" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bread", "quantita": 32 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "richiedente",
+      "titolo": "Il Richiedente ME",
+      "sottotitolo": "Scorte sempre piene",
+      "descrizione": [
+        "Il Richiedente ordina alla rete di tenere sempre una quantità fissa di un oggetto.",
+        "Il terminale dei richiedenti li controlla tutti da un posto solo."
+      ],
+      "x": 4.5, "y": 6,
+      "icona": "merequester:requester",
+      "dipendenze": ["colonia_in_rete", "scorte_automatiche"],
+      "compiti": [
+        { "tipo": "item", "item": "merequester:requester", "quantita": 1, "consuma": false },
+        { "tipo": "item", "item": "merequester:requester_terminal", "quantita": 1, "consuma": false }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_beef", "quantita": 32 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "scorte_della_colonia",
+      "titolo": "Scorte della colonia",
+      "sottotitolo": "Nessun colono resta a mani vuote",
+      "descrizione": [
+        "Decidete insieme cosa la rete deve tenere sempre pronto per la colonia",
+        "e affidatelo ai richiedenti. Chi gestisce la rete tiene d'occhio le CPU."
+      ],
+      "x": 6, "y": 6,
+      "icona": "minecraft:bread",
+      "dipendenze": ["richiedente"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La rete tiene in scorta almeno 5 materiali per la colonia" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "farmersdelight:beef_stew", "quantita": 4 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "rete_completa",
+      "titolo": "&6&lLa rete completa&r",
+      "sottotitolo": "Il cervello della colonia",
+      "descrizione": [
+        "Canali, memoria enorme, crafting automatico e una colonia che si rifornisce da sola.",
+        "Ora la rete lavora per tutta la squadra."
+      ],
+      "x": 10.5, "y": 2,
+      "icona": "megacells:mega_crafting_unit",
+      "dipendenze": ["terminale_universale", "matrice_assemblatrice", "cpu_mega", "cella_massiva", "scorte_della_colonia", "fili_me_industriali", "trasloco"],
+      "forma": "gear",
+      "dimensione": 1.5,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La rete serve tutta la base e tutta la colonia" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 32 },
+        { "tipo": "item", "item": "minecraft:diamond", "quantita": 8 },
+        { "tipo": "xp", "quantita": 800 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Sfondo del menu (nerocraft_sfondo_flow.png): generato con Google Flow su prompt di NeroCraft.
+Sfondo di riserva (nerocraft_sfondo_pixel.png): basato su "Parallax Forest" di Luis Zuno (@ansimuz),
+licenza CC0 - https://opengameart.org/content/forest-background - ricolorato e modificato.
+Titolo, pannello, scritta "Era 1" e pulsanti: NeroCraft.
+Sfondo del caricamento (nerocraft_sfondo_caricamento.png): generato con Google Flow su prompt di NeroCraft.
+Musica del menu (nerocraft_musica_menu.ogg): "Cathedral in the forest (ambient loop)" di kimdagamer, licenza CC0 - https://opengameart.org/content/cathedral-in-the-forest-ambient-loop
+Suono dei pulsanti (nerocraft_hover.wav) e animazione delle lucciole (nerocraft_lucciole.apng): originali NeroCraft.

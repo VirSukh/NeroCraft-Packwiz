@@ -1,0 +1,2903 @@
+{
+  "capitolo": {
+    "id": "era_2_vapore",
+    "titolo": "Era 2 - Vapore",
+    "sottotitolo": "Dalla Caldaia di Bronzo all'Altoforno Elettrico",
+    "icona": "modern_industrialization:steam_blast_furnace",
+    "ordine": 2,
+    "gruppo": "ere",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/era_2.png",
+        "x": 9.0,
+        "y": -2.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_industria.png",
+        "x": 0.62,
+        "y": -1.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_officina.png",
+        "x": 0.52,
+        "y": 24.2,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_colonia.png",
+        "x": 0.72,
+        "y": 52.5,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_nether.png",
+        "x": 0.62,
+        "y": 55.3,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_equipaggiamento.png",
+        "x": 1.22,
+        "y": 58.1,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_cancello.png",
+        "x": 20.08,
+        "y": 0.75,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "vapore_in_pressione",
+      "titolo": "Vapore in pressione",
+      "sottotitolo": "Due fronti per una squadra",
+      "descrizione": [
+        "&7&oLa caldaia fischia: NeroCraft entra nell'età del vapore.&r",
+        "Meta dell'Era 2: l'&6Altoforno Elettrico&r. Chiede 4 Involucri d'Acciaio, 4 Mattoni Refrattari e un Lingotto di Ignitium, che lascia solo &cIgnis, boss del Nether&r.",
+        "&aDividetevi: chi resta all'industria, chi prepara la spedizione nel Nether.&r",
+        "FTB Ultimine ora è attivo: tieni premuto il tasto e scava un filone intero."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:bronze_boiler",
+      "dipendenze": [
+        "era_1_fondazione/caldaia_di_bronzo"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Abbiamo deciso chi fa cosa"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:guidebook",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "tubi_e_involucri",
+      "titolo": "Involucri e tubi",
+      "sottotitolo": "Lo scheletro di ogni macchina",
+      "descrizione": [
+        "&7&oIl cortile della colonia si riempie di tubi che sibilano.&r",
+        "&6Involucro di Bronzo&r: 8 piastre di bronzo e un ingranaggio di bronzo al centro. Ne serviranno molti, anche per i portelli delle strutture.",
+        "Tubi per fluidi: piastre curve di bronzo, rotori di rame e un pannello di vetro. Portano il vapore dalla caldaia alle macchine."
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:bronze_machine_casing",
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_machine_casing",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:fluid_pipe",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:wrench",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "macinatore_a_vapore",
+      "titolo": "Macinatore a Vapore",
+      "sottotitolo": "Polveri, e minerali raddoppiati",
+      "descrizione": [
+        "&7&oLa prima macina a vapore gira giorno e notte.&r",
+        "Due diamanti, tre ingranaggi di rame, un Involucro di Bronzo e tre tubi per fluidi.",
+        "Collegalo al vapore: macina il coke in polvere, i mattoni in polvere di mattone e i minerali grezzi con resa maggiore.",
+        "Senza la &6polvere di coke&r non c'è acciaio."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:bronze_macerator",
+      "dipendenze": [
+        "tubi_e_involucri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_macerator",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:raw_iron",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "forno_a_coke",
+      "titolo": "Forno a Coke",
+      "sottotitolo": "La prima struttura multiblocco",
+      "descrizione": [
+        "&7&oUn muro di mattoni anneriti: la prima vera fabbrica.&r",
+        "Controller: 8 mattoni (blocco) attorno a una fornace. Il resto della struttura è di mattoni: tieni in mano la &6Chiave inglese&r e vedrai l'ologramma.",
+        "Al posto di alcuni mattoni metti i portelli: un Involucro di Bronzo con una tramoggia per gli oggetti, con un Serbatoio di Bronzo per il vapore.",
+        "Carbone dentro, coke fuori."
+      ],
+      "x": 4.0,
+      "y": 16.5,
+      "icona": "modern_industrialization:coke_oven",
+      "dipendenze": [
+        "tubi_e_involucri"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:coke",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "argilla_refrattaria",
+      "titolo": "Argilla refrattaria",
+      "sottotitolo": "Mattoni che reggono il calore",
+      "descrizione": [
+        "&7&oI mattonai della colonia imparano un impasto nuovo.&r",
+        "Macina mattoni (anche in blocco) in polvere di mattone. Al banco: 2 palle d'argilla e 2 polveri di mattone danno 3 polveri d'argilla refrattaria.",
+        "Cuocile in fornace: Mattone Refrattario. Quattro fanno un blocco di Mattoni Refrattari.",
+        "Tieni da parte &64 Mattoni Refrattari sciolti&r: li chiede l'Altoforno Elettrico."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:fire_clay_bricks",
+      "dipendenze": [
+        "macinatore_a_vapore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:fire_clay_bricks",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:clay_ball",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "altoforno_a_vapore",
+      "titolo": "Altoforno a Vapore",
+      "sottotitolo": "Dove nasce l'acciaio",
+      "descrizione": [
+        "&7&oLe fiamme dell'altoforno si vedono dal Municipio.&r",
+        "Controller: un altoforno circondato da 8 blocchi di &6Mattoni Refrattari&r.",
+        "La struttura è tutta di Mattoni Refrattari, con i portelli di bronzo per oggetti e vapore. Ne servono molti: l'ologramma della Chiave inglese mostra quanti."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:steam_blast_furnace",
+      "dipendenze": [
+        "argilla_refrattaria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steam_blast_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "acciaio",
+      "titolo": "Acciaio",
+      "sottotitolo": "Ferro più coke, tanto calore",
+      "descrizione": [
+        "&7&oIl primo lingotto d'acciaio passa di mano in mano.&r",
+        "Al banco: 7 polveri di ferro e 2 polveri di coke danno 7 Polveri d'Acciaio Grezzo.",
+        "Cuocile nell'Altoforno a Vapore: ogni polvere diventa un &6lingotto d'acciaio&r.",
+        "Per l'Altoforno Elettrico ne serviranno una sessantina: &atenete acceso il forno&r."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:steel_ingot",
+      "dipendenze": [
+        "altoforno_a_vapore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_ingot",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:coal_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "involucri_d_acciaio",
+      "titolo": "Involucri d'Acciaio",
+      "sottotitolo": "Quattro per l'Altoforno Elettrico",
+      "descrizione": [
+        "&7&oL'officina è pronta. Manca solo il fuoco.&r",
+        "Come quello di bronzo: 8 piastre d'acciaio e un &6ingranaggio d'acciaio&r al centro.",
+        "L'ingranaggio chiede 4 piastre, 4 bulloni e un anello: tutto dal Martello da Forgia.",
+        "Prepara anche i 4 Mattoni Refrattari sciolti. Manca solo l'Ignitium."
+      ],
+      "x": 16.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:steel_machine_casing",
+      "dipendenze": [
+        "steel_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_machine_casing",
+          "quantita": 4
+        },
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:fire_clay_brick",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:mixed_salad",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 150
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "altoforno_elettrico",
+      "titolo": "&6&lAltoforno Elettrico&r",
+      "sottotitolo": "Il fuoco di Ignis apre l'Era 3",
+      "descrizione": [
+        "&7&oIl fuoco di Ignis chiuso in un cuore d'acciaio.&r",
+        "Al banco: &6Lingotto di Ignitium&r al centro, 4 Involucri d'Acciaio ai lati, 4 Mattoni Refrattari negli angoli.",
+        "Appena qualcuno lo ottiene, &atutta la squadra entra nell'Era 3&r.",
+        "Per farlo funzionare servono elettricità e bobine: è il lavoro della prossima era."
+      ],
+      "x": 18.0,
+      "y": 0.75,
+      "icona": "modern_industrialization:electric_blast_furnace",
+      "dipendenze": [
+        "involucri_d_acciaio"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:electric_blast_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ],
+      "sezione": "sez_cancello"
+    },
+    {
+      "id": "rotta_per_il_nether",
+      "titolo": "Rotta per il Nether",
+      "sottotitolo": "Il fronte di fuoco",
+      "descrizione": [
+        "&7&oIl portale si accende. Dall'altra parte, caldo e silenzio.&r",
+        "Costruite un portale di ossidiana ed &aentrate insieme&r.",
+        "&cI mostri si rafforzano con le ere e col passare del tempo&r: armature buone, cibo, blocchi da costruzione e pozioni di resistenza al fuoco."
+      ],
+      "x": 0.0,
+      "y": 56.4,
+      "icona": "minecraft:obsidian",
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "compiti": [
+        {
+          "tipo": "dimensione",
+          "dimensione": "minecraft:the_nether"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_nether",
+      "nascondi_linee": true
+    },
+    {
+      "id": "arena_ardente",
+      "titolo": "L'Arena Ardente",
+      "sottotitolo": "La casa di Ignis",
+      "descrizione": [
+        "&7&oGli esploratori tornano parlando di un'arena di pietra nera.&r",
+        "Ignis vive in una grande arena di pietra nera, nelle Lande del Nether (Nether Wastes).",
+        "&aEsplorate in gruppo e segnate la posizione sulla mappa per chi arriva dopo.&r"
+      ],
+      "x": 2.0,
+      "y": 56.4,
+      "icona": "cataclysm:altar_of_fire",
+      "dipendenze": [
+        "rotta_per_il_nether"
+      ],
+      "compiti": [
+        {
+          "tipo": "avanzamento",
+          "avanzamento": "cataclysm:find_burning_arena"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_porkchop",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_nether"
+    },
+    {
+      "id": "ceneri_ardenti",
+      "titolo": "Ceneri Ardenti",
+      "sottotitolo": "La chiave per svegliarlo",
+      "descrizione": [
+        "&7&oTra le rovine qualcosa brucia ancora.&r",
+        "Nell'arena si aggira il &cRevenant Infuocato&r: abbattetelo e lascia le &6Ceneri Ardenti&r.",
+        "Le Ceneri, posate sull'Altare del Fuoco, risvegliano Ignis. &cNon usatele finché la squadra non è pronta.&r"
+      ],
+      "x": 4.0,
+      "y": 56.4,
+      "icona": "cataclysm:burning_ashes",
+      "dipendenze": [
+        "arena_ardente"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignited_revenant",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:burning_ashes",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 1
+        },
+        {
+          "tipo": "xp",
+          "quantita": 120
+        }
+      ],
+      "sezione": "sez_nether"
+    },
+    {
+      "id": "squadra_d_assalto",
+      "titolo": "Squadra d'assalto",
+      "sottotitolo": "Ignis si batte in gruppo",
+      "descrizione": [
+        "&7&oSi affilano le armi e si contano le pozioni.&r",
+        "Ignis è pensato per tutta la squadra: &adecidete chi lo tiene impegnato, chi cura e chi colpisce da lontano&r.",
+        "&cDiventa più forte in ogni era e dopo ogni uccisione&r: affrontarlo ora costa meno che dopo.",
+        "Riparate le armature, portate cibo e pozioni, piazzate un letto o una waystone vicino all'arena."
+      ],
+      "x": 6.0,
+      "y": 56.4,
+      "icona": "minecraft:shield",
+      "dipendenze": [
+        "ceneri_ardenti"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Ruoli decisi, equipaggiamento pronto"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_nether"
+    },
+    {
+      "id": "ignis",
+      "titolo": "Ignis",
+      "sottotitolo": "Il fuoco che forgia l'Ignitium",
+      "descrizione": [
+        "&7&oIl giorno in cui NeroCraft sfidò il fuoco.&r",
+        "Posate le Ceneri Ardenti sull'Altare del Fuoco e &acombattete insieme&r.",
+        "Ignis lascia &6Lingotti di Ignitium&r: per l'Altoforno Elettrico ne basta uno, gli altri conservateli nelle casse comuni.",
+        "&6Gettoni:&r ogni giocatore entro 64 blocchi riceve &e3 gettoni&r alla prima uccisione di questo boss, &e1&r alle successive."
+      ],
+      "x": 8.0,
+      "y": 56.4,
+      "icona": "cataclysm:ignitium_ingot",
+      "dipendenze": [
+        "squadra_d_assalto"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignis",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_ingot",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ],
+      "sezione": "sez_nether"
+    },
+    {
+      "id": "falegname_e_tagliapietre",
+      "titolo": "Falegname e Tagliapietre",
+      "sottotitolo": "La colonia prepara l'Era 3",
+      "descrizione": [
+        "&7&oLa colonia guarda già oltre il vapore.&r",
+        "Nell'Era 3 l'industria avrà bisogno della colonia: il &6Falegname&r (livello 2) farà i Telai Rinforzati, il &6Tagliapietre&r (livello 3) i Pannelli Termoisolanti.",
+        "Fateli costruire e migliorare adesso: tenete pieno il tesoro di ColonyBucks e il Magazzino di materiali."
+      ],
+      "x": 0.0,
+      "y": 53.6,
+      "icona": "minecolonies:blockhutsawmill",
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Il Falegname è al livello 2"
+        },
+        {
+          "tipo": "spunta",
+          "titolo": "Il Tagliapietre è costruito"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_log",
+          "quantita": 64
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:stone_bricks",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_colonia",
+      "nascondi_linee": true
+    },
+    {
+      "id": "zaino_di_rame",
+      "titolo": "Gettoni dello Zaino",
+      "sottotitolo": "Il primo spazio in più",
+      "descrizione": [
+        "Lo Zaino non si potenzia al banco: slot e alloggiamenti si sbloccano con i &egettoni&r, e i gettoni li lasciano solo i boss.",
+        "Sconfiggete &6la Naga&r del Bosco del Crepuscolo, il primo boss alla vostra portata: ognuno di voi entro 64 blocchi riceve &e3 gettoni&r la prima volta, &e1&r le successive.",
+        "&7Costi: &e1 gettone&7 per slot (36 da sbloccare oltre ai 9 iniziali, fino a 9x5); alloggiamenti per potenziamenti &e2/3/4/5&7 gettoni.&r",
+        "&7I gettoni sono legati a chi li riceve: non si scambiano.&r"
+      ],
+      "x": 0.0,
+      "y": 59.2,
+      "icona": "backpacked:unlock_token",
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "twilightforest:naga",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:torch",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_equipaggiamento",
+      "nascondi_linee": true
+    },
+    {
+      "id": "rete_di_waystone",
+      "titolo": "Una rete di waystone",
+      "sottotitolo": "Colonia, miniera, portale",
+      "descrizione": [
+        "La &6Pietra di Curvatura&r ora si fa: ametista, piastre di bronzo, perle di ender e uno smeraldo.",
+        "Waystone: Pietra di Curvatura, mattoni di pietra e ossidiana. &aMettetene una alla colonia e una al portale del Nether.&r",
+        "Anche le pergamene di ritorno usano pepite di bronzo."
+      ],
+      "x": 2.0,
+      "y": 62.2,
+      "icona": "waystones:waystone",
+      "dipendenze": [
+        "zaino_di_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "waystones:waystone",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_pearl",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "compressore_a_vapore",
+      "titolo": "Compressore a Vapore",
+      "sottotitolo": "Una piastra per lingotto",
+      "descrizione": [
+        "Il Martello da Forgia chiede 2 lingotti per piastra; il &6Compressore&r solo 1.",
+        "Con le decine di piastre d'acciaio dell'Altoforno Elettrico, dimezza la fatica."
+      ],
+      "x": 4.0,
+      "y": 15.0,
+      "icona": "modern_industrialization:bronze_compressor",
+      "dipendenze": [
+        "tubi_e_involucri"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_compressor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:copper_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "primo_volo",
+      "titolo": "Primo volo",
+      "sottotitolo": "Bronzo che vola",
+      "descrizione": [
+        "Gli aerei usano il bronzo: scafo con piastre di bronzo, elica con piastre e rotore di bronzo.",
+        "Il &6Girodino&r è il più semplice: due vele, due scafi e un'elica, niente motore.",
+        "Biplano e dirigibile da carico arriveranno con l'acciaio."
+      ],
+      "x": 2.0,
+      "y": 60.7,
+      "icona": "immersive_aircraft:gyrodyne",
+      "dipendenze": [
+        "zaino_di_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "immersive_aircraft:gyrodyne",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:white_carpet",
+          "quantita": 12
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "bussola_dell_esploratore",
+      "titolo": "Bussola dell'Esploratore",
+      "sottotitolo": "Trova qualsiasi struttura",
+      "descrizione": [
+        "Piastre d'acciaio, mattoni di pietra crepati e una bussola.",
+        "Scegli una struttura e la bussola ti guida: funziona anche nel Nether, per esempio per l'&6Arena di Ignis&r."
+      ],
+      "x": 2.0,
+      "y": 59.2,
+      "icona": "explorerscompass:explorerscompass",
+      "dipendenze": [
+        "zaino_di_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "explorerscompass:explorerscompass",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bread",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "zaino_di_ferro",
+      "titolo": "Il primo alloggiamento",
+      "sottotitolo": "Gettoni dal fuoco",
+      "descrizione": [
+        "Lo Zaino non si potenzia al banco: slot e alloggiamenti si sbloccano con i &egettoni&r, e i gettoni li lasciano solo i boss.",
+        "Sconfiggete &6Ignis&r: ognuno di voi entro 64 blocchi riceve &e3 gettoni&r la prima volta, &e1&r le successive.",
+        "&7Costi: &e1 gettone&7 per slot (36 da sbloccare oltre ai 9 iniziali, fino a 9x5); alloggiamenti per potenziamenti &e2/3/4/5&7 gettoni.&r",
+        "&7I gettoni sono legati a chi li riceve: non si scambiano.&r"
+      ],
+      "x": 2.0,
+      "y": 63.7,
+      "icona": "backpacked:unlock_token",
+      "dipendenze": [
+        "zaino_di_rame"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignis",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 60
+        }
+      ],
+      "sezione": "sez_equipaggiamento"
+    },
+    {
+      "id": "primo_telaio",
+      "titolo": "Il primo Telaio",
+      "sottotitolo": "Acciaio e legno, lavoro della colonia",
+      "descrizione": [
+        "Il &6Telaio Strutturale Rinforzato&r non si fa al banco: lo fa il Falegname di livello 2, con 4 piastre d'acciaio e un Timberframe dinamico (Architect's Cutter).",
+        "Nel Magazzino, scheda Scorta minima, chiedi il Telaio e metti i materiali negli scaffali. Servirà nell'Era 3."
+      ],
+      "x": 12.0,
+      "y": 9.0,
+      "icona": "kubejs:telaio_strutturale_rinforzato",
+      "dipendenze": [
+        "acciaio"
+      ],
+      "opzionale": true,
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "kubejs:telaio_strutturale_rinforzato",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:oak_planks",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_industria"
+    },
+    {
+      "id": "raw_silver",
+      "titolo": "Argento grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Materia prima da scavare: serve per ottenere i lingotti d'argento, quindi conviene raccoglierne fin da subito.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Lingotto d'argento"
+      ],
+      "x": 0.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:raw_silver",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_silver",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "raw_nickel",
+      "titolo": "Nichel grezzo",
+      "sottotitolo": "Materia prima",
+      "descrizione": [
+        "Materia prima da scavare: il nichel serve per la polvere di nichel, che entra nella lega invar.",
+        "&7Si trova nel mondo: scava, esplora o raccogli.",
+        "&7Serve per:&r Polvere di nichel"
+      ],
+      "x": 2.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:raw_nickel",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:raw_nickel",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 10
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "silver_ingot",
+      "titolo": "Lingotto d'argento",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Si ottiene fondendo l'argento grezzo in fornace: base per le lastre d'argento.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Argento grezzo",
+        "&7Serve per:&r Lastra d'argento"
+      ],
+      "x": 2.0,
+      "y": 43.3,
+      "icona": "modern_industrialization:silver_ingot",
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silver_ingot",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bricks",
+      "titolo": "Mattoni",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Mattoni di argilla cotta: ne servono in grande quantità per il forno a coke e per la polvere di mattone.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Mattone",
+        "&7Serve per:&r Forno a coke"
+      ],
+      "x": 2.0,
+      "y": 18.0,
+      "icona": "minecraft:bricks",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:bricks",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "copper_curved_plate",
+      "titolo": "Lastra curva di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra di rame piegata con il maglio: primo passo per la lama di rame.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di rame",
+        "&7Serve per:&r Lama di rame"
+      ],
+      "x": 2.0,
+      "y": 41.8,
+      "icona": "modern_industrialization:copper_curved_plate",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_curved_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "copper_bolt",
+      "titolo": "Bullone di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Piccolo componente di rame ricavato al maglio: ne servono parecchi per ingranaggi e rotori.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di rame",
+        "&7Serve per:&r Ingranaggio di rame, Rotore di rame"
+      ],
+      "x": 2.0,
+      "y": 50.8,
+      "icona": "modern_industrialization:copper_bolt",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_bolt",
+          "quantita": 12
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "copper_ring",
+      "titolo": "Anello di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Anello di rame ricavato al maglio: uno per ogni ingranaggio o rotore di rame.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di rame",
+        "&7Serve per:&r Ingranaggio di rame, Rotore di rame"
+      ],
+      "x": 2.0,
+      "y": 37.3,
+      "icona": "modern_industrialization:copper_ring",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_ring",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "coal_dust",
+      "titolo": "Polvere di carbone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere ottenuta dal carbone: il primo passo della catena che porta alla polvere di coke.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Minerale di carbone",
+        "&7Serve per:&r Polvere di coke"
+      ],
+      "x": 2.0,
+      "y": 22.5,
+      "icona": "modern_industrialization:coal_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:coal_dust",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "barrel",
+      "titolo": "Barile",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Barile di legno da usare come base per il barile di bronzo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Assi di acacia, 2x Lastra di acacia",
+        "&7Serve per:&r Barile di bronzo"
+      ],
+      "x": 2.0,
+      "y": 44.8,
+      "icona": "minecraft:barrel",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:barrel",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 20
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "brick_dust",
+      "titolo": "Polvere di mattone",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Mattone macinato: serve per l'argilla refrattaria, che regge il calore delle macchine a vapore.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Mattone",
+        "&7Serve per:&r Polvere di argilla refrattaria"
+      ],
+      "x": 2.0,
+      "y": 19.5,
+      "icona": "modern_industrialization:brick_dust",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:brick_dust",
+          "quantita": 24
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 25
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "blast_furnace",
+      "titolo": "Forno fusorio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Forno fusorio vanilla: è il punto di partenza per il forno fusorio a vapore, che si costruisce con questo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Lingotto di ferro, 1x Fornace, 3x Pietra liscia",
+        "&7Serve per:&r Forno fusorio a vapore"
+      ],
+      "x": 2.0,
+      "y": 21.0,
+      "icona": "minecraft:blast_furnace",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blast_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "dipendenze": [
+        "vapore_in_pressione"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "coke_oven",
+      "titolo": "Forno a coke",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che trasforma il carbone in polvere di coke, indispensabile per l'acciaio. Conviene costruirne subito uno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 8x Mattoni, 1x Fornace",
+        "&7Serve per:&r Polvere di coke"
+      ],
+      "x": 4.0,
+      "y": 18.0,
+      "icona": "modern_industrialization:coke_oven",
+      "dipendenze": [
+        "bricks"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:coke_oven",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "fire_clay_dust",
+      "titolo": "Polvere di argilla refrattaria",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere di argilla che resiste al calore: serve per i mattoni refrattari delle caldaie e delle fornaci.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Zolla di argilla, 2x Polvere di mattone",
+        "&7Serve per:&r Mattoni di argilla refrattaria"
+      ],
+      "x": 4.0,
+      "y": 19.5,
+      "icona": "modern_industrialization:fire_clay_dust",
+      "dipendenze": [
+        "brick_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:fire_clay_dust",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "coke_dust",
+      "titolo": "Polvere di coke",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Coke macinato: uno degli ingredienti dell'acciaio crudo. Lo produce il forno a coke.",
+        "&7Si fa con:&r Forno a coke",
+        "&7Ingredienti:&r 1x Polvere di carbone",
+        "&7Serve per:&r Polvere di acciaio crudo"
+      ],
+      "x": 6.0,
+      "y": 18.0,
+      "icona": "modern_industrialization:coke_dust",
+      "dipendenze": [
+        "coke_oven"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:coke_dust",
+          "quantita": 10
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "copper_blade",
+      "titolo": "Lama di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lama di rame per il rotore di rame. Preparatene in serie, perché ne servono diverse.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Lastra curva di rame, 1x Asta di rame",
+        "&7Serve per:&r Rotore di rame"
+      ],
+      "x": 4.0,
+      "y": 41.8,
+      "icona": "modern_industrialization:copper_blade",
+      "dipendenze": [
+        "copper_curved_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_blade",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 30
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "copper_gear",
+      "titolo": "Ingranaggio di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingranaggio di rame: è uno dei componenti base di molte macchine di bronzo. Conviene averne una piccola scorta.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra di rame, 4x Bullone di rame, 1x Anello di rame",
+        "&7Serve per:&r Macinatore di bronzo, Compressore di bronzo, Macchina da taglio di bronzo, Miscelatore di bronzo e altro"
+      ],
+      "x": 4.0,
+      "y": 37.3,
+      "icona": "modern_industrialization:copper_gear",
+      "dipendenze": [
+        "copper_ring"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_gear",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 40
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "copper_rotor",
+      "titolo": "Rotore di rame",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Rotore di rame: parte meccanica per tubi per fluidi e miscelatori di bronzo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Bullone di rame, 4x Lama di rame, 1x Anello di rame",
+        "&7Serve per:&r Tubo per fluidi, Miscelatore di bronzo"
+      ],
+      "x": 6.0,
+      "y": 41.8,
+      "icona": "modern_industrialization:copper_rotor",
+      "dipendenze": [
+        "copper_blade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:copper_rotor",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 55
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_ring",
+      "titolo": "Anello di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Anello di bronzo ricavato al maglio: entra nel rotore e nell'ingranaggio di bronzo.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di bronzo",
+        "&7Serve per:&r Rotore di bronzo, Ingranaggio di bronzo"
+      ],
+      "x": 2.0,
+      "y": 46.3,
+      "icona": "modern_industrialization:bronze_ring",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_ring",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 65
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bronze_bolt",
+      "titolo": "Bullone di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Bullone di bronzo ricavato al maglio: ne servono quattro per ogni ingranaggio o rotore di bronzo.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di bronzo",
+        "&7Serve per:&r Rotore di bronzo, Ingranaggio di bronzo"
+      ],
+      "x": 2.0,
+      "y": 47.8,
+      "icona": "modern_industrialization:bronze_bolt",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_bolt",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 65
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bronze_curved_plate",
+      "titolo": "Lastra curva di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra di bronzo piegata al maglio: base per tubi per fluidi, tubi per oggetti e lame di bronzo.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto di bronzo",
+        "&7Serve per:&r Tubo per fluidi, Tubo per oggetti, Lama di bronzo"
+      ],
+      "x": 2.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:bronze_curved_plate",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_curved_plate",
+          "quantita": 6
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 65
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bronze_tank",
+      "titolo": "Serbatoio di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Serbatoio di bronzo per i fluidi: utile nelle prime linee a vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 8x Lastra di bronzo, 1x Vetro"
+      ],
+      "x": 2.0,
+      "y": 49.3,
+      "icona": "modern_industrialization:bronze_tank",
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_tank",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 70
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "dipendenze": [
+        "raw_silver"
+      ],
+      "rifinita": true
+    },
+    {
+      "id": "bronze_barrel",
+      "titolo": "Barile di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Barile di bronzo per conservare fluidi, derivato dal barile di legno.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 8x Lastra di bronzo, 1x Barile"
+      ],
+      "x": 4.0,
+      "y": 44.8,
+      "icona": "modern_industrialization:bronze_barrel",
+      "dipendenze": [
+        "barrel"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_barrel",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 80
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_furnace",
+      "titolo": "Fornace di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Fornace rinforzata con bronzo e mattoni refrattari: una delle prime macchine automatiche della linea del vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Lastra di bronzo, 1x Fornace, 3x Mattoni di argilla refrattaria"
+      ],
+      "x": 8.0,
+      "y": 12.0,
+      "icona": "modern_industrialization:bronze_furnace",
+      "dipendenze": [
+        "argilla_refrattaria"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_blade",
+      "titolo": "Lama di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lama di bronzo per il rotore di bronzo: si fa con le lastre curve.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Lastra curva di bronzo, 1x Asta di bronzo",
+        "&7Serve per:&r Rotore di bronzo"
+      ],
+      "x": 4.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:bronze_blade",
+      "dipendenze": [
+        "bronze_curved_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_blade",
+          "quantita": 8
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "uncooked_steel_dust",
+      "titolo": "Polvere di acciaio crudo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Miscela di ferro e coke che va cotta per diventare acciaio. È il passaggio obbligato per il lingotto d'acciaio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 7x Polvere di ferro, 2x Polvere di coke",
+        "&7Serve per:&r Lingotto d'acciaio"
+      ],
+      "x": 8.0,
+      "y": 18.0,
+      "icona": "modern_industrialization:uncooked_steel_dust",
+      "dipendenze": [
+        "coke_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:uncooked_steel_dust",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_plate",
+      "titolo": "Lastra d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra di acciaio ricavata al maglio: ingrediente di quasi tutte le macchine d'acciaio. Ne servono tante, conviene prepararne una scorta.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto d'acciaio",
+        "&7Serve per:&r Carcassa per macchine d'acciaio, Ingranaggio d'acciaio, Lastra grande d'acciaio, Caldaia d'acciaio e altro"
+      ],
+      "x": 12.0,
+      "y": 4.5,
+      "icona": "modern_industrialization:steel_plate",
+      "dipendenze": [
+        "acciaio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_plate",
+          "quantita": 32
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_bolt",
+      "titolo": "Bullone d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Bullone di acciaio ricavato al maglio: uno dei tre componenti dell'ingranaggio d'acciaio.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto d'acciaio",
+        "&7Serve per:&r Ingranaggio d'acciaio"
+      ],
+      "x": 12.0,
+      "y": 10.5,
+      "icona": "modern_industrialization:steel_bolt",
+      "dipendenze": [
+        "acciaio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_bolt",
+          "quantita": 16
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_ring",
+      "titolo": "Anello d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Anello di acciaio ricavato al maglio: uno per ogni ingranaggio d'acciaio.",
+        "&7Si fa con:&r Maglio meccanico",
+        "&7Ingredienti:&r 1x Lingotto d'acciaio",
+        "&7Serve per:&r Ingranaggio d'acciaio"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:steel_ring",
+      "dipendenze": [
+        "acciaio"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_ring",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_large_plate",
+      "titolo": "Lastra grande d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra grande di acciaio: serve per la cava a vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra d'acciaio",
+        "&7Serve per:&r Cava a vapore"
+      ],
+      "x": 14.0,
+      "y": 7.5,
+      "icona": "modern_industrialization:steel_large_plate",
+      "dipendenze": [
+        "steel_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_large_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_tank",
+      "titolo": "Serbatoio d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Serbatoio di acciaio per i fluidi: serve alla caldaia d'acciaio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 8x Lastra d'acciaio, 1x Vetro",
+        "&7Serve per:&r Caldaia d'acciaio"
+      ],
+      "x": 14.0,
+      "y": 4.5,
+      "icona": "modern_industrialization:steel_tank",
+      "dipendenze": [
+        "steel_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_tank",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_gear",
+      "titolo": "Ingranaggio di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingranaggio di bronzo: componente base per i potenziamenti e le macchine d'acciaio della linea del vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra di bronzo, 4x Bullone di bronzo, 1x Anello di bronzo",
+        "&7Serve per:&r Potenziamento d'acciaio, Trafilatrice d'acciaio, Imballatrice d'acciaio"
+      ],
+      "x": 4.0,
+      "y": 46.3,
+      "icona": "modern_industrialization:bronze_gear",
+      "dipendenze": [
+        "bronze_ring"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_gear",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_furnace",
+      "titolo": "Fornace d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Fornace di acciaio: più robusta della fornace di bronzo, con la stessa base di mattoni refrattari.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 5x Lastra d'acciaio, 1x Fornace, 3x Mattoni di argilla refrattaria"
+      ],
+      "x": 14.0,
+      "y": 6.0,
+      "icona": "modern_industrialization:steel_furnace",
+      "dipendenze": [
+        "steel_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_furnace",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "nickel_dust",
+      "titolo": "Polvere di nichel",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere di nichel ottenuta dal nichel grezzo: serve per la polvere di invar. Si prepara con il macinatore di bronzo.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Nichel grezzo",
+        "&7Serve per:&r Polvere di invar"
+      ],
+      "x": 4.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:nickel_dust",
+      "dipendenze": [
+        "raw_nickel"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:nickel_dust",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "diamond_dust",
+      "titolo": "Polvere di diamante",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere di diamante: serve per la lama rotante di invar, quindi per la cava a vapore. I diamanti sono preziosi, usateli con cura.",
+        "&7Si fa con:&r Macinatore di bronzo",
+        "&7Ingredienti:&r 1x Diamante",
+        "&7Serve per:&r Lama rotante di invar"
+      ],
+      "x": 6.0,
+      "y": 13.5,
+      "icona": "modern_industrialization:diamond_dust",
+      "dipendenze": [
+        "macinatore_a_vapore"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:diamond_dust",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "silver_plate",
+      "titolo": "Lastra d'argento",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra di argento compressa: serve per la caldaia solare di bronzo.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto d'argento",
+        "&7Serve per:&r Caldaia solare di bronzo"
+      ],
+      "x": 4.0,
+      "y": 43.3,
+      "icona": "modern_industrialization:silver_plate",
+      "dipendenze": [
+        "silver_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:silver_plate",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_rotor",
+      "titolo": "Rotore di bronzo",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Rotore di bronzo: parte meccanica chiave per i potenziamenti e le macchine d'acciaio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Bullone di bronzo, 4x Lama di bronzo, 1x Anello di bronzo",
+        "&7Serve per:&r Potenziamento d'acciaio, Trafilatrice d'acciaio, Fonderia di leghe d'acciaio"
+      ],
+      "x": 6.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:bronze_rotor",
+      "dipendenze": [
+        "bronze_blade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_rotor",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_solar_boiler",
+      "titolo": "Caldaia solare di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Caldaia della linea del vapore di bronzo, costruita con le lastre d'argento: pianificate l'argento in anticipo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 3x Vetro, 3x Lastra d'argento, 2x Mattoni di argilla refrattaria, 1x Caldaia di bronzo"
+      ],
+      "x": 6.0,
+      "y": 43.3,
+      "icona": "extended_industrialization:bronze_solar_boiler",
+      "dipendenze": [
+        "silver_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:bronze_solar_boiler",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_boiler",
+      "titolo": "Caldaia d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Caldaia di acciaio per la linea del vapore d'acciaio: richiede serbatoio e fornace, quindi costruitela quando avete le basi pronte.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra d'acciaio, 1x Serbatoio d'acciaio, 1x Fornace, 3x Mattoni di argilla refrattaria"
+      ],
+      "x": 16.0,
+      "y": 4.5,
+      "icona": "modern_industrialization:steel_boiler",
+      "dipendenze": [
+        "steel_tank"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_boiler",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_cutting_machine",
+      "titolo": "Macchina da taglio di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che taglia i materiali: serve per l'invar e per la macchina da taglio d'acciaio. È costosa, costruitela quando potete.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Vetro, 1x Diamante, 2x Ingranaggio di rame, 1x Carcassa per macchine di bronzo, 3x Tubo per fluidi",
+        "&7Serve per:&r Bullone di invar, Asta di invar, Macchina da taglio d'acciaio"
+      ],
+      "x": 6.0,
+      "y": 38.8,
+      "icona": "modern_industrialization:bronze_cutting_machine",
+      "dipendenze": [
+        "copper_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_cutting_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_bending_machine",
+      "titolo": "Macchina piegatrice di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che piega il metallo: serve per l'anello di invar.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Ingranaggio di rame, 3x Asta di rame, 1x Carcassa per macchine di bronzo, 3x Tubo per fluidi",
+        "&7Serve per:&r Anello di invar"
+      ],
+      "x": 6.0,
+      "y": 37.3,
+      "icona": "extended_industrialization:bronze_bending_machine",
+      "dipendenze": [
+        "copper_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:bronze_bending_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_dust",
+      "titolo": "Polvere di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Polvere di invar: la miscela di ferro e nichel che diventa il lingotto di invar.",
+        "&7Si fa con:&r Miscelatore di bronzo",
+        "&7Ingredienti:&r 2x Polvere di ferro, 1x Polvere di nichel",
+        "&7Serve per:&r Lingotto di invar"
+      ],
+      "x": 6.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_dust",
+      "dipendenze": [
+        "nickel_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_dust",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "bronze_mixer",
+      "titolo": "Miscelatore di bronzo",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Miscelatore che unisce le polveri: serve per l'invar e per il miscelatore d'acciaio.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Vetro, 1x Ingranaggio di rame, 2x Rotore di rame, 1x Carcassa per macchine di bronzo, 3x Tubo per fluidi",
+        "&7Serve per:&r Polvere di invar, Bullone di invar, Asta di invar, Miscelatore d'acciaio"
+      ],
+      "x": 6.0,
+      "y": 40.3,
+      "icona": "modern_industrialization:bronze_mixer",
+      "dipendenze": [
+        "copper_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:bronze_mixer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_ingot",
+      "titolo": "Lingotto di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lingotto di invar fuso dalla polvere: base per lastre e aste di invar.",
+        "&7Si fa con:&r Fornace",
+        "&7Ingredienti:&r 1x Polvere di invar",
+        "&7Serve per:&r Lastra di invar, Asta di invar"
+      ],
+      "x": 8.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_ingot",
+      "dipendenze": [
+        "invar_dust"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_ingot",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_gear",
+      "titolo": "Ingranaggio d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingranaggio di acciaio: componente chiave per la carcassa d'acciaio, la cava a vapore e il tubo per oggetti.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra d'acciaio, 4x Bullone d'acciaio, 1x Anello d'acciaio",
+        "&7Serve per:&r Carcassa per macchine d'acciaio, Cava a vapore, Tubo per oggetti"
+      ],
+      "x": 14.0,
+      "y": 0.0,
+      "icona": "modern_industrialization:steel_gear",
+      "dipendenze": [
+        "steel_ring"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_gear",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_industria",
+      "bozza": true,
+      "rifinita": true
+    },
+    {
+      "id": "item_pipe",
+      "titolo": "Tubo per oggetti",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Tubo per trasportare gli oggetti tra le macchine: utile per collegare la linea del vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 6x Lastra curva di bronzo, 2x Ingranaggio d'acciaio",
+        "&7Serve per:&r Cava a vapore, Imballatrice d'acciaio"
+      ],
+      "x": 16.0,
+      "y": 3.0,
+      "icona": "modern_industrialization:item_pipe",
+      "dipendenze": [
+        "steel_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:item_pipe",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_plate",
+      "titolo": "Lastra di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lastra di invar compressa: serve per l'ingranaggio di invar e la fonderia di leghe d'acciaio.",
+        "&7Si fa con:&r Compressore di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di invar",
+        "&7Serve per:&r Ingranaggio di invar, Fonderia di leghe d'acciaio"
+      ],
+      "x": 10.0,
+      "y": 35.8,
+      "icona": "modern_industrialization:invar_plate",
+      "dipendenze": [
+        "invar_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_plate",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_rod",
+      "titolo": "Asta di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Asta di invar tagliata con la macchina da taglio: serve per bulloni e anelli di invar.",
+        "&7Si fa con:&r Macchina da taglio di bronzo",
+        "&7Ingredienti:&r 1x Lingotto di invar, 1 mB di lubrificante",
+        "&7Serve per:&r Bullone di invar, Anello di invar"
+      ],
+      "x": 10.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_rod",
+      "dipendenze": [
+        "invar_ingot"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_rod",
+          "quantita": 2
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_ring",
+      "titolo": "Anello di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Anello di invar piegato: serve per l'ingranaggio di invar.",
+        "&7Si fa con:&r Macchina piegatrice di bronzo",
+        "&7Ingredienti:&r 1x Asta di invar",
+        "&7Serve per:&r Ingranaggio di invar"
+      ],
+      "x": 12.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_ring",
+      "dipendenze": [
+        "invar_rod"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_ring",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_wiremill",
+      "titolo": "Trafilatrice d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina per trafilare i metalli: una delle prime macchine d'acciaio della linea del vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Ingranaggio di bronzo, 2x Tubo per fluidi, 2x Rotore di bronzo, 1x Carcassa per macchine d'acciaio"
+      ],
+      "x": 8.0,
+      "y": 31.3,
+      "icona": "modern_industrialization:steel_wiremill",
+      "dipendenze": [
+        "bronze_rotor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_wiremill",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_upgrade",
+      "titolo": "Potenziamento d'acciaio",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Potenziamento che trasforma le macchine di base in versioni d'acciaio. Ne servirà uno per ogni macchina potenziata.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Asta di bronzo, 1x Rotore di bronzo, 2x Ingranaggio di bronzo, 1x Carcassa per macchine d'acciaio, 2x Tubo per fluidi, 1x Mattoni di argilla refrattaria",
+        "&7Serve per:&r Macinatore d'acciaio, Compressore d'acciaio, Macchina da taglio d'acciaio, Miscelatore d'acciaio"
+      ],
+      "x": 8.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:steel_upgrade",
+      "dipendenze": [
+        "bronze_rotor"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_upgrade",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_bolt",
+      "titolo": "Bullone di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Bullone di invar tagliato: serve per l'ingranaggio di invar.",
+        "&7Si fa con:&r Macchina da taglio di bronzo",
+        "&7Ingredienti:&r 1x Asta di invar, 1 mB di lubrificante",
+        "&7Serve per:&r Ingranaggio di invar"
+      ],
+      "x": 12.0,
+      "y": 34.3,
+      "icona": "modern_industrialization:invar_bolt",
+      "dipendenze": [
+        "invar_rod"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_bolt",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_packer",
+      "titolo": "Imballatrice d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Macchina che impacchetta i materiali: utile per confezionare le produzioni della linea del vapore.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 2x Tubo per oggetti, 3x Ingranaggio di bronzo, 1x Carcassa per macchine d'acciaio, 3x Tubo per fluidi"
+      ],
+      "x": 18.0,
+      "y": 3.0,
+      "icona": "modern_industrialization:steel_packer",
+      "dipendenze": [
+        "item_pipe"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_packer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_alloy_smelter",
+      "titolo": "Fonderia di leghe d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Fonderia per le leghe: serve per le leghe d'acciaio e richiede parecchi componenti, quindi pianificate la costruzione.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra di invar, 1x Rotore di bronzo, 1x Carcassa per macchine d'acciaio, 3x Tubo per fluidi"
+      ],
+      "x": 12.0,
+      "y": 35.8,
+      "icona": "extended_industrialization:steel_alloy_smelter",
+      "dipendenze": [
+        "invar_plate"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "extended_industrialization:steel_alloy_smelter",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_macerator",
+      "titolo": "Macinatore d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Versione d'acciaio del macinatore di bronzo, ottenuta potenziandolo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Macinatore di bronzo, 1x Potenziamento d'acciaio"
+      ],
+      "x": 10.0,
+      "y": 28.3,
+      "icona": "modern_industrialization:steel_macerator",
+      "dipendenze": [
+        "steel_upgrade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_macerator",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_cutting_machine",
+      "titolo": "Macchina da taglio d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Versione d'acciaio della macchina da taglio di bronzo, ottenuta potenziandola.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Macchina da taglio di bronzo, 1x Potenziamento d'acciaio"
+      ],
+      "x": 10.0,
+      "y": 26.8,
+      "icona": "modern_industrialization:steel_cutting_machine",
+      "dipendenze": [
+        "steel_upgrade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_cutting_machine",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_compressor",
+      "titolo": "Compressore d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Versione d'acciaio del compressore di bronzo, ottenuta potenziandolo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Compressore di bronzo, 1x Potenziamento d'acciaio"
+      ],
+      "x": 10.0,
+      "y": 25.3,
+      "icona": "modern_industrialization:steel_compressor",
+      "dipendenze": [
+        "steel_upgrade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_compressor",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steel_mixer",
+      "titolo": "Miscelatore d'acciaio",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Versione d'acciaio del miscelatore di bronzo, ottenuta potenziandolo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 1x Miscelatore di bronzo, 1x Potenziamento d'acciaio"
+      ],
+      "x": 10.0,
+      "y": 29.8,
+      "icona": "modern_industrialization:steel_mixer",
+      "dipendenze": [
+        "steel_upgrade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steel_mixer",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_gear",
+      "titolo": "Ingranaggio di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Ingranaggio di invar: serve per la lama rotante di invar.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra di invar, 4x Bullone di invar, 1x Anello di invar",
+        "&7Serve per:&r Lama rotante di invar"
+      ],
+      "x": 14.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_gear",
+      "dipendenze": [
+        "invar_ring"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_gear",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "invar_rotary_blade",
+      "titolo": "Lama rotante di invar",
+      "sottotitolo": "Componente",
+      "descrizione": [
+        "Lama rotante per la cava a vapore. Richiede polvere di diamante, quindi preparatela in anticipo.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Polvere di diamante, 1x Ingranaggio di invar",
+        "&7Serve per:&r Cava a vapore"
+      ],
+      "x": 16.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:invar_rotary_blade",
+      "dipendenze": [
+        "invar_gear"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:invar_rotary_blade",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    },
+    {
+      "id": "steam_quarry",
+      "titolo": "Cava a vapore",
+      "sottotitolo": "Macchina",
+      "descrizione": [
+        "Cava a vapore: macchina di scavo della linea del vapore, con molti componenti d'acciaio da preparare prima.",
+        "&7Si fa con:&r Banco da lavoro",
+        "&7Ingredienti:&r 4x Lastra grande d'acciaio, 1x Tubo per oggetti, 2x Ingranaggio d'acciaio, 1x Carcassa per macchine d'acciaio, 1x Lama rotante di invar"
+      ],
+      "x": 18.0,
+      "y": 32.8,
+      "icona": "modern_industrialization:steam_quarry",
+      "dipendenze": [
+        "invar_rotary_blade"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "modern_industrialization:steam_quarry",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "xp",
+          "quantita": 100
+        }
+      ],
+      "sezione": "sez_officina",
+      "bozza": true,
+      "opzionale": true,
+      "rifinita": true
+    }
+  ]
+}

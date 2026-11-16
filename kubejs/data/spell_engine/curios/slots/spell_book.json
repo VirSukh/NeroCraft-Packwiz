@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "icon": "spell_engine:slot/spell_book",
+  "order": 2,
+  "drop_rule": "DEFAULT"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "modern_industrialization:steel_plate"
+    },
+    {
+      "id": "domum_ornamentum:dynamic_timberframe"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "result": {
+    "id": "kubejs:telaio_strutturale_rinforzato"
+  }
+}

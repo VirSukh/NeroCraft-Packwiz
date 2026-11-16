@@ -1,0 +1,13 @@
+name = "ColonyAutopilot - MineColonies Simplified/Automated"
+filename = "colonyautopilot-1.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3182877ea54898bb791cc168c9ef8a5e5c017feb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9254554
+project-id = 1609517

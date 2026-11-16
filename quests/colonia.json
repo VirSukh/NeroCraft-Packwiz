@@ -1,0 +1,592 @@
+{
+  "capitolo": {
+    "id": "colonia",
+    "titolo": "La Colonia",
+    "sottotitolo": "Edifici, coloni, difesa, tasse e titoli",
+    "icona": "minecolonies:colony_banner",
+    "ordine": 11,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      { "texture": "nerocraft:textures/gui/quests/cap_colonia.png", "x": 3.75, "y": -5.9, "altezza": 1.0, "trasparenza": 255 },
+      { "texture": "nerocraft:textures/gui/quests/sez_colonia_edifici.png", "x": -2.75, "y": -2.5, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_colonia_difesa.png", "x": -2.75, "y": 1.5, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_colonia_economia.png", "x": -2.75, "y": 3.5, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_colonia_nobilta.png", "x": -2.75, "y": 5.5, "altezza": 0.6, "trasparenza": 230 },
+      { "texture": "nerocraft:textures/gui/quests/sez_colonia_artigiani.png", "x": -2.75, "y": 8.1, "altezza": 0.6, "trasparenza": 230 }
+    ]
+  },
+  "richiede_lavoro_kubejs": [
+    "Promozione dei titoli di War 'n Nobility (Artigiano, Cavaliere, Barone sono di tipo COMMAND in config/warnnobility-common.toml): oggi nessuno script li assegna. Serve uno script che, a tutti i giocatori, dia Artigiano all'entrata nell'era 2 (stage era_2), Cavaliere alla prima uccisione di cataclysm:ignis e Barone all'era 3 (stage era_3), con /nobility promote o /nobility setrank (sintassi esatta da verificare nel jar). Finché manca, le quest artigiano/cavaliere/barone chiedono di farsi promuovere da un operatore."
+  ],
+  "quest": [
+    {
+      "id": "cuore_colonia",
+      "titolo": "Il cuore della colonia",
+      "sottotitolo": "Tutto passa dal Municipio",
+      "descrizione": [
+        "&7&oChi vuole finire MineColonies parte da qui.&r",
+        "Clic destro sul &6Municipio&r: coloni, edifici, ordini di lavoro e permessi.",
+        "Siete tutti ufficiali della stessa colonia: chiunque può controllarla e rifornirla.",
+        "&aLa colonia cresce e si migliora da sola: voi portate materiali e ColonyBucks.&r"
+      ],
+      "x": 0, "y": -2.5,
+      "icona": "minecolonies:blockhuttownhall",
+      "dipendenze": ["era_1_fondazione/costruttori_al_lavoro"],
+      "dimensione": 1.25,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Ho aperto il Municipio e visto coloni ed edifici" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bread", "quantita": 8 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "bastone_dorato",
+      "titolo": "Il bastone da costruzione",
+      "sottotitolo": "Serve in quasi ogni ricetta della colonia",
+      "descrizione": [
+        "Il &6Bastone da costruzione&r dorato di Structurize sta nelle ricette dei capanni e degli strumenti della colonia.",
+        "Tenetene sempre qualcuno nelle casse comuni."
+      ],
+      "x": 1.5, "y": -4,
+      "icona": "structurize:sceptergold",
+      "dipendenze": ["cuore_colonia"],
+      "compiti": [
+        { "tipo": "item", "item": "structurize:sceptergold", "quantita": 2 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_nugget", "quantita": 9 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "blocco_appunti",
+      "titolo": "Il blocco appunti",
+      "sottotitolo": "Cosa chiedono i coloni",
+      "descrizione": [
+        "Il &6Blocco appunti&r, collegato al Municipio, mostra tutte le richieste aperte dei coloni.",
+        "Comodo in squadra: chi passa dal villaggio vede subito cosa manca."
+      ],
+      "x": 3, "y": -4.5,
+      "icona": "minecolonies:clipboard",
+      "dipendenze": ["bastone_dorato"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "minecolonies:clipboard", "quantita": 1 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:paper", "quantita": 16 },
+        { "tipo": "xp", "quantita": 20 }
+      ]
+    },
+    {
+      "id": "registro_missioni",
+      "titolo": "Le storie dei coloni",
+      "sottotitolo": "Missioni dentro la colonia",
+      "descrizione": [
+        "I coloni con un punto esclamativo sulla testa hanno una richiesta o una storia da raccontare.",
+        "Il &6Registro delle missioni&r tiene traccia di quelle accettate."
+      ],
+      "x": 3, "y": -3.5,
+      "icona": "minecolonies:questlog",
+      "dipendenze": ["bastone_dorato"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "item", "item": "minecolonies:questlog", "quantita": 1 },
+        { "tipo": "spunta", "titolo": "Ho completato una missione di un colono" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_chicken", "quantita": 6 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "taverna",
+      "titolo": "La Taverna",
+      "sottotitolo": "Nuovi coloni dalla strada",
+      "descrizione": [
+        "Alla &6Taverna&r arrivano visitatori di passaggio, a volte con abilità alte.",
+        "Dalla finestra della Taverna potete assumerli pagando quello che chiedono."
+      ],
+      "x": 1.5, "y": -2.5,
+      "icona": "minecolonies:blockhuttavern",
+      "dipendenze": ["cuore_colonia"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Abbiamo assunto un visitatore della Taverna" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_porkchop", "quantita": 6 },
+        { "tipo": "xp", "quantita": 40 }
+      ]
+    },
+    {
+      "id": "felicita",
+      "titolo": "Coloni felici",
+      "sottotitolo": "La felicità paga le tasse",
+      "descrizione": [
+        "La felicità dipende da cibo vario, case, sicurezza, salute e lavoro.",
+        "Coloni felici lavorano meglio e &6pagano più tasse&r. I malati vanno all'Ospedale.",
+        "&cUn tesoro in debito abbassa la felicità di tutti.&r"
+      ],
+      "x": 3, "y": -2.5,
+      "icona": "minecraft:cake",
+      "dipendenze": ["taverna"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La felicità della colonia è almeno 7 su 10" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cake", "quantita": 1 },
+        { "tipo": "xp", "quantita": 60 }
+      ]
+    },
+    {
+      "id": "municipio_3",
+      "titolo": "Un vero villaggio",
+      "sottotitolo": "Municipio al livello 3",
+      "descrizione": [
+        "Dal livello 3 il Municipio sblocca edifici nuovi e alterna nuove costruzioni e migliorie.",
+        "Tenete pieni il Magazzino e il tesoro: i Costruttori non aspettano altro."
+      ],
+      "x": 4.5, "y": -2.5,
+      "icona": "minecolonies:blockhutbuilder",
+      "dipendenze": ["felicita", "era_2_vapore/vapore_in_pressione"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Il Municipio è al livello 3" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:stone_bricks", "quantita": 64 },
+        { "tipo": "xp", "quantita": 80 }
+      ]
+    },
+    {
+      "id": "municipio_4",
+      "titolo": "Una cittadina",
+      "sottotitolo": "Municipio al livello 4",
+      "descrizione": [
+        "La colonia ora è una cittadina: più coloni, più richieste, più tasse.",
+        "Il livello 5 arriva con lo spazio: lo trovate nell'Era 5."
+      ],
+      "x": 6, "y": -2.5,
+      "icona": "minecolonies:colony_banner",
+      "dipendenze": ["municipio_3", "era_3_elettricita/prima_scintilla"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Il Municipio è al livello 4" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:glass", "quantita": 64 },
+        { "tipo": "xp", "quantita": 120 }
+      ]
+    },
+    {
+      "id": "capitale",
+      "titolo": "&6&lLa capitale&r",
+      "sottotitolo": "MineColonies al massimo",
+      "descrizione": [
+        "&7&oDal primo Capanno a una capitale: la colonia è finita.&r",
+        "Ogni edificio principale al livello 5. Un traguardo di tutta la squadra."
+      ],
+      "x": 7.75, "y": -2.5,
+      "icona": "minecolonies:blockhuttownhall",
+      "dipendenze": ["municipio_4", "era_5_spazio/colonia_e_stelle"],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Università, Fabbro, Magazzino e Caserma sono al livello 5" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_apple", "quantita": 4 },
+        { "tipo": "xp", "quantita": 500 }
+      ]
+    },
+    {
+      "id": "universita",
+      "titolo": "L'Università",
+      "sottotitolo": "Le ricerche della colonia",
+      "descrizione": [
+        "L'&6Università&r apre da sola al livello 1 e studia le ricerche una dopo l'altra.",
+        "Ogni ricerca costa i suoi materiali più qualche ColonyBuck: se il tesoro è vuoto, aspetta.",
+        "Dalla finestra dell'Università vedete l'albero e cosa sta studiando."
+      ],
+      "x": 1.5, "y": -1.25,
+      "icona": "minecolonies:blockhutuniversity",
+      "dipendenze": ["cuore_colonia", "era_1_fondazione/casse_comuni"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Ho visto quale ricerca sta studiando l'Università" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:book", "quantita": 4 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "scuola_biblioteca",
+      "titolo": "Scuola e Biblioteca",
+      "sottotitolo": "Coloni più bravi",
+      "descrizione": [
+        "Alla &6Scuola&r i bambini imparano, in &6Biblioteca&r gli adulti alzano le abilità.",
+        "Coloni più abili lavorano più in fretta in ogni edificio."
+      ],
+      "x": 3, "y": -1.25,
+      "icona": "minecolonies:blockhutschool",
+      "dipendenze": ["universita"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La colonia ha una Scuola e una Biblioteca" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:bookshelf", "quantita": 4 },
+        { "tipo": "xp", "quantita": 60 }
+      ]
+    },
+    {
+      "id": "pergamene",
+      "titolo": "Pergamene di ritorno",
+      "sottotitolo": "A casa in un attimo",
+      "descrizione": [
+        "L'&6Incantatore&r della colonia scrive pergamene che riportano al Municipio.",
+        "Si ordinano come il Sigillo: scorta minima nel Magazzino. Servono carta, una bussola e il bastone da costruzione."
+      ],
+      "x": 3, "y": -0.25,
+      "icona": "minecolonies:scroll_tp",
+      "dipendenze": ["universita", "bastone_dorato"],
+      "opzionale": true,
+      "nascondi_linee": true,
+      "compiti": [
+        { "tipo": "item", "item": "minecolonies:scroll_tp", "quantita": 3 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:paper", "quantita": 12 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "torre_di_guardia",
+      "titolo": "Torre di guardia",
+      "sottotitolo": "La prima difesa",
+      "descrizione": [
+        "Una &6Torre di guardia&r ospita una guardia che pattuglia la colonia.",
+        "Con almeno una torre le tasse salgono dell'8%. Ma le guardie hanno un mantenimento: occhio al tesoro."
+      ],
+      "x": 0, "y": 1.5,
+      "icona": "minecolonies:blockhutguardtower",
+      "dipendenze": ["cuore_colonia"],
+      "compiti": [
+        { "tipo": "item", "item": "minecolonies:blockhutguardtower", "quantita": 1 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:arrow", "quantita": 32 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "primo_raid",
+      "titolo": "Predoni alle porte",
+      "sottotitolo": "Il primo raid",
+      "descrizione": [
+        "&7&oUn corno risuona di notte.&r",
+        "Quando la colonia cresce arrivano i raid: barbari, pirati, egizi, norreni o amazzoni, secondo il bioma.",
+        "Ogni raid è più forte del precedente. &cDifendete insieme le case, non solo il Municipio.&r"
+      ],
+      "x": 1.5, "y": 1.5,
+      "icona": "minecolonies:chiefsword",
+      "dipendenze": ["torre_di_guardia"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Abbiamo respinto un raid" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:golden_carrot", "quantita": 8 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "caserma",
+      "titolo": "La Caserma",
+      "sottotitolo": "Un esercito per la colonia",
+      "descrizione": [
+        "La &6Caserma&r e le sue torri ospitano molte guardie insieme: la risposta ai raid grossi.",
+        "Accademia di combattimento e Campo di tiro allenano cavalieri e arcieri."
+      ],
+      "x": 3, "y": 1.5,
+      "icona": "minecolonies:blockhutbarracks",
+      "dipendenze": ["primo_raid", "era_2_vapore/vapore_in_pressione"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "La Caserma è costruita e ha almeno una torre" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:iron_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 120 }
+      ]
+    },
+    {
+      "id": "armatura_a_piastre",
+      "titolo": "Armatura a piastre",
+      "sottotitolo": "Il Fabbro arma le guardie",
+      "descrizione": [
+        "Con il Fabbro al livello 4 e la ricerca giusta all'Università, la colonia forgia l'&6Armatura a piastre&r.",
+        "La indossano le guardie; un pezzo potete ordinarlo anche per voi dalla scorta minima del Magazzino."
+      ],
+      "x": 4.5, "y": 1.5,
+      "icona": "minecolonies:plate_armor_chest",
+      "dipendenze": ["caserma", "universita"],
+      "compiti": [
+        { "tipo": "item", "item": "minecolonies:plate_armor_chest", "quantita": 1 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:leather", "quantita": 8 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "tasse_crescono",
+      "titolo": "Le tasse crescono",
+      "sottotitolo": "Smeraldi ogni 20 minuti",
+      "descrizione": [
+        "Le tasse dipendono da edifici, felicità e torri di guardia. Ritiratele con &6/wnt claimtax&r.",
+        "&cLe guardie costano mantenimento: se il tesoro va in debito, la felicità crolla.&r"
+      ],
+      "x": 0, "y": 3.5,
+      "icona": "minecraft:emerald",
+      "dipendenze": ["era_1_fondazione/casse_comuni"],
+      "compiti": [
+        { "tipo": "item", "item": "minecraft:emerald", "quantita": 32 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:emerald", "quantita": 8 },
+        { "tipo": "xp", "quantita": 60 }
+      ]
+    },
+    {
+      "id": "lo_scambio",
+      "titolo": "Lo Scambio",
+      "sottotitolo": "Ricchezze in ColonyBucks",
+      "descrizione": [
+        "Nel Municipio, scheda &6Exchange&r (o /colonyautopilot exchange): diamanti, oro, detriti antichi e netherite diventano ColonyBucks.",
+        "Solo in un verso: i ColonyBucks non tornano indietro."
+      ],
+      "x": 1.5, "y": 3.5,
+      "icona": "minecraft:diamond",
+      "dipendenze": ["tasse_crescono"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Ho usato lo Scambio del Municipio" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_ingot", "quantita": 8 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "tesoro_pieno",
+      "titolo": "Un tesoro pieno",
+      "sottotitolo": "Ricerche e costruzioni non aspettano",
+      "descrizione": [
+        "Ricerche, consegne e migliorie si pagano in ColonyBucks: con il tesoro vuoto la colonia si ferma.",
+        "Mettete da parte una bella somma, poi versatela nel Municipio (Shift + clic destro)."
+      ],
+      "x": 3, "y": 3.5,
+      "icona": "colonyautopilot:colony_bucks",
+      "dipendenze": ["lo_scambio", "universita"],
+      "compiti": [
+        { "tipo": "item", "item": "colonyautopilot:colony_bucks", "quantita": 32 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_beef", "quantita": 16 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "cancelleria",
+      "titolo": "Il Tavolo di Cancelleria",
+      "sottotitolo": "I titoli del regno",
+      "descrizione": [
+        "Il &6Tavolo di Cancelleria&r mostra il tuo titolo, la scala dei ranghi e i sigilli.",
+        "Ogni giocatore ha il suo titolo: Popolano, Artigiano, Cavaliere, Barone, poi Conte e Duca.",
+        "&7Il comando /renounce è disattivato: siete tutti nella stessa colonia.&r"
+      ],
+      "x": 0, "y": 5.5,
+      "icona": "warnnobility:chancery_table",
+      "dipendenze": ["era_1_fondazione/la_colonia"],
+      "compiti": [
+        { "tipo": "item", "item": "warnnobility:chancery_table", "quantita": 1 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:writable_book", "quantita": 1 },
+        { "tipo": "xp", "quantita": 30 }
+      ]
+    },
+    {
+      "id": "artigiano",
+      "titolo": "Artigiano",
+      "sottotitolo": "Il primo titolo",
+      "descrizione": [
+        "Chi ha portato la squadra nell'Era del Vapore merita il titolo di &6Artigiano&r.",
+        "Il titolo lo conferisce un operatore con &6/nobility promote&r."
+      ],
+      "x": 1.5, "y": 5.5,
+      "icona": "minecraft:anvil",
+      "dipendenze": ["cancelleria", "era_1_fondazione/caldaia_di_bronzo"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Sono Artigiano (o Artigiana)" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:copper_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 50 }
+      ]
+    },
+    {
+      "id": "cavaliere",
+      "titolo": "Cavaliere",
+      "sottotitolo": "Un boss, un'investitura",
+      "descrizione": [
+        "Dopo aver abbattuto &cIgnis&r la squadra viene investita: &6Cavaliere&r o Dama.",
+        "Il titolo lo conferisce un operatore con &6/nobility promote&r."
+      ],
+      "x": 3, "y": 5.5,
+      "icona": "minecraft:iron_sword",
+      "dipendenze": ["artigiano", "era_2_vapore/ignis"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Sono Cavaliere (o Dama)" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:iron_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "barone",
+      "titolo": "Barone",
+      "sottotitolo": "Signori dell'elettricità",
+      "descrizione": [
+        "Con l'Altoforno Elettrico la squadra entra nell'Era 3: il titolo è &6Barone&r o Baronessa.",
+        "Il titolo lo conferisce un operatore con &6/nobility promote&r."
+      ],
+      "x": 4.5, "y": 5.5,
+      "icona": "minecraft:golden_helmet",
+      "dipendenze": ["cavaliere", "era_2_vapore/altoforno_elettrico"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Sono Barone (o Baronessa)" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_ingot", "quantita": 16 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "conte",
+      "titolo": "Conte",
+      "sottotitolo": "Due sigilli tra compagni",
+      "descrizione": [
+        "Per diventare &6Conte&r servono i sigilli di due Baroni, dati dal Tavolo di Cancelleria.",
+        "Chi dà il sigillo diventa vassallo per qualche giorno: è solo un titolo, la colonia resta di tutti.",
+        "&7Serve una squadra di almeno tre giocatori.&r"
+      ],
+      "x": 6, "y": 5.5,
+      "icona": "warnnobility:crown",
+      "dipendenze": ["barone"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Due Baroni mi hanno dato il sigillo e sono Conte" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:gold_block", "quantita": 2 },
+        { "tipo": "xp", "quantita": 200 }
+      ]
+    },
+    {
+      "id": "sigilli_in_serie",
+      "titolo": "Sigilli in serie",
+      "sottotitolo": "Una caldaia, un sigillo",
+      "descrizione": [
+        "Ogni Caldaia di Bronzo chiede un Sigillo della Gilda.",
+        "Alzate la scorta minima del Sigillo nel Magazzino: il Fabbro ne terrà sempre qualcuno pronto."
+      ],
+      "x": 0, "y": 7.5,
+      "icona": "kubejs:sigillo_gilda_ingegneri",
+      "dipendenze": ["era_1_fondazione/sigillo_gilda"],
+      "compiti": [
+        { "tipo": "item", "item": "kubejs:sigillo_gilda_ingegneri", "quantita": 4 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecolonies:compost", "quantita": 8 },
+        { "tipo": "xp", "quantita": 60 }
+      ]
+    },
+    {
+      "id": "telai_in_serie",
+      "titolo": "Telai in serie",
+      "sottotitolo": "Il Falegname non si ferma",
+      "descrizione": [
+        "Ogni Involucro Avanzato chiede un Telaio del Falegname.",
+        "Scorta minima nel Magazzino, acciaio negli scaffali: la produzione va da sola."
+      ],
+      "x": 1.5, "y": 7.5,
+      "icona": "kubejs:telaio_strutturale_rinforzato",
+      "dipendenze": ["sigilli_in_serie", "era_2_vapore/primo_telaio"],
+      "compiti": [
+        { "tipo": "item", "item": "kubejs:telaio_strutturale_rinforzato", "quantita": 4 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:oak_log", "quantita": 32 },
+        { "tipo": "xp", "quantita": 100 }
+      ]
+    },
+    {
+      "id": "pannelli_in_serie",
+      "titolo": "Pannelli in serie",
+      "sottotitolo": "Il Tagliapietre a pieno ritmo",
+      "descrizione": [
+        "I Pannelli Termoisolanti servono per l'Involucro Termoisolante e per la Taglierina ME.",
+        "Polvere di quarzo, mattoni refrattari e magma nel Magazzino: il Tagliapietre fa il resto."
+      ],
+      "x": 3, "y": 7.5,
+      "icona": "kubejs:pannello_termoisolante_composito",
+      "dipendenze": ["telai_in_serie", "era_4_rete_digitale/pannello_termoisolante"],
+      "compiti": [
+        { "tipo": "item", "item": "kubejs:pannello_termoisolante_composito", "quantita": 4 }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:magma_block", "quantita": 8 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    },
+    {
+      "id": "minatore_del_nether",
+      "titolo": "Il Minatore del Nether",
+      "sottotitolo": "Un colono oltre il portale",
+      "descrizione": [
+        "Il &6Minatore del Nether&r parte in spedizione e torna con materiali del Nether.",
+        "Equipaggiatelo bene: le spedizioni sono pericolose anche per lui."
+      ],
+      "x": 0, "y": 8.75,
+      "icona": "minecolonies:blockhutnetherworker",
+      "dipendenze": ["era_2_vapore/rotta_per_il_nether"],
+      "opzionale": true,
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Il Minatore del Nether è tornato dalla prima spedizione" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:cooked_porkchop", "quantita": 8 },
+        { "tipo": "xp", "quantita": 80 }
+      ]
+    },
+    {
+      "id": "coloni_in_rete",
+      "titolo": "Coloni in rete",
+      "sottotitolo": "Il Magazzino parla con la rete ME",
+      "descrizione": [
+        "Con il Terminale della Colonia i coloni prendono dalla rete ME quello che chiedono.",
+        "Controllate che una richiesta venga soddisfatta senza passare dalle casse."
+      ],
+      "x": 3, "y": 8.75,
+      "icona": "ae2colonies:colony_terminal",
+      "dipendenze": ["era_4_rete_digitale/terminale_colonia"],
+      "compiti": [
+        { "tipo": "spunta", "titolo": "Una richiesta di un colono è arrivata dalla rete ME" }
+      ],
+      "ricompense": [
+        { "tipo": "item", "item": "minecraft:redstone", "quantita": 32 },
+        { "tipo": "xp", "quantita": 150 }
+      ]
+    }
+  ]
+}

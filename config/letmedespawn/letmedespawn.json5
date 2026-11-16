@@ -1,0 +1,117 @@
+// LetMeDespawn configuration
+// This file uses JSON5 syntax (https://json5.org/)
+{
+  // Mobs that still become persistent when they pick up an item, as before LetMeDespawn (entity ids, e.g. corpse:corpse)
+  "mobNames": [
+    "corpse:corpse",
+    // Boss scalati da kubejs/server_scripts/scaling_boss.js
+    "cataclysm:ignis",
+    "cataclysm:the_harbinger",
+    "cataclysm:ender_guardian",
+    "cataclysm:the_leviathan",
+    "cataclysm:maledictus",
+    "cataclysm:scylla",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ancient_remnant",
+    "twilightforest:naga",
+    "twilightforest:lich",
+    "twilightforest:hydra",
+    "twilightforest:knight_phantom",
+    "twilightforest:minoshroom",
+    "twilightforest:alpha_yeti",
+    "twilightforest:snow_queen",
+    "twilightforest:ur_ghast",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:obsidilith",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:void_blossom",
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:warden",
+    // Boss e miniboss di Born in Chaos
+    "born_in_chaos_v1:lord_pumpkinhead",
+    "born_in_chaos_v1:lord_pumpkinhead_withouta_horse",
+    "born_in_chaos_v1:lord_pumpkinhead_head",
+    "born_in_chaos_v1:sir_pumpkinhead",
+    "born_in_chaos_v1:sir_pumpkinhead_without_horse",
+    "born_in_chaos_v1:krampus",
+    "born_in_chaos_v1:supreme_bonescaller",
+    "born_in_chaos_v1:supreme_bonescaller_stage_2",
+    "born_in_chaos_v1:supreme_bonescaller_not_despawn",
+    "born_in_chaos_v1:lifestealer",
+    "born_in_chaos_v1:lifestealer_true_form",
+    "born_in_chaos_v1:mother_spider",
+    "born_in_chaos_v1:fallen_chaos_knight",
+    "born_in_chaos_v1:dire_hound_leader",
+    "born_in_chaos_v1:nightmare_stalker",
+    "born_in_chaos_v1:missioner",
+    // Coloni e raider di MineColonies
+    "minecolonies:citizen",
+    "minecolonies:visitor",
+    "minecolonies:mercenary",
+    "minecolonies:cavalry_horse",
+    "minecolonies:amazon",
+    "minecolonies:amazonchief",
+    "minecolonies:amazonspearman",
+    "minecolonies:barbarian",
+    "minecolonies:archerbarbarian",
+    "minecolonies:chiefbarbarian",
+    "minecolonies:pirate",
+    "minecolonies:archerpirate",
+    "minecolonies:chiefpirate",
+    "minecolonies:drownedpirate",
+    "minecolonies:drownedarcherpirate",
+    "minecolonies:drownedchiefpirate",
+    "minecolonies:mummy",
+    "minecolonies:archermummy",
+    "minecolonies:pharao",
+    "minecolonies:norsemenarcher",
+    "minecolonies:norsemenchief",
+    "minecolonies:shieldmaiden",
+    "minecolonies:campamazon",
+    "minecolonies:campamazonchief",
+    "minecolonies:campamazonspearman",
+    "minecolonies:campbarbarian",
+    "minecolonies:camparcherbarbarian",
+    "minecolonies:campchiefbarbarian",
+    "minecolonies:camppirate",
+    "minecolonies:camparcherpirate",
+    "minecolonies:campchiefpirate",
+    "minecolonies:campdrownedpirate",
+    "minecolonies:campdrownedarcherpirate",
+    "minecolonies:campdrownedchiefpirate",
+    "minecolonies:campmummy",
+    "minecolonies:camparchermummy",
+    "minecolonies:camppharao",
+    "minecolonies:campnorsemenarcher",
+    "minecolonies:campnorsemenchief",
+    "minecolonies:campshieldmaiden"
+  ],
+
+  // Items that keep a mob from despawning while it holds or wears one it picked up (item ids)
+  "persistenceEnablers": [],
+
+  // Let mobs from monster spawners despawn even when something tries to make them persistent
+  "enableStandardSpawnerDespawn": true,
+
+  // Let mobs from trial spawners despawn even when something tries to make them persistent
+  "enableTrialSpawnerDespawn": true,
+
+  // Picture, animated GIF or video behind this settings menu: a file in config/letmedespawn/bg, a link, a link to a .txt list of links, or empty for a random one from that folder (none turns it off). Videos need FFmpeg
+  "menuBackground": "",
+
+  // How strongly the menu background is blurred, 0 for sharp
+  "menuBackgroundBlurPercent": 0,
+
+  // How much the menu background picture is darkened
+  "menuBackgroundDimPercent": 55,
+
+  // Frame rate for video and animated GIF menu backgrounds
+  "menuBackgroundFps": 30,
+
+  // Music while this settings menu is open: a file in config/letmedespawn/bgmusic, a link, or empty for random tracks from that folder (none turns it off). Formats other than ogg and wav need FFmpeg
+  "menuMusic": "",
+
+  // Volume of the settings menu music
+  "menuMusicVolumePercent": 30
+}

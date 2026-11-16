@@ -1,0 +1,1105 @@
+{
+  "capitolo": {
+    "id": "boss",
+    "titolo": "I Boss",
+    "sottotitolo": "Mini-boss, trofei e rivincite",
+    "icona": "cataclysm:ignitium_ingot",
+    "ordine": 15,
+    "gruppo": "approfondimenti",
+    "immagini": [
+      {
+        "texture": "nerocraft:textures/gui/quests/cap_boss.png",
+        "x": 4.5,
+        "y": -7.6,
+        "altezza": 1.0,
+        "trasparenza": 255
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_boss_caccia.png",
+        "x": -2.75,
+        "y": -4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_boss_armeria.png",
+        "x": -2.75,
+        "y": 0,
+        "altezza": 0.6,
+        "trasparenza": 230
+      },
+      {
+        "texture": "nerocraft:textures/gui/quests/sez_boss_rivincite.png",
+        "x": -2.75,
+        "y": 4,
+        "altezza": 0.6,
+        "trasparenza": 230
+      }
+    ]
+  },
+  "richiede_lavoro_kubejs": [],
+  "quest": [
+    {
+      "id": "caccia_grossa",
+      "titolo": "Caccia grossa",
+      "sottotitolo": "Oltre i boss della linea principale",
+      "descrizione": [
+        "&7&oOgni bestia abbattuta torna più forte. Anche voi, però.&r",
+        "Qui trovate i &6mini-boss&r, l'&6equipaggiamento&r che si forgia con i trofei e le &crivincite&r.",
+        "&cI boss crescono con le ere e a ogni uccisione&r: il contatore è unico per tutto il server.",
+        "Tutto facoltativo. Ogni quest si apre quando la linea principale ci arriva."
+      ],
+      "x": 0,
+      "y": -6,
+      "icona": "cataclysm:ignitium_ingot",
+      "dipendenze": [
+        "era_2_vapore/vapore_in_pressione"
+      ],
+      "dimensione": 1.25,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Abbiamo capito: i boss crescono"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 50
+        }
+      ]
+    },
+    {
+      "id": "sentinelle_della_fabbrica",
+      "titolo": "Sentinelle della Fabbrica",
+      "sottotitolo": "I guardiani di metallo",
+      "descrizione": [
+        "&7&oPrima dell'Araldo, i suoi cani da guardia.&r",
+        "Nella &6Fabbrica Antica&r si aggirano il &cPredatore&r (The Prowler) e gli &cOsservatori&r. Puliteli prima di svegliare il boss."
+      ],
+      "x": 4.5,
+      "y": -4,
+      "icona": "cataclysm:mech_eye",
+      "dipendenze": [
+        "era_4_rete_digitale/fabbrica_antica"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_prowler",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_watcher",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:iron_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ]
+    },
+    {
+      "id": "colosso_di_corallo",
+      "titolo": "Il Colosso di Corallo",
+      "sottotitolo": "Il fratello maggiore dei golem",
+      "descrizione": [
+        "&7&oUn mucchio di corallo che si alza in piedi.&r",
+        "Il &cCoralssus&r è il gigante dei golem di corallo dei mari di Cataclysm. Lascia &6Pezzi di Corallo&r."
+      ],
+      "x": 0,
+      "y": -2.5,
+      "icona": "cataclysm:coral_chunk",
+      "dipendenze": [
+        "era_5_spazio/citta_sommersa"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:coralssus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_carrot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "guardie_della_piramide",
+      "titolo": "Guardie della Piramide",
+      "sottotitolo": "Gladiatori e serpenti",
+      "descrizione": [
+        "&7&oLa sabbia nasconde più di un sepolcro.&r",
+        "Il &cKobolediator&r e il &cWadjet&r difendono il deserto della &6Piramide Maledetta&r. Lasciano &6Metallo Antico&r.",
+        "Con 4 lingotti si forgia la &6Lancia Antica&r."
+      ],
+      "x": 1.5,
+      "y": -2.5,
+      "icona": "cataclysm:kobolediator_skull",
+      "dipendenze": [
+        "era_5_spazio/piramide_maledetta"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:kobolediator",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:wadjet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ancient_spear",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:gold_ingot",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "acciaio_nero",
+      "titolo": "Acciaio Nero",
+      "sottotitolo": "Il re dei Draugr",
+      "descrizione": [
+        "&7&oNel gelo i morti portano ancora la spada.&r",
+        "Nella &6Prigione Gelata&r i &6Draugr&r e il loro capo, l'&cAptrgangr&r, lasciano &6Acciaio Nero&r.",
+        "Vi servirà per le armi e l'armatura di cursium."
+      ],
+      "x": 3,
+      "y": -2.5,
+      "icona": "cataclysm:aptrgangr_head",
+      "dipendenze": [
+        "era_5_spazio/prigione_gelata"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:aptrgangr",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:black_steel_ingot",
+          "quantita": 4
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:beef_stew",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "golem_dell_end",
+      "titolo": "Il Golem dell'End",
+      "sottotitolo": "Il cuore del vuoto",
+      "descrizione": [
+        "&7&oPietra dell'End che cammina.&r",
+        "Nella &6Cittadella in Rovina&r gli &cEnder Golem&r custodiscono il &6Nucleo del Vuoto&r, base delle armi del vuoto."
+      ],
+      "x": 4.5,
+      "y": -2.5,
+      "icona": "cataclysm:void_core",
+      "dipendenze": [
+        "era_5_spazio/cittadella_in_rovina"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ender_golem",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:void_core",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_pearl",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 700
+        }
+      ]
+    },
+    {
+      "id": "custodi_dell_acropoli",
+      "titolo": "Custodi dell'Acropoli",
+      "sottotitolo": "La corte di Scilla",
+      "descrizione": [
+        "&7&oGranchi, cavallucci e meduse. Tutti armati.&r",
+        "Nell'&6Acropoli&r il &cClawdian&r, l'&cHippocamtus&r e la &cCindaria&r lasciano &6Lacrima&r: serve alle armi della tempesta."
+      ],
+      "x": 6,
+      "y": -2.5,
+      "icona": "cataclysm:lacrima",
+      "dipendenze": [
+        "era_5_spazio/acropoli"
+      ],
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:clawdian",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:hippocamtus",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:cindaria",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:lacrima",
+          "quantita": 3
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ]
+    },
+    {
+      "id": "armatura_di_ignitium",
+      "titolo": "Armatura di Ignitium",
+      "sottotitolo": "Il fuoco di Ignis addosso",
+      "descrizione": [
+        "&7&oL'Altoforno è acceso: ora l'ignitium avanzato è vostro.&r",
+        "Il &6Modello di Potenziamento all'Ignitium&r nasce da un modello di netherite, polvere di blaze e mattoni del Nether.",
+        "Al tavolo da forgiatura: pezzo di netherite + modello + &6Lingotto di Ignitium&r."
+      ],
+      "x": 0,
+      "y": 0,
+      "icona": "cataclysm:ignitium_chestplate",
+      "dipendenze": [
+        "era_2_vapore/altoforno_elettrico"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_chestplate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_leggings",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_boots",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blaze_rod",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "lame_ardenti",
+      "titolo": "Lame ardenti",
+      "sottotitolo": "Spada, scudo e guanti",
+      "descrizione": [
+        "&7&oUn tank col baluardo, un guerriero con l'inceneritore.&r",
+        "L'&6Inceneritore&r (spada di netherite, ignitium, verghe di blaze), il &6Baluardo della Fiamma&r (scudo) e le &6Prese Ardenti&r.",
+        "Divideteli tra i ruoli della squadra."
+      ],
+      "x": 1.5,
+      "y": 0,
+      "icona": "cataclysm:the_incinerator",
+      "dipendenze": [
+        "era_2_vapore/altoforno_elettrico"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:the_incinerator",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:bulwark_of_the_flame",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:blazing_grips",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:blaze_rod",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 400
+        }
+      ]
+    },
+    {
+      "id": "elmo_mostruoso",
+      "titolo": "L'Elmo Mostruoso",
+      "sottotitolo": "Le corna della Mostruosità",
+      "descrizione": [
+        "&7&oIl Controller ME è acceso: le corna avanzate si indossano.&r",
+        "Elmo di netherite + modello di netherite + &6Corno Mostruoso&r al tavolo da forgiatura.",
+        "Tenete la &6Forgia Infernale&r della Mostruosità: servirà alle fusioni."
+      ],
+      "x": 3,
+      "y": 0,
+      "icona": "cataclysm:monstrous_helm",
+      "dipendenze": [
+        "era_3_elettricita/controller_me"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:monstrous_helm",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:infernal_forge",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "arsenale_di_witherite",
+      "titolo": "Arsenale di Witherite",
+      "sottotitolo": "L'incudine della fusione",
+      "descrizione": [
+        "&7&oL'Araldo lascia un blocco intero di witherite. Il razzo ne ha preso solo un lingotto.&r",
+        "L'&6Incudine a Fusione Meccanica&r unisce armi e trofei. Poi la &6Gatling Laser&r e il &6Lanciamissili Wither&r."
+      ],
+      "x": 4.5,
+      "y": 0,
+      "icona": "cataclysm:mechanical_fusion_anvil",
+      "dipendenze": [
+        "era_4_rete_digitale/razzo_tier_1"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:mechanical_fusion_anvil",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:laser_gatling",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:wither_assault_shoulder_weapon",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:redstone_block",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 700
+        }
+      ]
+    },
+    {
+      "id": "ali_infuocate",
+      "titolo": "Ali infuocate",
+      "sottotitolo": "Corazza ed elitre in una",
+      "descrizione": [
+        "&7&oPerché scegliere tra armatura e volo?&r",
+        "Nell'&6Incudine a Fusione&r: &6Pettorale di Ignitium&r + &6Elitre&r."
+      ],
+      "x": 6,
+      "y": 0,
+      "icona": "cataclysm:ignitium_elytra_chestplate",
+      "dipendenze": [
+        "armatura_di_ignitium",
+        "arsenale_di_witherite",
+        "esplorazione/il_drago"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:ignitium_elytra_chestplate",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:firework_rocket",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 500
+        }
+      ]
+    },
+    {
+      "id": "armatura_maledetta",
+      "titolo": "Armatura di Cursium",
+      "sottotitolo": "Il gelo di Maledictus",
+      "descrizione": [
+        "&7&oIl Razzo Tier 4 è partito: il cursium avanzato è vostro.&r",
+        "Modello di cursium: modello di netherite, oro e &6Acciaio Nero&r.",
+        "Al tavolo da forgiatura: pezzo di netherite + modello + &6Lingotto di Cursium&r."
+      ],
+      "x": 0,
+      "y": 1.5,
+      "icona": "cataclysm:cursium_chestplate",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_4",
+        "acciaio_nero"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursium_helmet",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursium_chestplate",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursium_leggings",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursium_boots",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:diamond",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ]
+    },
+    {
+      "id": "armi_maledette",
+      "titolo": "Armi maledette",
+      "sottotitolo": "Falce, ascia e arco",
+      "descrizione": [
+        "&7&oCursium e acciaio nero, per chi sta in prima linea e per chi tira da lontano.&r",
+        "Lo &6Squarcia-anime&r, l'&6Annientatore&r e l'&6Arco Maledetto&r."
+      ],
+      "x": 1.5,
+      "y": 1.5,
+      "icona": "cataclysm:the_annihilator",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_4",
+        "acciaio_nero"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:soul_render",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:the_annihilator",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:cursed_bow",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:arrow",
+          "quantita": 64
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ]
+    },
+    {
+      "id": "forgia_del_vuoto",
+      "titolo": "La Forgia del Vuoto",
+      "sottotitolo": "Fusioni col Nucleo",
+      "descrizione": [
+        "&7&oIl martello infernale assorbe il vuoto.&r",
+        "Nell'&6Incudine a Fusione&r: &6Forgia Infernale&r + &6Nucleo del Vuoto&r, e &6Lanciamissili Wither&r + Nucleo.",
+        "Servono due Nuclei: tornate dagli Ender Golem."
+      ],
+      "x": 3,
+      "y": 1.5,
+      "icona": "cataclysm:void_forge",
+      "dipendenze": [
+        "golem_dell_end",
+        "elmo_mostruoso",
+        "arsenale_di_witherite"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:void_forge",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:void_assault_shoulder_weapon",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:ender_pearl",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1000
+        }
+      ]
+    },
+    {
+      "id": "reliquie_della_distruzione",
+      "titolo": "Reliquie della distruzione",
+      "sottotitolo": "I trofei di Bosses of Mass Destruction",
+      "descrizione": [
+        "&7&oCuori, spine e anime: i resti dei quattro boss si possono lavorare.&r",
+        "La &6Lancia Tuffaterra&r (cuore di ossidiana, spina del vuoto), il &6Blocco di Levitazione&r (anima antica, occhio ardente) e la &6Perla di Ender Caricata&r.",
+        "La &6Guardia dai Mostri&r tiene lontani i mob: piazzatela in colonia."
+      ],
+      "x": 4.5,
+      "y": 1.5,
+      "icona": "bosses_of_mass_destruction:earthdive_spear",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_9"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:earthdive_spear",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:levitation_block",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:charged_ender_pearl",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "bosses_of_mass_destruction:mob_ward",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:obsidian",
+          "quantita": 16
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1200
+        }
+      ]
+    },
+    {
+      "id": "fulmini_di_scilla",
+      "titolo": "I fulmini di Scilla",
+      "sottotitolo": "Le armi della tempesta",
+      "descrizione": [
+        "&7&oIl cielo, chiuso in una lancia.&r",
+        "&6Essenza della Tempesta&r e &6Lacrima&r: l'&6Astrape&r e il &6Ceraunus&r.",
+        "Nell'Incudine a Fusione, Forgia Infernale + Astrape danno il &6Brontes&r."
+      ],
+      "x": 6,
+      "y": 1.5,
+      "icona": "cataclysm:astrape",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_10",
+        "custodi_dell_acropoli"
+      ],
+      "compiti": [
+        {
+          "tipo": "item",
+          "item": "cataclysm:astrape",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "cataclysm:ceraunus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1500
+        }
+      ]
+    },
+    {
+      "id": "rivincita_ignis",
+      "titolo": "Rivincita: Ignis",
+      "sottotitolo": "Il fabbro torna in forgia",
+      "descrizione": [
+        "&7&oL'altare del fuoco aspetta altre ceneri.&r",
+        "Evocate di nuovo &cIgnis&r e battetelo. &cOgni uccisione lo rende più forte&r, anche per chi verrà dopo.",
+        "Ignitium in più per l'armeria."
+      ],
+      "x": 0,
+      "y": 4,
+      "icona": "cataclysm:flame_eye",
+      "dipendenze": [
+        "era_2_vapore/altoforno_elettrico"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ignis",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 600
+        }
+      ]
+    },
+    {
+      "id": "rivincita_mostruosita",
+      "titolo": "Rivincita: la Mostruosità",
+      "sottotitolo": "Di nuovo nel Fabbro dell'anima",
+      "descrizione": [
+        "&7&oLa lava si muove ancora.&r",
+        "Affrontate di nuovo la &cMostruosità di Netherite&r, ora più resistente."
+      ],
+      "x": 1.5,
+      "y": 4,
+      "icona": "cataclysm:monstrous_horn",
+      "dipendenze": [
+        "era_3_elettricita/controller_me",
+        "rivincita_ignis"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:netherite_monstrosity",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 900
+        }
+      ]
+    },
+    {
+      "id": "rivincita_araldo",
+      "titolo": "Rivincita: Araldo e Wither",
+      "sottotitolo": "Due teschi, due battaglie",
+      "descrizione": [
+        "&7&oLa fabbrica e il Wither non hanno finito con voi.&r",
+        "Battete di nuovo l'&cAraldo&r e un altro &cWither&r. Entrambi crescono a ogni uccisione."
+      ],
+      "x": 3,
+      "y": 4,
+      "icona": "cataclysm:witherite_ingot",
+      "dipendenze": [
+        "era_4_rete_digitale/razzo_tier_1",
+        "rivincita_mostruosita"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_harbinger",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "minecraft:wither",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 1200
+        }
+      ]
+    },
+    {
+      "id": "rivincita_degli_abissi",
+      "titolo": "Rivincita: abisso, sabbia e gelo",
+      "sottotitolo": "Il giro dei tre dungeon",
+      "descrizione": [
+        "&7&oTre viaggi, tre boss, tutti più forti di prima.&r",
+        "Di nuovo il &cLeviatano&r, il &cResto Antico&r e &cMaledictus&r."
+      ],
+      "x": 4.5,
+      "y": 4,
+      "icona": "cataclysm:tidal_claws",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_4",
+        "rivincita_araldo"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:the_leviathan",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ancient_remnant",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:maledictus",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham_block",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 2000
+        }
+      ]
+    },
+    {
+      "id": "rivincita_distruzione",
+      "titolo": "Rivincita: distruzione di massa",
+      "sottotitolo": "Lich, Guanto, Fiore, Obsidilith",
+      "descrizione": [
+        "&7&oI quattro boss di Bosses of Mass Destruction, ancora una volta.&r",
+        "Ognuno ha il suo modo di essere rievocato: leggete i tooltip dei loro oggetti."
+      ],
+      "x": 6,
+      "y": 4,
+      "icona": "bosses_of_mass_destruction:obsidian_heart",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_9",
+        "rivincita_degli_abissi"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:lich",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:gauntlet",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:void_blossom",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "bosses_of_mass_destruction:obsidilith",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "farmersdelight:honey_glazed_ham_block",
+          "quantita": 2
+        },
+        {
+          "tipo": "xp",
+          "quantita": 2500
+        }
+      ]
+    },
+    {
+      "id": "rivincita_tempesta",
+      "titolo": "Rivincita: Guardiano e Scilla",
+      "sottotitolo": "Gli ultimi due",
+      "descrizione": [
+        "&7&oDopo Eris, tornate a casa a regolare i conti.&r",
+        "Di nuovo il &cGuardiano dell'End&r e &cScilla&r, alla massima forza dell'Era 5."
+      ],
+      "x": 7.5,
+      "y": 4,
+      "icona": "cataclysm:essence_of_the_storm",
+      "dipendenze": [
+        "era_5_spazio/razzo_tier_10",
+        "rivincita_distruzione"
+      ],
+      "forma": "diamond",
+      "compiti": [
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:ender_guardian",
+          "quantita": 1
+        },
+        {
+          "tipo": "uccidi",
+          "entita": "cataclysm:scylla",
+          "quantita": 1
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 4
+        },
+        {
+          "tipo": "xp",
+          "quantita": 3000
+        }
+      ]
+    },
+    {
+      "id": "squadra_al_completo",
+      "titolo": "Squadra al completo",
+      "sottotitolo": "Nessuno resta a casa",
+      "descrizione": [
+        "&7&oUn boss è una festa: si viene tutti.&r",
+        "Battete un boss di Cataclysm con &atutta la squadra presente&r, ognuno nel suo ruolo: chi para, chi colpisce, chi cura, chi tira."
+      ],
+      "x": 0,
+      "y": 5.5,
+      "icona": "minecraft:shield",
+      "dipendenze": [
+        "era_2_vapore/ignis"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Boss battuto con tutta la squadra, ognuno nel suo ruolo"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:cooked_beef",
+          "quantita": 32
+        },
+        {
+          "tipo": "xp",
+          "quantita": 300
+        }
+      ]
+    },
+    {
+      "id": "nessun_caduto",
+      "titolo": "Nessun caduto",
+      "sottotitolo": "Tutti a casa, tutti in piedi",
+      "descrizione": [
+        "&7&oVincere è facile. Vincere senza perdere nessuno, meno.&r",
+        "Battete una rivincita &csenza che nessuno della squadra muoia&r durante lo scontro."
+      ],
+      "x": 1.5,
+      "y": 5.5,
+      "icona": "minecraft:totem_of_undying",
+      "dipendenze": [
+        "squadra_al_completo",
+        "rivincita_araldo"
+      ],
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Rivincita vinta senza morti nella squadra"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 3
+        },
+        {
+          "tipo": "xp",
+          "quantita": 800
+        }
+      ]
+    },
+    {
+      "id": "leggende_della_colonia",
+      "titolo": "&6&lLeggende della colonia&r",
+      "sottotitolo": "Tutti i boss, due volte",
+      "descrizione": [
+        "&7&oNelle taverne della colonia si racconta di voi.&r",
+        "Ogni boss battuto almeno due volte, il drago e il Warden compresi.",
+        "Esponete i trofei nel Municipio: la colonia deve vedere chi la protegge."
+      ],
+      "x": 9,
+      "y": 4.75,
+      "icona": "cataclysm:ignitium_elytra_chestplate",
+      "dipendenze": [
+        "rivincita_tempesta",
+        "nessun_caduto",
+        "esplorazione/il_drago",
+        "esplorazione/il_warden"
+      ],
+      "forma": "hexagon",
+      "dimensione": 1.5,
+      "compiti": [
+        {
+          "tipo": "spunta",
+          "titolo": "Trofei esposti nel Municipio"
+        }
+      ],
+      "ricompense": [
+        {
+          "tipo": "item",
+          "item": "minecraft:totem_of_undying",
+          "quantita": 1
+        },
+        {
+          "tipo": "item",
+          "item": "minecraft:golden_apple",
+          "quantita": 8
+        },
+        {
+          "tipo": "xp",
+          "quantita": 5000
+        }
+      ]
+    }
+  ]
+}

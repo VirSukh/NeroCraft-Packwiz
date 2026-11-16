@@ -1,0 +1,13 @@
+name = "Modern Industrialization Multiblock Editor"
+filename = "mi_multiblock_editor-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bfbd46dea72f9d65001140fbd26010fb39526ce5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8600849
+project-id = 1644217

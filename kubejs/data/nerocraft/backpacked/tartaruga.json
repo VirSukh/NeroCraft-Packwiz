@@ -1,0 +1,12 @@
+{
+  "unlock_challenge": {
+    "formatter": "backpacked:bred_x_of_x",
+    "challenge": {
+      "type": "backpacked:breed_animal",
+      "animal": {
+        "type": "naturalist:tortoise"
+      },
+      "count": 2
+    }
+  }
+}

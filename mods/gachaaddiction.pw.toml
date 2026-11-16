@@ -1,0 +1,13 @@
+name = "GachaAddiction"
+filename = "gachaaddiction-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c67ea05e08cda6465ba6dddc0ec96ba7ce49cf0b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8540911
+project-id = 1601177

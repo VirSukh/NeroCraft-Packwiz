@@ -1,0 +1,13 @@
+name = "Explosion't - Explosion Regen (Aeronautics compatible)"
+filename = "explosiont-1.21.1-2.9.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "878018b79e63b8bae42d8e8840534ac55945ba01"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8717728
+project-id = 1638642

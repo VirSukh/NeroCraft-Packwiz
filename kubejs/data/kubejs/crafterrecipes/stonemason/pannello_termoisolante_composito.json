@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "modern_industrialization:quartz_dust"
+    },
+    {
+      "count": 2,
+      "id": "modern_industrialization:fire_clay_brick"
+    },
+    {
+      "id": "minecraft:magma_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "result": {
+    "id": "kubejs:pannello_termoisolante_composito"
+  }
+}

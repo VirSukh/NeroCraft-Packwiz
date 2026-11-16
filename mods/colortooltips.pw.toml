@@ -1,0 +1,13 @@
+name = "ColorTooltips"
+filename = "colortooltips-1211.3.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe35aee98b1e186177366bc0bcc2903e72ffd861"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9023472
+project-id = 1501616

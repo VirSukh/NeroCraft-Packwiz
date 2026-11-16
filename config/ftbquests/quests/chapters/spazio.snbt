@@ -1,0 +1,1421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spazio"
+	group: "258DA2B8BFDB53BA"
+	icon: {
+		count: 1
+		id: "ad_astra:tier_1_rover"
+	}
+	id: "16B5C62F2C8E25CA"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3B0236118D1746CF"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:tier_1_rover"
+			}
+			id: "5EAF59D38C54B4FB"
+			rewards: [
+				{
+					count: 8
+					id: "21ED4DC43AF60C5A"
+					item: {
+						count: 1
+						id: "minecraft:black_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "110CAEC9AA3B6272"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "72BE7B7B3FCC037E"
+					item: {
+						count: 1
+						id: "ad_astra:wheel"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "2E6A9D52ECB56D76"
+					item: {
+						count: 1
+						id: "ad_astra:radio"
+					}
+					type: "item"
+				}
+				{
+					id: "7E153BFC4DECB0A1"
+					item: {
+						count: 1
+						id: "ad_astra:tier_1_rover"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3B0236118D1746CF"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:solar_panel"
+			}
+			id: "1C9A52AD92B8BA23"
+			rewards: [
+				{
+					count: 16
+					id: "37CD1B9D33620900"
+					item: {
+						count: 1
+						id: "minecraft:blue_stained_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "576E6DD599F173F5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "2B38834A409404E5"
+					item: {
+						count: 1
+						id: "ad_astra:photovoltaic_etrium_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "12D7FBD2EBA6F244"
+					item: {
+						count: 1
+						id: "ad_astra:solar_panel"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"244E561B011A1D48"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:gravity_normalizer"
+			}
+			id: "34F70881DF6674F6"
+			rewards: [
+				{
+					count: 32
+					id: "2D7C1BCF41DCA9C8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "78CA778D360ECF91"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "71BEF7F3E6F288CA"
+					item: {
+						count: 1
+						id: "ad_astra:etrionic_capacitor"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "22DFDC1646688338"
+					item: {
+						count: 1
+						id: "ad_astra:gravity_normalizer"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1FA824E37095EA23"
+				"244E561B011A1D48"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:airlock"
+			}
+			id: "1868C136A2D30F4E"
+			rewards: [
+				{
+					count: 32
+					id: "46BBE1167D6A4E4B"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "1F5DB88165EB8A07"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "76558B7F5E4BA8E9"
+					item: {
+						count: 1
+						id: "ad_astra:airlock"
+					}
+					type: "item"
+					count: 2L
+				}
+				{
+					id: "783FCFDE60629B6A"
+					item: {
+						count: 1
+						id: "ad_astra:oxygen_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3B0236118D1746CF"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:earth_globe"
+			}
+			id: "2C6977EEE5163683"
+			rewards: [
+				{
+					count: 4
+					id: "15BA1560F5C867C5"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4594DE7534A5DC35"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					id: "415355D9A86D67F7"
+					type: "dimension"
+				}
+				{
+					id: "3440782BDBDCACB7"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2C2CF7A58747E837"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:jet_suit"
+			}
+			id: "530C4FAA0693494B"
+			rewards: [
+				{
+					count: 32
+					id: "1EA69C15A31F28B8"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "36FCFA32B0509C11"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "28D7CAA13C3DCFC5"
+					item: {
+						count: 1
+						id: "ad_astra:jet_suit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "60BF17057A4DEA9A"
+					item: {
+						count: 1
+						id: "ad_astra:jet_suit"
+					}
+					type: "item"
+				}
+				{
+					id: "7F0E2F1F09728171"
+					item: {
+						count: 1
+						id: "ad_astra:jet_suit_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "1AA62CC73EBBD5D0"
+					item: {
+						count: 1
+						id: "ad_astra:jet_suit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"244E561B011A1D48"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			id: "4E11857437E18D13"
+			rewards: [
+				{
+					count: 32
+					id: "2E0B319ACC8B4948"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2E0609291D5DE1B6"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+				{
+					id: "795A528FB38DAA7E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "44EFDCCB58D214CF"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C425960F443F26B"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:star_crawler_spawn_egg"
+			}
+			id: "2CBBA6618AB73270"
+			rewards: [
+				{
+					count: 32
+					id: "6DE4172B7E93A046"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "30BCA4D150D15DBA"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:corrupted_lunarian"
+					id: "1CDFDD98AB712F6B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "ad_astra:star_crawler"
+					id: "1CC244FDE28DA356"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1FA824E37095EA23"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:martian_raptor_spawn_egg"
+			}
+			id: "25F140B1E6EE827E"
+			rewards: [
+				{
+					count: 16
+					id: "3B56ABBCE3F36888"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5A5B5E034E35DC6F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:martian_raptor"
+					id: "310525C60463EF7F"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2C2CF7A58747E837"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:sulfur_creeper_spawn_egg"
+			}
+			id: "2BE96660FA234EAE"
+			rewards: [
+				{
+					count: 2
+					id: "311D727EC0A21868"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "25BF9D7E2D92D666"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "ad_astra:mogler"
+					id: "3BF58272F2305348"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "ad_astra:sulfur_creeper"
+					id: "51FA6C106611CA74"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "ad_astra:zombified_pygro"
+					id: "72C3F3EBAA32E795"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1C425960F443F26B"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:moon_globe"
+			}
+			id: "2080B75E896B833F"
+			rewards: [
+				{
+					count: 8
+					id: "1150CAD0B2C20089"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "4F4DAD632C0D56A7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1B16253862172A62"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"73B8116F86382597"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+			id: "220AE9AA25A22D08"
+			rewards: [
+				{
+					count: 16
+					id: "33B7C0AC42C38778"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "23828B4B6B5955B8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					dimension: "pv_asteroid_belt:asteroid_belt"
+					id: "27327DAF37A2127B"
+					type: "dimension"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CEDDBBB5C0D12A3"
+			]
+			icon: {
+				count: 1
+				id: "ad_astra:glacio_globe"
+			}
+			id: "7DC5A966D06349C1"
+			rewards: [
+				{
+					count: 16
+					id: "6145D2CF991E7DBA"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					type: "item"
+				}
+				{
+					id: "4A97F419DCA81B16"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					id: "21FCCE543D484021"
+					type: "dimension"
+				}
+				{
+					entity: "ad_astra:glacian_ram"
+					id: "1DDE640233ACC0AB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"20B4FFB54C67747E"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:ember_crystal_shard"
+			}
+			id: "2456441A347729FA"
+			rewards: [
+				{
+					count: 16
+					id: "4936DAE4670CA9BA"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "7EB5F8DF56450C69"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "40357DB5BF046855"
+					item: {
+						count: 1
+						id: "adastraplanets:ember_crystal_shard"
+					}
+					type: "item"
+					count: 8L
+				}
+				{
+					id: "173561B4B58B52EC"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_stone"
+					}
+					type: "item"
+					count: 8L
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"566A5102F4B50103"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:jupiter_globe"
+			}
+			id: "7F08272B47631946"
+			rewards: [
+				{
+					count: 16
+					id: "4CD7DBEDC3111A02"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "72C3F6D55DB3C88F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:callisto"
+					id: "292D7F53E524EB5E"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:ganymede"
+					id: "5DD00B09595515FB"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:io"
+					id: "3BAF16653C3A688B"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:europa"
+					id: "1C19AB2143415EB5"
+					type: "dimension"
+				}
+				{
+					id: "58A11D38E078418A"
+					item: {
+						count: 1
+						id: "adastraplanets:amber_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7F08272B47631946"
+				"566A5102F4B50103"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:amber_light_core"
+			}
+			id: "5E3EBD442B676EB2"
+			rewards: [
+				{
+					count: 1
+					id: "1DF6CA1469874E8B"
+					item: {
+						count: 1
+						id: "minecraft:turtle_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5EC52DA2B95124DC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "1A63F14D8C4A2DCA"
+					item: {
+						count: 1
+						id: "adastraplanets:amber_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"164EB1F1F94BCB3C"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:saturn_globe"
+			}
+			id: "661F7D2C81056362"
+			rewards: [
+				{
+					count: 2
+					id: "32258673AF99C17F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "49DBE3371B0F43B0"
+					type: "xp"
+					xp: 450
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:rhea"
+					id: "2F35E932538ED91E"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:iapetus"
+					id: "3427311BFF9297E4"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:enceladus"
+					id: "3802958058D061D8"
+					type: "dimension"
+				}
+				{
+					id: "46842892E537FE22"
+					item: {
+						count: 1
+						id: "adastraplanets:halo_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"15FA28732BE5CB29"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:uranus_globe"
+			}
+			id: "707BEF090CD17402"
+			rewards: [
+				{
+					count: 3
+					id: "591EC56A47C4F407"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "18267ADE99BCE6C9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:miranda"
+					id: "6D048CCE98214382"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:oberon"
+					id: "54E5C261B33E80E0"
+					type: "dimension"
+				}
+				{
+					dimension: "adastraplanets:titania"
+					id: "162E4B0032E4300A"
+					type: "dimension"
+				}
+				{
+					id: "1B0448CBB6E5A3C3"
+					item: {
+						count: 1
+						id: "adastraplanets:tide_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"707BEF090CD17402"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:tide_light_core"
+			}
+			id: "7D70F7C685241C29"
+			rewards: [
+				{
+					count: 1
+					id: "135615BE42ABAF50"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					id: "15BC4E5709B383F4"
+					type: "xp"
+					xp: 550
+				}
+			]
+			tasks: [
+				{
+					id: "4BF7D87C6E755829"
+					item: {
+						count: 1
+						id: "adastraplanets:tide_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"18AFCDAFD13576FA"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:cobalt_light_core"
+			}
+			id: "14706B84E017F091"
+			rewards: [
+				{
+					count: 4
+					id: "5D107380AE62B63A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "1A7C34988047E495"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:triton"
+					id: "47C4915AE4F1229D"
+					type: "dimension"
+				}
+				{
+					id: "1B7F3CD7A812E716"
+					item: {
+						count: 1
+						id: "adastraplanets:cobalt_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+				{
+					id: "7D7174B3250DE666"
+					item: {
+						count: 1
+						id: "adastraplanets:cobalt_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7E149F0D6473DE86"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:charon_globe"
+			}
+			id: "3C8B1E9DEAA2BE29"
+			rewards: [
+				{
+					count: 24
+					id: "1CB8736D24317DB9"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "6438128AD7E8B3BC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:charon"
+					id: "750E16FFD9924CE3"
+					type: "dimension"
+				}
+				{
+					id: "3880264ECDD5D97B"
+					item: {
+						count: 1
+						id: "adastraplanets:rose_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C8B1E9DEAA2BE29"
+				"7E149F0D6473DE86"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:rose_light_core"
+			}
+			id: "36F7B27C4F384350"
+			rewards: [
+				{
+					count: 3
+					id: "6DE57DBAF70DF26C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "63FC6CAB5EBC6CD9"
+					type: "xp"
+					xp: 650
+				}
+			]
+			tasks: [
+				{
+					id: "1D8D6589D448D88C"
+					item: {
+						count: 1
+						id: "adastraplanets:access_card"
+					}
+					type: "item"
+				}
+				{
+					id: "3DF27A52F9C8FD7F"
+					item: {
+						count: 1
+						id: "adastraplanets:rose_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15E456DED733CE2F"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:dysnomia_globe"
+			}
+			id: "229CE5E1462402DF"
+			rewards: [
+				{
+					count: 4
+					id: "1428C64A56AAE8DA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "4A72E31451389778"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [
+				{
+					dimension: "adastraplanets:dysnomia"
+					id: "6CA3D724BA5CF870"
+					type: "dimension"
+				}
+				{
+					id: "331269FD1F91166F"
+					item: {
+						count: 1
+						id: "adastraplanets:frost_crystal_shard"
+					}
+					type: "item"
+					count: 4L
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15E456DED733CE2F"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:frost_light_core"
+			}
+			id: "711FADC47A53BA14"
+			rewards: [
+				{
+					count: 3
+					id: "5010F17E8E0B35A4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5A2072916050364E"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [
+				{
+					id: "39C1FA729E427195"
+					item: {
+						count: 1
+						id: "adastraplanets:frost_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5E3EBD442B676EB2"
+				"7D70F7C685241C29"
+				"14706B84E017F091"
+				"36F7B27C4F384350"
+				"711FADC47A53BA14"
+				"20B4FFB54C67747E"
+				"598E8D698791EC19"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:halo_light_core"
+			}
+			id: "10957A5A22AB6C23"
+			rewards: [
+				{
+					count: 32
+					id: "1C452867D40AF820"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "5457BF7EBE748F62"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [
+				{
+					id: "485685620F8BC266"
+					item: {
+						count: 1
+						id: "adastraplanets:ember_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "13F819F83074ADCC"
+					item: {
+						count: 1
+						id: "adastraplanets:amber_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "24C816C3D0445808"
+					item: {
+						count: 1
+						id: "adastraplanets:halo_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "702CBF34CE6336C0"
+					item: {
+						count: 1
+						id: "adastraplanets:tide_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "24EDE9571FA3B77B"
+					item: {
+						count: 1
+						id: "adastraplanets:cobalt_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "44E6D0A6FA7FAB22"
+					item: {
+						count: 1
+						id: "adastraplanets:rose_light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "1533A6C4428C6F7E"
+					item: {
+						count: 1
+						id: "adastraplanets:frost_light_core"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"10957A5A22AB6C23"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:eris_globe"
+			}
+			id: "7B755FD7F4D550C0"
+			rewards: [
+				{
+					count: 32
+					id: "257EB4A9334A8562"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "45578BD288F88EAC"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3356C464F62F2A5C"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7B755FD7F4D550C0"
+			]
+			icon: {
+				count: 1
+				id: "adastraplanets:ancient_ship"
+			}
+			id: "6AF981B35C8D2261"
+			rewards: [
+				{
+					count: 1
+					id: "68B2BBD8EEADC1DA"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6772BB97FA203D93"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4C3788FE26260911"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "188C97D9A21EB676"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "6830F9CA974C8F1E"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "34F8DEFFC4561FD1"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4A32AAAA0BA44197"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "3A956F22B590D6AF"
+					item: {
+						count: 1
+						id: "adastraplanets:ancient_ship"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 1.0d
+			image: "nerocraft:textures/gui/quests/cap_spazio.png"
+			order: 0
+			rotation: 0.0d
+			width: 4.062d
+			x: 5.25d
+			y: -7.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_spazio_basi.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.033d
+			x: -2.75d
+			y: -5.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_spazio_fauna.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.833d
+			x: -2.75d
+			y: -2.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_sistema_interno.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.367d
+			x: -2.75d
+			y: -1.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_giganti.png"
+			order: 4
+			rotation: 0.0d
+			width: 3.3d
+			x: -2.75d
+			y: 0.5d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_confini.png"
+			order: 5
+			rotation: 0.0d
+			width: 3.3d
+			x: -2.75d
+			y: 2.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.6d
+			image: "nerocraft:textures/gui/quests/sez_spazio_nuclei.png"
+			order: 6
+			rotation: 0.0d
+			width: 3.1d
+			x: -2.75d
+			y: 4.0d
+		}
+		{
+			alpha: 230
+			color: 16777215
+			height: 0.5d
+			image: "nerocraft:textures/gui/quests/sez_spazio_porta.png"
+			order: 7
+			rotation: 0.0d
+			width: 3.472d
+			x: 3.0d
+			y: 5.4d
+			dependency: "7B755FD7F4D550C0"
+		}
+		{
+			alpha: 200
+			color: 16777215
+			height: 1.5d
+			image: "item:adastraplanets:eris_globe"
+			order: 8
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.5d
+			y: 4.0d
+			dependency: "7B755FD7F4D550C0"
+		}
+	]
+}

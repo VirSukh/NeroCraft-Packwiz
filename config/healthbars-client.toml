@@ -1,0 +1,201 @@
+#Allow rendering health bars as part of the gui.
+#Default Value: true
+gui_rendering = true
+#Allow rendering health bars above entities in the level.
+#Default Value: true
+level_rendering = true
+#Are health bars enabled, toggleable in-game via the dedicated keybinding.
+any_rendering = true
+
+#Options controlling health bars rendered as part of the gui.
+[gui]
+	#Increase the health bar width for mobs with a lot of health, like bosses.
+	#Default Value: true
+	scale_bar_width_by_health = true
+	#The default width multiplier for the health bar display.
+	#Default Value: 3
+	# Default: 3
+	# Range: 1 ~ 4
+	health_bar_width = 3
+	#Offset in pixels on the horizontal axis from the screen border.
+	#Default Value: 9
+	# Default: 9
+	# Range: > 0
+	offset_width = 9
+	#Offset in pixels on the vertical axis from the screen border.
+	#Default Value: 9
+	# Default: 9
+	# Range: > 0
+	offset_height = 9
+	#Allow rendering the visual mob display as part of the health bar overlay.
+	#Default Value: true
+	render_entity_display = true
+	#Choose a position on the screen to show the interface at.
+	#Default Value: TOP_LEFT
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	anchor_point = "TOP_LEFT"
+	#Allow rendering the health and possibly armor text.
+	#Default Value: true
+	render_attribute_components = true
+	#Custom vertical offsets for rendered entities. Offsets scale with entity dimensions, meaning larger entities require larger values.
+	#Default Value: [minecraft:allay,-0.05, minecraft:armadillo,-0.1, minecraft:axolotl,0.1, minecraft:bat,-0.3, minecraft:bee,-0.1, minecraft:camel,0.3, minecraft:cat,-0.25, minecraft:chicken,0.15, minecraft:cod,0.25, minecraft:endermite,0.3, minecraft:fox,-0.15, minecraft:frog,-0.05, minecraft:ghast,-1.0, minecraft:glow_squid,-0.2, minecraft:horse,0.1, minecraft:llama,0.3, minecraft:ocelot,-0.15, minecraft:parrot,-0.3, minecraft:polar_bear,-0.3, minecraft:salmon,0.15, minecraft:silverfish,0.35, minecraft:squid,-0.2, minecraft:tadpole,0.3, minecraft:trader_llama,0.3, minecraft:tropical_fish,0.15, minecraft:vex,-0.2, minecraft:warden,0.4]
+	mob_render_offsets = ["minecraft:allay,-0.05", "minecraft:armadillo,-0.1", "minecraft:axolotl,0.1", "minecraft:bat,-0.3", "minecraft:bee,-0.1", "minecraft:camel,0.3", "minecraft:cat,-0.25", "minecraft:chicken,0.15", "minecraft:cod,0.25", "minecraft:endermite,0.3", "minecraft:fox,-0.15", "minecraft:frog,-0.05", "minecraft:ghast,-1.0", "minecraft:glow_squid,-0.2", "minecraft:horse,0.1", "minecraft:llama,0.3", "minecraft:ocelot,-0.15", "minecraft:parrot,-0.3", "minecraft:polar_bear,-0.3", "minecraft:salmon,0.15", "minecraft:silverfish,0.35", "minecraft:squid,-0.2", "minecraft:tadpole,0.3", "minecraft:trader_llama,0.3", "minecraft:tropical_fish,0.15", "minecraft:vex,-0.2", "minecraft:warden,0.4"]
+
+	#Options controlling how bars render for different kinds of mobs.
+	[gui.bar_colors]
+		#The health bar color for animals, such as pigs, armadillos and striders.
+		#Default Value: GREEN
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		friendly_color = "GREEN"
+		#The health bar color for all unclassified mobs.
+		#Default Value: WHITE
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		misc_color = "WHITE"
+		#Choose a style for applying the notch texture on top of health bars.
+		#Default Value: COLORED
+		#Allowed Values: ALL, COLORED, NONE
+		notched_style = "COLORED"
+		#The health bar color for monsters, such as zombies, blazes and vindicators.
+		#Default Value: RED
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		monster_color = "RED"
+		#The health bar color for ambient mobs, such as bats, snow golems and villagers.
+		#Default Value: YELLOW
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		ambient_color = "YELLOW"
+		#The health bar color for passive sea life, such as cod, squid and axolotl.
+		#Default Value: BLUE
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		aquatic_color = "BLUE"
+
+	#Options controlling how recently received damage / gained health is shown.
+	[gui.damage_values]
+		#Allow values from receiving damage or healing to show.
+		#Default Value: true
+		render_damage_values = true
+		#The text color when displaying positive values, when the entity has healed.
+		#Default Value: GREEN
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+		heal_color = "GREEN"
+		#Draw a bold black outline around damage values, just like the experience level in the player hud.
+		#Default Value: true
+		strong_text_outline = true
+		#The text color when displaying negative values, when the entity has received damage.
+		#Default Value: RED
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+		damage_color = "RED"
+
+#Options controlling health bars rendered above entities in the level.
+[level]
+	#Increase the health bar width for mobs with a lot of health, like bosses.
+	#Default Value: true
+	scale_bar_width_by_health = true
+	#Allow rendering the health text.
+	#Default Value: true
+	render_health_component = true
+	#Always render health bars with full brightness to be most visible, ignoring local lighting conditions.
+	#Default Value: true
+	full_brightness = true
+	#Dynamically increase health bar size the further away the camera is to simplify readability.
+	#Default Value: true
+	scale_with_distance = true
+	#Show health bars for the entity picked by the crosshair only.
+	#Default Value: false
+	picked_entity = false
+	#Distance to the mob at which health bars will still be visible. The distance is halved when the mob is crouching.
+	#Default Value: 96
+	# Default: 96
+	# Range: > 0
+	max_render_distance = 96
+	#Offset in pixels on the vertical axis from default position.
+	#Default Value: 0
+	# Default: 0
+	# Range: > -2147483648
+	offset_height = 0
+	#Show health bars from mobs obstructed by walls the player cannot see through, similar to the nameplates of other players.
+	#Default Value: true
+	behind_walls = true
+	#Allow rendering the mob display name above the health bar. This will replace the vanilla name plate rendering.
+	#Default Value: true
+	render_title_component = true
+	#The default width multiplier for the health bar display.
+	#Default Value: 2
+	# Default: 2
+	# Range: 1 ~ 4
+	health_bar_width = 2
+	#Show a black transparent background behind health bar text.
+	#Default Value: false
+	render_background = false
+	#Allow rendering the heart sprite as part of the health text.
+	#Default Value: true
+	render_sprite_component = true
+	#Custom scale for rendering health bars.
+	#Default Value: 0.5
+	# Default: 0.5
+	# Range: 0.05 ~ 2.0
+	render_scale = 0.5
+
+	#Options controlling how bars render for different kinds of mobs.
+	[level.bar_colors]
+		#The health bar color for animals, such as pigs, armadillos and striders.
+		#Default Value: GREEN
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		friendly_color = "GREEN"
+		#The health bar color for all unclassified mobs.
+		#Default Value: WHITE
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		misc_color = "WHITE"
+		#Choose a style for applying the notch texture on top of health bars.
+		#Default Value: COLORED
+		#Allowed Values: ALL, COLORED, NONE
+		notched_style = "COLORED"
+		#The health bar color for monsters, such as zombies, blazes and vindicators.
+		#Default Value: RED
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		monster_color = "RED"
+		#The health bar color for ambient mobs, such as bats, snow golems and villagers.
+		#Default Value: YELLOW
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		ambient_color = "YELLOW"
+		#The health bar color for passive sea life, such as cod, squid and axolotl.
+		#Default Value: BLUE
+		#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+		aquatic_color = "BLUE"
+
+	#Options controlling how recently received damage / gained health is shown.
+	[level.damage_values]
+		#Allow values from receiving damage or healing to show.
+		#Default Value: true
+		render_damage_values = true
+		#The text color when displaying positive values, when the entity has healed.
+		#Default Value: GREEN
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+		heal_color = "GREEN"
+		#Draw a bold black outline around damage values, just like the experience level in the player hud.
+		#Default Value: true
+		strong_text_outline = true
+		#The text color when displaying negative values, when the entity has received damage.
+		#Default Value: RED
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+		damage_color = "RED"
+
+[general]
+	#Entities that may never show a health bar.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [minecraft:armor_stand]
+	no_health_bar_mobs = ["ad_astra:glacian_ram", "ad_astra:lunarian", "ad_astra:lunarian_wandering_trader", "biomeswevegone:oddion", "cataclysm:modern_remnant", "cataclysm:netherite_ministrosity", "cataclysm:the_baby_leviathan", "doggytalents:dog", "dtnpaletteofpaws:wolf", "friendsandfoes:crab", "friendsandfoes:glare", "friendsandfoes:moobloom", "friendsandfoes:penguin", "friendsandfoes:rascal", "minecolonies:cavalry_horse", "minecolonies:citizen", "minecolonies:mercenary", "minecolonies:visitor", "minecolonytax:spy", "minecraft:allay", "minecraft:armadillo", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:camel", "minecraft:cat", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:frog", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:skeleton_horse", "minecraft:sniffer", "minecraft:squid", "minecraft:strider", "minecraft:tadpole", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "minecraft:zombie_horse", "naturalist:anglerfish", "naturalist:ant", "naturalist:bass", "naturalist:bear", "naturalist:bird", "naturalist:black_bear", "naturalist:blobfish", "naturalist:boar", "naturalist:butterfly", "naturalist:capybara", "naturalist:caterpillar", "naturalist:catfish", "naturalist:clam", "naturalist:crab", "naturalist:deer", "naturalist:dragonfly", "naturalist:duck", "naturalist:elephant", "naturalist:firefly", "naturalist:giant_isopod", "naturalist:giraffe", "naturalist:hedgehog", "naturalist:hippo", "naturalist:jellyfish", "naturalist:lion", "naturalist:lizard", "naturalist:lizard_tail", "naturalist:mammoth", "naturalist:mole", "naturalist:ostrich", "naturalist:rat", "naturalist:ray", "naturalist:rhino", "naturalist:snail", "naturalist:snake", "naturalist:starfish", "naturalist:tiger", "naturalist:tortoise", "naturalist:turkey", "naturalist:vulture", "naturalist:whale", "naturalist:zebra", "simplyswords:goat_stampede", "simplyswords:simplyaxolotlentity", "simplyswords:simplybeeentity", "simplyswords:wolf_minion", "twilightforest:bighorn_sheep", "twilightforest:boar", "twilightforest:deer", "twilightforest:dwarf_rabbit", "twilightforest:penguin", "twilightforest:quest_ram", "twilightforest:raven", "twilightforest:squirrel", "twilightforest:tiny_bird", "minecraft:armor_stand", "minecraft:player", "minecraft:villager", "minecraft:iron_golem", "minecraft:snow_golem", "friendsandfoes:copper_golem", "friendsandfoes:tuff_golem", "friendsandfoes:player_illusion", "archers:spirit_wolf", "biomeswevegone:pumpkin_warden", "wizards:frost_elemental", "wizards:fire_hydra", "wizards:arcane_emitter"]
+	#The raytrace range for finding a picked entity.
+	#Setting this to -1 will make it use the player entity interaction range, which is 3 in survival.
+	#Default Value: 16
+	# Default: 16
+	# Range: -1 ~ 128
+	picked_entity_interaction_range = 16
+	#Hide health bar when the mob has full health.
+	#Default Value: false
+	hide_at_full_health = false
+	#Coyote time in seconds after which a no longer picked entity will still show the health bar.
+	#Set to -1 to keep the old entity until a new one is picked by the crosshair.
+	#Default Value: 2
+	# Default: 2
+	# Range: > -1
+	picked_entity_delay = 2
