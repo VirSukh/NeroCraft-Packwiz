@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "d4864fac231ff3d360e08a82f06553c3f76de8a6"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/9243/656/skinlayers3d-neoforge-1.11.4-mc1.21.1.jar"
 
 [update]
 [update.curseforge]

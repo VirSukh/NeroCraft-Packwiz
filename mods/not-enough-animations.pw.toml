@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "137a878ed276a3dfab2715df1864d14f60bd3237"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/9396/193/notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
 
 [update]
 [update.curseforge]

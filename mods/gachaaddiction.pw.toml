@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "c67ea05e08cda6465ba6dddc0ec96ba7ce49cf0b"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8540/911/gachaaddiction-1.1.4.jar"
 
 [update]
 [update.curseforge]

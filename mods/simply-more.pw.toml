@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "e4b68d8663feb8f83327a42ef12f10ca60b978cd"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8735/456/simplymore-neoforge-1.3.0_alpha4%2B1.21.1.jar"
 
 [update]
 [update.curseforge]

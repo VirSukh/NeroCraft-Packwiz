@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "75671869d5991e7fbeed77f0549501d1368d6f44"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/9594/031/entityculling-neoforge-1.12.1-mc1.21.1.jar"
 
 [update]
 [update.curseforge]

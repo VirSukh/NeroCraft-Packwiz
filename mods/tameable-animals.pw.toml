@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "b4b788a76273b85b057608fce38f852a72d36113"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/9267/968/tameableanimals-1.0.0.jar"
 
 [update]
 [update.curseforge]

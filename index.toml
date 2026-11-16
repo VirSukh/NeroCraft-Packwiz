@@ -1,8 +1,36 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "19dfbb4c81c172550fb2aa72f6cefe417f91395015d1629846a4e565928802d9"
+
+[[files]]
 file = "config/aiimprovements-common.toml"
 hash = "7235e3efc9b6f751524935b0dd2bbebd9d52ef45c1814b34d52915f7df9a3d4f"
+
+[[files]]
+file = "config/apotheosis-server.toml"
+hash = "12962decdcfb9aa49ed269baa81185e6fc58c06dcfbf8d8e2da3c6341e27f698"
+
+[[files]]
+file = "config/apotheosis/apotheosis.cfg"
+hash = "0d567c27b10feb3945d329fc6ff0bf4f3eaeace7456aa814b7912063b2281e42"
+
+[[files]]
+file = "config/apotheosis/apothic_attributes.cfg"
+hash = "336a1dcfde783fb49e7f5ae3f5905179e2e7800c0cd41cee8fc6bd210edb2e06"
+
+[[files]]
+file = "config/apotheosis/apothic_enchanting.cfg"
+hash = "2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "2fbb9cbf179711dd199cad341013452a4b64fbb5f0c384b21b222aec991232c2"
+
+[[files]]
+file = "config/apotheosis/name_generation.cfg"
+hash = "6d023b3e3c02c48bbb67f913ac2b553f0157f83fc30d388f2121b7cdcd8bcbde"
 
 [[files]]
 file = "config/backpacked.backpack.toml"
@@ -1353,6 +1381,10 @@ file = "kubejs/server_scripts/progressione_aerei.js"
 hash = "a6578a3d06b5f3e29d5c602b781d8514b592a4505e0a045a56546ae116b546fc"
 
 [[files]]
+file = "kubejs/server_scripts/progressione_apotheosis.js"
+hash = "35d8e146cb671d446a32eee31659ac912f65f7f25d67568ef0e2fe0a4af7a481"
+
+[[files]]
 file = "kubejs/server_scripts/progressione_little_logistics.js"
 hash = "a7aa6f83e23dc5d39c331751e1802971c247f430afa70d05fc564a107c740d22"
 
@@ -1395,6 +1427,26 @@ hash = "eaaac1dd6bc2b606c4b3eb09cf2430f39f41ead7c6c949664388ede288c050b7"
 [[files]]
 file = "kubejs/startup_scripts/registrazione_items.js"
 hash = "3559aa62dd67aa482b7e1bab8016ba1b2b4c7e937231c416ae76ac862e5d0360"
+
+[[files]]
+file = "mods/Apotheosis-1.21.1-8.9.0.jar"
+hash = "23a8b4a21d0d8744f097c77c8a96fcba14c4b95f3b1bb542412f40dab272872e"
+
+[[files]]
+file = "mods/ApothicAttributes-1.21.1-2.11.0.jar"
+hash = "17c42bb6dd5c0d820fe090e1bb5959578cd5ab7b70caf98a2a59b319fcc7e1ba"
+
+[[files]]
+file = "mods/ApothicEnchanting-1.21.1-1.6.4.jar"
+hash = "aff9837f45c1c981d47a9e60b780c37a151ef881937faf5f72092895104c8bbb"
+
+[[files]]
+file = "mods/ApothicSpawners-1.21.1-1.4.0.jar"
+hash = "f0cbc52ad606997789c36fac94ae651ab7e2e21c841e26a952c64041cad9cdbe"
+
+[[files]]
+file = "mods/Patchouli-1.21.1-93-NEOFORGE.jar"
+hash = "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993"
 
 [[files]]
 file = "mods/actions-stuff-outline.pw.toml"
@@ -1743,7 +1795,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
+hash = "4598ef54617fc5e30650c2f31be63f901033f8cab417d971cb1f564db3eff69d"
 metafile = true
 
 [[files]]
@@ -1768,7 +1820,7 @@ metafile = true
 
 [[files]]
 file = "mods/explosiont-explosion-regen.pw.toml"
-hash = "7f265e64832c01c68d64fd0f14bceebf5297ebd4ab150135d984e0662ef00dac"
+hash = "49b9dc14f8131818988dbbad301aa8ae66be2fe7669ca29de2aa6cf8f44d595b"
 metafile = true
 
 [[files]]
@@ -1843,7 +1895,7 @@ metafile = true
 
 [[files]]
 file = "mods/gachaaddiction.pw.toml"
-hash = "9eb5ed76810e26f90e47640887b740fa7c694c4ce3b4954581816e6d7847c9ea"
+hash = "8927360ec1d724025f8e95cb367a58f2f53111c43e0833595ab31ab2cbe97a67"
 metafile = true
 
 [[files]]
@@ -2117,7 +2169,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "15a416bd94c832989f0341b93fc88fb3947285c954c767c4c4f9952e33659ccb"
+hash = "8e4aff9deaa236bfd9808448465f51babfcc7caa447f16fd68f82619ffe59f1c"
 metafile = true
 
 [[files]]
@@ -2257,7 +2309,7 @@ metafile = true
 
 [[files]]
 file = "mods/simply-more.pw.toml"
-hash = "9be8490a8896cd58676f02e4db3585d3b20a09c1f7c99c32c61e55b3c2fa7abb"
+hash = "8e369b46a949863d1cd3d9315f3890a6219a6adaef2864b777fa6db55ae4007b"
 metafile = true
 
 [[files]]
@@ -2277,7 +2329,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "137e875fa7e402193fda0023fbae412d6a4be3e3275e52e6ec37dbb9ee241cb6"
+hash = "d3dd455a7d62f3a1cbb49aa16049fbd98c350b3f660991394d0ec751d0c3020b"
 metafile = true
 
 [[files]]
@@ -2342,7 +2394,7 @@ metafile = true
 
 [[files]]
 file = "mods/tameable-animals.pw.toml"
-hash = "a09108a7013f74f4dc218af86eb8c16f6128611fad62a88e3f504b45f7d34521"
+hash = "4f5124ea8a8afaffc1f479b140f1027214a2968ca5d2d6a01c1f1383ee9e583f"
 metafile = true
 
 [[files]]
