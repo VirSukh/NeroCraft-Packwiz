@@ -1455,7 +1455,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra-asteroid-belt.pw.toml"
-hash = "0d685ea2a3b66b747250cd699c496966e57d845f686eb3b6ad9e71e6cb52148e"
+hash = "ff2a4d23ece3670b859a0fee4e4bd97ad619df149f1b9b4007be9a4d348d8bd7"
 metafile = true
 
 [[files]]
@@ -1470,7 +1470,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra-planets.pw.toml"
-hash = "11ee1f73e8f5deac5054e63d64cb1f0c690f825e577911a087cb6186a2b7faef"
+hash = "a1e4a13bbfa27cc30a9bc5cecd380f16bab352f3a2417defff656c05798b28ba"
 metafile = true
 
 [[files]]

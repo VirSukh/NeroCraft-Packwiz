@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "2f39b31504747ea42e37120ce6d648b04cf32006"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/9581/943/adastraplanets-1.21.1-1.0.1.jar"
 
 [update]
 [update.curseforge]
